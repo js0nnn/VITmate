@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   getRecognitionConstructor,
-  speechUnsupportedReason,
+  markSpeechServiceUnavailable,
+  useSpeechUnsupportedReason,
   type Recognition,
   type RecognitionResult,
 } from "../services/speechSupport";
@@ -23,6 +24,7 @@ export type SpeechStatus = "idle" | "listening" | "processing" | "success" | "er
 export type SpeechErrorCode =
   | "unsupported"
   | "insecure-context"
+  | "service-unavailable"
   | "not-allowed"
   | "audio-capture"
   | "no-speech"
@@ -34,6 +36,8 @@ export const SPEECH_ERROR_MESSAGES: Record<SpeechErrorCode, string> = {
   unsupported:
     "Speech recognition isn't supported in this browser. Please use Google Chrome or Microsoft Edge, or switch to Type mode.",
   "insecure-context": "Voice input needs a secure (https) connection or localhost.",
+  "service-unavailable":
+    "This browser includes speech recognition but not the speech service it needs (this happens in Brave and some other Chromium-based browsers). Please use Google Chrome or Microsoft Edge, or switch to Type mode.",
   "not-allowed":
     "Microphone access was blocked. Click the lock/microphone icon in the address bar, allow the microphone for this site, then try again.",
   "audio-capture": "No microphone was found. Please connect a microphone and try again.",
@@ -97,7 +101,7 @@ interface Options {
 }
 
 export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) {
-  const unsupportedReason = speechUnsupportedReason();
+  const unsupportedReason = useSpeechUnsupportedReason();
 
   const [status, setStatus] = useState<SpeechStatus>("idle");
   const [interim, setInterim] = useState("");
@@ -157,7 +161,15 @@ export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) 
       pauseTimer.current = window.setTimeout(stop, heard.interim ? INTERIM_PAUSE_MS : FINAL_PAUSE_MS);
     };
     recognition.onerror = (event) => {
-      if (event.error !== "aborted") fail(toErrorCode(event.error));
+      if (event.error === "aborted") return;
+      // Online but the speech service is unreachable: the browser can't do voice input at all.
+      if (event.error === "network" && navigator.onLine !== false) {
+        errorRef.current = "service-unavailable";
+        setStatus("idle");
+        markSpeechServiceUnavailable();
+        return;
+      }
+      fail(toErrorCode(event.error));
     };
     recognition.onend = () => {
       clearTimers();

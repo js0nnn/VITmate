@@ -96,38 +96,56 @@ stateDiagram-v2
 | Situation | Detection | Message shown |
 |---|---|---|
 | Browser without the API (e.g. Firefox) | no `SpeechRecognition` constructor | Compatibility banner at the top; the Speak panel explains and offers *Learn more* and *Switch to Type* |
+| API present but no speech service (e.g. Brave) | `navigator.brave`, or a `network` error while online | Banner "isn't available in this browser"; the Speak panel explains |
 | Page not on HTTPS/localhost | `window.isSecureContext === false` | "Voice input needs a secure connection." |
 | Microphone permission denied | `not-allowed` / `service-not-allowed` | How to re-enable the microphone from the address bar |
 | No microphone | `audio-capture` | "No microphone was found…" |
 | Silence / nothing recognised | `no-speech`, or an empty transcript | "I didn't catch anything…" (nothing is sent) |
-| Speech service unreachable | `network` | Check the internet connection |
+| Speech service unreachable while **offline** | `network` and `navigator.onLine === false` | Check the internet connection |
 | Unsupported language | `language-not-supported` | Explanation |
 | Cancel | `abort()` with handlers detached | Returns to idle silently |
 | Repeated taps | guard in `start()` | Only one session runs at a time |
 
 ## Browser-compatibility banner and "Learn more"
 
-When feature detection finds no usable speech recognition, a dismissible banner appears under the header: "Speech recognition isn't supported in this browser." It has a **Learn more** button and a close button. Browsers that support the API never see it.
+A banner appears under the header whenever voice input can't work in the current browser. It has a **Learn more** button and a close button, and browsers where recognition works never see it.
 
-- **Detection is by feature, not browser name.** `speechUnsupportedReason()` checks for the `SpeechRecognition` / `webkitSpeechRecognition` constructor and a secure context.
-- **Dismissal is remembered** in `localStorage` (`vitmate:speechBannerDismissed`).
-- **Learn more** opens an accessible dialog (focus trap, Escape to close) explaining that VITmate uses the browser's built-in recognition, that support varies by browser and version, and that Chrome and Edge are recommended. It includes a typical-support table.
+**Detection** (`speechUnsupportedReason()` in `services/speechSupport.ts`) never relies on the user-agent string. Brave, for example, reports exactly the same user agent as Chrome.
+
+| Layer | Check | Catches | Banner text |
+|---|---|---|---|
+| 1 | No `SpeechRecognition` / `webkitSpeechRecognition` constructor | Firefox | "Speech recognition isn't supported in this browser." |
+| 1 | `window.isSecureContext === false` | pages on plain `http://` (not localhost) | "Voice input needs a secure connection." |
+| 2 | The documented `navigator.brave` interface exists | Brave, which exposes the API but ships **no speech service**, so every attempt fails with a `network` error | "Speech recognition isn't available in this browser." |
+| 3 | Recognition fails with `network` while `navigator.onLine` is true | any other browser whose speech service is missing or blocked | same as layer 2; the Speak panel switches to its explanation |
+
+A genuinely **offline** user still gets the "check your internet connection" message, not the banner.
+
+- **Shown on every visit.** Dismissing hides the banner for the current visit only. It appears again after a reload or on the next visit, because there's nothing to "remember" when a browser can't do voice input.
+- **Learn more** opens an accessible dialog (focus trap, Escape to close) that explains:
+  - that VITmate uses the browser's built-in recognition
+  - that support varies by browser and version
+  - that Chrome and Edge are recommended
+
+  The dialog is rendered through a React **portal into `document.body`**. It used to be rendered inside the animated Speak panel, whose CSS `transform` trapped the "full-screen" overlay inside the composer (the bug fixed in this version).
 
 | Browser | Typical status (varies by version) |
 |---|---|
 | Google Chrome (desktop and Android) | Supported (recommended) |
 | Microsoft Edge | Supported (recommended) |
 | Safari (macOS/iOS) | Available in recent versions; behaviour varies |
-| Other Chromium browsers (Brave, Opera, …) | The API may exist, but the speech service can be unavailable (reported as a network error) |
-| Firefox | Not available by default; the banner is shown and Type mode works |
+| **Brave** | **Not supported:** the API exists but there is no speech service (checked in Brave: `start()` fails with `network` while online) |
+| Other Chromium browsers (Opera, Vivaldi, …) | The API may exist but the service can be unavailable; caught by layer 3 |
+| Firefox | Not available by default |
 
 ## Testing
 
 | Test | Covers |
 |---|---|
-| `frontend/src/test/speech.test.tsx` | continuous mode, pause tolerance, interim wait, stop button, thinking state, segment merging, banner hidden when supported, banner shown, Learn more, dismissal persistence |
+| `frontend/src/test/speech.test.tsx` | continuous mode, pause tolerance, interim wait, stop button, thinking state, segment merging, banner hidden when supported, banner shown, Learn more portalled to `<body>`, banner back on the next visit, Brave detection, runtime service failure online vs offline |
 | `frontend/src/test/components.test.tsx` | listening state, transcript sent, blocked microphone, silence, unsupported panel |
 | Headless Chrome walkthrough (manual script) | real `SpeechRecognition` present → no banner; API removed → banner + Learn more; simulated recogniser → 🎤 message and answer |
 | Real Firefox (headless screenshot) | the banner appears on a browser that genuinely lacks the API |
+| Real Brave (Playwright with the installed Brave binary) | the banner appears on load; the Speak panel explains; Learn more (from the banner and the Speak panel) renders as a full-screen, fully visible dialog |
 
 A **real microphone in a real browser** can't be automated here. Test it manually in Chrome: say "I want to know about … FFCS registration" with a short pause in the middle.

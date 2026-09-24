@@ -2,6 +2,7 @@ import { act, render, screen } from "@testing-library/react";
 import { SpeechSupportBanner } from "../components/SpeechSupportBanner";
 import { VoiceInput } from "../components/VoiceInput";
 import { FINAL_PAUSE_MS, INTERIM_PAUSE_MS, mergeSegments } from "../hooks/useSpeechRecognition";
+import { resetSpeechSupportForTests } from "../services/speechSupport";
 
 /** Continuous-mode stand-in for SpeechRecognition that accumulates results like Chrome. */
 class ContinuousRecognition {
@@ -49,6 +50,8 @@ function removeRecognition() {
   const w = window as unknown as Record<string, unknown>;
   delete w.SpeechRecognition;
   delete w.webkitSpeechRecognition;
+  delete (navigator as unknown as Record<string, unknown>).brave;
+  resetSpeechSupportForTests();
 }
 
 describe("speech pause handling", () => {
@@ -127,9 +130,9 @@ describe("SpeechSupportBanner", () => {
     expect(screen.queryByText(/isn't supported in this browser/i)).not.toBeInTheDocument();
   });
 
-  it("appears when the API is missing, explains via Learn more, and stays dismissed", () => {
+  it("appears when the API is missing and explains via a Learn more dialog", () => {
     removeRecognition();
-    const { unmount } = render(<SpeechSupportBanner />);
+    render(<SpeechSupportBanner />);
     expect(screen.getByText("Speech recognition isn't supported in this browser.")).toBeInTheDocument();
 
     act(() => screen.getByRole("button", { name: /learn more/i }).click());
@@ -137,13 +140,57 @@ describe("SpeechSupportBanner", () => {
     expect(dialog).toHaveTextContent(/built into your web browser/i);
     expect(dialog).toHaveTextContent(/Google Chrome/);
     expect(dialog).toHaveTextContent(/Microsoft Edge/);
+    // Portalled to <body>, so no transformed ancestor can trap the fixed overlay.
+    expect(dialog.closest(".modal-overlay")?.parentElement).toBe(document.body);
     act(() => screen.getByRole("button", { name: "Close" }).click());
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
 
+  it("can be dismissed for this visit but appears again on the next visit", () => {
+    removeRecognition();
+    const { unmount } = render(<SpeechSupportBanner />);
     act(() => screen.getByRole("button", { name: /dismiss speech support notice/i }).click());
     expect(screen.queryByText(/isn't supported in this browser/i)).not.toBeInTheDocument();
     unmount();
 
-    render(<SpeechSupportBanner />); // e.g. after a reload
-    expect(screen.queryByText(/isn't supported in this browser/i)).not.toBeInTheDocument();
+    render(<SpeechSupportBanner />); // a new visit / reload
+    expect(screen.getByText("Speech recognition isn't supported in this browser.")).toBeInTheDocument();
+  });
+
+  it("appears in Brave, which has the API but no speech service", () => {
+    installRecognition();
+    (navigator as unknown as Record<string, unknown>).brave = { isBrave: () => Promise.resolve(true) };
+    render(<SpeechSupportBanner />);
+    expect(screen.getByText("Speech recognition isn't available in this browser.")).toBeInTheDocument();
+  });
+});
+
+describe("runtime speech-service failure", () => {
+  afterEach(removeRecognition);
+
+  it("marks voice input unavailable when the service fails while online", () => {
+    installRecognition();
+    render(
+      <>
+        <SpeechSupportBanner />
+        <VoiceInput disabled={false} onTranscript={vi.fn()} onSwitchToText={vi.fn()} />
+      </>,
+    );
+    expect(screen.queryByText(/isn't available in this browser/i)).not.toBeInTheDocument();
+    act(() => screen.getByRole("button", { name: /start voice input/i }).click());
+    act(() => ContinuousRecognition.last!.onerror?.({ error: "network" }));
+
+    expect(screen.getByText("Speech recognition isn't available in this browser.")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /switch to type/i })).toBeInTheDocument();
+  });
+
+  it("still reports a connection problem when the device is offline", () => {
+    installRecognition();
+    const online = vi.spyOn(navigator, "onLine", "get").mockReturnValue(false);
+    render(<VoiceInput disabled={false} onTranscript={vi.fn()} onSwitchToText={vi.fn()} />);
+    act(() => screen.getByRole("button", { name: /start voice input/i }).click());
+    act(() => ContinuousRecognition.last!.onerror?.({ error: "network" }));
+    expect(screen.getByRole("alert")).toHaveTextContent(/check your internet connection/i);
+    online.mockRestore();
   });
 });

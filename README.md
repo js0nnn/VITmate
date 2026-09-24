@@ -56,7 +56,7 @@ Open **http://localhost:5173**. The trained model is included, so no training is
 
 ### 🎤 Voice input
 
-Voice uses the speech recognition **built into your browser**. Use a recent **Google Chrome** or **Microsoft Edge** and allow microphone access. Firefox doesn't provide it, and VITmate shows a notice there; Type mode always works. Pages must be served over `https://` or `localhost`.
+Voice uses the speech recognition **built into your browser**. Use a recent **Google Chrome** or **Microsoft Edge** and allow microphone access. Firefox doesn't provide it, and Brave has the API but no speech service behind it; VITmate detects both and shows a notice. Type mode always works. Pages must be served over `https://` or `localhost`.
 
 ## Results at a glance
 

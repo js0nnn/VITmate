@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 
 interface ModalProps {
@@ -9,7 +10,11 @@ interface ModalProps {
   children: ReactNode;
 }
 
-/** Accessible dialog: focus moves inside, Tab is trapped, Escape and backdrop close it. */
+/**
+ * Accessible dialog: focus moves inside, Tab is trapped, Escape and backdrop close it.
+ * Rendered into document.body so no ancestor (e.g. an animated panel with a CSS
+ * transform) can become the containing block of the fixed-position overlay.
+ */
 export function Modal({ open, onClose, labelledBy, className = "", children }: ModalProps) {
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -42,7 +47,7 @@ export function Modal({ open, onClose, labelledBy, className = "", children }: M
 
   if (!open) return null;
 
-  return (
+  return createPortal(
     <div className="modal-overlay" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
       <div className={`modal ${className}`} role="dialog" aria-modal="true" aria-labelledby={labelledBy} ref={dialogRef}>
         <button className="icon-button modal-close" onClick={onClose} aria-label="Close" ref={closeRef}>
@@ -50,6 +55,7 @@ export function Modal({ open, onClose, labelledBy, className = "", children }: M
         </button>
         {children}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }

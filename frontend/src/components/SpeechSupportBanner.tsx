@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { MicOff, X } from "lucide-react";
-import { readString, STORAGE_KEYS, writeString } from "../services/storage";
-import { speechUnsupportedReason, type SpeechUnsupportedReason } from "../services/speechSupport";
+import { useSpeechUnsupportedReason, type SpeechUnsupportedReason } from "../services/speechSupport";
 import { Modal } from "./Modal";
 
 const BANNER_TEXT: Record<SpeechUnsupportedReason, { title: string; detail: string }> = {
@@ -13,20 +12,24 @@ const BANNER_TEXT: Record<SpeechUnsupportedReason, { title: string; detail: stri
     title: "Voice input needs a secure connection.",
     detail: "Browsers only allow the microphone on https:// pages or localhost. Type mode works normally.",
   },
+  "service-unavailable": {
+    title: "Speech recognition isn't available in this browser.",
+    detail: "It has the feature but not the speech service behind it. You can keep using Type mode, or open VITmate in Chrome or Edge.",
+  },
 };
 
-/** Dismissible notice, shown only when the browser cannot provide speech recognition. */
+/**
+ * Notice shown whenever the browser cannot provide speech recognition. Dismissing
+ * hides it for this visit only; it appears again on the next visit.
+ */
 export function SpeechSupportBanner() {
-  const [reason] = useState(speechUnsupportedReason);
-  const [dismissed, setDismissed] = useState(() => readString(STORAGE_KEYS.speechBannerDismissed) === "1");
+  const reason = useSpeechUnsupportedReason();
+  const [dismissed, setDismissed] = useState(false);
   const [learnMoreOpen, setLearnMoreOpen] = useState(false);
 
   if (!reason) return null;
 
-  const dismiss = () => {
-    setDismissed(true);
-    writeString(STORAGE_KEYS.speechBannerDismissed, "1");
-  };
+  const dismiss = () => setDismissed(true);
 
   return (
     <>
@@ -53,7 +56,8 @@ const BROWSERS: { name: string; status: "yes" | "partial" | "no"; note: string }
   { name: "Google Chrome (desktop & Android)", status: "yes", note: "Recommended" },
   { name: "Microsoft Edge", status: "yes", note: "Recommended" },
   { name: "Safari (macOS & iOS)", status: "partial", note: "Available in recent versions; behaviour varies" },
-  { name: "Other Chromium browsers (Brave, Opera …)", status: "partial", note: "API may exist but the speech service can be unavailable" },
+  { name: "Brave", status: "no", note: "Has the API but no speech service, so recognition fails" },
+  { name: "Other Chromium browsers (Opera, Vivaldi …)", status: "partial", note: "API may exist but the speech service can be unavailable" },
   { name: "Firefox", status: "no", note: "Not available by default" },
 ];
 

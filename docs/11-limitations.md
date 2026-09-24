@@ -4,7 +4,7 @@ These are the known limitations of the current system, stated plainly.
 
 ## Speech recognition
 
-- **Depends on the browser.** VITmate uses the browser's built-in Web Speech API. It works best in Chrome and Edge, varies in Safari, isn't available in Firefox by default, and may fail in some Chromium forks. The compatibility banner and "Learn more" dialog tell users this, and Type mode always works.
+- **Depends on the browser.** VITmate uses the browser's built-in Web Speech API. It works best in Chrome and Edge, varies in Safari, isn't available in Firefox by default, and doesn't work in Brave, which has the API but no speech service. Other Chromium forks are detected at runtime. The compatibility banner and "Learn more" dialog tell users this, and Type mode always works.
 - **Needs the browser vendor's online speech service.** In Chrome and Edge the audio is processed by the vendor's cloud service, not by VITmate, so voice input needs an internet connection and is subject to the vendor's privacy policy.
 - **Pause tolerance is a fixed window.** After a finalised phrase the window is 1.2 s, and 2 s while a phrase is still interim. A speaker who pauses longer mid-sentence will submit early. They can speak again or use the stop button.
 - **Recognition errors pass through.** If the browser mishears ("VTOP" → "v top"), the classifier sees the misheard text. The spoken-style challenge set measures robustness to such transcripts, but real accents and noise may be harder than hand-written examples.

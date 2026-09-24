@@ -21,7 +21,7 @@ flowchart TD
         Type["Type mode<br/>TextInput"]
         Send["handleSend()<br/>single pipeline for both modes"]
         Store[("IndexedDB<br/>conversations")]
-        Prefs[("localStorage<br/>theme · input mode · banner")]
+        Prefs[("localStorage<br/>theme · input mode")]
     end
 
     SR["Web Speech API<br/>(browser speech service)"]
