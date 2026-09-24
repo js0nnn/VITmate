@@ -26,3 +26,6 @@ frontend/.env.local
 .coverage
 htmlcov/
 frontend/*.tsbuildinfo
+
+# Vercel CLI (local builds / linking)
+.vercel/

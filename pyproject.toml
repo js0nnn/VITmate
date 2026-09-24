@@ -1,0 +1,38 @@
+# Deployment metadata for Vercel (Python runtime, FastAPI preset).
+# Local development still uses requirements.txt (see README); keep the
+# dependency pins below identical to backend/requirements.txt.
+
+[project]
+name = "vitmate"
+version = "1.0.0"
+description = "VITmate - Your VIT Campus Companion"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.14.0",
+    "transformers==4.57.6",
+    "fastapi==0.141.1",
+    "uvicorn[standard]==0.53.0",
+    "pydantic==2.13.5",
+    "pydantic-settings==2.15.0",
+    "PyYAML==6.0.3",
+    "numpy==2.5.3",
+]
+
+# CPU-only PyTorch. The index is "explicit", so uv uses it for torch only and
+# resolves every other package from PyPI (the PyTorch index also hosts older
+# numpy builds that would otherwise shadow numpy==2.5.3).
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[tool.vercel]
+entrypoint = "backend.app.main:app"
+
+[tool.vercel.scripts]
+# Runs after the Python dependencies are installed: builds the React app into
+# frontend/dist, which backend/app/main.py mounts with StaticFiles.
+build = "cd frontend && npm ci && npm run build"

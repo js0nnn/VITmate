@@ -97,7 +97,7 @@ cd frontend && npm test   # UI, speech, persistence
 
 - **Developer:** B. Jaison Edward | Reg. No. 23BAI0094
 - **Repository:** https://github.com/js0nnn/VITmate.git
-- **Live demo:** not deployed yet (see [docs/10-deployment.md](docs/10-deployment.md))
+- **Live demo:** not deployed yet. The project is set up for a free Vercel Hobby deployment (see [docs/10-deployment.md](docs/10-deployment.md)).
 
 VITmate is a student lab project and **not an official VIT service**. Always confirm important details on [vit.ac.in](https://vit.ac.in/).
 

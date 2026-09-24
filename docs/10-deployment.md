@@ -61,20 +61,69 @@ Copy `.env.example` to `.env`. All settings are optional.
 | `VITMATE_TORCH_THREADS` | unset | Cap CPU threads on small hosts |
 | `VITE_API_BASE_URL` (frontend) | empty | Set when the API is on another origin |
 
-## Deployment readiness
+## Deploying to Vercel (Hobby, free)
 
-Hosting is **not** configured yet, but the code is ready for it:
+VITmate deploys as **one Vercel project**: the FastAPI app, with the trained model and the knowledge base, runs as a single Python Vercel Function, and the same function serves the built React app. API calls stay same-origin under `/api`, so no CORS or `VITE_API_BASE_URL` change is needed. Nothing is uploaded to an external model host, and no paid feature or payment method is required.
+
+### How it works
+
+| Piece | Where it's configured | What it does |
+|---|---|---|
+| Python entrypoint | `pyproject.toml`: `[tool.vercel] entrypoint = "backend.app.main:app"` | Vercel loads the existing FastAPI `app`; its lifespan loads the model and knowledge base once per instance |
+| Python version | `.python-version` (`3.12`) and `requires-python` | Pins the tested Python version |
+| Runtime dependencies | `[project] dependencies` in `pyproject.toml` (same pins as `backend/requirements.txt`) | Vercel builds with **uv** from `pyproject.toml`, so training and test packages from the root `requirements.txt` are not installed |
+| CPU-only PyTorch | `[[tool.uv.index]]` (explicit) + `[tool.uv.sources]` | `torch` comes from the PyTorch CPU index; every other package comes from PyPI |
+| Frontend build | `[tool.vercel.scripts] build = "cd frontend && npm ci && npm run build"` | Builds `frontend/dist`, which `backend/app/main.py` serves with `StaticFiles` |
+| Bundle contents | `vercel.json`: `functions."backend/app/main.py".excludeFiles` | Leaves docs, training code, raw data, tests and frontend sources out of the function |
+| Timeout | `vercel.json`: `maxDuration: 60` | Covers a cold start (Hobby allows up to 300 s) |
+
+### Vercel project settings
+
+| Setting | Value |
+|---|---|
+| Framework Preset | **FastAPI** |
+| Root Directory | `./` (the repository root) |
+| Build Command | leave the default (override **off**); `pyproject.toml` defines it |
+| Output Directory | leave the default (override **off**) |
+| Install Command | leave the default (override **off**) |
+| Environment variable | `VERCEL_SUPPORT_LARGE_FUNCTIONS` = `1` (required, see below) |
+| Environment variable | `VITMATE_ENV` = `production` (hides `/docs`) |
+
+A Build Command entered in the dashboard **replaces** the one in `pyproject.toml`, and the frontend would then not be built.
+
+### Official limits this relies on (checked 24 September 2026)
+
+| Limit | Hobby value | VITmate |
+|---|---|---|
+| Python function bundle, standard | 500 MB uncompressed | not enough |
+| Python function bundle, [Large Functions](https://vercel.com/docs/functions/limitations#large-functions-beta) (public beta) | up to 5 GB, needs Fluid compute (default for new projects) | **1,019 MiB** (torch 676 MiB, model 129 MiB) |
+| [Function memory](https://vercel.com/docs/functions/limitations#memory-size-limits) | 2 GB / 1 vCPU (fixed) | about 690 MB RSS |
+| [Max duration](https://vercel.com/docs/functions/limitations#max-duration) | 300 s | set to 60 s |
+| [Monthly allotments](https://vercel.com/docs/plans/hobby) | 4 Active CPU hours, 360 GB-hrs provisioned memory, 1M invocations, 100 GB Fast Data Transfer | a query takes about 13 ms of CPU; a cold start a few seconds |
+| [Build](https://vercel.com/docs/plans/hobby) | 45 min, 2 vCPU, 8 GB RAM, 32 GB disk | builds in a few minutes |
+| Plan terms | free, non-commercial personal use; if an allotment runs out, the feature pauses until 30 days have passed (no charge) | student lab project |
+
+The bundle is larger than the standard 500 MB limit, so the deployment **depends on Large Functions**. New projects are eligible by default, but a local `vercel build` without `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` failed with "Total bundle size (1018.56 MB) exceeds the maximum function size (500 MB)", so set the variable explicitly.
+
+### Verified locally
+
+A clean clone was built with the Vercel CLI builder (`vercel build`, CLI 59.26.0, no deployment):
+
+- Python 3.12 from `.python-version`; dependencies installed with uv from `pyproject.toml`
+- `torch 2.14.0+cpu` from download.pytorch.org, `numpy 2.5.3` from PyPI; no CUDA libraries in the bundle
+- the bundle contains both safetensors shards, the tokenizer, `data/knowledge/vit_knowledge.yaml` and `frontend/dist`; none of the excluded folders
+- the built environment (no scikit-learn, matplotlib or pytest) served `/` (VITmate page and assets), `/api/health` (`model_loaded: true`, 38 intents) and `/api/chat` ("What is FFCS?" as `ffcs`), with `/docs` hidden in production mode; a local cold start took about 3.3 s
+
+### Limitations
+
+- **Large Functions are a beta feature.** If Vercel changes it, the torch-based bundle would no longer fit the standard 500 MB limit.
+- **Cold starts include the page itself.** The frontend is served by the function rather than the CDN (Vercel does not promote a root `StaticFiles` mount), so the first visit after the app has been idle waits for the function to start, import PyTorch and load the model. Expect several seconds; later requests are fast.
+- **Runtime logs** are kept for 1 hour on Hobby.
+- Vercel serves the site over **HTTPS**, which browsers require for microphone access.
+- The weights are two shards (85 MB + 48 MB), each under GitHub's 100 MB per-file limit, so Git LFS isn't required.
+
+### Deployment-friendly properties of the code
 
 - **No machine-specific paths:** everything is project-relative or set through `VITMATE_*` variables.
 - **Stateless API:** conversation context round-trips through the client, and chat history lives in the user's browser (IndexedDB), so no database is needed.
-- **CPU only:** the fp16 checkpoint is 134 MB (two shards). A fresh process that loads the model and serves queries used about 0.68 GB RSS (see [07-evaluation.md](07-evaluation.md)).
-- **One service** can serve both the API and the built frontend, which suits free tiers such as Hugging Face Spaces, Render or Railway.
 - **Errors never expose stack traces or file paths**, and `VITMATE_ENV=production` disables `/docs`.
-
-Remaining steps when hosting:
-
-1. Choose a host with about 1 GB of RAM.
-2. Add a Dockerfile or start command: `npm run build`, then `uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT`.
-3. Set `VITMATE_ENV=production` and `VITMATE_CORS_ORIGINS`.
-4. Serve over **HTTPS**, because browsers only allow microphone access on secure origins.
-5. The weights are stored as two shards (85 MB + 48 MB), each under GitHub's 100 MB per-file limit, so Git LFS isn't required.
