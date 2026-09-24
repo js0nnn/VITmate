@@ -88,6 +88,11 @@ body,
   margin: 0;
 }
 
+* {
+  scrollbar-color: var(--border-strong) transparent; /* Firefox: themed scrollbars */
+  scrollbar-width: thin;
+}
+
 body {
   font-family: var(--font-sans);
   font-size: 15px;

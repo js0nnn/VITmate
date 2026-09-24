@@ -16,7 +16,23 @@ const FFCS_REPLY = {
   sources: ["https://vit.ac.in/academics/ffcs"],
   time_sensitive: false,
   context: { previous_intent: "ffcs", depth: 0 },
+  suggestions: [],
   latency_ms: 5,
+};
+
+const UNSURE_REPLY = {
+  ...FFCS_REPLY,
+  reply: "I'm not completely sure what you mean. Did you want to know about one of these?",
+  intent: "campus_facilities",
+  confidence: 0.22,
+  is_fallback: true,
+  topic: null,
+  sources: [],
+  context: { previous_intent: null, depth: 0 },
+  suggestions: [
+    { intent: "campus_facilities", question: "What facilities are available on campus?" },
+    { intent: "hostel", question: "What are the hostel facilities?" },
+  ],
 };
 
 function mockBackend(chat: (body: { message: string; context: unknown }) => Promise<Response>) {
@@ -124,5 +140,41 @@ describe("App", () => {
     render(<App />);
     await userEvent.click(screen.getByRole("radio", { name: /speak/i }));
     expect(localStorage.getItem("vitmate:inputMode")).toBe("voice");
+  });
+
+  it("shows the thinking indicator until the answer arrives", async () => {
+    mockBackend(() => jsonResponse(FFCS_REPLY));
+    render(<App />);
+    await userEvent.type(screen.getByLabelText(/message vitmate/i), "What is FFCS?{Enter}");
+    expect(screen.getByRole("status", { name: /vitmate is thinking/i })).toBeInTheDocument();
+    expect(await screen.findByText(/Fully Flexible Credit System/)).toBeInTheDocument();
+    expect(screen.queryByRole("status", { name: /vitmate is thinking/i })).not.toBeInTheDocument();
+  });
+
+  it("offers 'did you mean' topics for unclear questions and sends the chosen one", async () => {
+    const messages: string[] = [];
+    mockBackend((body) => {
+      messages.push(body.message);
+      return jsonResponse(messages.length === 1 ? UNSURE_REPLY : FFCS_REPLY);
+    });
+    render(<App />);
+    await userEvent.type(screen.getByLabelText(/message vitmate/i), "stuff on campus?{Enter}");
+    const chip = await screen.findByRole("button", { name: "What are the hostel facilities?" });
+    expect(screen.getByText("Confidence 22.0%")).toBeInTheDocument();
+    await userEvent.click(chip);
+    await waitFor(() => expect(messages).toEqual(["stuff on campus?", "What are the hostel facilities?"]));
+  });
+
+  it("shows the developer, GitHub repository and AI-assisted development note in About", async () => {
+    mockBackend(() => jsonResponse(FFCS_REPLY));
+    render(<App />);
+    await userEvent.click(screen.getByRole("button", { name: /about/i }));
+    const dialog = screen.getByRole("dialog");
+    const github = within(dialog).getByRole("link", { name: /source code on github/i });
+    expect(github).toHaveAttribute("href", "https://github.com/js0nnn/VITmate.git");
+    expect(github).toHaveAttribute("target", "_blank");
+    expect(dialog).toHaveTextContent("AI-Assisted Development");
+    expect(dialog).toHaveTextContent(/ChatGPT and Claude were used as professional AI-assisted development tools/);
+    expect(dialog).toHaveTextContent("Reg. No: 23BAI0094");
   });
 });

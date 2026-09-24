@@ -1,0 +1,862 @@
+{
+  "threshold": 0.35,
+  "seeds": [
+    42,
+    7,
+    13
+  ],
+  "decision": {
+    "winner": "distilbert",
+    "reason": "Primary gap 0.0042 is smaller than the larger seed SD 0.0092, so it is treated as noise. Guardrail val.oos_recall_thresholded: distilbert is better (0.9271 vs 0.9010). Guardrails favour distilbert."
+  },
+  "summary": {
+    "distilbert": {
+      "val.thresholded.macro_f1": {
+        "mean": 0.8941,
+        "sd": 0.0086,
+        "values": [
+          0.8848,
+          0.8958,
+          0.9018
+        ]
+      },
+      "val.argmax.macro_f1": {
+        "mean": 0.8951,
+        "sd": 0.0061,
+        "values": [
+          0.8895,
+          0.8942,
+          0.9016
+        ]
+      },
+      "val.thresholded.accuracy": {
+        "mean": 0.8905,
+        "sd": 0.0136,
+        "values": [
+          0.8757,
+          0.8935,
+          0.9024
+        ]
+      },
+      "val.oos_recall_thresholded": {
+        "mean": 0.9271,
+        "sd": 0.0451,
+        "values": [
+          0.875,
+          0.9531,
+          0.9531
+        ]
+      },
+      "val.in_scope_rejection": {
+        "mean": 0.0194,
+        "sd": 0.0201,
+        "values": [
+          0.0401,
+          0.0,
+          0.0182
+        ]
+      },
+      "test.thresholded.macro_f1": {
+        "mean": 0.8675,
+        "sd": 0.0138,
+        "values": [
+          0.8521,
+          0.8789,
+          0.8714
+        ]
+      },
+      "test.argmax.macro_f1": {
+        "mean": 0.8672,
+        "sd": 0.0164,
+        "values": [
+          0.8496,
+          0.8819,
+          0.8702
+        ]
+      },
+      "test.thresholded.accuracy": {
+        "mean": 0.8633,
+        "sd": 0.0201,
+        "values": [
+          0.8407,
+          0.8791,
+          0.8702
+        ]
+      },
+      "test.in_scope_rejection": {
+        "mean": 0.0169,
+        "sd": 0.0231,
+        "values": [
+          0.0436,
+          0.0036,
+          0.0036
+        ]
+      },
+      "spoken_test.thresholded.macro_f1": {
+        "mean": 0.9701,
+        "sd": 0.0135,
+        "values": [
+          0.9555,
+          0.9729,
+          0.982
+        ]
+      },
+      "spoken_test.thresholded.accuracy": {
+        "mean": 0.9694,
+        "sd": 0.0173,
+        "values": [
+          0.95,
+          0.975,
+          0.9833
+        ]
+      },
+      "oos_eval.recall_thresholded": {
+        "mean": 0.9157,
+        "sd": 0.0154,
+        "values": [
+          0.9058,
+          0.9335,
+          0.9079
+        ]
+      },
+      "oos_eval.recall_argmax": {
+        "mean": 0.9048,
+        "sd": 0.0261,
+        "values": [
+          0.8823,
+          0.9335,
+          0.8987
+        ]
+      },
+      "latency.median_ms": {
+        "mean": 12.7233,
+        "sd": 0.1617,
+        "values": [
+          12.75,
+          12.87,
+          12.55
+        ]
+      },
+      "latency.p95_ms": {
+        "mean": 14.6267,
+        "sd": 0.2316,
+        "values": [
+          14.69,
+          14.82,
+          14.37
+        ]
+      },
+      "memory.process_rss_mb": {
+        "mean": 683.3,
+        "sd": 0.3606,
+        "values": [
+          683.0,
+          683.7,
+          683.2
+        ]
+      },
+      "memory.model_rss_delta_mb": {
+        "mean": 233.3667,
+        "sd": 0.1528,
+        "values": [
+          233.5,
+          233.4,
+          233.2
+        ]
+      },
+      "size": {
+        "parameters_millions": 67.0,
+        "fp32_mb": 267.9,
+        "fp16_mb": 134.0
+      }
+    },
+    "bge-small": {
+      "val.thresholded.macro_f1": {
+        "mean": 0.8899,
+        "sd": 0.0092,
+        "values": [
+          0.8843,
+          0.8849,
+          0.9006
+        ]
+      },
+      "val.argmax.macro_f1": {
+        "mean": 0.8876,
+        "sd": 0.0061,
+        "values": [
+          0.8869,
+          0.8819,
+          0.894
+        ]
+      },
+      "val.thresholded.accuracy": {
+        "mean": 0.8886,
+        "sd": 0.0074,
+        "values": [
+          0.8817,
+          0.8876,
+          0.8964
+        ]
+      },
+      "val.oos_recall_thresholded": {
+        "mean": 0.901,
+        "sd": 0.0548,
+        "values": [
+          0.8438,
+          0.9062,
+          0.9531
+        ]
+      },
+      "val.in_scope_rejection": {
+        "mean": 0.0194,
+        "sd": 0.0214,
+        "values": [
+          0.0036,
+          0.0109,
+          0.0438
+        ]
+      },
+      "test.thresholded.macro_f1": {
+        "mean": 0.8831,
+        "sd": 0.0077,
+        "values": [
+          0.8827,
+          0.8757,
+          0.891
+        ]
+      },
+      "test.argmax.macro_f1": {
+        "mean": 0.8761,
+        "sd": 0.0052,
+        "values": [
+          0.8774,
+          0.8806,
+          0.8704
+        ]
+      },
+      "test.thresholded.accuracy": {
+        "mean": 0.881,
+        "sd": 0.0085,
+        "values": [
+          0.8909,
+          0.8761,
+          0.8761
+        ]
+      },
+      "test.in_scope_rejection": {
+        "mean": 0.0255,
+        "sd": 0.0298,
+        "values": [
+          0.0,
+          0.0182,
+          0.0582
+        ]
+      },
+      "spoken_test.thresholded.macro_f1": {
+        "mean": 0.9711,
+        "sd": 0.0101,
+        "values": [
+          0.9657,
+          0.9828,
+          0.9648
+        ]
+      },
+      "spoken_test.thresholded.accuracy": {
+        "mean": 0.9694,
+        "sd": 0.0127,
+        "values": [
+          0.9667,
+          0.9833,
+          0.9583
+        ]
+      },
+      "oos_eval.recall_thresholded": {
+        "mean": 0.901,
+        "sd": 0.0375,
+        "values": [
+          0.8577,
+          0.9222,
+          0.9232
+        ]
+      },
+      "oos_eval.recall_argmax": {
+        "mean": 0.8802,
+        "sd": 0.0329,
+        "values": [
+          0.8495,
+          0.915,
+          0.8762
+        ]
+      },
+      "latency.median_ms": {
+        "mean": 7.93,
+        "sd": 0.0173,
+        "values": [
+          7.92,
+          7.92,
+          7.95
+        ]
+      },
+      "latency.p95_ms": {
+        "mean": 9.21,
+        "sd": 0.3407,
+        "values": [
+          9.6,
+          9.06,
+          8.97
+        ]
+      },
+      "memory.process_rss_mb": {
+        "mean": 589.4333,
+        "sd": 0.4933,
+        "values": [
+          589.2,
+          590.0,
+          589.1
+        ]
+      },
+      "memory.model_rss_delta_mb": {
+        "mean": 139.7667,
+        "sd": 0.2887,
+        "values": [
+          139.6,
+          140.1,
+          139.6
+        ]
+      },
+      "size": {
+        "parameters_millions": 33.4,
+        "fp32_mb": 133.5,
+        "fp16_mb": 66.8
+      }
+    }
+  },
+  "runs": {
+    "distilbert": [
+      {
+        "seed": 42,
+        "val": {
+          "argmax": {
+            "accuracy": 0.8905,
+            "macro_precision": 0.8974,
+            "macro_recall": 0.8941,
+            "macro_f1": 0.8895,
+            "weighted_precision": 0.8963,
+            "weighted_recall": 0.8905,
+            "weighted_f1": 0.8886
+          },
+          "thresholded": {
+            "accuracy": 0.8757,
+            "macro_precision": 0.908,
+            "macro_recall": 0.8747,
+            "macro_f1": 0.8848,
+            "weighted_precision": 0.8835,
+            "weighted_recall": 0.8757,
+            "weighted_f1": 0.8738
+          },
+          "in_scope_rejection": 0.0401,
+          "oos_recall_argmax": 0.875,
+          "oos_recall_thresholded": 0.875
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.8496,
+            "macro_precision": 0.8578,
+            "macro_recall": 0.8576,
+            "macro_f1": 0.8496,
+            "weighted_precision": 0.8635,
+            "weighted_recall": 0.8496,
+            "weighted_f1": 0.8499
+          },
+          "thresholded": {
+            "accuracy": 0.8407,
+            "macro_precision": 0.8746,
+            "macro_recall": 0.8437,
+            "macro_f1": 0.8521,
+            "weighted_precision": 0.8534,
+            "weighted_recall": 0.8407,
+            "weighted_f1": 0.8407
+          },
+          "in_scope_rejection": 0.0436
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.95,
+            "macro_precision": 0.9605,
+            "macro_recall": 0.9572,
+            "macro_f1": 0.9533,
+            "weighted_precision": 0.9604,
+            "weighted_recall": 0.95,
+            "weighted_f1": 0.9496
+          },
+          "thresholded": {
+            "accuracy": 0.95,
+            "macro_precision": 0.9638,
+            "macro_recall": 0.9572,
+            "macro_f1": 0.9555,
+            "weighted_precision": 0.9583,
+            "weighted_recall": 0.95,
+            "weighted_f1": 0.9493
+          },
+          "in_scope_rejection": 0.0089
+        },
+        "oos_eval": {
+          "recall_argmax": 0.8823,
+          "recall_thresholded": 0.9058
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 12.8,
+          "median_ms": 12.75,
+          "p95_ms": 14.69
+        },
+        "memory": {
+          "process_rss_mb": 683.0,
+          "model_rss_delta_mb": 233.5
+        },
+        "size": {
+          "parameters_millions": 67.0,
+          "fp32_mb": 267.9,
+          "fp16_mb": 134.0
+        }
+      },
+      {
+        "seed": 7,
+        "val": {
+          "argmax": {
+            "accuracy": 0.8905,
+            "macro_precision": 0.9193,
+            "macro_recall": 0.8819,
+            "macro_f1": 0.8942,
+            "weighted_precision": 0.8979,
+            "weighted_recall": 0.8905,
+            "weighted_f1": 0.8887
+          },
+          "thresholded": {
+            "accuracy": 0.8935,
+            "macro_precision": 0.9223,
+            "macro_recall": 0.8823,
+            "macro_f1": 0.8958,
+            "weighted_precision": 0.9013,
+            "weighted_recall": 0.8935,
+            "weighted_f1": 0.8916
+          },
+          "in_scope_rejection": 0.0,
+          "oos_recall_argmax": 0.9375,
+          "oos_recall_thresholded": 0.9531
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.882,
+            "macro_precision": 0.9012,
+            "macro_recall": 0.8774,
+            "macro_f1": 0.8819,
+            "weighted_precision": 0.8951,
+            "weighted_recall": 0.882,
+            "weighted_f1": 0.8822
+          },
+          "thresholded": {
+            "accuracy": 0.8791,
+            "macro_precision": 0.9,
+            "macro_recall": 0.873,
+            "macro_f1": 0.8789,
+            "weighted_precision": 0.892,
+            "weighted_recall": 0.8791,
+            "weighted_f1": 0.879
+          },
+          "in_scope_rejection": 0.0036
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.975,
+            "macro_precision": 0.9803,
+            "macro_recall": 0.9737,
+            "macro_f1": 0.9729,
+            "weighted_precision": 0.9812,
+            "weighted_recall": 0.975,
+            "weighted_f1": 0.9743
+          },
+          "thresholded": {
+            "accuracy": 0.975,
+            "macro_precision": 0.9803,
+            "macro_recall": 0.9737,
+            "macro_f1": 0.9729,
+            "weighted_precision": 0.9812,
+            "weighted_recall": 0.975,
+            "weighted_f1": 0.9743
+          },
+          "in_scope_rejection": 0.0
+        },
+        "oos_eval": {
+          "recall_argmax": 0.9335,
+          "recall_thresholded": 0.9335
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 12.97,
+          "median_ms": 12.87,
+          "p95_ms": 14.82
+        },
+        "memory": {
+          "process_rss_mb": 683.7,
+          "model_rss_delta_mb": 233.4
+        },
+        "size": {
+          "parameters_millions": 67.0,
+          "fp32_mb": 267.9,
+          "fp16_mb": 134.0
+        }
+      },
+      {
+        "seed": 13,
+        "val": {
+          "argmax": {
+            "accuracy": 0.9053,
+            "macro_precision": 0.9225,
+            "macro_recall": 0.8925,
+            "macro_f1": 0.9016,
+            "weighted_precision": 0.9132,
+            "weighted_recall": 0.9053,
+            "weighted_f1": 0.9045
+          },
+          "thresholded": {
+            "accuracy": 0.9024,
+            "macro_precision": 0.9295,
+            "macro_recall": 0.8881,
+            "macro_f1": 0.9018,
+            "weighted_precision": 0.911,
+            "weighted_recall": 0.9024,
+            "weighted_f1": 0.9008
+          },
+          "in_scope_rejection": 0.0182,
+          "oos_recall_argmax": 0.9531,
+          "oos_recall_thresholded": 0.9531
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.8702,
+            "macro_precision": 0.8857,
+            "macro_recall": 0.8705,
+            "macro_f1": 0.8702,
+            "weighted_precision": 0.8833,
+            "weighted_recall": 0.8702,
+            "weighted_f1": 0.8704
+          },
+          "thresholded": {
+            "accuracy": 0.8702,
+            "macro_precision": 0.8879,
+            "macro_recall": 0.8705,
+            "macro_f1": 0.8714,
+            "weighted_precision": 0.883,
+            "weighted_recall": 0.8702,
+            "weighted_f1": 0.8703
+          },
+          "in_scope_rejection": 0.0036
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.9833,
+            "macro_precision": 0.9868,
+            "macro_recall": 0.9825,
+            "macro_f1": 0.982,
+            "weighted_precision": 0.9875,
+            "weighted_recall": 0.9833,
+            "weighted_f1": 0.9829
+          },
+          "thresholded": {
+            "accuracy": 0.9833,
+            "macro_precision": 0.9868,
+            "macro_recall": 0.9825,
+            "macro_f1": 0.982,
+            "weighted_precision": 0.9875,
+            "weighted_recall": 0.9833,
+            "weighted_f1": 0.9829
+          },
+          "in_scope_rejection": 0.0
+        },
+        "oos_eval": {
+          "recall_argmax": 0.8987,
+          "recall_thresholded": 0.9079
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 12.59,
+          "median_ms": 12.55,
+          "p95_ms": 14.37
+        },
+        "memory": {
+          "process_rss_mb": 683.2,
+          "model_rss_delta_mb": 233.2
+        },
+        "size": {
+          "parameters_millions": 67.0,
+          "fp32_mb": 267.9,
+          "fp16_mb": 134.0
+        }
+      }
+    ],
+    "bge-small": [
+      {
+        "seed": 42,
+        "val": {
+          "argmax": {
+            "accuracy": 0.8846,
+            "macro_precision": 0.8911,
+            "macro_recall": 0.8934,
+            "macro_f1": 0.8869,
+            "weighted_precision": 0.892,
+            "weighted_recall": 0.8846,
+            "weighted_f1": 0.8837
+          },
+          "thresholded": {
+            "accuracy": 0.8817,
+            "macro_precision": 0.8901,
+            "macro_recall": 0.889,
+            "macro_f1": 0.8843,
+            "weighted_precision": 0.8888,
+            "weighted_recall": 0.8817,
+            "weighted_f1": 0.8808
+          },
+          "in_scope_rejection": 0.0036,
+          "oos_recall_argmax": 0.8438,
+          "oos_recall_thresholded": 0.8438
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.882,
+            "macro_precision": 0.8801,
+            "macro_recall": 0.8894,
+            "macro_f1": 0.8774,
+            "weighted_precision": 0.8969,
+            "weighted_recall": 0.882,
+            "weighted_f1": 0.8819
+          },
+          "thresholded": {
+            "accuracy": 0.8909,
+            "macro_precision": 0.8885,
+            "macro_recall": 0.8907,
+            "macro_f1": 0.8827,
+            "weighted_precision": 0.9035,
+            "weighted_recall": 0.8909,
+            "weighted_f1": 0.8905
+          },
+          "in_scope_rejection": 0.0
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.9667,
+            "macro_precision": 0.9715,
+            "macro_recall": 0.9671,
+            "macro_f1": 0.9657,
+            "weighted_precision": 0.9729,
+            "weighted_recall": 0.9667,
+            "weighted_f1": 0.9662
+          },
+          "thresholded": {
+            "accuracy": 0.9667,
+            "macro_precision": 0.9715,
+            "macro_recall": 0.9671,
+            "macro_f1": 0.9657,
+            "weighted_precision": 0.9729,
+            "weighted_recall": 0.9667,
+            "weighted_f1": 0.9662
+          },
+          "in_scope_rejection": 0.0
+        },
+        "oos_eval": {
+          "recall_argmax": 0.8495,
+          "recall_thresholded": 0.8577
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 8.14,
+          "median_ms": 7.92,
+          "p95_ms": 9.6
+        },
+        "memory": {
+          "process_rss_mb": 589.2,
+          "model_rss_delta_mb": 139.6
+        },
+        "size": {
+          "parameters_millions": 33.4,
+          "fp32_mb": 133.5,
+          "fp16_mb": 66.8
+        }
+      },
+      {
+        "seed": 7,
+        "val": {
+          "argmax": {
+            "accuracy": 0.8846,
+            "macro_precision": 0.898,
+            "macro_recall": 0.883,
+            "macro_f1": 0.8819,
+            "weighted_precision": 0.8964,
+            "weighted_recall": 0.8846,
+            "weighted_f1": 0.8831
+          },
+          "thresholded": {
+            "accuracy": 0.8876,
+            "macro_precision": 0.9079,
+            "macro_recall": 0.8795,
+            "macro_f1": 0.8849,
+            "weighted_precision": 0.8975,
+            "weighted_recall": 0.8876,
+            "weighted_f1": 0.8851
+          },
+          "in_scope_rejection": 0.0109,
+          "oos_recall_argmax": 0.875,
+          "oos_recall_thresholded": 0.9062
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.885,
+            "macro_precision": 0.888,
+            "macro_recall": 0.8856,
+            "macro_f1": 0.8806,
+            "weighted_precision": 0.8938,
+            "weighted_recall": 0.885,
+            "weighted_f1": 0.8839
+          },
+          "thresholded": {
+            "accuracy": 0.8761,
+            "macro_precision": 0.8914,
+            "macro_recall": 0.8731,
+            "macro_f1": 0.8757,
+            "weighted_precision": 0.8844,
+            "weighted_recall": 0.8761,
+            "weighted_f1": 0.8746
+          },
+          "in_scope_rejection": 0.0182
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.9833,
+            "macro_precision": 0.9882,
+            "macro_recall": 0.9825,
+            "macro_f1": 0.9828,
+            "weighted_precision": 0.9871,
+            "weighted_recall": 0.9833,
+            "weighted_f1": 0.9827
+          },
+          "thresholded": {
+            "accuracy": 0.9833,
+            "macro_precision": 0.9882,
+            "macro_recall": 0.9825,
+            "macro_f1": 0.9828,
+            "weighted_precision": 0.9871,
+            "weighted_recall": 0.9833,
+            "weighted_f1": 0.9827
+          },
+          "in_scope_rejection": 0.0
+        },
+        "oos_eval": {
+          "recall_argmax": 0.915,
+          "recall_thresholded": 0.9222
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 8.02,
+          "median_ms": 7.92,
+          "p95_ms": 9.06
+        },
+        "memory": {
+          "process_rss_mb": 590.0,
+          "model_rss_delta_mb": 140.1
+        },
+        "size": {
+          "parameters_millions": 33.4,
+          "fp32_mb": 133.5,
+          "fp16_mb": 66.8
+        }
+      },
+      {
+        "seed": 13,
+        "val": {
+          "argmax": {
+            "accuracy": 0.8964,
+            "macro_precision": 0.908,
+            "macro_recall": 0.8986,
+            "macro_f1": 0.894,
+            "weighted_precision": 0.9097,
+            "weighted_recall": 0.8964,
+            "weighted_f1": 0.8953
+          },
+          "thresholded": {
+            "accuracy": 0.8964,
+            "macro_precision": 0.9354,
+            "macro_recall": 0.8854,
+            "macro_f1": 0.9006,
+            "weighted_precision": 0.9092,
+            "weighted_recall": 0.8964,
+            "weighted_f1": 0.8933
+          },
+          "in_scope_rejection": 0.0438,
+          "oos_recall_argmax": 0.8906,
+          "oos_recall_thresholded": 0.9531
+        },
+        "test": {
+          "argmax": {
+            "accuracy": 0.8732,
+            "macro_precision": 0.8779,
+            "macro_recall": 0.8772,
+            "macro_f1": 0.8704,
+            "weighted_precision": 0.8824,
+            "weighted_recall": 0.8732,
+            "weighted_f1": 0.8717
+          },
+          "thresholded": {
+            "accuracy": 0.8761,
+            "macro_precision": 0.9275,
+            "macro_recall": 0.8719,
+            "macro_f1": 0.891,
+            "weighted_precision": 0.8915,
+            "weighted_recall": 0.8761,
+            "weighted_f1": 0.8744
+          },
+          "in_scope_rejection": 0.0582
+        },
+        "spoken_test": {
+          "argmax": {
+            "accuracy": 0.975,
+            "macro_precision": 0.9839,
+            "macro_recall": 0.9737,
+            "macro_f1": 0.9751,
+            "weighted_precision": 0.9801,
+            "weighted_recall": 0.975,
+            "weighted_f1": 0.9739
+          },
+          "thresholded": {
+            "accuracy": 0.9583,
+            "macro_precision": 0.9899,
+            "macro_recall": 0.9561,
+            "macro_f1": 0.9648,
+            "weighted_precision": 0.9744,
+            "weighted_recall": 0.9583,
+            "weighted_f1": 0.9566
+          },
+          "in_scope_rejection": 0.0357
+        },
+        "oos_eval": {
+          "recall_argmax": 0.8762,
+          "recall_thresholded": 0.9232
+        },
+        "latency": {
+          "queries": 200,
+          "mean_ms": 8.03,
+          "median_ms": 7.95,
+          "p95_ms": 8.97
+        },
+        "memory": {
+          "process_rss_mb": 589.1,
+          "model_rss_delta_mb": 139.6
+        },
+        "size": {
+          "parameters_millions": 33.4,
+          "fp32_mb": 133.5,
+          "fp16_mb": 66.8
+        }
+      }
+    ]
+  }
+}

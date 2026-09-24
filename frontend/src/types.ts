@@ -13,6 +13,8 @@ export interface AssistantMeta {
   isFallback: boolean;
   sources: string[];
   timeSensitive: boolean;
+  /** Topics offered when VITmate was unsure what the user meant. */
+  suggestions?: Suggestion[];
 }
 
 export interface Message {
@@ -45,6 +47,7 @@ export interface ChatResponse {
   sources: string[];
   time_sensitive: boolean;
   context: ChatContext;
+  suggestions: Suggestion[];
   latency_ms: number;
 }
 

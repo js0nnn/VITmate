@@ -329,3 +329,9 @@
     min-width: 92px;
   }
 }
+
+.voice-unsupported-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

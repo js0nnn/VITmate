@@ -31,6 +31,7 @@ import numpy as np
 import psutil
 from sklearn.metrics import classification_report, confusion_matrix
 
+from backend.app.config import get_settings
 from backend.app.ml.intent_classifier import IntentClassifier
 from training.common import apply_threshold, classification_metrics, load_labels, load_split, write_json
 from training.paths import MODEL_DIR, RESULTS_DIR
@@ -141,15 +142,17 @@ def write_markdown(results: dict, report: dict, labels: list[str], errors: list[
         "",
         f"## With the confidence threshold ({t['value']})",
         "",
-        "Predictions below the threshold are answered with a \"please rephrase\" fallback and counted as "
-        "`out_of_scope` here. The threshold was chosen on the validation set.",
+        "Predictions below the threshold get the \"did you mean / please rephrase\" fallback and are counted as "
+        f"`out_of_scope` here. {t['value']} is VITmate's deployed safety floor; the validation sweep optimum was "
+        f"{t['sweep_best']['threshold']} (validation macro-F1 {t['sweep_best']['val_macro_f1']:.4f}).",
         "",
         "| Set | Accuracy | Macro P | Macro R | Macro F1 | Weighted P | Weighted R | Weighted F1 |",
         "|---|---|---|---|---|---|---|---|",
         metric_row("Test", results["test_thresholded"]),
         metric_row("Spoken-style challenge", results["spoken_test_thresholded"]),
         "",
-        f"- In-scope test queries rejected as low-confidence: {t['test_in_scope_rejection_rate']:.2%}",
+        f"- In-scope test queries not answered with an intent (predicted out-of-scope or below the threshold): "
+        f"{t['test_in_scope_rejection_rate']:.2%}",
         f"- **Out-of-scope recall** on {results['sizes']['oos_eval']} held-out CLINC150 out-of-scope queries: "
         f"{results['oos_eval']['recall_argmax']:.2%} (arg-max) / {results['oos_eval']['recall_thresholded']:.2%} "
         "(with threshold)",
@@ -186,20 +189,24 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s", datefmt="%H:%M:%S")
     parser = argparse.ArgumentParser()
     parser.add_argument("--threshold", type=float,
-                        help="Confidence threshold to report (default: best validation macro-F1)")
+                        help="Confidence threshold to report (default: the deployed VITMATE_CONFIDENCE_THRESHOLD)")
     parser.add_argument("--output-dir", type=Path, default=RESULTS_DIR)
+    parser.add_argument("--model-dir", type=Path, default=MODEL_DIR, help="model to evaluate (default: deployed)")
     args = parser.parse_args()
     out_dir: Path = args.output_dir
+    model_dir: Path = args.model_dir
 
     labels = load_labels()
-    classifier = IntentClassifier(MODEL_DIR)
+    classifier = IntentClassifier(model_dir)
     results: dict = {"sizes": {}}
 
     val_texts, val_gold = load_split("val")
     val_intents, val_conf = predict(classifier, val_texts)
     sweep = threshold_sweep(val_gold, val_intents, val_conf)
     best = max(sweep, key=lambda r: (r["macro_f1"], -r["threshold"]))
-    threshold = args.threshold if args.threshold is not None else best["threshold"]
+    # The deployed threshold is a safety floor: the sweep optimum is reported, but a value of 0
+    # would disable the low-confidence fallback, so VITmate keeps its configured floor.
+    threshold = args.threshold if args.threshold is not None else get_settings().confidence_threshold
 
     predictions = {}
     for split in ("test", "spoken_test"):
@@ -224,7 +231,9 @@ def main() -> None:
     }
     results["threshold"] = {
         "value": threshold,
-        "selected_on": "validation macro-F1" if args.threshold is None else "command line",
+        "selected_on": "deployed safety floor (VITMATE_CONFIDENCE_THRESHOLD)" if args.threshold is None
+        else "command line",
+        "sweep_best": {"threshold": best["threshold"], "val_macro_f1": best["macro_f1"]},
         "test_in_scope_rejection_rate": round(sum(p == "out_of_scope" for _, p in in_scope) / len(in_scope), 4),
         "validation_sweep": sweep,
     }
@@ -235,10 +244,10 @@ def main() -> None:
         "rss_mb": round(psutil.Process().memory_info().rss / 1e6, 1),
     }
     results["model"] = {
-        "base_model": json.loads((MODEL_DIR / "training_summary.json").read_text())["config"]["model_name"],
+        "base_model": json.loads((model_dir / "training_summary.json").read_text())["config"]["model_name"],
         "num_intents": len(classifier.labels),
         "parameters_millions": round(sum(p.numel() for p in classifier.model.parameters()) / 1e6, 1),
-        "size_mb": round(sum(f.stat().st_size for f in MODEL_DIR.rglob("*") if f.is_file()) / 1e6, 1),
+        "size_mb": round(sum(f.stat().st_size for f in model_dir.rglob("*") if f.is_file()) / 1e6, 1),
     }
 
     report = classification_report(test_gold, test_intents, labels=labels, output_dict=True, zero_division=0)

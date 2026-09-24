@@ -41,18 +41,16 @@
       "special": true
     }
   },
-  "clean_up_tokenization_spaces": true,
+  "clean_up_tokenization_spaces": false,
   "cls_token": "[CLS]",
-  "do_basic_tokenize": true,
   "do_lower_case": true,
   "extra_special_tokens": {},
   "mask_token": "[MASK]",
   "model_max_length": 512,
-  "never_split": null,
   "pad_token": "[PAD]",
   "sep_token": "[SEP]",
   "strip_accents": null,
   "tokenize_chinese_chars": true,
-  "tokenizer_class": "BertTokenizer",
+  "tokenizer_class": "DistilBertTokenizer",
   "unk_token": "[UNK]"
 }

@@ -49,8 +49,8 @@ CLINC_NOT_NEGATIVE = {
 }
 # CLINC utterances mentioning these words could be genuine campus questions.
 CAMPUS_WORDS = re.compile(
-    r"\b(college|university|school|exam|class|semester|hostel|library|fee|fees|"
-    r"tuition|scholarship|campus|student|course|admission|professor|vit)\b",
+    r"\b(colleges?|universit(y|ies)|schools?|exams?|examinations?|class(es)?|semesters?|hostels?|librar(y|ies)|"
+    r"fees?|tuition|scholarships?|campus(es)?|students?|courses?|admissions?|professors?|lectures?|vit)\b",
     re.IGNORECASE,
 )
 # Words ignored when detecting near-duplicate paraphrases.
@@ -177,7 +177,8 @@ def grouped_stratified_split(examples: list[dict], rng: random.Random) -> dict[s
 
     for intent in sorted(by_intent):
         groups = list(by_intent[intent].values())
-        rng.shuffle(groups)
+        # Seed per intent so that adding data to one intent never reshuffles the others.
+        random.Random(f"{SEED}:{intent}").shuffle(groups)
         total = sum(len(g) for g in groups)
         targets = {"val": round(total * SPLIT_RATIOS[1]), "test": round(total * SPLIT_RATIOS[2])}
         counts = {"val": 0, "test": 0}

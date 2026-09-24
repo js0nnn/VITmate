@@ -1,0 +1,408 @@
+{
+  "sizes": {
+    "test": 319,
+    "spoken_test": 113,
+    "oos_eval": 983
+  },
+  "test": {
+    "accuracy": 0.8589,
+    "macro_precision": 0.8569,
+    "macro_recall": 0.8603,
+    "macro_f1": 0.849,
+    "weighted_precision": 0.8718,
+    "weighted_recall": 0.8589,
+    "weighted_f1": 0.8573
+  },
+  "test_thresholded": {
+    "accuracy": 0.8589,
+    "macro_precision": 0.8809,
+    "macro_recall": 0.8573,
+    "macro_f1": 0.8596,
+    "weighted_precision": 0.8675,
+    "weighted_recall": 0.8589,
+    "weighted_f1": 0.8556
+  },
+  "spoken_test": {
+    "accuracy": 0.9558,
+    "macro_precision": 0.963,
+    "macro_recall": 0.956,
+    "macro_f1": 0.9552,
+    "weighted_precision": 0.9624,
+    "weighted_recall": 0.9558,
+    "weighted_f1": 0.955
+  },
+  "spoken_test_thresholded": {
+    "accuracy": 0.9558,
+    "macro_precision": 0.9736,
+    "macro_recall": 0.956,
+    "macro_f1": 0.9588,
+    "weighted_precision": 0.9659,
+    "weighted_recall": 0.9558,
+    "weighted_f1": 0.9545
+  },
+  "oos_eval": {
+    "recall_argmax": 0.8505,
+    "recall_thresholded": 0.8993
+  },
+  "threshold": {
+    "value": 0.35,
+    "selected_on": "validation macro-F1",
+    "test_in_scope_rejection_rate": 0.051,
+    "validation_sweep": [
+      {
+        "threshold": 0.0,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8923,
+        "in_scope_rejection_rate": 0.0039
+      },
+      {
+        "threshold": 0.05,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8923,
+        "in_scope_rejection_rate": 0.0039
+      },
+      {
+        "threshold": 0.1,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8923,
+        "in_scope_rejection_rate": 0.0039
+      },
+      {
+        "threshold": 0.15,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8923,
+        "in_scope_rejection_rate": 0.0039
+      },
+      {
+        "threshold": 0.2,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8934,
+        "in_scope_rejection_rate": 0.0078
+      },
+      {
+        "threshold": 0.25,
+        "accuracy": 0.9006,
+        "macro_f1": 0.8951,
+        "in_scope_rejection_rate": 0.0078
+      },
+      {
+        "threshold": 0.3,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8939,
+        "in_scope_rejection_rate": 0.0155
+      },
+      {
+        "threshold": 0.35,
+        "accuracy": 0.9037,
+        "macro_f1": 0.9008,
+        "in_scope_rejection_rate": 0.0271
+      },
+      {
+        "threshold": 0.4,
+        "accuracy": 0.8975,
+        "macro_f1": 0.8969,
+        "in_scope_rejection_rate": 0.0426
+      },
+      {
+        "threshold": 0.45,
+        "accuracy": 0.8851,
+        "macro_f1": 0.8881,
+        "in_scope_rejection_rate": 0.0698
+      },
+      {
+        "threshold": 0.5,
+        "accuracy": 0.8602,
+        "macro_f1": 0.8535,
+        "in_scope_rejection_rate": 0.1124
+      },
+      {
+        "threshold": 0.55,
+        "accuracy": 0.8447,
+        "macro_f1": 0.8338,
+        "in_scope_rejection_rate": 0.1395
+      },
+      {
+        "threshold": 0.6,
+        "accuracy": 0.8012,
+        "macro_f1": 0.784,
+        "in_scope_rejection_rate": 0.2016
+      },
+      {
+        "threshold": 0.65,
+        "accuracy": 0.7578,
+        "macro_f1": 0.7294,
+        "in_scope_rejection_rate": 0.2636
+      },
+      {
+        "threshold": 0.7,
+        "accuracy": 0.5932,
+        "macro_f1": 0.5075,
+        "in_scope_rejection_rate": 0.4767
+      },
+      {
+        "threshold": 0.75,
+        "accuracy": 0.5248,
+        "macro_f1": 0.4218,
+        "in_scope_rejection_rate": 0.5659
+      },
+      {
+        "threshold": 0.8,
+        "accuracy": 0.3944,
+        "macro_f1": 0.2688,
+        "in_scope_rejection_rate": 0.7481
+      },
+      {
+        "threshold": 0.85,
+        "accuracy": 0.1988,
+        "macro_f1": 0.0092,
+        "in_scope_rejection_rate": 1.0
+      },
+      {
+        "threshold": 0.9,
+        "accuracy": 0.1988,
+        "macro_f1": 0.0092,
+        "in_scope_rejection_rate": 1.0
+      },
+      {
+        "threshold": 0.95,
+        "accuracy": 0.1988,
+        "macro_f1": 0.0092,
+        "in_scope_rejection_rate": 1.0
+      }
+    ]
+  },
+  "efficiency": {
+    "load_seconds": 0.15,
+    "latency": {
+      "queries": 200,
+      "mean_ms": 8.07,
+      "median_ms": 8.02,
+      "p95_ms": 9.17
+    },
+    "rss_mb": 683.6
+  },
+  "model": {
+    "base_model": "BAAI/bge-small-en-v1.5",
+    "num_intents": 36,
+    "parameters_millions": 33.4,
+    "size_mb": 67.7
+  },
+  "per_intent": {
+    "greeting": {
+      "precision": 0.8,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8421052631578947,
+      "support": 9.0
+    },
+    "goodbye": {
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1-score": 0.7619047619047619,
+      "support": 10.0
+    },
+    "thanks": {
+      "precision": 0.8,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8421052631578947,
+      "support": 9.0
+    },
+    "bot_identity": {
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1-score": 0.9565217391304348,
+      "support": 11.0
+    },
+    "capabilities": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "profanity": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "out_of_scope": {
+      "precision": 0.9473684210526315,
+      "recall": 0.84375,
+      "f1-score": 0.8925619834710744,
+      "support": 64.0
+    },
+    "about_vit": {
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.7272727272727273,
+      "support": 7.0
+    },
+    "campus_location": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7.0
+    },
+    "contact_info": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 6.0
+    },
+    "ffcs": {
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1-score": 0.8,
+      "support": 8.0
+    },
+    "programmes": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1-score": 0.8421052631578947,
+      "support": 10.0
+    },
+    "schools": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "faculty": {
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8,
+      "support": 7.0
+    },
+    "syllabus": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 6.0
+    },
+    "examinations": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 8.0
+    },
+    "academic_calendar": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.6153846153846154,
+      "support": 7.0
+    },
+    "attendance": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "admissions": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "viteee": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7.0
+    },
+    "fees": {
+      "precision": 0.9,
+      "recall": 1.0,
+      "f1-score": 0.9473684210526315,
+      "support": 9.0
+    },
+    "scholarships": {
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.875,
+      "support": 9.0
+    },
+    "hostel": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "dining": {
+      "precision": 0.7272727272727273,
+      "recall": 1.0,
+      "f1-score": 0.8421052631578947,
+      "support": 8.0
+    },
+    "library": {
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.9230769230769231,
+      "support": 7.0
+    },
+    "sports": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 6.0
+    },
+    "health_services": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "transport": {
+      "precision": 0.5555555555555556,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.6666666666666666,
+      "support": 6.0
+    },
+    "campus_facilities": {
+      "precision": 0.5,
+      "recall": 0.2857142857142857,
+      "f1-score": 0.36363636363636365,
+      "support": 7.0
+    },
+    "clubs_events": {
+      "precision": 0.7777777777777778,
+      "recall": 0.875,
+      "f1-score": 0.8235294117647058,
+      "support": 8.0
+    },
+    "vtop": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 6.0
+    },
+    "student_welfare": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "anti_ragging": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "grievances": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 5.0
+    },
+    "placements": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 7.0
+    },
+    "internships": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 6.0
+    }
+  }
+}

@@ -140,7 +140,8 @@ def fine_tune(config: TrainConfig, output_dir: Path) -> dict:
     if config.save_fp16:
         model.half()
     output_dir.mkdir(parents=True, exist_ok=True)
-    model.save_pretrained(output_dir)
+    # Shards stay below GitHub's 100 MB per-file limit; transformers reloads them transparently.
+    model.save_pretrained(output_dir, max_shard_size="90MB")
     tokenizer.save_pretrained(output_dir)
 
     summary = {

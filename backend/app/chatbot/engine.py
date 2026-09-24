@@ -14,7 +14,16 @@ from backend.app.ml.intent_classifier import IntentClassifier, IntentPrediction
 
 logger = logging.getLogger(__name__)
 
-VERIFY_NOTE = "_This information can change — please check the latest details on the official VIT website._"
+# Intents never offered as "did you mean" suggestions.
+NOT_SUGGESTED = {"bot_identity", "capabilities"}
+MAX_SUGGESTIONS = 3
+MIN_SUGGESTION_CONFIDENCE = 0.05
+
+
+def time_sensitive_note(entry: KnowledgeEntry) -> str:
+    """Short freshness note, shown once per topic for genuinely time-sensitive answers."""
+    as_of = f" As of: {entry.as_of}." if entry.as_of else ""
+    return f"🕒 _Time-sensitive information.{as_of} Please confirm on the official source before relying on it._"
 
 
 @dataclass
@@ -36,6 +45,7 @@ class ChatResult:
     sources: list[str] = field(default_factory=list)
     time_sensitive: bool = False
     context: ConversationContext = field(default_factory=ConversationContext)
+    suggestions: list[StarterQuestion] = field(default_factory=list)  # "did you mean" topics
 
 
 class ChatEngine:
@@ -74,7 +84,7 @@ class ChatEngine:
                 return result
 
         if prediction.confidence < self.threshold:
-            return self._fallback("low_confidence", prediction, context)
+            return self._unsure(prediction, context)
 
         entry = self.knowledge.entry(prediction.intent)
         if entry is None:  # conversational intent (greeting, thanks, out_of_scope, ...)
@@ -102,6 +112,7 @@ class ChatEngine:
         # The message names a different topic with confidence: treat it as a topic change.
         if prediction.confidence >= self.threshold and prediction.intent != "out_of_scope":
             return None
+        current_topic = [StarterQuestion(topic.intent, topic.example_question)] if topic.example_question else []
         return ChatResult(
             reply=self.knowledge.response("clarify_follow_up"),
             intent=prediction.intent,
@@ -109,6 +120,7 @@ class ChatEngine:
             is_fallback=True,
             is_follow_up=True,
             context=context,
+            suggestions=self._suggestions(prediction, first=current_topic),
         )
 
     def _answer(self, entry: KnowledgeEntry, confidence: float) -> ChatResult:
@@ -125,7 +137,9 @@ class ChatEngine:
     def _result(
         self, entry: KnowledgeEntry, text: str, confidence: float, depth: int, is_follow_up: bool, add_note: bool = True
     ) -> ChatResult:
-        reply = f"{text.strip()}\n\n{VERIFY_NOTE}" if entry.time_sensitive and add_note else text.strip()
+        # The freshness note is shown with the first answer about a topic, not on every follow-up.
+        show_note = entry.time_sensitive and add_note and not is_follow_up
+        reply = f"{text.strip()}\n\n{time_sensitive_note(entry)}" if show_note else text.strip()
         return ChatResult(
             reply=reply,
             intent=entry.intent,
@@ -137,11 +151,31 @@ class ChatEngine:
             context=ConversationContext(previous_intent=entry.intent, depth=depth),
         )
 
-    def _fallback(self, key: str, prediction: IntentPrediction, context: ConversationContext) -> ChatResult:
+    def _suggestions(self, prediction: IntentPrediction, first: list[StarterQuestion] | None = None) -> list[StarterQuestion]:
+        """The classifier's most likely VIT topics, phrased as questions the user can pick."""
+        suggestions = list(first or [])
+        ranked = [(prediction.intent, prediction.confidence), *prediction.alternatives]
+        for intent, confidence in ranked:
+            entry = self.knowledge.entry(intent)
+            if (
+                confidence < MIN_SUGGESTION_CONFIDENCE
+                or entry is None
+                or not entry.example_question
+                or intent in NOT_SUGGESTED
+                or any(s.intent == intent for s in suggestions)
+            ):
+                continue
+            suggestions.append(StarterQuestion(intent, entry.example_question))
+        return suggestions[:MAX_SUGGESTIONS]
+
+    def _unsure(self, prediction: IntentPrediction, context: ConversationContext) -> ChatResult:
+        """Low confidence: never guess an answer, but offer the most likely topics."""
+        suggestions = self._suggestions(prediction)
         return ChatResult(
-            reply=self.knowledge.response(key),
+            reply=self.knowledge.response("low_confidence_suggest" if suggestions else "low_confidence"),
             intent=prediction.intent,
             confidence=prediction.confidence,
             is_fallback=True,
             context=context,
+            suggestions=suggestions,
         )

@@ -1,10 +1,21 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  getRecognitionConstructor,
+  speechUnsupportedReason,
+  type Recognition,
+  type RecognitionResult,
+} from "../services/speechSupport";
 
 /**
  * Browser-native speech-to-text using the Web Speech API.
  *
  * Recognition runs inside the browser (Chromium browsers use the vendor's
  * speech service); VITmate's server never receives audio, only the final text.
+ *
+ * Pause handling: recognition runs in continuous mode and VITmate decides when
+ * the user has finished. Every recognition result restarts a short silence
+ * window, so natural pauses ("I want to know about … FFCS registration") do not
+ * end the question, while the answer still follows quickly once the user stops.
  */
 
 export type SpeechStatus = "idle" | "listening" | "processing" | "success" | "error";
@@ -32,40 +43,13 @@ export const SPEECH_ERROR_MESSAGES: Record<SpeechErrorCode, string> = {
   unknown: "Something went wrong with speech recognition. Please try again.",
 };
 
-// Minimal typings for the (still vendor-prefixed) Web Speech API.
-interface RecognitionAlternative {
-  transcript: string;
-}
-interface RecognitionResult {
-  isFinal: boolean;
-  0: RecognitionAlternative;
-}
-interface RecognitionEvent {
-  resultIndex: number;
-  results: ArrayLike<RecognitionResult>;
-}
-interface RecognitionErrorEvent {
-  error: string;
-}
-interface Recognition {
-  lang: string;
-  continuous: boolean;
-  interimResults: boolean;
-  maxAlternatives: number;
-  onstart: (() => void) | null;
-  onresult: ((event: RecognitionEvent) => void) | null;
-  onerror: ((event: RecognitionErrorEvent) => void) | null;
-  onend: (() => void) | null;
-  start(): void;
-  stop(): void;
-  abort(): void;
-}
-type RecognitionConstructor = new () => Recognition;
-
-function getRecognitionConstructor(): RecognitionConstructor | null {
-  const w = window as unknown as { SpeechRecognition?: RecognitionConstructor; webkitSpeechRecognition?: RecognitionConstructor };
-  return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
-}
+/** Silence after a finalised phrase before the question is submitted. */
+export const FINAL_PAUSE_MS = 1200;
+/** Silence tolerated while the browser still holds an unfinished (interim) phrase. */
+export const INTERIM_PAUSE_MS = 2000;
+/** Safety limit for a single question. */
+export const MAX_LISTEN_MS = 30000;
+const SUCCESS_RESET_MS = 1200;
 
 function toErrorCode(error: string): SpeechErrorCode {
   switch (error) {
@@ -82,7 +66,30 @@ function toErrorCode(error: string): SpeechErrorCode {
   }
 }
 
-const SUCCESS_RESET_MS = 1200;
+/**
+ * Join recognised segments into one transcript. Some mobile Chrome builds
+ * repeat the cumulative text in every segment, so a segment that already
+ * contains everything heard so far replaces it instead of being appended.
+ */
+export function mergeSegments(segments: string[]): string {
+  let merged = "";
+  for (const raw of segments) {
+    const segment = raw.trim();
+    if (!segment) continue;
+    if (segment.toLowerCase().startsWith(merged.toLowerCase())) merged = segment;
+    else merged = `${merged} ${segment}`;
+  }
+  return merged.trim();
+}
+
+function transcriptOf(results: ArrayLike<RecognitionResult>) {
+  const finals: string[] = [];
+  const interims: string[] = [];
+  for (let i = 0; i < results.length; i += 1) {
+    (results[i].isFinal ? finals : interims).push(results[i][0].transcript);
+  }
+  return { final: mergeSegments(finals), interim: mergeSegments(interims) };
+}
 
 interface Options {
   lang?: string;
@@ -90,20 +97,25 @@ interface Options {
 }
 
 export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) {
-  const Constructor = getRecognitionConstructor();
-  const supported = Constructor !== null;
-  const secure = typeof window === "undefined" || window.isSecureContext !== false;
+  const unsupportedReason = speechUnsupportedReason();
 
   const [status, setStatus] = useState<SpeechStatus>("idle");
   const [interim, setInterim] = useState("");
   const [error, setError] = useState<SpeechErrorCode | null>(null);
 
   const recognitionRef = useRef<Recognition | null>(null);
-  const finalRef = useRef("");
+  const transcriptRef = useRef({ final: "", interim: "" });
   const errorRef = useRef<SpeechErrorCode | null>(null);
+  const pauseTimer = useRef<number>();
+  const maxTimer = useRef<number>();
   const resetTimer = useRef<number>();
   const onTranscriptRef = useRef(onTranscript);
   onTranscriptRef.current = onTranscript;
+
+  const clearTimers = () => {
+    window.clearTimeout(pauseTimer.current);
+    window.clearTimeout(maxTimer.current);
+  };
 
   const fail = useCallback((code: SpeechErrorCode) => {
     errorRef.current = code;
@@ -111,41 +123,52 @@ export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) 
     setStatus("error");
   }, []);
 
+  /** Stop listening and finalise what was heard so far. */
+  const stop = useCallback(() => {
+    clearTimers();
+    if (!recognitionRef.current) return;
+    setStatus("processing");
+    recognitionRef.current.stop();
+  }, []);
+
   const start = useCallback(() => {
     if (recognitionRef.current) return; // already listening
-    if (!Constructor) return fail("unsupported");
-    if (!secure) return fail("insecure-context");
+    const Constructor = getRecognitionConstructor();
+    if (unsupportedReason || !Constructor) return fail(unsupportedReason ?? "unsupported");
 
     window.clearTimeout(resetTimer.current);
     const recognition = new Constructor();
     recognition.lang = lang;
-    recognition.continuous = false;
+    recognition.continuous = true;
     recognition.interimResults = true;
     recognition.maxAlternatives = 1;
-    finalRef.current = "";
+    transcriptRef.current = { final: "", interim: "" };
     errorRef.current = null;
     setInterim("");
     setError(null);
 
     recognition.onstart = () => setStatus("listening");
     recognition.onresult = (event) => {
-      let interimText = "";
-      for (let i = event.resultIndex; i < event.results.length; i += 1) {
-        const result = event.results[i];
-        if (result.isFinal) finalRef.current += result[0].transcript;
-        else interimText += result[0].transcript;
-      }
-      setInterim((finalRef.current + interimText).trim());
+      const heard = transcriptOf(event.results);
+      transcriptRef.current = heard;
+      setInterim(`${heard.final} ${heard.interim}`.trim());
+      // Restart the silence window: shorter once the browser has finalised the phrase.
+      window.clearTimeout(pauseTimer.current);
+      pauseTimer.current = window.setTimeout(stop, heard.interim ? INTERIM_PAUSE_MS : FINAL_PAUSE_MS);
     };
     recognition.onerror = (event) => {
       if (event.error !== "aborted") fail(toErrorCode(event.error));
     };
     recognition.onend = () => {
+      clearTimers();
       recognitionRef.current = null;
       if (errorRef.current) return;
-      const transcript = finalRef.current.trim();
+      // A stopped session finalises pending words; keep interim text if the browser did not.
+      const { final, interim: pending } = transcriptRef.current;
+      const transcript = mergeSegments([final, pending]);
       if (!transcript) return fail("no-speech");
       setStatus("success");
+      setInterim(transcript);
       onTranscriptRef.current(transcript);
       resetTimer.current = window.setTimeout(() => {
         setStatus("idle");
@@ -157,21 +180,16 @@ export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) 
     try {
       recognition.start();
       setStatus("listening");
+      maxTimer.current = window.setTimeout(stop, MAX_LISTEN_MS);
     } catch {
       recognitionRef.current = null;
       fail("unknown");
     }
-  }, [Constructor, fail, lang, secure]);
-
-  /** Stop listening and finalise what was heard so far. */
-  const stop = useCallback(() => {
-    if (!recognitionRef.current) return;
-    setStatus("processing");
-    recognitionRef.current.stop();
-  }, []);
+  }, [fail, lang, stop, unsupportedReason]);
 
   /** Cancel without sending anything. */
   const cancel = useCallback(() => {
+    clearTimers();
     const recognition = recognitionRef.current;
     if (recognition) {
       recognition.onresult = recognition.onerror = recognition.onend = null;
@@ -182,22 +200,22 @@ export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) 
     setInterim("");
   }, []);
 
-  const dismissError = useCallback(() => {
-    setError(null);
-    setStatus("idle");
-  }, []);
-
   useEffect(
     () => () => {
+      clearTimers();
       window.clearTimeout(resetTimer.current);
-      recognitionRef.current?.abort();
+      const recognition = recognitionRef.current;
+      if (recognition) {
+        recognition.onresult = recognition.onerror = recognition.onend = null;
+        recognition.abort();
+      }
     },
     [],
   );
 
   return {
-    supported: supported && secure,
-    unsupportedReason: !supported ? ("unsupported" as const) : !secure ? ("insecure-context" as const) : null,
+    supported: unsupportedReason === null,
+    unsupportedReason,
     status,
     interim,
     error,
@@ -205,6 +223,5 @@ export function useSpeechRecognition({ lang = "en-IN", onTranscript }: Options) 
     start,
     stop,
     cancel,
-    dismissError,
   };
 }

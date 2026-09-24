@@ -1,7 +1,7 @@
 """Response-engine logic: knowledge retrieval, fallbacks and conversational context."""
 
 from backend.app.chatbot import context as ctx
-from backend.app.chatbot.engine import VERIFY_NOTE, ConversationContext
+from backend.app.chatbot.engine import ConversationContext, time_sensitive_note
 
 
 def test_high_confidence_intent_uses_knowledge_base(engine, knowledge):
@@ -11,11 +11,20 @@ def test_high_confidence_intent_uses_knowledge_base(engine, knowledge):
     assert result.sources == knowledge.entry("hostel").sources
 
 
-def test_time_sensitive_answers_carry_verification_note(engine, knowledge):
-    assert knowledge.entry("placements").time_sensitive
-    assert VERIFY_NOTE in engine.respond("Tell me about VIT placements.").reply
+def test_time_sensitive_answers_carry_a_dated_note_once(engine, knowledge):
+    placements = knowledge.entry("placements")
+    assert placements.time_sensitive and placements.as_of
+    first = engine.respond("Tell me about VIT placements.")
+    assert time_sensitive_note(placements) in first.reply
+    assert placements.as_of in first.reply
+    # Follow-ups on the same topic do not repeat the note.
+    assert "Time-sensitive" not in engine.respond("tell me more", first.context).reply
+
+
+def test_stable_answers_have_no_freshness_note(engine, knowledge):
     assert not knowledge.entry("ffcs").time_sensitive
-    assert VERIFY_NOTE not in engine.respond("What is FFCS?").reply
+    assert "Time-sensitive" not in engine.respond("What is FFCS?").reply
+    assert "Time-sensitive" not in engine.respond("What are the hostel facilities?").reply
 
 
 def test_conversational_intents_keep_the_current_topic(engine):
@@ -72,6 +81,25 @@ def test_low_confidence_prediction_is_not_answered(engine, knowledge):
     result = engine.respond("some vague thing")  # fake model: library @ 0.31
     assert result.is_fallback
     assert knowledge.entry("library").summary.strip() not in result.reply
+
+
+def test_low_confidence_offers_the_most_likely_topics(engine, knowledge):
+    result = engine.respond("some vague thing")  # fake model: library @ 0.31
+    assert [s.intent for s in result.suggestions] == ["library"]
+    assert result.suggestions[0].question == knowledge.entry("library").example_question
+    assert "not completely sure" in result.reply
+
+
+def test_low_confidence_without_vit_candidates_just_asks_to_rephrase(engine):
+    result = engine.respond("completely unknown words")  # fake model: out_of_scope @ 0.2
+    assert result.suggestions == []
+    assert "rephrase" in result.reply.lower()
+
+
+def test_unclear_follow_up_offers_current_topic_first(engine):
+    first = engine.respond("What is FFCS?")
+    unclear = engine.respond("Is it good?", first.context)
+    assert unclear.suggestions and unclear.suggestions[0].intent == "ffcs"
 
 
 def test_starter_questions_are_verified_against_the_model(engine):

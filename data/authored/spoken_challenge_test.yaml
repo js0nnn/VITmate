@@ -39,6 +39,18 @@ about_vit:
   - can you tell me something about VIT university
   - um when was VIT started and who started it
   - how many campuses does VIT have in total
+  # v2: broad evaluative question
+  - hey so is VIT actually a good place to study
+rankings:
+  # v2
+  - uh what rank did VIT get in the NIRF rankings
+  - is VIT there in the QS world rankings
+  - what grade did NAAC give to VIT
+research_patents:
+  # v2
+  - um how many patents has VIT got so far
+  - what kind of research goes on at VIT
+  - does VIT have many patents
 campus_location:
   - where is the VIT campus located exactly
   - how do I get to VIT from Katpadi railway station

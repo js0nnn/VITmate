@@ -9,6 +9,7 @@ export const STORAGE_KEYS = {
   activeConversation: "activeConversation",
   theme: "theme",
   inputMode: "inputMode",
+  speechBannerDismissed: "speechBannerDismissed",
 } as const;
 
 export function readJson<T>(key: string, fallback: T): T {

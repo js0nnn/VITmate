@@ -1,18 +1,18 @@
 {
   "seed": 42,
-  "num_intents": 36,
-  "total_examples": 2119,
+  "num_intents": 38,
+  "total_examples": 2246,
   "split_sizes": {
-    "train": 1478,
-    "val": 322,
-    "test": 319
+    "train": 1569,
+    "val": 338,
+    "test": 339
   },
-  "spoken_test_size": 113,
-  "oos_eval_size": 983,
+  "spoken_test_size": 120,
+  "oos_eval_size": 977,
   "examples_by_source": {
     "kaggle_university": 344,
-    "authored": 1326,
-    "clinc150": 449
+    "authored": 1455,
+    "clinc150": 447
   },
   "removed_overlapping_held_out": 40,
   "dropped_label_conflicts": [],
@@ -23,9 +23,9 @@
       "test": 9
     },
     "goodbye": {
-      "train": 43,
+      "train": 44,
       "val": 9,
-      "test": 10
+      "test": 9
     },
     "thanks": {
       "train": 42,
@@ -48,18 +48,28 @@
       "test": 4
     },
     "out_of_scope": {
-      "train": 301,
+      "train": 299,
       "val": 64,
       "test": 64
     },
     "about_vit": {
-      "train": 33,
-      "val": 7,
-      "test": 7
+      "train": 44,
+      "val": 9,
+      "test": 9
+    },
+    "rankings": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "research_patents": {
+      "train": 23,
+      "val": 6,
+      "test": 8
     },
     "campus_location": {
-      "train": 29,
-      "val": 9,
+      "train": 31,
+      "val": 7,
       "test": 7
     },
     "contact_info": {
@@ -98,9 +108,9 @@
       "test": 8
     },
     "academic_calendar": {
-      "train": 33,
-      "val": 7,
-      "test": 7
+      "train": 41,
+      "val": 9,
+      "test": 9
     },
     "attendance": {
       "train": 28,
@@ -119,8 +129,8 @@
     },
     "fees": {
       "train": 38,
-      "val": 8,
-      "test": 9
+      "val": 9,
+      "test": 8
     },
     "scholarships": {
       "train": 39,
@@ -153,18 +163,18 @@
       "test": 6
     },
     "transport": {
-      "train": 28,
-      "val": 6,
-      "test": 6
+      "train": 34,
+      "val": 8,
+      "test": 8
     },
     "campus_facilities": {
-      "train": 34,
-      "val": 7,
-      "test": 7
+      "train": 45,
+      "val": 9,
+      "test": 9
     },
     "clubs_events": {
-      "train": 31,
-      "val": 11,
+      "train": 34,
+      "val": 8,
       "test": 8
     },
     "vtop": {

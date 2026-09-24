@@ -26,6 +26,13 @@
 {"text": "can you tell me something about VIT university", "intent": "about_vit", "source": "authored_spoken_challenge"}
 {"text": "um when was VIT started and who started it", "intent": "about_vit", "source": "authored_spoken_challenge"}
 {"text": "how many campuses does VIT have in total", "intent": "about_vit", "source": "authored_spoken_challenge"}
+{"text": "hey so is VIT actually a good place to study", "intent": "about_vit", "source": "authored_spoken_challenge"}
+{"text": "uh what rank did VIT get in the NIRF rankings", "intent": "rankings", "source": "authored_spoken_challenge"}
+{"text": "is VIT there in the QS world rankings", "intent": "rankings", "source": "authored_spoken_challenge"}
+{"text": "what grade did NAAC give to VIT", "intent": "rankings", "source": "authored_spoken_challenge"}
+{"text": "um how many patents has VIT got so far", "intent": "research_patents", "source": "authored_spoken_challenge"}
+{"text": "what kind of research goes on at VIT", "intent": "research_patents", "source": "authored_spoken_challenge"}
+{"text": "does VIT have many patents", "intent": "research_patents", "source": "authored_spoken_challenge"}
 {"text": "where is the VIT campus located exactly", "intent": "campus_location", "source": "authored_spoken_challenge"}
 {"text": "how do I get to VIT from Katpadi railway station", "intent": "campus_location", "source": "authored_spoken_challenge"}
 {"text": "uh what's the address of VIT Vellore", "intent": "campus_location", "source": "authored_spoken_challenge"}

@@ -27,7 +27,7 @@ export function ChatView({ messages, pending, suggestions, onSuggestion, onRetry
     <div className="chat-scroll">
       <div className="chat-thread" role="log" aria-live="polite" aria-label="Conversation">
         {messages.map((message) => (
-          <MessageBubble key={message.id} message={message} onRetry={onRetry} />
+          <MessageBubble key={message.id} message={message} onRetry={onRetry} onSuggestion={onSuggestion} />
         ))}
         {pending && <TypingIndicator />}
         <div ref={endRef} />
@@ -38,16 +38,19 @@ export function ChatView({ messages, pending, suggestions, onSuggestion, onRetry
 
 function TypingIndicator() {
   return (
-    <article className="message message-assistant" aria-label="VITmate is typing">
-      <div className="message-avatar" aria-hidden="true">
+    <article className="message message-assistant thinking" role="status" aria-label="VITmate is thinking">
+      <div className="message-avatar thinking-avatar" aria-hidden="true">
         <LogoMark size={30} />
       </div>
       <div className="message-body">
         <div className="message-author">VITmate</div>
-        <div className="typing-indicator" aria-hidden="true">
-          <span />
-          <span />
-          <span />
+        <div className="thinking-indicator">
+          <span className="thinking-text">VITmate is thinking</span>
+          <span className="typing-indicator" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </span>
         </div>
       </div>
     </article>

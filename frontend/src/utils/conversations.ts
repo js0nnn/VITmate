@@ -47,3 +47,26 @@ export function groupConversations(conversations: Conversation[], now = Date.now
   }
   return buckets.filter((group) => group.conversations.length > 0);
 }
+
+/**
+ * Merge the in-memory history with what is in storage (e.g. after another tab
+ * changed it). Per conversation the most recently updated copy wins; local
+ * conversations not yet written are kept, and ones deleted elsewhere
+ * (previously stored, now missing) are dropped.
+ */
+export function mergeWithStored(
+  current: Conversation[],
+  stored: Conversation[],
+  previouslyStoredIds: ReadonlySet<string>,
+): Conversation[] {
+  const merged = new Map(stored.map((c) => [c.id, c]));
+  for (const conversation of current) {
+    const storedCopy = merged.get(conversation.id);
+    if (storedCopy) {
+      if (conversation.updatedAt > storedCopy.updatedAt) merged.set(conversation.id, conversation);
+    } else if (!previouslyStoredIds.has(conversation.id)) {
+      merged.set(conversation.id, conversation);
+    }
+  }
+  return [...merged.values()].sort((a, b) => b.updatedAt - a.updatedAt);
+}

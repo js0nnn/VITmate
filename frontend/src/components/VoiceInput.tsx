@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { AlertCircle, Check, Loader2, Mic, MicOff, Square } from "lucide-react";
 import { SPEECH_ERROR_MESSAGES, useSpeechRecognition } from "../hooks/useSpeechRecognition";
+import { SpeechSupportModal } from "./SpeechSupportBanner";
 
 interface VoiceInputProps {
   disabled: boolean;
@@ -17,15 +19,22 @@ const STATUS_TEXT = {
 
 export function VoiceInput({ disabled, onTranscript, onSwitchToText }: VoiceInputProps) {
   const speech = useSpeechRecognition({ onTranscript });
+  const [learnMoreOpen, setLearnMoreOpen] = useState(false);
 
   if (!speech.supported) {
     return (
       <div className="voice-input voice-unsupported" role="status">
         <MicOff size={22} aria-hidden="true" />
         <p>{SPEECH_ERROR_MESSAGES[speech.unsupportedReason ?? "unsupported"]}</p>
-        <button className="pill-button" onClick={onSwitchToText}>
-          Switch to Type
-        </button>
+        <div className="voice-unsupported-actions">
+          <button className="link-button" onClick={() => setLearnMoreOpen(true)} aria-haspopup="dialog">
+            Learn more
+          </button>
+          <button className="pill-button" onClick={onSwitchToText}>
+            Switch to Type
+          </button>
+        </div>
+        <SpeechSupportModal open={learnMoreOpen} onClose={() => setLearnMoreOpen(false)} />
       </div>
     );
   }
@@ -33,6 +42,7 @@ export function VoiceInput({ disabled, onTranscript, onSwitchToText }: VoiceInpu
   const { status } = speech;
   const listening = status === "listening";
   const busy = status === "processing" || (disabled && status !== "listening");
+  const thinking = disabled && (status === "idle" || status === "success");
 
   const onMicClick = () => {
     if (listening) speech.stop();
@@ -55,7 +65,7 @@ export function VoiceInput({ disabled, onTranscript, onSwitchToText }: VoiceInpu
           aria-label={listening ? "Stop listening" : "Start voice input"}
           aria-pressed={listening}
         >
-          {status === "processing" ? (
+          {status === "processing" || thinking ? (
             <Loader2 size={26} className="spin" />
           ) : status === "success" ? (
             <Check size={26} />
@@ -76,7 +86,7 @@ export function VoiceInput({ disabled, onTranscript, onSwitchToText }: VoiceInpu
         ) : (
           <>
             <p className="voice-status-text">
-              {STATUS_TEXT[status]}
+              {thinking ? "VITmate is thinking…" : STATUS_TEXT[status]}
               {listening && (
                 <span className="waveform" aria-hidden="true">
                   <span /><span /><span /><span /><span />

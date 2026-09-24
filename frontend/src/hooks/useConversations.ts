@@ -1,35 +1,72 @@
-import { useCallback, useEffect, useState } from "react";
-import { readJson, readString, STORAGE_KEYS, writeJson, writeString } from "../services/storage";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { createChangeChannel, createChatStore, type ChatStore } from "../services/chatStore";
+import { readString, STORAGE_KEYS, writeString } from "../services/storage";
 import type { ChatContext, Conversation, Message } from "../types";
-import { createId, makeTitle } from "../utils/conversations";
+import { createId, makeTitle, mergeWithStored } from "../utils/conversations";
 
 const EMPTY_CONTEXT: ChatContext = { previous_intent: null, depth: 0 };
-const MAX_CONVERSATIONS = 100;
+const MAX_CONVERSATIONS = 200;
 
-function loadConversations(): Conversation[] {
-  const stored = readJson<unknown>(STORAGE_KEYS.conversations, []);
-  if (!Array.isArray(stored)) return [];
-  return stored.filter(
-    (c): c is Conversation => typeof c?.id === "string" && Array.isArray(c?.messages),
-  );
-}
-
-/** Conversation history kept in the browser's localStorage. */
+/** Conversation history persisted in the browser (IndexedDB, localStorage fallback). */
 export function useConversations() {
-  const [conversations, setConversations] = useState<Conversation[]>(loadConversations);
-  const [activeId, setActiveId] = useState<string | null>(() => {
-    const saved = readString(STORAGE_KEYS.activeConversation);
-    return saved && loadConversations().some((c) => c.id === saved) ? saved : null;
-  });
+  const [conversations, setConversations] = useState<Conversation[]>([]);
+  const [activeId, setActiveId] = useState<string | null>(null);
+  const [loaded, setLoaded] = useState(false);
+
+  const storeRef = useRef<ChatStore | null>(null);
+  const savedRef = useRef(new Map<string, Conversation>()); // what the store currently holds
+  const channelRef = useRef<ReturnType<typeof createChangeChannel> | null>(null);
+
+  // Load stored history once, then re-sync whenever another tab changes it.
+  useEffect(() => {
+    let cancelled = false;
+
+    const sync = async (store: ChatStore) => {
+      const stored = await store.loadAll();
+      if (cancelled) return [];
+      const previouslyStored = new Set(savedRef.current.keys());
+      savedRef.current = new Map(stored.map((c) => [c.id, c]));
+      setConversations((current) => mergeWithStored(current, stored, previouslyStored));
+      return stored;
+    };
+
+    createChatStore().then(async (store) => {
+      if (cancelled) return;
+      storeRef.current = store;
+      const stored = await sync(store);
+      if (cancelled) return;
+      const savedActive = readString(STORAGE_KEYS.activeConversation);
+      setActiveId((current) => current ?? (stored.some((c) => c.id === savedActive) ? savedActive : null));
+      setLoaded(true);
+      channelRef.current = createChangeChannel(() => void sync(store));
+    });
+
+    return () => {
+      cancelled = true;
+      channelRef.current?.close();
+    };
+  }, []);
+
+  // Write only the conversations that changed; empty conversations are never stored.
+  useEffect(() => {
+    const store = storeRef.current;
+    if (!loaded || !store) return;
+    const saved = savedRef.current;
+    const current = new Map(conversations.filter((c) => c.messages.length > 0).map((c) => [c.id, c]));
+    const writes: Promise<void>[] = [];
+    for (const [id, conversation] of current) {
+      if (saved.get(id) !== conversation) writes.push(store.save(conversation));
+    }
+    for (const id of saved.keys()) {
+      if (!current.has(id)) writes.push(store.remove(id));
+    }
+    savedRef.current = current;
+    if (writes.length) void Promise.all(writes).then(() => channelRef.current?.notify(), () => undefined);
+  }, [conversations, loaded]);
 
   useEffect(() => {
-    // Empty conversations are never persisted.
-    writeJson(STORAGE_KEYS.conversations, conversations.filter((c) => c.messages.length > 0));
-  }, [conversations]);
-
-  useEffect(() => {
-    writeString(STORAGE_KEYS.activeConversation, activeId ?? "");
-  }, [activeId]);
+    if (loaded) writeString(STORAGE_KEYS.activeConversation, activeId ?? "");
+  }, [activeId, loaded]);
 
   const active = conversations.find((c) => c.id === activeId) ?? null;
 
@@ -55,7 +92,9 @@ export function useConversations() {
         messages: [],
         context: EMPTY_CONTEXT,
       };
-      setConversations((list) => [conversation, ...list].slice(0, MAX_CONVERSATIONS));
+      setConversations((list) =>
+        [conversation, ...list].sort((a, b) => b.updatedAt - a.updatedAt).slice(0, MAX_CONVERSATIONS),
+      );
       setActiveId(conversation.id);
       return conversation.id;
     },
@@ -82,6 +121,7 @@ export function useConversations() {
     conversations,
     active,
     activeId,
+    loaded,
     startNewChat,
     selectConversation,
     deleteConversation,

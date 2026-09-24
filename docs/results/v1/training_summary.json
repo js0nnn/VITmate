@@ -1,0 +1,82 @@
+{
+  "config": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "max_epochs": 25,
+    "patience": 4,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "max_length": 64,
+    "seed": 42,
+    "save_fp16": true
+  },
+  "best_epoch": 6,
+  "best_val_macro_f1": 0.8923,
+  "training_seconds": 239.1,
+  "num_parameters": 33373860,
+  "train_size": 1478,
+  "val_size": 322,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.5555,
+      "val_accuracy": 0.2609,
+      "val_macro_f1": 0.0963
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.2292,
+      "val_accuracy": 0.6957,
+      "val_macro_f1": 0.6267
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.4825,
+      "val_accuracy": 0.7702,
+      "val_macro_f1": 0.7373
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6847,
+      "val_accuracy": 0.8789,
+      "val_macro_f1": 0.8588
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0213,
+      "val_accuracy": 0.8789,
+      "val_macro_f1": 0.8753
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5419,
+      "val_accuracy": 0.8975,
+      "val_macro_f1": 0.8923
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2653,
+      "val_accuracy": 0.8913,
+      "val_macro_f1": 0.8812
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.131,
+      "val_accuracy": 0.8634,
+      "val_macro_f1": 0.8703
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.076,
+      "val_accuracy": 0.8634,
+      "val_macro_f1": 0.8624
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0514,
+      "val_accuracy": 0.9006,
+      "val_macro_f1": 0.8922
+    }
+  ]
+}

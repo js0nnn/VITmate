@@ -1,0 +1,150 @@
+# Dataset v2 additions (after evaluating the v1 model):
+#  * new intents `rankings` and `research_patents`, backed by official VIT pages,
+#    NIRF data and QS/THE ranking pages in the knowledge base;
+#  * broad evaluative questions ("is VIT good?") answered from documented facts;
+#  * targeted examples for the weakest v1 intents (campus_facilities,
+#    academic_calendar, transport, about_vit).
+rankings:
+  - what is VIT's NIRF rank
+  - where does VIT stand in NIRF
+  - VIT NIRF ranking 2025
+  - what is VIT's QS world ranking
+  - what is the QS rank of VIT
+  - is VIT in the QS world university rankings
+  - what is VIT's Times Higher Education ranking
+  - THE ranking of VIT
+  - how is VIT ranked in India
+  - what is VIT ranked among engineering colleges
+  - rank of VIT in NIRF engineering
+  - what is VIT's rank among universities in India
+  - what is the NAAC grade of VIT
+  - is VIT NAAC A plus plus
+  - what accreditation does VIT have
+  - is VIT accredited by NAAC
+  - are VIT's BTech programmes ABET accredited
+  - is VIT an institute of eminence
+  - what are VIT's rankings and accreditations
+  - global ranking of VIT
+  - where does VIT rank in the world
+  - what awards and recognition has VIT received
+  - is VIT a top 20 university in India
+  - VIT ranking
+  - rankings?
+  - uh what's VIT's rank this year
+  - hey how is VIT ranked by NIRF
+  - kindly share VIT's national ranking
+  - what is VIT's rank in the NIRF research category
+  - how did VIT do in the latest rankings
+  - VIT world ranking QS 2026
+  - where can I see VIT's official ranking page
+  - what is VIT's position in Asia rankings
+  - what CGPA did NAAC give VIT
+  - has VIT been accredited recently
+  - what is the NIRF score of VIT
+  - which rankings is VIT part of
+  - is VIT ranked higher than last year
+  - top rankings of vellore institute of technology
+  - what's the latest NIRF rank of VIT Vellore
+
+research_patents:
+  - how many patents does VIT have
+  - how many patents has VIT filed
+  - what is VIT's patent count
+  - how many patents has VIT been granted
+  - tell me about VIT patents and innovation
+  - patents published by VIT
+  - number of patents granted to VIT
+  - does VIT do research
+  - what research happens at VIT
+  - tell me about research at VIT
+  - how much research funding does VIT get
+  - what are the research centres at VIT
+  - is VIT good for research
+  - what is VITREE
+  - what is the office of academic research
+  - how many research papers does VIT publish
+  - sponsored research projects at VIT
+  - how many PhD students are there at VIT
+  - does VIT support student innovation
+  - who is the dean of research at VIT
+  - does VIT have IPR cell
+  - can students file patents at VIT
+  - research?
+  - patents?
+  - uh how many patents does vit have
+  - hey what research is done at VIT
+  - kindly share VIT's patent statistics
+  - how innovative is VIT
+  - VIT research output
+  - does VIT have top scientists
+  - how many VIT faculty are in the world's top 2 percent scientists
+  - what consultancy projects does VIT do
+  - VIT innovation and patents
+  - patent filings by vellore institute of technology
+  - can undergraduates do research at VIT
+  - what research facilities does VIT have for PhD
+  - does VIT get government research grants
+
+about_vit:
+  - is VIT good
+  - is VIT a good university
+  - is VIT a good college for engineering
+  - should I join VIT
+  - is VIT worth it
+  - how good is VIT
+  - why should I choose VIT
+  - what makes VIT special
+  - is VIT reputed
+  - is VIT a reputed university
+  - tell me why VIT is a good choice
+  - I'm thinking of joining VIT, is it a good option
+  - uh is VIT any good
+  - is vellore institute of technology good
+  - what are the strengths of VIT
+  - should I take admission in VIT
+  - what is VIT famous for
+  - is VIT a well known university
+  - how is VIT as a university
+
+campus_facilities:
+  - what amenities are on the VIT campus
+  - does the campus have a stationery store
+  - is there a bank on the VIT campus
+  - where can I withdraw cash on campus
+  - does VIT have auditoriums
+  - which auditoriums are there at VIT
+  - what are the academic blocks at VIT
+  - what is SJT
+  - what is the technology tower
+  - how big is the campus in acres
+  - what general facilities does the university provide
+  - is the campus well equipped
+  - is there a shopping complex on campus
+  - where can I buy daily essentials on campus
+  - what infrastructure is available for students
+
+academic_calendar:
+  - when does the fall semester begin
+  - when is the winter break
+  - holiday list for this semester
+  - when do we get vacation
+  - when does the new semester begin for seniors
+  - academic calendar for freshers
+  - when is the last working day of the semester
+  - how long are the summer holidays
+  - where is the academic calendar pdf
+  - when does college reopen after holidays
+  - semester schedule
+  - when does the even semester start
+
+transport:
+  - are there university buses
+  - do day scholars get a college bus
+  - is there a shuttle inside the campus
+  - how do I move around the big campus
+  - bus facility for day scholars
+  - how do I get around between the hostel and academic side
+  - is there any vehicle to go between blocks
+  - college bus routes in Vellore
+  - how do students travel on campus
+  - shuttle cab timings

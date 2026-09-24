@@ -1,0 +1,733 @@
+{
+  "retrieved_on": "2026-09-24",
+  "facts": {
+    "nirf_rankings": [
+      {
+        "statement": "NIRF 2026 (India Rankings 2026) results were not published on nirfindia.org as of retrieval; the 2025 edition is the latest available. The NIRF home page states data submission for India Rankings 2026 has closed; /Rankings/2026/ pages return HTTP 404.",
+        "value": "Latest published edition: India Rankings 2025",
+        "as_of": "2026-09-24",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2025 - Overall category (Institute ID IR-O-U-0490)",
+        "value": "Rank 21, score 62.88",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2025 - University category",
+        "value": "Rank 14, score 64.64",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2025 - Engineering category (IR-E-U-0490)",
+        "value": "Rank 16, score 65.25",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2025 - Research Institutions category (IR-R-U-0490)",
+        "value": "Rank 14, score 60.39",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/ResearchRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore in NIRF India Rankings 2025 - Innovation category",
+        "value": "Rank band 11-50",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/InnovationRanking50.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore in NIRF India Rankings 2025 - SDG Institutions category",
+        "value": "Rank band 11-50",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/SDGInstitutionsRanking50.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore does not appear in the NIRF 2025 Management ranking or its participated-institutions list",
+        "value": "Not ranked / not listed in Management 2025",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "NIRF 2025 Overall parameter scores for VIT (TLR, RPC, GO, OI, Perception)",
+        "value": "TLR 60.55, RPC 59.53, GO 83.42, OI 60.61, Perception 41.16",
+        "as_of": "India Rankings 2025",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2024 - Overall",
+        "value": "Rank 19, score 62.97",
+        "as_of": "India Rankings 2024",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2024/OverallRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2024 - University",
+        "value": "Rank 10, score 64.79",
+        "as_of": "India Rankings 2024",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2024 - Engineering",
+        "value": "Rank 11, score 66.22",
+        "as_of": "India Rankings 2024",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore rank in NIRF India Rankings 2024 - Research Institutions",
+        "value": "Rank 13, score 60.28",
+        "as_of": "India Rankings 2024",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2024/ResearchRanking.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT Vellore in NIRF India Rankings 2024 - Innovation",
+        "value": "Rank band 11-50",
+        "as_of": "India Rankings 2024",
+        "source": "NIRF (Ministry of Education, Govt. of India)",
+        "url": "https://www.nirfindia.org/Rankings/2024/InnovationRanking50.html",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "VIT's own ranking page restates NIRF 2025 ranks (University 14, Research 14, Engineering 16, Overall 21), matching nirfindia.org",
+        "value": "University 14, Research 14, Engineering 16, Overall 21",
+        "as_of": "NIRF 2025",
+        "source": "VIT - Ranking and Recognition page",
+        "url": "https://vit.ac.in/ranking-and-recognition",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      }
+    ],
+    "nirf_data_submission": [
+      {
+        "statement": "VIT data submitted for NIRF India Rankings 2026 (Overall, IR-O-U-0490) is published by VIT; 2026 rankings themselves not yet released",
+        "value": "Document titled 'Submitted Institute Data for NIRF'2026''",
+        "as_of": "NIRF 2026 data submission",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "VIT's NIRF page https://vit.ac.in/national-institutional-ranking-framework-nirf links Overall/Innovation/Engineering/Law/SDG PDFs for 2024-2026."
+      },
+      {
+        "statement": "Patents published (IPR section, Overall NIRF 2026 submission)",
+        "value": "Calendar year 2024: 508; 2023: 122; 2022: 76",
+        "as_of": "Calendar years 2022-2024 (NIRF 2026 submission)",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Patents granted (IPR section, Overall NIRF 2026 submission)",
+        "value": "Calendar year 2024: 67; 2023: 44; 2022: 12",
+        "as_of": "Calendar years 2022-2024 (NIRF 2026 submission)",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Patents published/granted per NIRF 2025 submission",
+        "value": "Published: CY2023 122, CY2022 76, CY2021 117; Granted: CY2023 44, CY2022 12, CY2021 18",
+        "as_of": "Calendar years 2021-2023 (NIRF 2025 submission)",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2025.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "The nirfindia.org-hosted 2025 PDF (IR-O-U-0490) does not contain an IPR section; figures come from the VIT-hosted copy."
+      },
+      {
+        "statement": "Patents published/granted per NIRF 2024 submission",
+        "value": "Published: CY2022 76, CY2021 117, CY2020 140; Granted: CY2022 12, CY2021 18, CY2020 9",
+        "as_of": "Calendar years 2020-2022 (NIRF 2024 submission)",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2024.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Patents commercialized & technology transferred (Innovation NIRF 2026 submission)",
+        "value": "CY2024: 2 (income from technology transfer Rs 14,16,000); CY2023: 0; CY2022: 0",
+        "as_of": "Calendar years 2022-2024",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Innovation-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Sponsored research (Overall NIRF 2026 submission)",
+        "value": "FY2024-25: 208 projects, 23 funding agencies, Rs 25,67,83,149; FY2023-24: 201 projects, 31 agencies, Rs 20,28,68,433; FY2022-23: 146 projects, 31 agencies, Rs 13,93,37,324",
+        "as_of": "FY2022-23 to FY2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Consultancy (Overall NIRF 2026 submission)",
+        "value": "FY2024-25: 527 projects, 171 clients, Rs 9,18,63,685; FY2023-24: 366 projects, 219 clients, Rs 4,00,05,823; FY2022-23: 258 projects, 182 clients, Rs 2,85,18,894",
+        "as_of": "FY2022-23 to FY2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Executive/Management Development Programmes (Overall NIRF 2026 submission)",
+        "value": "FY2024-25: 7 programmes, 636 participants, earnings Rs 4,08,59,600",
+        "as_of": "FY2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "PhD students pursuing (till 2024-25) per Overall NIRF 2026 submission",
+        "value": "Full time 4567; Part time 293",
+        "as_of": "Academic year 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "PhD students graduated per Overall NIRF 2026 submission",
+        "value": "2024-25: FT 555, PT 7; 2023-24: FT 441, PT 8; 2022-23: FT 318, PT 14",
+        "as_of": "2022-23 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "PhD students pursuing (till 2023-24) per NIRF 2025 Overall submission",
+        "value": "Full time 4516; Part time 626",
+        "as_of": "Academic year 2023-24",
+        "source": "NIRF (Ministry of Education, Govt. of India) - VIT data PDF",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "UG 4-year programmes placement (Overall NIRF 2026 submission)",
+        "value": "Graduating 2024-25: 11913 graduated in min. time, 7023 placed, median salary Rs 6,00,000, 1660 higher studies; 2023-24: 5964 graduated, 4031 placed, median Rs 8,99,000, 1255 higher studies; 2022-23: 7053 graduated, 5055 placed, median Rs 9,00,000, 1051 higher studies",
+        "as_of": "Graduating years 2022-23 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "The 2024-25 graduating cohort shows first-year admitted 12873 in 2021-22 against sanctioned intake 7620, as stated in the document."
+      },
+      {
+        "statement": "UG 3-year programmes placement (Overall NIRF 2026 submission)",
+        "value": "2024-25: 1366 graduated, 209 placed, median Rs 2,40,000, 649 higher studies; 2023-24: 1016 graduated, 178 placed, median Rs 3,06,000",
+        "as_of": "2023-24 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "PG 2-year programmes placement (Overall NIRF 2026 submission)",
+        "value": "2024-25: 2328 graduated, 1031 placed, median Rs 7,00,000, 110 higher studies; 2023-24: 2451 graduated, 1433 placed, median Rs 6,50,000; 2022-23: 2319 graduated, 1659 placed, median Rs 6,80,000",
+        "as_of": "2022-23 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "PG-Integrated (5-year) placement (Overall NIRF 2026 submission)",
+        "value": "2024-25: 1224 graduated, 809 placed, median Rs 7,50,000; 2023-24: 1075 graduated, 741 placed, median Rs 8,00,000",
+        "as_of": "2023-24 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "UG 4-year placement per NIRF 2025 Overall submission (nirfindia.org copy)",
+        "value": "2023-24: 5964 graduated, 4031 placed, median Rs 8,99,000; 2022-23: 7053 graduated, 5055 placed, median Rs 9,00,000; 2021-22: 6177 graduated, 4199 placed, median Rs 8,10,000",
+        "as_of": "Graduating years 2021-22 to 2023-24",
+        "source": "NIRF (Ministry of Education, Govt. of India) - VIT data PDF",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Engineering-category NIRF 2026 submission: UG 4-year and PG 2-year placement",
+        "value": "UG4 2024-25: 11913 graduated, 7023 placed, median Rs 6,00,000; PG2 2024-25: 1305 graduated, 667 placed, median Rs 8,20,000; PG2 2023-24: 1270 graduated, 884 placed, median Rs 9,15,000",
+        "as_of": "2023-24 to 2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Engineering-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Engineering-category NIRF 2026 submission: patents",
+        "value": "Published CY2024 505, CY2023 121, CY2022 75; Granted CY2024 67, CY2023 44, CY2022 12",
+        "as_of": "Calendar years 2022-2024",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Engineering-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Engineering-category NIRF 2026 submission: sponsored research",
+        "value": "FY2024-25: 203 projects, Rs 25,28,24,453; FY2023-24: 177 projects, Rs 27,49,67,689",
+        "as_of": "FY2023-24 to FY2024-25",
+        "source": "Vellore Institute of Technology - NIRF data submission PDF (hosted on vit.ac.in)",
+        "url": "https://vit.ac.in/files/nirf/Engineering-NIRF-2026.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Sanctioned intake 2023-24 per NIRF 2025 Overall submission",
+        "value": "UG 3-yr 1380; UG 4-yr 8190; UG 5-yr 380; PG 1-yr 30; PG 2-yr 2270; PG-Integrated 1410",
+        "as_of": "Academic year 2023-24",
+        "source": "NIRF (Ministry of Education, Govt. of India) - VIT data PDF",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Number of faculty members entered in NIRF 2025 Overall submission",
+        "value": "3352",
+        "as_of": "NIRF 2025 submission",
+        "source": "NIRF (Ministry of Education, Govt. of India) - VIT data PDF",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      }
+    ],
+    "patents_official_vit": [
+      {
+        "statement": "VIT IPR & Technology Transfer Cell lists published patents 2015 to Feb 2025 (PDF created 13 Mar 2025)",
+        "value": "371 published patents in total (S.No 1-371)",
+        "as_of": "2015 - Feb 2025 (document dated 13-Mar-2025)",
+        "source": "VIT IPR and Technology Transfer Cell - Published Patents 2015-2025 PDF",
+        "url": "https://vit.ac.in/sites/default/files/Published_Patents_from_2015_to_2025.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "Linked from https://vit.ac.in/iprcell"
+      },
+      {
+        "statement": "Year-wise published-patent counts in the VIT IPR Cell list (counted by S.No ranges under each year heading)",
+        "value": "2015: 4; 2016: 11; 2017: 6; 2018: 28; 2019: 13; 2020: 9; 2021: 15; 2022: 25; 2023: 66 (the per-year counter reaches 67); 2024: 152; 2025 (to 21-Feb): 42",
+        "as_of": "2015 - Feb 2025",
+        "source": "VIT IPR and Technology Transfer Cell - Published Patents 2015-2025 PDF",
+        "url": "https://vit.ac.in/sites/default/files/Published_Patents_from_2015_to_2025.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified",
+        "notes": "Counts parsed from PDF text; small parsing error possible in 2023."
+      },
+      {
+        "statement": "VIT IPR Cell page lists patented technologies available for commercialization with patent numbers and grant dates, including grants dated as late as June 2026",
+        "value": "Catalogue of granted patents by domain (undated page)",
+        "as_of": "Retrieved 2026-09-24 (page undated)",
+        "source": "VIT IPR and Technology Transfer Cell",
+        "url": "https://vit.ac.in/iprcell",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      }
+    ],
+    "qs_rankings": [
+      {
+        "statement": "topuniversities.com (QS) could not be accessed (HTTP 403 Cloudflare challenge); QS figures below come from VIT's official pages only",
+        "value": "n/a",
+        "as_of": "2026-09-24",
+        "source": "topuniversities.com",
+        "url": "https://www.topuniversities.com/universities/vellore-institute-technology-vit-vellore-india",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS World University Rankings 2027 - VIT rank per VIT official blog (posted 18 June 2026), up 94 places",
+        "value": "597",
+        "as_of": "QS WUR 2027 (announced June 2026)",
+        "source": "VIT Blogs (blogs.vit.ac.in, official VIT subdomain)",
+        "url": "https://blogs.vit.ac.in/qs-world-rankings-2027-vit-leads-private-sector-surge/",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified",
+        "notes": "Not confirmed on topuniversities.com; blogs.vit.ac.in has an incomplete TLS certificate chain."
+      },
+      {
+        "statement": "QS World University Rankings 2026 - VIT rank per VIT Milestones page",
+        "value": "691",
+        "as_of": "QS WUR 2026",
+        "source": "VIT Milestones page",
+        "url": "https://vit.ac.in/vit-milestones",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS World University Rankings 2025 - VIT rank band per VIT page",
+        "value": "791-800",
+        "as_of": "QS WUR 2025",
+        "source": "VIT - QS World University Ranking 2025 page",
+        "url": "https://vit.ac.in/qs-world-university-ranking-2025",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS Asia University Rankings 2026 - VIT rank per VIT Milestones page",
+        "value": "156",
+        "as_of": "QS Asia 2026",
+        "source": "VIT Milestones page",
+        "url": "https://vit.ac.in/vit-milestones",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS Asia University Rankings 2025 - VIT rank per VIT Milestones page",
+        "value": "150",
+        "as_of": "QS Asia 2025",
+        "source": "VIT Milestones page",
+        "url": "https://vit.ac.in/vit-milestones",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS Sustainability Rankings 2026 - VIT rank per VIT pages",
+        "value": "352 globally (7th among Indian HEIs per ranking page)",
+        "as_of": "QS Sustainability 2026",
+        "source": "VIT - Ranking and Recognition page",
+        "url": "https://vit.ac.in/ranking-and-recognition",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      },
+      {
+        "statement": "QS World University Rankings by Subject 2026 per VIT ranking page",
+        "value": "Engineering & Technology 119; Computer Science & Information Systems 86; Electrical & Electronic Engg 87; Materials Science 137; Mechanical/Aeronautical/Manufacturing 148; Data Science & AI 101-200; Chemical Engg 201-250; Civil & Structural 201-275; Natural Sciences 303; Mathematics 104; Chemistry 251-300; Physics & Astronomy 251-300; Environmental Sciences 351-400; Life Sciences & Medicine 501-550; Biological Sciences 301-350; Agriculture & Forestry 401-475; Medicine 551-600; Business & Management 451-500; Statistics & OR 251-275; Arts & Design 201-300",
+        "as_of": "QS Subject 2026",
+        "source": "VIT - Ranking and Recognition page",
+        "url": "https://vit.ac.in/ranking-and-recognition",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      }
+    ],
+    "the_rankings": [
+      {
+        "statement": "THE World University Rankings 2026 - VIT University (Vellore)",
+        "value": "601-800",
+        "as_of": "THE WUR 2026 (latest listed on profile)",
+        "source": "Times Higher Education",
+        "url": "https://www.timeshighereducation.com/world-university-rankings/vit-university",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "THE subject rankings 2026 - VIT",
+        "value": "Business & Economics 601-800; Computer Science 401-500; Engineering 501-600; Life Sciences 501-600; Physical Sciences 401-500",
+        "as_of": "THE subject rankings 2026",
+        "source": "Times Higher Education",
+        "url": "https://www.timeshighereducation.com/world-university-rankings/vit-university",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "THE Impact Rankings 2025 - VIT",
+        "value": "Overall 601-800; SDG3 Good Health 601-800; SDG6 Clean Water 101-200; SDG7 Affordable & Clean Energy =92; SDG13 Climate Action 101-200; SDG17 Partnerships 101-200",
+        "as_of": "THE Impact Rankings 2025",
+        "source": "Times Higher Education",
+        "url": "https://www.timeshighereducation.com/world-university-rankings/vit-university",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "THE key student statistics for VIT (data collected for WUR 2026)",
+        "value": "44159 students; 16 students per staff; 3% international; gender ratio 29 F : 71 M",
+        "as_of": "WUR 2026 data",
+        "source": "Times Higher Education",
+        "url": "https://www.timeshighereducation.com/world-university-rankings/vit-university",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "THE Asia University Rankings - VIT 201-250 and THE Young University Rankings 173 (per VIT Milestones, listed under 2024); not shown on the THE profile page",
+        "value": "Asia 201-250; Young University 173",
+        "as_of": "Listed under 2024 on VIT page (edition year unspecified)",
+        "source": "VIT Milestones page",
+        "url": "https://vit.ac.in/vit-milestones",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified"
+      }
+    ],
+    "accreditation": [
+      {
+        "statement": "NAAC accreditation of Vellore Institute of Technology (Track-Id TNUNGN10093, AISHE U-0490) in NAAC list of institutions with valid accreditation",
+        "value": "Cycle 4, CGPA 3.66, Grade A++, date of declaration 31-08-2021",
+        "as_of": "NAAC list as on 14-08-2025",
+        "source": "NAAC (naac.gov.in)",
+        "url": "https://naac.gov.in/images/docs/ACCREDITATION_STATUS/Institutions_accredited_by_NAAC_having_valid_accreditation-as_on_14082025_1.xlsx",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "NAAC validity as stated in VIT's NIRF 2025 University and NIRF 2026 Overall submissions",
+        "value": "Valid from 31-08-2021 to 30-08-2028, CGPA 3.66",
+        "as_of": "NIRF 2025/2026 submissions",
+        "source": "NIRF (Ministry of Education, Govt. of India) - VIT data PDF",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0490.pdf",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "ABET accreditation status per ABET's public accredited-programs database: 'VIT University (Vellore)' has hasCurrentlyAccreditedPrograms=false; 11 B.Tech programmes (EAC: Civil, Mechanical, CSE, ECE, EEE, Biomedical, E&I, Mech-Energy, Mech-Automotive; CAC: IT, CSE) each with accreditation ending 30 Sep 2021 and isCurrentlyAccredited=false",
+        "value": "No currently ABET-accredited programmes; past accreditation periods started 2007-2013 and ended 30-Sep-2021",
+        "as_of": "2026-09-24",
+        "source": "ABET public API (amspub.abet.org, backend of abet.org program search)",
+        "url": "https://amspub.abet.org/webapi/pubapi/AccreditedPrograms?$filter=organizationDetailId eq 830",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      },
+      {
+        "statement": "Institution of Eminence: MHRD issued Letters of Intent (4 Sep 2019) to 5 private universities including Vellore Institute of Technology, asking them to send preparedness for being declared IoEs; UGC had recommended VIT Vellore for LoI (PIB, 2 Aug 2019)",
+        "value": "Letter of Intent issued (Sept 2019); final declaration/notification as IoE not found on government sources",
+        "as_of": "PIB press release 05-Sep-2019",
+        "source": "Press Information Bureau, Ministry of HRD",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=193016",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "Also https://pib.gov.in/PressReleseDetailm.aspx?PRID=1581182 (UGC recommendation table: VIT Vellore 'Recommended for issue of LoI'). ioe.ugc.ac.in did not list VIT."
+      },
+      {
+        "statement": "VIT homepage claims 'A++ grade by NAAC'",
+        "value": "A++",
+        "as_of": "undated",
+        "source": "VIT homepage",
+        "url": "https://vit.ac.in/",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      }
+    ],
+    "placements_official_vit": [
+      {
+        "statement": "CDC Highlights graphic '2025 Batch Placements' (all 4 campuses: Vellore, Chennai, AP, Bhopal; includes internships and placements)",
+        "value": "1079 companies; 14268 overall offers; 11550 students placed; 3032 Super Dream offers (CTC 10 LPA+); 3575 Dream offers (CTC 6 LPA+); 7089 Regular offers; 572 Marquee offers (CTC 20 LPA+); 4051 industry internships; 338 Super Dream companies; 4004 TCS offers; highest CTC Rs 1 crore",
+        "as_of": "As on 10-07-2025 (2025 batch)",
+        "source": "VIT Career Development Centre - Placement Highlights",
+        "url": "https://vit.ac.in/cdc-highlights",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "Image: https://vit.ac.in/wp-content/uploads/2026/03/CDC-Highlights-2026.webp. Figures are group-wide, not Vellore-only."
+      },
+      {
+        "statement": "CDC Placement Tracker - students placed by year (all four campuses, internship and placement)",
+        "value": "2021: 5609; 2022: 7683; 2023: 8938; 2024: 7586; 2025: 11352; 2026: 8911 (as on 27-Mar-2026)",
+        "as_of": "As on 27-Mar-2026",
+        "source": "VIT Career Development Centre - Placement Tracker",
+        "url": "https://vit.ac.in/cdc-tracker",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "Image: https://vit.ac.in/wp-content/uploads/2026/03/CDC-Students-Placed-2026.webp"
+      },
+      {
+        "statement": "CDC Placement Tracker - companies visited by year (all four campuses)",
+        "value": "2021: 844; 2022: 975; 2023: 945; 2024: 873; 2025: 1079; 2026: 742 (as on 27-Mar-2026)",
+        "as_of": "As on 27-Mar-2026",
+        "source": "VIT Career Development Centre - Placement Tracker",
+        "url": "https://vit.ac.in/cdc-tracker",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified",
+        "notes": "Image: https://vit.ac.in/wp-content/uploads/2026/03/CDC-Company-Visited-2026.webp"
+      },
+      {
+        "statement": "VIT homepage placement block (undated)",
+        "value": "3499 Dream, 3003 Super Dream, 6982 Regular, 560 Marquee offers; 4051 industry internships; 4004 TCS offers; 14044 overall offers; 868 companies; highest CTC Rs 1 crore; Limca Book of Records for the 12th time",
+        "as_of": "undated",
+        "source": "VIT homepage",
+        "url": "https://vit.ac.in/",
+        "retrieved_on": "2026-09-24",
+        "confidence": "partially verified",
+        "notes": "No year given; figures differ from the dated 2025-batch CDC graphic."
+      },
+      {
+        "statement": "CDC placement eligibility categories (undated FAQ)",
+        "value": "Category I: 60% in 10th, 12th, UG, PG and no year gap; Category II: 60% with up to 2 years gap; Category III: 60% with more than 2 years gap; Category IV: below 60% with up to 2 years gap; Category V: below 60% with more than 2 years gap",
+        "as_of": "undated",
+        "source": "VIT Career Development Centre - Placement Highlights",
+        "url": "https://vit.ac.in/cdc-highlights",
+        "retrieved_on": "2026-09-24",
+        "confidence": "verified"
+      }
+    ]
+  },
+  "discrepancies": [
+    {
+      "topic": "patents",
+      "details": "NIRF 2026 submission reports 508 patents published in calendar year 2024 (Overall; 505 in Engineering), 122 in 2023, 76 in 2022. The VIT IPR Cell list 'Published Patents from 2015 to 2025' contains only 152 entries for 2024, about 66-67 for 2023 and 25 for 2022 (371 in total, 2015 to Feb 2025). The two official VIT sources disagree by a large margin for 2024. Possible reasons (not confirmed): different counting bases such as including co-applicant or third-party data, or the IPR list being incomplete.",
+      "sources": [
+        "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "https://vit.ac.in/sites/default/files/Published_Patents_from_2015_to_2025.pdf"
+      ]
+    },
+    {
+      "topic": "patents",
+      "details": "Patents published in CY2022: 76 in Overall NIRF 2024/2025/2026 submissions vs 75 in the Engineering NIRF 2026 submission; CY2023: 122 (Overall) vs 121 (Engineering); CY2024: 508 (Overall) vs 505 (Engineering). The small gaps are plausibly because the Engineering category covers only engineering programmes.",
+      "sources": [
+        "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf",
+        "https://vit.ac.in/files/nirf/Engineering-NIRF-2026.pdf"
+      ]
+    },
+    {
+      "topic": "nirf_data_submission",
+      "details": "PhD full-time graduates in 2022-23: 214 per NIRF 2024 and NIRF 2025 Overall submissions, but 318 per NIRF 2026 Overall submission (part-time 16 vs 14).",
+      "sources": [
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf"
+      ]
+    },
+    {
+      "topic": "nirf_data_submission",
+      "details": "Consultancy amounts differ between submissions: FY2022-23 Rs 2,85,64,438 (NIRF 2024) vs Rs 2,85,18,894 (NIRF 2025/2026); FY2021-22 Rs 2,20,15,325 (NIRF 2024 and Engineering 2025) vs Rs 2,20,02,689 (Overall NIRF 2025).",
+      "sources": [
+        "https://www.nirfindia.org/nirfpdfcdn/2024/pdf/Overall/IR-O-U-0490.pdf",
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf"
+      ]
+    },
+    {
+      "topic": "nirf_data_submission",
+      "details": "UG 4-year placement for the same cohorts differs between Overall and Engineering NIRF 2025 submissions: 2021-22 placed 4199, median Rs 8,10,000 (Overall) vs 4212, median Rs 8,00,000 (Engineering); 2022-23 placed 5055 (Overall) vs 4923 (Engineering).",
+      "sources": [
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0490.pdf"
+      ]
+    },
+    {
+      "topic": "nirf_data_submission",
+      "details": "Sponsored research FY2023-24: Engineering-category submission reports 177 projects and Rs 27,49,67,689, which is more money than the institution-wide Overall submission (201 projects, Rs 20,28,68,433). An engineering subset should not exceed the whole.",
+      "sources": [
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Overall/IR-O-U-0490.pdf",
+        "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0490.pdf",
+        "https://vit.ac.in/files/nirf/Engineering-NIRF-2026.pdf"
+      ]
+    },
+    {
+      "topic": "qs_rankings",
+      "details": "VIT's Ranking and Recognition page states 'VIT is ranked 691st globally in the QS World University Rankings 2027', while the VIT Milestones page gives 691 for QS WUR 2026 and the VIT blog (18 Jun 2026) gives 597 for QS WUR 2027 (up 94 places, consistent with 691 being the 2026 rank). The ranking page probably mislabels the edition. Could not check on topuniversities.com (blocked).",
+      "sources": [
+        "https://vit.ac.in/ranking-and-recognition",
+        "https://vit.ac.in/vit-milestones",
+        "https://blogs.vit.ac.in/qs-world-rankings-2027-vit-leads-private-sector-surge/"
+      ]
+    },
+    {
+      "topic": "qs_rankings",
+      "details": "QS subject rankings: the VIT Milestones page (2025 section) lists Engineering & Technology 142, CS & IS 110, Materials 151-200, Mathematics 201-250 and more, while the Ranking and Recognition page lists QS Subject 2026 as E&T 119, CS & IS 86, Materials 137, Mathematics 104. They appear to be different editions (the Milestones page does not name its subject-ranking edition). The VIT homepage says 119th in E&T.",
+      "sources": [
+        "https://vit.ac.in/vit-milestones",
+        "https://vit.ac.in/ranking-and-recognition",
+        "https://vit.ac.in/"
+      ]
+    },
+    {
+      "topic": "accreditation",
+      "details": "VIT's accreditation PDF (reached via https://vit.ac.in/accreditation; PDF metadata dated 20-Feb-2020) says ABET has accredited 14 B.Tech programmes. ABET's public database shows 11 current program records (13 including historical variants) for VIT University (Vellore), all with accreditation ending 30-Sep-2021, and no currently accredited programmes. The same PDF also refers to NAAC 'A' grade in three cycles, which is superseded by the Cycle 4 A++ (2021).",
+      "sources": [
+        "https://vit.ac.in/wp-content/uploads/2023/08/accreditation.pdf",
+        "https://amspub.abet.org/webapi/pubapi/AccreditedPrograms?$filter=organizationDetailId eq 830"
+      ]
+    },
+    {
+      "topic": "accreditation",
+      "details": "THE profile description (institution-supplied text) mentions VIT being recognised as an Institution of Eminence (IoE) by MHRD. Government sources (PIB, Sep 2019) confirm only a Letter of Intent to VIT; no final IoE declaration for VIT was found.",
+      "sources": [
+        "https://www.timeshighereducation.com/world-university-rankings/vit-university",
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=193016"
+      ]
+    },
+    {
+      "topic": "placements_official_vit",
+      "details": "2025 batch students placed: 11550 in the CDC Highlights graphic (as on 10-07-2025) vs 11352 for 2025 in the CDC Placement Tracker graphic (as on 27-Mar-2026). The homepage's undated figures (14044 overall offers, 868 companies, 3499 Dream, 3003 Super Dream, 560 Marquee) differ from the 2025-batch graphic (14268 offers, 1079 companies, 3575 Dream, 3032 Super Dream, 572 Marquee).",
+      "sources": [
+        "https://vit.ac.in/cdc-highlights",
+        "https://vit.ac.in/cdc-tracker",
+        "https://vit.ac.in/"
+      ]
+    },
+    {
+      "topic": "placements_official_vit",
+      "details": "CDC figures cover all four VIT campuses (Vellore, Chennai, AP, Bhopal) and include internships, whereas NIRF placement data is for VIT Vellore only (for example, UG 4-year 2024-25: 7023 placed out of 11913 graduates). Do not compare the two directly.",
+      "sources": [
+        "https://vit.ac.in/cdc-highlights",
+        "https://vit.ac.in/files/nirf/Overall-NIRF-2026.pdf"
+      ]
+    }
+  ],
+  "inaccessible": [
+    {
+      "url": "https://www.topuniversities.com/universities/vellore-institute-technology-vit-vellore-india",
+      "reason": "HTTP 403 Cloudflare 'Just a moment' challenge (curl and WebFetch); QS figures could not be read at source"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/vellore-institute-technology-vit",
+      "reason": "HTTP 403 (Cloudflare)"
+    },
+    {
+      "url": "https://www.nirfindia.org/Rankings/2026/OverallRanking.html",
+      "reason": "HTTP 404 - NIRF 2026 rankings not published as of 2026-09-24"
+    },
+    {
+      "url": "https://assessmentonline.naac.gov.in/public/index.php/hei_public_dashboard",
+      "reason": "Connection timed out; used the NAAC valid-accreditation list (xlsx, as on 14-08-2025) instead"
+    },
+    {
+      "url": "https://amsweb.abet.org/sites/f/app/public/accreditedPrograms/searchPrograms",
+      "reason": "Connection failed; used ABET's public API amspub.abet.org/webapi/pubapi instead"
+    },
+    {
+      "url": "https://gallery.vit.ac.in/qs-ranking/",
+      "reason": "Connection failed (target of redirect from https://vit.ac.in/news-gallery/qs-ranking-2026)"
+    },
+    {
+      "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/PR_IoEs.pdf",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Innovation/IR-I-U-0490.pdf",
+      "reason": "HTTP 404 (Innovation data PDF not on nirfindia.org); used the VIT-hosted copy"
+    }
+  ]
+}

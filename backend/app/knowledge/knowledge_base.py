@@ -17,7 +17,9 @@ class KnowledgeEntry:
     details: str | None = None
     sources: list[str] = field(default_factory=list)
     time_sensitive: bool = False
+    as_of: str | None = None  # e.g. "NIRF 2025" or "2026 admission cycle"
     last_verified: str | None = None
+    example_question: str | None = None  # offered as a "did you mean" suggestion
 
 
 @dataclass(frozen=True)

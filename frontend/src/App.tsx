@@ -4,6 +4,7 @@ import { ChatView } from "./components/ChatView";
 import { Composer } from "./components/Composer";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
+import { SpeechSupportBanner } from "./components/SpeechSupportBanner";
 import { useConversations } from "./hooks/useConversations";
 import { useTheme } from "./hooks/useTheme";
 import { ApiError, CONNECTION_ERROR, fetchSuggestions, sendMessage } from "./services/api";
@@ -12,6 +13,13 @@ import type { InputMode, Message, Suggestion } from "./types";
 import { createId } from "./utils/conversations";
 
 const MAX_MESSAGE_LENGTH = 500;
+/**
+ * The model answers in a few milliseconds; keeping the "thinking" indicator up
+ * for a moment avoids a jarring flash. Slower responses are never delayed further.
+ */
+const MIN_THINKING_MS = 450;
+
+const wait = (ms: number) => new Promise((resolve) => window.setTimeout(resolve, ms));
 const DESKTOP_QUERY = "(min-width: 900px)";
 
 function isDesktop(): boolean {
@@ -58,7 +66,7 @@ export default function App() {
     chats.appendMessage(conversationId, { id: createId(), role: "user", text: message, createdAt: Date.now(), inputMode });
     setPending(conversationId, true);
     try {
-      const response = await sendMessage(message, context, inputMode);
+      const [response] = await Promise.all([sendMessage(message, context, inputMode), wait(MIN_THINKING_MS)]);
       chats.appendMessage(
         conversationId,
         {
@@ -72,6 +80,7 @@ export default function App() {
             isFallback: response.is_fallback,
             sources: response.sources,
             timeSensitive: response.time_sensitive,
+            suggestions: response.suggestions ?? [],
           },
         },
         response.context,
@@ -130,6 +139,7 @@ export default function App() {
           onNewChat={chats.startNewChat}
           onOpenAbout={() => setAboutOpen(true)}
         />
+        <SpeechSupportBanner />
         <ChatView
           messages={chats.active?.messages ?? []}
           pending={pending}

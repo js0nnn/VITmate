@@ -446,8 +446,6 @@
 {"text": "is there a fork in the road sign at main & 1st avenue", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "are there cameras hidden in stop lights", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "what does a flashing yellow light mean", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "what universities are nearby to me and highly rated", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "what are the top rated universities within my state", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "will the anti-vaxxers die off if no one gives them vaccines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "how safe is the herpes vaccine they give women", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "where can i get the flu shot", "intent": "out_of_scope", "source": "clinc150_oos_test"}
@@ -525,7 +523,6 @@
 {"text": "what is the breath to compression ratio for cpr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "tell me how to perform cpr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "create a for-while loop that continues 10 times", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "where are classes taught near me for c++", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "declare a variable named \"golf\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "how do i write c++", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "is the depiction of gold mining in the movie the ballad of buster scruggs realistic", "intent": "out_of_scope", "source": "clinc150_oos_test"}
@@ -608,7 +605,6 @@
 {"text": "help me find a new position as a programmer", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "what's the best career search website", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "write the next chapter of my biography and let me know when you have finished it", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "give me a list of the biographies written by nyu professors after 2001", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "i would like for you to start a biography on me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "show me all biographies on teddy kennedy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "find out what supplies i am missing and will need on my upcoming camping trip", "intent": "out_of_scope", "source": "clinc150_oos_test"}
@@ -645,7 +641,6 @@
 {"text": "find out how many miles the mississippi waterway runs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "tell me what the longest tributary is in venezuela", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "please book another boat for this weekends trip", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "get me a list of universities that provide full scholarships in arizona", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "tell me where to go to get my son enrolled in public kindergarten", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "do a job search on monstercom for jobs in the tech field in arlington, va", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "i need to find work, help me connect to a local business through linkedin", "intent": "out_of_scope", "source": "clinc150_oos_test"}
@@ -821,7 +816,6 @@
 {"text": "order me a book of stamps and envelopes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "start listening to me dictate a letter", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "email my boss, tell him i wont be in today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
-{"text": "are the schools closed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "let me know what time the patriots game starts", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "tell me how long until the nascar race begins", "intent": "out_of_scope", "source": "clinc150_oos_test"}
 {"text": "are there any sales on liquor", "intent": "out_of_scope", "source": "clinc150_oos_test"}

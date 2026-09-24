@@ -37,8 +37,14 @@ intents:
 
   # ------------------------------------------------------------ about VIT
   about_vit:
-    description: General information about VIT, its history, campuses and leadership.
+    description: General information about VIT (history, campuses, leadership) and broad "is VIT good?" questions.
     sources: [principal]
+  rankings:
+    description: "Rankings (NIRF, QS, THE), accreditation and recognition (added in dataset v2)."
+    sources: []
+  research_patents:
+    description: "Research, patents and innovation (added in dataset v2)."
+    sources: []
   campus_location:
     description: Where VIT Vellore is and how to reach it.
     sources: [location]

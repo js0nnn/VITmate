@@ -33,6 +33,11 @@ class ChatRequest(BaseModel):
         return value
 
 
+class Suggestion(BaseModel):
+    intent: str
+    question: str
+
+
 class ChatResponse(BaseModel):
     reply: str
     intent: str
@@ -43,12 +48,8 @@ class ChatResponse(BaseModel):
     sources: list[str]
     time_sensitive: bool
     context: ChatContext
+    suggestions: list[Suggestion] = []
     latency_ms: float
-
-
-class Suggestion(BaseModel):
-    intent: str
-    question: str
 
 
 class HealthResponse(BaseModel):

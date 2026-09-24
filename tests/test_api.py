@@ -65,9 +65,15 @@ def test_out_of_scope_question(client):
     assert "VIT" in body["reply"]
 
 
-def test_low_confidence_question_asks_to_rephrase(client):
+def test_low_confidence_question_offers_suggestions(client):
     body = client.post("/api/chat", json={"message": "some vague thing"}).json()
     assert body["is_fallback"] is True
+    assert body["suggestions"] == [{"intent": "library", "question": "What facilities does the library provide?"}]
+
+
+def test_low_confidence_without_candidates_asks_to_rephrase(client):
+    body = client.post("/api/chat", json={"message": "completely unknown words"}).json()
+    assert body["is_fallback"] is True and body["suggestions"] == []
     assert "rephrase" in body["reply"].lower()
 
 

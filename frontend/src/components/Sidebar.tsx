@@ -56,7 +56,12 @@ export function Sidebar({ conversations, activeId, open, onClose, onNewChat, onS
           ))}
         </nav>
 
-        <p className="sidebar-footer">Chats are stored only in this browser.</p>
+        <p
+          className="sidebar-footer"
+          title="Stored in this browser's local database (IndexedDB). Private windows and clearing site data remove them."
+        >
+          Chats are saved on this device and never uploaded.
+        </p>
       </aside>
     </>
   );

@@ -188,26 +188,6 @@
   text-decoration: underline;
 }
 
-.message-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 8px;
-}
-
-.intent-chip {
-  padding: 2px 9px;
-  border-radius: var(--radius-pill);
-  background: var(--surface);
-  color: var(--text-subtle);
-  font-size: 11.5px;
-}
-
-.intent-chip code {
-  font-family: var(--font-mono);
-  font-size: 11px;
-}
-
 .typing-indicator {
   display: inline-flex;
   gap: 5px;
@@ -321,5 +301,215 @@
 
   .chat-thread {
     padding: 20px 14px 12px;
+  }
+}
+
+/* Classifier readout (intent + confidence from the deep-learning model) */
+.classifier-readout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-subtle);
+  font-size: 12px;
+}
+
+.classifier-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.classifier-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.classifier-item code {
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+}
+
+.confidence-meter {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 5px;
+  overflow: hidden;
+  border-radius: var(--radius-pill);
+  background: var(--surface-hover);
+}
+
+.confidence-meter span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  transition: width 500ms var(--ease);
+}
+
+.confidence-level {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.confidence.is-high {
+  color: var(--success);
+}
+
+.confidence.is-medium {
+  color: var(--accent);
+}
+
+.confidence.is-low {
+  color: var(--danger);
+}
+
+/* "Did you mean" chips on low-confidence replies */
+.message-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.suggestion-chip {
+  padding: 6px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 13px;
+  transition: border-color var(--duration) var(--ease), background-color var(--duration) var(--ease);
+}
+
+.suggestion-chip:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+/* Thinking indicator */
+.thinking-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.thinking-text {
+  background: linear-gradient(90deg, var(--text-subtle) 0%, var(--text) 50%, var(--text-subtle) 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  animation: shimmer 1.6s linear infinite;
+}
+
+.thinking .typing-indicator {
+  padding: 0;
+}
+
+.thinking-avatar .logo-mark {
+  animation: think-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes think-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+}
+
+/* Browser speech-support banner */
+.support-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: var(--content-width);
+  width: calc(100% - 32px);
+  margin: 12px auto 0;
+  padding: 10px 10px 10px 14px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border));
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--accent) 10%, var(--bg-elevated));
+  animation: message-in 280ms var(--ease) both;
+}
+
+.support-banner-icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.support-banner-text {
+  flex: 1;
+  margin: 0;
+  font-size: 13.5px;
+}
+
+.support-banner-text span {
+  color: var(--text-muted);
+}
+
+.support-banner-action {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.support-banner-action:hover {
+  background: var(--surface-hover);
+}
+
+.support-banner-close {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 600px) {
+  .support-banner {
+    flex-wrap: wrap;
+  }
+
+  .support-banner-text {
+    flex-basis: calc(100% - 60px);
+  }
+
+  .support-banner-action {
+    margin-left: 30px;
   }
 }

@@ -25,3 +25,4 @@ frontend/.env.local
 # Local tooling caches
 .coverage
 htmlcov/
+frontend/*.tsbuildinfo
