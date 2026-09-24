@@ -31,7 +31,13 @@ These are the known limitations of the current system, stated plainly.
 ## Application
 
 - **History is per browser and device.** It's stored in IndexedDB, isn't synchronised between devices, and is lost in private windows or when site data is cleared. There are no accounts, by design.
-- **Not deployed yet.** Hosting needs HTTPS for the microphone to work.
+## Deployment (Vercel Hobby)
+
+- **Depends on a beta feature.** The Python function bundle is about 1 GB (PyTorch plus the model), above Vercel's standard 500 MB limit, so the live app relies on Large Functions (public beta). If Vercel changes that feature, the bundle would need to shrink (for example with ONNX Runtime instead of PyTorch).
+- **Cold starts.** After a quiet period, the first request starts a new function instance, which imports PyTorch and loads the model before answering. Because the function also serves the page, the first visit can take several seconds; later requests are fast.
+- **Free-plan quotas.** Hobby includes 4 Active CPU hours, 360 GB-hours of memory and 1M invocations a month. If a quota runs out, Vercel pauses the feature for 30 days instead of charging, so heavy use could take the demo offline.
+- **Short log retention.** Runtime logs are kept for 1 hour on Hobby.
+- **Only the production domain is public.** https://vit-mate.vercel.app is open to everyone; per-deployment URLs ask for a Vercel login (Standard Protection).
 
 ## Future enhancements
 
@@ -42,4 +48,4 @@ These are the known limitations of the current system, stated plainly.
 5. Optional browser text-to-speech for spoken replies.
 6. Multilingual support (Tamil, Hindi, Telugu).
 7. Confidence calibration (temperature scaling) and ONNX / INT8 export for smaller hosts.
-8. Deployment with HTTPS on a free hosting tier.
+8. Serve the static frontend from Vercel's CDN (for example with FastAPI's `app.frontend()`), so first visits don't wait for the model to load.

@@ -2,6 +2,8 @@
 
 Technical and research documentation for **VITmate: A Voice-Enabled Deep Learning-Based Campus Assistant for VIT** (B. Jaison Edward, Reg. No. 23BAI0094). For a quick introduction and setup, see the [project README](../README.md).
 
+**Live app:** https://vit-mate.vercel.app (see [10 - Running and deployment](10-deployment.md))
+
 ## Documents
 
 | # | Document | What it contains |
@@ -15,8 +17,8 @@ Technical and research documentation for **VITmate: A Voice-Enabled Deep Learnin
 | 07 | [Evaluation](07-evaluation.md) | Metric definitions and final results: test, spoken-style, out-of-scope, threshold sweep, per-intent F1, confusion matrix, latency, memory, error analysis |
 | 08 | [Speech recognition](08-speech-recognition.md) | Web Speech API flow, pause handling, states, error handling, compatibility banner, browser support |
 | 09 | [Knowledge base](09-knowledge-base.md) | Official and external sources, discrepancy handling, what isn't stated, entry format, response style, updating |
-| 10 | [Running and deployment](10-deployment.md) | Local setup, reproducing the ML pipeline, configuration, deployment readiness |
-| 11 | [Limitations and future work](11-limitations.md) | Known limitations (speech, knowledge, model, app) and planned enhancements |
+| 10 | [Running and deployment](10-deployment.md) | Local setup, reproducing the ML pipeline, configuration, and the live Vercel deployment: public URL, push-to-deploy flow, settings, deployment history, live checks and official limits |
+| 11 | [Limitations and future work](11-limitations.md) | Known limitations (speech, knowledge, model, app, deployment) and planned enhancements |
 | 12 | [Results summary](12-results-summary.md) | All key numbers and graphs on one page |
 
 ## Folders

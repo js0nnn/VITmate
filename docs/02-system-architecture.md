@@ -242,3 +242,4 @@ flowchart TD
 | Stateless API, context held by the client | Simple to scale and host; no session store | Server sessions or Redis: unnecessary infrastructure |
 | IndexedDB for history | Large quota, per-record writes (safe with several tabs), durable | Single localStorage array (v1): whole-history overwrites and about 5 MB limit |
 | No streaming | Answers are retrieved, not generated, and complete in milliseconds, so streaming would be cosmetic | Token streaming: nothing to stream |
+| One Vercel project, one Python function (Hobby, free) | Same-origin `/api`, the model ships inside the bundle, pushes to `main` deploy automatically ([10](10-deployment.md)) | Vercel Services (beta; would break the package imports); an external model host (not needed) |

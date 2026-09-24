@@ -61,9 +61,86 @@ Copy `.env.example` to `.env`. All settings are optional.
 | `VITMATE_TORCH_THREADS` | unset | Cap CPU threads on small hosts |
 | `VITE_API_BASE_URL` (frontend) | empty | Set when the API is on another origin |
 
-## Deploying to Vercel (Hobby, free)
+## Live deployment (Vercel Hobby, free)
 
-VITmate deploys as **one Vercel project**: the FastAPI app, with the trained model and the knowledge base, runs as a single Python Vercel Function, and the same function serves the built React app. API calls stay same-origin under `/api`, so no CORS or `VITE_API_BASE_URL` change is needed. Nothing is uploaded to an external model host, and no paid feature or payment method is required.
+**Live app: https://vit-mate.vercel.app**
+
+VITmate runs as **one Vercel project** (`vit-mate` in the VITmate team, Hobby plan). The FastAPI app, with the trained model and the knowledge base, runs as a single Python Vercel Function, and the same function serves the built React app. API calls stay same-origin under `/api`, so no CORS or `VITE_API_BASE_URL` change is needed. Nothing is uploaded to an external model host, and no paid feature or payment method is used.
+
+```mermaid
+%% file: deployment-architecture
+flowchart LR
+    Dev["git push to main<br/>(github.com/js0nnn/VITmate)"] --> Build
+    subgraph Build["Vercel build (Hobby: 2 vCPU, 8 GB)"]
+        direction TB
+        UV["uv installs pyproject.toml deps<br/>(torch from the PyTorch CPU index)"] --> NPM["npm ci and npm run build<br/>(frontend/dist)"]
+        NPM --> Bundle["Python function bundle, about 1 GB<br/>Large Functions (beta)"]
+    end
+    Bundle --> Fn
+    subgraph Fn["Vercel Function: backend.app.main:app"]
+        direction TB
+        Static["StaticFiles: React app"]
+        API["/api/chat, /api/health, /api/suggestions"]
+        Model["DistilBERT + knowledge base<br/>loaded once per instance"]
+    end
+    User(["Visitor<br/>(speech is recognised in the browser)"]) -->|"https://vit-mate.vercel.app"| Fn
+```
+
+### Addresses and access
+
+Vercel gives every deployment several addresses. The project uses Vercel's default **Standard Protection**: the production domain is public, and the other addresses ask for a Vercel login.
+
+| Address | What it is | Public? |
+|---|---|---|
+| **https://vit-mate.vercel.app** | production domain, always the latest production deployment | **yes**, share this one |
+| `https://vit-mate-vit-mate.vercel.app` | team-scoped alias | no (Vercel login) |
+| `https://vit-mate-<id>-vit-mate.vercel.app` | an individual deployment | no (Vercel login) |
+
+### How deployments happen
+
+The Vercel project is connected to the GitHub repository. **Every push to `main` starts a Production deployment** automatically, and the production domain switches to it once the build is Ready. A deployment can also be redeployed from the dashboard (**Deployments**, then the deployment's menu, then **Redeploy**). Environment-variable changes only take effect in a new deployment.
+
+### Project settings in use
+
+| Setting | Value |
+|---|---|
+| Framework Preset | FastAPI |
+| Root Directory | `./` (the repository root) |
+| Build, Output and Install Command | defaults (overrides **off**); the build step comes from `pyproject.toml` |
+| `VITMATE_ENV` | `production` (Secret, Production and Preview): hides `/docs` |
+| `VERCEL_SUPPORT_LARGE_FUNCTIONS` | `1` (Config, Production and Preview): enables Large Functions |
+
+A Build Command typed into the dashboard **replaces** the one in `pyproject.toml`, and the frontend would then not be built.
+
+The dashboard rejected `VERCEL_SUPPORT_LARGE_FUNCTIONS` as a variable name, so it was added with the Vercel CLI (run with Node.js 20; the CLI does not start on Node 16):
+
+```bash
+vercel link --yes --project vit-mate --scope vit-mate
+vercel env add VERCEL_SUPPORT_LARGE_FUNCTIONS production --value 1 --no-sensitive --yes
+vercel env add VERCEL_SUPPORT_LARGE_FUNCTIONS preview --value 1 --no-sensitive --yes
+vercel env ls production
+```
+
+`vercel link` also downloads a `VERCEL_OIDC_TOKEN` into `.env.local`. That file is git-ignored (`.env*`) and isn't needed for this deployment, so it can be deleted.
+
+### Deployment history (24 September 2026)
+
+| Attempt | Result | Why |
+|---|---|---|
+| 1 | **Error** after 44 s | Bundle of 1,018.56 MB exceeded the standard 500 MB Python limit: Large Functions weren't enabled yet |
+| 2 | **Ready** | Redeployed after adding `VERCEL_SUPPORT_LARGE_FUNCTIONS=1`. Build 2 min 8 s plus 41 s post-build on the Hobby build machine (2 vCPU, 8 GB, plan default) |
+| later pushes | automatic | each push to `main` builds a new Production deployment |
+
+### Live checks
+
+Checked without a Vercel login against https://vit-mate.vercel.app:
+
+| Check | Result |
+|---|---|
+| `/` | VITmate page ("VITmate — Your VIT Campus Companion") |
+| `/api/health` | `status: ok`, `model_loaded: true`, 38 intents, knowledge retrieved 2026-09-24 |
+| `/api/chat` "What is FFCS?" | intent `ffcs`, confidence 0.9225 (identical to the local model) |
+| `/docs` | 404 (production mode) |
 
 ### How it works
 
@@ -77,20 +154,6 @@ VITmate deploys as **one Vercel project**: the FastAPI app, with the trained mod
 | Bundle contents | `vercel.json`: `functions."backend/app/main.py".excludeFiles` | Leaves docs, training code, raw data, tests and frontend sources out of the function |
 | Timeout | `vercel.json`: `maxDuration: 60` | Covers a cold start (Hobby allows up to 300 s) |
 
-### Vercel project settings
-
-| Setting | Value |
-|---|---|
-| Framework Preset | **FastAPI** |
-| Root Directory | `./` (the repository root) |
-| Build Command | leave the default (override **off**); `pyproject.toml` defines it |
-| Output Directory | leave the default (override **off**) |
-| Install Command | leave the default (override **off**) |
-| Environment variable | `VERCEL_SUPPORT_LARGE_FUNCTIONS` = `1` (required, see below) |
-| Environment variable | `VITMATE_ENV` = `production` (hides `/docs`) |
-
-A Build Command entered in the dashboard **replaces** the one in `pyproject.toml`, and the frontend would then not be built.
-
 ### Official limits this relies on (checked 24 September 2026)
 
 | Limit | Hobby value | VITmate |
@@ -100,12 +163,12 @@ A Build Command entered in the dashboard **replaces** the one in `pyproject.toml
 | [Function memory](https://vercel.com/docs/functions/limitations#memory-size-limits) | 2 GB / 1 vCPU (fixed) | about 690 MB RSS |
 | [Max duration](https://vercel.com/docs/functions/limitations#max-duration) | 300 s | set to 60 s |
 | [Monthly allotments](https://vercel.com/docs/plans/hobby) | 4 Active CPU hours, 360 GB-hrs provisioned memory, 1M invocations, 100 GB Fast Data Transfer | a query takes about 13 ms of CPU; a cold start a few seconds |
-| [Build](https://vercel.com/docs/plans/hobby) | 45 min, 2 vCPU, 8 GB RAM, 32 GB disk | builds in a few minutes |
+| [Build](https://vercel.com/docs/plans/hobby) | 45 min, 2 vCPU, 8 GB RAM, 32 GB disk | 2 min 8 s build plus 41 s post-build |
 | Plan terms | free, non-commercial personal use; if an allotment runs out, the feature pauses until 30 days have passed (no charge) | student lab project |
 
-The bundle is larger than the standard 500 MB limit, so the deployment **depends on Large Functions**. New projects are eligible by default, but a local `vercel build` without `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` failed with "Total bundle size (1018.56 MB) exceeds the maximum function size (500 MB)", so set the variable explicitly.
+The bundle is larger than the standard 500 MB limit, so the deployment **depends on Large Functions**. The docs say new projects are eligible by default, but both a local `vercel build` and the first real deployment failed with "Total bundle size (1018.56 MB) exceeds the maximum function size (500 MB)" until `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` was set.
 
-### Verified locally
+### Verified locally before the first deployment
 
 A clean clone was built with the Vercel CLI builder (`vercel build`, CLI 59.26.0, no deployment):
 

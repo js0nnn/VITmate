@@ -2,6 +2,8 @@
 
 All values are copied from [`results/`](results/). Details are in [05](05-model-comparison.md) (comparison) and [07](07-evaluation.md) (evaluation).
 
+**Try it live:** https://vit-mate.vercel.app
+
 ## Deployed model (v2)
 
 **DistilBERT** fine-tuned for 38-intent classification (67.0M parameters, fp16 checkpoint in two shards, CPU).
@@ -44,6 +46,15 @@ The primary gap was within noise, so the validation OOS guardrail decided in fav
 The v1 and v2 test sets differ, so these rows describe the deployed systems, not a controlled model comparison.
 
 ![v1 vs v2](graphs/v1_vs_v2_final_model.png)
+
+## Deployment
+
+| Measure | Value |
+|---|---|
+| Live app | https://vit-mate.vercel.app (Vercel Hobby, free) |
+| Function bundle | about 1 GB (1,018.56 MB), via Large Functions (beta) |
+| Build time | 2 min 8 s plus 41 s post-build (2 vCPU, 8 GB) |
+| Live check | `/api/health` reports `model_loaded: true` with 38 intents; "What is FFCS?" returns `ffcs` at 0.9225, as locally |
 
 ## Behaviour improvements in v2
 

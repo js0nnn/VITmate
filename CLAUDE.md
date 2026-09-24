@@ -31,6 +31,14 @@ grep -rnI $'\xc2\xb7' . --exclude-dir=node_modules --exclude-dir=.venv --exclude
   --exclude-dir=trained_model
 ```
 
+## Deployment
+
+- Live app: https://vit-mate.vercel.app (Vercel project `vit-mate`, team `vit-mate`, Hobby plan). Details: `docs/10-deployment.md`.
+- The Vercel project is connected to GitHub: **every push to `main` deploys to production.** Treat a push as a release.
+- Deployment config lives in `pyproject.toml` (`[tool.vercel]`, runtime dependencies), `vercel.json` and `.python-version`. Keep `pyproject.toml` dependency pins identical to `backend/requirements.txt`.
+- The ~1 GB function bundle needs `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` (already set for Production and Preview).
+- The Vercel CLI needs Node.js 20 or newer (`PATH=/usr/bin:$PATH`); the default `node` on this machine is v16.
+
 ## Useful commands
 
 ```bash

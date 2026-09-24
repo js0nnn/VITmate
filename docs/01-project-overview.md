@@ -4,6 +4,7 @@
 **Product name:** VITmate — Your VIT Campus Companion
 **Developer:** B. Jaison Edward (Reg. No. 23BAI0094)
 **Repository:** https://github.com/js0nnn/VITmate.git
+**Live app:** https://vit-mate.vercel.app
 
 ## Introduction
 
@@ -62,6 +63,7 @@ For a university assistant, the answers must also be **factually grounded**. The
 | ML | PyTorch (CPU), Hugging Face Transformers, scikit-learn (baseline and metrics), matplotlib |
 | Data | YAML / JSON / JSONL files; no database |
 | Tests | pytest, Vitest + Testing Library, fake-indexeddb |
+| Hosting | Vercel Hobby (free): one Python function serving the API, model and frontend ([10](10-deployment.md)) |
 
 ## Development phases (actual history)
 
@@ -79,6 +81,7 @@ For a university assistant, the answers must also be **factually grounded**. The
    - weak-intent examples
    - dataset v2, re-comparison and a fair finalist comparison at the deployed threshold, which selected DistilBERT
    - reorganised documentation, graphs and diagrams
+6. **Deployment:** published on Vercel Hobby at https://vit-mate.vercel.app. The first build failed at the 500 MB function limit; enabling Large Functions fixed it, and pushes to `main` now deploy automatically ([10](10-deployment.md)).
 
 ## Acknowledgement
 
