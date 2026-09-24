@@ -1,0 +1,218 @@
+# Authored training/validation/test utterances for conversational intents.
+greeting:
+  - hello there
+  - hey VITmate
+  - hi, is this the VIT assistant?
+  - good morning
+  - good evening
+  - hey hi
+  - hello, anyone around?
+  - hi there, I need some help
+  - hey there buddy
+  - greetings
+  - namaste
+  - hello VITmate, how are you doing
+  - hey, how's it going
+  - hi hi
+  - yo
+  - hello good afternoon
+  - heya
+  - hey can you hear me
+  - hello I'm a new student
+  - hi I just joined VIT
+  - um hello
+  - hey there, you there?
+  - good afternoon VITmate
+  - hi, nice to meet you
+  - hey VITmate, what's up
+
+goodbye:
+  - okay bye
+  - that's all for now, bye
+  - I'm done, goodbye
+  - catch you later
+  - see ya
+  - bye VITmate
+  - good night
+  - alright I'll leave now
+  - thanks, that's everything, bye
+  - I have to go now
+  - talk soon
+  - later
+  - peace out
+  - end the chat
+  - okay see you tomorrow
+  - bye for now
+  - um okay bye bye
+  - goodbye and take care
+  - I'm signing off
+  - leaving now see you
+
+thanks:
+  - thank you so much
+  - thanks a lot
+  - that was helpful
+  - great, thanks
+  - thanks VITmate
+  - cool thanks
+  - awesome, that helps
+  - thank you for the information
+  - appreciate it
+  - many thanks
+  - got it, thanks
+  - perfect, thank you
+  - that answers my question
+  - nice, thanks for explaining
+  - okay got it
+  - super helpful thanks
+  - thanks bro
+  - you're a lifesaver
+  - okay that makes sense thank you
+  - alright cool
+  - understood, thanks
+
+bot_identity:
+  - who are you
+  - what is VITmate
+  - are you a bot or a human
+  - are you a real person
+  - what's your name
+  - introduce yourself
+  - who built VITmate
+  - who developed this chatbot
+  - who made this assistant
+  - is this an AI
+  - are you ChatGPT
+  - which model are you
+  - who is behind this bot
+  - tell me about yourself
+  - am I talking to a machine
+  - what kind of assistant are you
+  - who programmed you
+  - are you an official VIT chatbot
+  - what does VITmate stand for
+  - um who am I talking to right now
+  - how were you built
+  - are you a human or AI
+
+capabilities:
+  - what can you help me with
+  - what do you know
+  - what questions can I ask you
+  - how can you help me
+  - what topics do you cover
+  - what kind of things can you answer
+  - what are your features
+  - help
+  - I need help, what can you do
+  - what information do you have about VIT
+  - can you help me with college stuff
+  - what services do you offer
+  - how do I use you
+  - give me some examples of what I can ask
+  - what are you able to do
+  - so what can I ask here
+  - what can this chatbot do
+  - can you answer questions about VIT
+  - show me what you can do
+  - um what all can you tell me
+  - list the topics you know about
+
+profanity:
+  - you are useless
+  - you're so dumb
+  - shut up you idiot
+  - this bot is stupid
+  - screw you
+  - damn you
+  - go to hell
+  - you suck
+  - what the hell is wrong with you
+  - stupid bot
+  - you're an idiot
+  - you're trash
+  - dumb machine
+  - piss off
+  - bloody useless assistant
+
+out_of_scope:
+  - what is the capital of France
+  - write me a python program to reverse a string
+  - who won the football world cup
+  - what's the weather like today
+  - tell me a joke
+  - how do I cook biryani
+  - what is the square root of 144
+  - who is the prime minister of India
+  - recommend a good movie
+  - how do I lose weight fast
+  - explain quantum entanglement
+  - what is the price of bitcoin
+  - translate hello into French
+  - book me a flight to Delhi
+  - what's the latest news
+  - can you write my essay on climate change
+  - how do I fix my car engine
+  - play some music
+  - what is machine learning
+  - solve this equation 2x plus 3 equals 7
+  - who is the richest man in the world
+  - how tall is Mount Everest
+  - what time is it in London
+  - write a poem about the sea
+  - how do I make pasta
+  - what is the meaning of life
+  - who invented the telephone
+  - give me stock market tips
+  - how many planets are in the solar system
+  - what's a good name for my dog
+  - debug my javascript code
+  - how do I install Linux
+  - which phone should I buy
+  - tell me about the French revolution
+  - what's the score of the cricket match
+  - set an alarm for 6 am
+  - order pizza for me
+  - how do vaccines work
+  - explain the theory of relativity
+  - what is the population of China
+  - how do I start a youtube channel
+  - who wrote Harry Potter
+  - what is the boiling point of water
+  - convert 10 miles to kilometers
+  - what should I eat for dinner
+  - how do I apply for a passport
+  - what is the GDP of the USA
+  - tell me about black holes
+  - what is an API
+  - can you do my homework
+  - who is Virat Kohli
+  - how does the stock market work
+  - what are the symptoms of flu
+  - how do I learn guitar
+  - what is the best programming language
+  - teach me SQL joins
+  - how far is the moon
+  - uh what's the weather in Chennai tomorrow
+  - can you help me plan a trip to Goa
+  - what is the speed of light
+  - explain photosynthesis
+  - how do I reset my Instagram password
+  - who painted the Mona Lisa
+  - what's two plus two
+  - tell me something interesting
+  - I'm bored
+  - do you like pizza
+  - what's your favourite colour
+  - what is love
+  - can you sing a song
+  - how old is the universe
+  - write a cover letter for a software job
+  - summarize this article for me
+  - what does DNA stand for
+  - how do I make money online
+  - which is the best laptop under 50000
+  - what is the difference between RAM and ROM
+  - what is the full form of NASA
+  - how do I get a driving licence
+  - what are the rules of chess

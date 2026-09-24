@@ -1,0 +1,554 @@
+{
+  "retrieved_on": "2026-09-24",
+  "topics": {
+    "about_vit": {
+      "summary": "VIT (Vellore Institute of Technology) was founded in 1984 as a self-financing institution called Vellore Engineering College, and was granted University status in 2001 by the Union Ministry of Human Resource Development. It was established under Section 3 of the UGC Act, 1956. It is headed by its founder and Chancellor, Dr. G. Viswanathan. The VIT group has four campuses: Vellore, Chennai, VIT-AP and VIT-Bhopal. The official site reports NAAC accreditation at A++ grade and NIRF rankings.",
+      "facts": [
+        "Founded in 1984 as Vellore Engineering College, a self-financing institution, with an intake of 180 students (3 programmes).",
+        "University status granted in 2001 by the Union Ministry of Human Resource Development; established under Section 3 of the UGC Act, 1956 (deemed to be university).",
+        "Founder and Chancellor: Dr. G. Viswanathan.",
+        "Vice-Presidents: Dr. Sankar Viswanathan, Dr. Sekar Viswanathan, Dr. G.V. Selvam. Executive Director: Dr. Sandhya Pentareddy. Assistant Vice-President: Ms. Kadhambari S. Viswanathan.",
+        "Vice-Chancellor: Dr. V. S. Kanchana Bhaaskaran. Pro-Vice Chancellor: Dr. Partha Sharathi Mallick. Registrar: Dr. Jayabarathi T.",
+        "VIT group campuses: VIT Vellore, VIT Chennai, VIT-AP and VIT-Bhopal. Vellore and Chennai come under the Deemed to be University; VIT-AP and VIT-Bhopal are state private universities (per VITEEE FAQ). The official site also links VIT Bangalore and lists programmes at VIT Mauritius.",
+        "The Chennai campus address is Vandalur – Kelambakkam Road, Chennai – 600 127.",
+        "The Vellore campus covers 372 acres.",
+        "NAAC re-accredited VIT Vellore (Cycle 4) with a CGPA of 3.66 on a four-point scale at A++ grade.",
+        "The official ranking page says NIRF has ranked VIT Vellore among the top 20 universities in India every year since 2016, and that VIT ranked 14th in the University category in NIRF 2025.",
+        "The official ranking page reports VIT ranked 691st globally in the QS World University Rankings 2027 and 352nd in the QS Sustainability Rankings 2026.",
+        "The milestones page lists ABET accreditation (3rd cycle) for B.Tech programmes.",
+        "The International Relations page mentions VIT's recognition as an Institute of Eminence."
+      ],
+      "sources": [
+        "https://vit.ac.in/about-vit",
+        "https://vit.ac.in/about/leadership",
+        "https://vit.ac.in/ranking-and-recognition",
+        "https://vit.ac.in/vit-milestones",
+        "https://vit.ac.in/about/infrastructure",
+        "https://vit.ac.in/contactus",
+        "https://viteee.vit.ac.in/"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Rankings change every year, so re-check them before quoting. The ranking page also says '40,000 students, 46 UG and 48 PG programmes, 19 schools in two campuses', which looks outdated compared with the admissions pages. The 'AP Amaravati' location could not be confirmed on a page that loaded (vitap.ac.in renders via JavaScript), so the campus is listed only as 'VIT-AP'."
+    },
+    "ffcs": {
+      "summary": "The Fully Flexible Credit System (FFCS) is VIT's course-registration and academic system. Students build their own timetable each semester by choosing the courses, class time slots and faculty they want. It supports interdisciplinary study, Minor/Honours/double Major options and optional summer or intersession semesters. It is governed by the FFCS Academic Regulations (Version 4.0).",
+      "facts": [
+        "Students choose the order in which they take courses in each semester.",
+        "Students choose the timings / time slots of their courses.",
+        "Students choose how many courses to take in a semester, within credit limits set by circulars.",
+        "Students prepare their own timetable and academic plan, including their choice of professors.",
+        "The curriculum balances engineering, science, humanities and management courses, with many interdisciplinary options.",
+        "Important and common courses are offered in all semesters, which helps slower learners.",
+        "An optional Summer / Weekend Intra semester is available.",
+        "Students get opportunities for undergraduate research.",
+        "Double Major, Minor and Honours options are available.",
+        "B.Tech students have a branch-change option at the end of the first year.",
+        "There are two regular semesters: Fall (normally June/July to November) and Winter (normally December/January to May).",
+        "Credits can be transferred from approved SWAYAM courses under the University Elective / Open Elective category."
+      ],
+      "sources": [
+        "https://vit.ac.in/academics/ffcs",
+        "https://vit.ac.in/academics/home",
+        "https://vit.ac.in/sites/default/files/academic/Academic-Regulations.pdf"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": ""
+    },
+    "programmes_offered": {
+      "summary": "The VIT Group of Institutions offers undergraduate, postgraduate, integrated (5-year) and research programmes across Vellore, Chennai, VIT-AP and VIT-Bhopal, plus selected programmes at VIT Bangalore and VIT Mauritius. Engineering UG programmes are B.Tech. Other UG programmes include B.Des, B.Arch, B.Sc, B.Com, BBA and BCA. PG programmes include M.Tech, MCA, MBA, M.Sc, M.Des, MSW and M.Arch. Research programmes include Ph.D., Direct Ph.D., Ph.D. (Deep Tech.) and Integrated Ph.D.",
+      "facts": [
+        "For 2026-27, the VIT Group offers 71 Undergraduate, 58 Postgraduate and 15 Integrated programmes, 2 Research programmes and 2 M.Tech Industrial programmes. The admissions overview page says 70 UG.",
+        "Vellore B.Tech programmes include Biotechnology, Chemical, Civil, Civil (with L&T), CSE and its specialisations (AI & Data Engineering, AI & ML, Bioinformatics, Cyber Security, Data Science, Business Systems with TCS), EEE, Electronics & Computer, ECE, VLSI Design & Technology, Electronics & Instrumentation, Health Sciences & Technology, IT and Mechanical.",
+        "Other UG programmes at Vellore include B.Des, B.Arch, B.Sc (Hons.) Agriculture, B.Sc Hospitality & Hotel Administration, B.Sc Computer Science, B.Sc Multimedia & Animation, B.Sc Visual Communication, BBA, B.Com variants and BCA.",
+        "Integrated programmes include Integrated M.Tech (for example Software Engineering and CSE Data Science), Integrated M.Sc (Biotechnology, Food Science, Data Science, Physics, Chemistry, Mathematics, Applied Psychology) and Integrated Law (BA LL.B, BBA LL.B at Chennai/AP).",
+        "PG programmes include many M.Tech specialisations, M.Des (Industrial Design), MCA, MBA, M.Sc programmes, MSW, M.Arch and LL.M (Chennai).",
+        "Research: Ph.D. / Direct Ph.D. / Ph.D. (Deep Tech.) at all four campuses; Integrated Ph.D. (internal, full-time) at Vellore and Chennai.",
+        "Full-time Ph.D. degrees are offered in engineering, management, science and languages."
+      ],
+      "sources": [
+        "https://vit.ac.in/admissions/programmes-offered",
+        "https://vit.ac.in/admissions/overview",
+        "https://vit.ac.in/academics/home"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "The programme list and counts change every academic year. The two official pages disagree (70 vs 71 UG). The academics overview page still shows older 2023-24 counts."
+    },
+    "schools_vit_vellore": {
+      "summary": "Teaching at VIT is organised around schools of study, and each student registers in one school depending on their programme. The official Schools page lists 17 schools.",
+      "facts": [
+        "School of Advanced Sciences (SAS)",
+        "School of Bio Sciences & Technology (SBST)",
+        "School of Civil Engineering (SCE)",
+        "School of Chemical Engineering (SCHEME)",
+        "School of Computer Science and Engineering (SCOPE)",
+        "School of Computer Science Engineering and Information Systems (SCORE)",
+        "School of Electrical Engineering (SELECT)",
+        "School of Electronics Engineering (SENSE)",
+        "School of Healthcare Science and Engineering (SHINE)",
+        "School of Mechanical Engineering (SMEC)",
+        "School of Social Sciences and Languages (SSL)",
+        "School of Hotel & Tourism Management (HOT)",
+        "VIT School of Agricultural Innovations And Advanced Learning (VAIAL)",
+        "VIT Business School (VIT BS)",
+        "VIT School of Design (V-SIGN)",
+        "VIT School of Media, Arts and Technology (V-SMART)",
+        "School of Architecture (V-SPARC)"
+      ],
+      "sources": [
+        "https://vit.ac.in/schools",
+        "https://vit.ac.in/academics/home"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": ""
+    },
+    "admissions_process": {
+      "summary": "VIT admissions are handled online through official portals. B.Tech admission is through VITEEE. M.Tech, MCA, M.Des and selected M.Sc programmes use VITMEE. MBA accepts VITBEE, CAT, XAT or MAT scores followed by a personal interview. Doctoral admission is through VITREE, which has January and July sessions. Several non-engineering UG and PG programmes admit students directly on academic record. NRI and foreign applicants use separate portals managed by the International Relations Office.",
+      "facts": [
+        "VITEEE is required only for B.Tech.",
+        "VITMEE is used for M.Tech, MCA, M.Des and selected M.Sc programmes (AI&ML, Data Science).",
+        "MBA admission accepts VITBEE, CAT, XAT or MAT scores, followed by a personal interview.",
+        "Ph.D., Direct Ph.D. and Ph.D. (Deep Tech.) admissions are through VITREE, held in January and July sessions.",
+        "Direct admission without an entrance test is available for B.Des, B.Arch, B.Sc, B.Com, BBA, BCA, B.Sc (Hons.) Agriculture, MSW, M.Arch, LL.M, 5-year Integrated M.Tech, Integrated M.Sc and several M.Sc programmes.",
+        "Apply and pay only through vit.ac.in, viteee.vit.ac.in and admissions.vit.ac.in. Verify results on admissionresults.vit.ac.in. VIT does not authorise agents.",
+        "Campus and programme are chosen at counselling, not when filling the application. Inter-campus transfers are not part of the standard process.",
+        "Documents required: Class 10 and 12 marksheets, photograph, signature, government ID, transfer certificate, conduct certificate, and migration or category certificates where applicable.",
+        "UG admissions contact: Dr. Sasikumar S, Director - UG Admissions; 044-46277555; ugadmission@vit.ac.in; 9 am to 5 pm, Monday to Saturday, excluding public holidays.",
+        "PG admissions contact: Director - PG Admissions; +91-416-220 2188; pgadmission@vit.ac.in.",
+        "Official admissions URLs: https://vit.ac.in/admissions/overview and the application portal https://admissions.vit.ac.in/."
+      ],
+      "sources": [
+        "https://vit.ac.in/admissions/overview",
+        "https://vit.ac.in/admissions/programmes-offered",
+        "https://vit.ac.in/contactus",
+        "https://viteee.vit.ac.in/"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Application windows, deadlines and portals change every admission cycle."
+    },
+    "viteee": {
+      "summary": "VITEEE (VIT Engineering Entrance Examination) is the entrance exam for B.Tech admission across the VIT group (Vellore, Chennai, VIT-AP, VIT-Bhopal). It is a computer-based test (CBT) of multiple-choice questions, and admission is based on the VITEEE rank through online counselling. The official site is https://viteee.vit.ac.in/.",
+      "facts": [
+        "Mode: Computer Based Test (CBT) at designated centres across India and abroad.",
+        "Duration: 2 hours 30 minutes. 125 MCQs: Mathematics/Biology 40, Physics 35, Chemistry 35, Aptitude 10, English 5. The paper is in English only.",
+        "Marking: +4 for each correct answer, -1 for each wrong answer, 0 for unanswered or marked-for-review questions.",
+        "Candidates may appear only once for VITEEE in a given year.",
+        "VITEEE 2026 was held between 28 April and 3 May 2026 (tentative), and the last date to apply online was 12 April 2026.",
+        "The VITEEE 2026 application fee was Rs. 1350 (USD 90 equivalent for test centres abroad). It is non-refundable.",
+        "Application steps: registration with OTP, application form, payment, photo and signature upload, then download the filled-in application.",
+        "Free mock tests (MPCEA / BPCEA) are provided on the VITEEE portal."
+      ],
+      "sources": [
+        "https://viteee.vit.ac.in/",
+        "https://vit.ac.in/admissions/programmes-offered"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Dates, fee and pattern are for the 2026 cycle. Check viteee.vit.ac.in for the current year."
+    },
+    "eligibility": {
+      "summary": "The VITEEE portal states the B.Tech eligibility conditions for nationality, age, qualifying examination and minimum marks. General candidates need at least a 60% aggregate in PCM (with at least 50% in Mathematics) or in PCB (with at least 50% in Biology). Specified categories need a 50% aggregate. Eligibility for other programmes is given in their prospectuses.",
+      "facts": [
+        "Nationality: Resident or Non-Resident Indian National, OCI or PIO holder. NRI and foreign applicants apply through separate forms.",
+        "Age limit for VITEEE 2026: date of birth on or after 1 July 2004.",
+        "Qualifying exams: 10+2 of a recognised Central or State Board (CBSE, CISCE, etc.), Intermediate/PUC, GCE A-level, IB Diploma, or NIOS Senior Secondary (minimum 5 subjects).",
+        "Minimum marks: 60% aggregate in PCM with at least 50% in Mathematics, or 60% aggregate in PCB with at least 50% in Biology.",
+        "A 50% aggregate in PCM/PCB applies to SC/ST applicants and to applicants from J&K/Ladakh and the North-Eastern states.",
+        "Only candidates from regular, full-time, formal education are eligible. Candidates who took multiple board exams in the same academic year are not eligible.",
+        "Candidates who attempted the MPCEA paper and meet the PCM criteria are eligible for all B.Tech programmes. BPCEA/PCB candidates are eligible for a restricted set of programmes (see the prospectus)."
+      ],
+      "sources": [
+        "https://viteee.vit.ac.in/"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "These criteria are for the 2026 cycle. Always refer to the current VITEEE prospectus."
+    },
+    "fees": {
+      "summary": "Fee structures are published on official VIT pages and change every academic year. UG academic fees are listed by campus and by scholarship fee category (Category 0 to 5). Hostel fees are published as PDFs on the hostels page, and international fees are on a separate page. Check the official pages for current figures.",
+      "facts": [
+        "UG fee structure: https://vit.ac.in/admission/ug/fee-structure. It covers Vellore, Chennai, AP and Bhopal, and lists academic fees for 2025-26 and 2026-27 by programme group and scholarship category.",
+        "Hostel fee PDFs for first-year Men's and Ladies' hostels (Indian / NRI / Foreign, 2026-27) and the Hostel Fee Refund Policy are linked from https://vit.ac.in/campuslife/hostels.",
+        "International student fees: https://vit.ac.in/admissions/international/fee.",
+        "The VITEEE application and counselling fee is non-refundable."
+      ],
+      "sources": [
+        "https://vit.ac.in/admission/ug/fee-structure",
+        "https://vit.ac.in/campuslife/hostels",
+        "https://vit.ac.in/admissions/international/fee",
+        "https://viteee.vit.ac.in/"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Amounts are intentionally not recorded because they change every year. The chatbot should send users to the official pages."
+    },
+    "scholarships": {
+      "summary": "VIT offers institutional scholarships and awards, and also helps students with government and private scholarships. The main entrance-based scheme is the VITEEE scholarship under the GV School Development Programme (GVSDP), which gives tuition fee waivers by VITEEE rank. Other schemes include the Smt. Rajeswari Viswanathan Memorial Scholarship for economically weak meritorious students, merit awards, 100% attendance awards, sports scholarships, endowment awards and the STARS scheme for rural students.",
+      "facts": [
+        "GVSDP VITEEE scholarship: rank 1-10 gets 100% tuition fee waiver for all four years; 11-50 gets 75%; 51-100 gets 50%; 101-500 gets 25%. Terms and conditions apply, and continuation depends on criteria in the award letter.",
+        "GVSDP UG Science & Humanities scholarship is for candidates who completed higher secondary education in Vellore, Ranipet, Tirupattur or Tiruvannamalai districts.",
+        "Smt. Rajeswari Viswanathan Memorial Scholarship is financial assistance for meritorious students from economically weak backgrounds. The application and details are on VTOP from mid-January.",
+        "Merit Awards go to the top 10 students of each branch, from first to final year, who have above 75% attendance, no arrears and no code-of-conduct violations.",
+        "Cent percent Attendance Award is for 100% attendance in each semester.",
+        "Merit awards for NRI/Foreign students require no standing arrears, a CGPA above 8 and no disciplinary violations.",
+        "Sports scholarships are given for record performance in sports and games.",
+        "STARS (Support the Advancement of Rural Students) gives 100% fee waiver for academic, hostel and basic medical expenses to district toppers (boys and girls) from rural government schools of Tamil Nadu / Andhra Pradesh.",
+        "Government scholarships (for example Central Sector Scheme, AICTE Pragati for girl students, AICTE Swanath, AICTE GATE scholarship for M.Tech, and Pudhumai Penn / Tamizh Puthalvan in Tamil Nadu) are applied for via https://scholarships.gov.in/ and state portals.",
+        "Vidya Lakshmi education loans are also accepted."
+      ],
+      "sources": [
+        "https://vit.ac.in/scholarship",
+        "https://viteee.vit.ac.in/",
+        "https://vit.ac.in/admissions/overview"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "A 'Founder's scholarship' was not found under that name on official pages. The GVSDP is the scheme named after the founder (G. Viswanathan)."
+    },
+    "examinations": {
+      "summary": "Under the FFCS Academic Regulations, theory courses are assessed through Continuous Assessment Tests (CAT-I, CAT-II), Digital Assignments and a Final Assessment Test (FAT). Continuous assessment carries 60% of the marks and the FAT carries 40%. The Office of the Controller of Examinations (CoE) conducts FATs centrally and publishes results. Grades use a 10-point letter scale, and relative grading applies to theory courses with more than 10 students.",
+      "facts": [
+        "Each CAT lasts 90 minutes for 50 marks, scaled to 15. CAT-II is open book / open notebook.",
+        "The FAT lasts 3 hours for 100 marks, weighted at 40%. CAT-I, CAT-II and Digital Assignments (3 x 10) together make up 60%.",
+        "Lab courses: 60% lab continuous assessment and 40% lab FAT. Embedded courses combine theory and lab in a 3:1 ratio. Project courses are assessed out of 100.",
+        "Pass criteria include at least 40% in the theory FAT, and at least 50% in lab/project components and in the grand total for non-theory-only courses.",
+        "Letter grades: S=10, A=9, B=8, C=7, D=6, E=5, F=0 (fail), N=0 (incomplete, debarred or absent in FAT). W means withdrawn, U means audit completed, P means passed a pass-fail course.",
+        "Relative grading: the class average is normally the midpoint of the B grade, and bands are set using the standard deviation. Classes of 10 or fewer use absolute grading.",
+        "Marks cannot be improved by a repeat exam. Students with an F or N grade must re-register the course. Re-FAT is available for valid medical absence.",
+        "The CoE also handles grade certificates, transcripts, degree certificates, revaluation/paper seeing and verification."
+      ],
+      "sources": [
+        "https://vit.ac.in/sites/default/files/academic/Academic-Regulations.pdf",
+        "https://vit.ac.in/academics/coe"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": "Based on FFCS Academic Regulations Version 4.0. Individual course weightages may vary as approved by the HoD."
+    },
+    "academic_calendar": {
+      "summary": "VIT publishes academic calendars as PDFs on the Academics Overview page. Separate calendars are issued for freshers and seniors, for Fall and Winter semesters, and for some specific programmes. Normally the Fall semester runs from June/July to November and the Winter semester from December/January to May.",
+      "facts": [
+        "Location: https://vit.ac.in/academics/home, under 'ACADEMIC CALENDAR'.",
+        "Calendars listed include 2025-26 Fall Semester (Freshers, Seniors, and B.Tech & 5-year Integrated M.Tech Freshers) and 2024-25 Winter Semester, plus earlier years."
+      ],
+      "sources": [
+        "https://vit.ac.in/academics/home",
+        "https://vit.ac.in/sites/default/files/academic/Academic-Regulations.pdf"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "The latest calendar on the page when checked was 2025-26 Fall. A 2026-27 calendar was not seen, so check the page for updates."
+    },
+    "attendance_policy": {
+      "summary": "Students are expected to attend 100% of classes. They may miss up to 25% of instructional hours in each course without giving proof, so the minimum is 75% per course. That 25% covers all types of leave, including medical, personal and event participation. Students below 75% are debarred from the next assessment component (CAT/FAT). A student debarred from the FAT gets an N grade and must re-register the course.",
+      "facts": [
+        "Minimum attendance is 75% in each course, checked separately for CAT-I, CAT-II and FAT.",
+        "Attendance is calculated from the date of registration into the course up to one day before the exam component. For FAT it runs to the last instructional day.",
+        "The 25% allowed absence covers medical, personal, casual, official, event, NSS/NCC and any other leave.",
+        "Attendance is tracked by a computerised system. A debarred status is shown automatically.",
+        "Students with a CGPA of 9.00 or above and no current backlogs are exempted from the minimum attendance requirement. This does not apply in summer or weekend intra semesters.",
+        "Students with prolonged illness beyond 25% absence may apply for a 'Break of Study'."
+      ],
+      "sources": [
+        "https://vit.ac.in/sites/default/files/academic/Academic-Regulations.pdf"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": ""
+    },
+    "library": {
+      "summary": "The Periyar EVR Central Library at VIT Vellore covers 7,770 sq m over ground plus six floors. It is fully automated using the KOHA library management system with biometric and RFID self-issue/return kiosks, WEB-OPAC and online renewal. It has large print and electronic collections with on- and off-campus access to major databases, and it offers services for users with disabilities, including a Braille section.",
+      "facts": [
+        "Name: Periyar EVR Central Library, VIT Vellore.",
+        "Collections as on 28.11.2025: 2,54,027 books, 18,350 back volumes, 412 print journals/magazines, 16,829 e-journals and 3,64,806 e-books (on/off-campus access).",
+        "Databases include IEEE (IEL), ScienceDirect, Scopus, Web of Science, Springer Nature, ACM-DL, ASME, ASCE, SAE Mobilus, EBSCO, Emerald and others.",
+        "Facilities include RFID self check-in/check-out, touch-screen kiosks, video conferencing, CCTV, discussion rooms, reading halls and a scanner.",
+        "Services include circulation, reference, WEB-OPAC, the STARS Book Bank, inter-library loan, a multimedia resource service, NPTEL e-learning and user education.",
+        "Rules: wearing an ID card is compulsory, biometric entry and exit, strict silence, no phone calls, and bags are not allowed inside. One online renewal is permitted via WEB-OPAC.",
+        "Timings and the fine structure are shown on the library's digital display boards. They are not published on the web page.",
+        "The MyLOFT mobile app gives access to e-resources."
+      ],
+      "sources": [
+        "https://vit.ac.in/academics/library"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": "Library opening hours are not given on the official web page."
+    },
+    "hostels": {
+      "summary": "VIT Vellore has 32 hostel blocks, 21 for men and the rest for women, serving over 30,000 residents each year. Rooms come as AC and non-AC, single and shared. Hostels have round-the-clock security, and there are separate administrations for the Men's Hostel and Ladies' Hostel. The VITEEE FAQ says freshers must live on campus unless a parent or guardian stays with them.",
+      "facts": [
+        "There are 32 hostel blocks: 21 men's blocks and the rest ladies' blocks. Over 30,000 residents are housed each year.",
+        "Each room has a cot, chair, study table, study lamp, bookshelf and cupboard.",
+        "Amenities include an AC gym, indoor and outdoor sports, study dormitories, first aid centre, swimming pool, mechanised laundry, pharmacy, Wi-Fi, general stores, tailoring, driving classes, food outlets, photocopying, a beauty salon and visitor halls.",
+        "Security is 24x7, with escorts to and from the railway station and bus stops at late night or early morning hours. Water and power supply are 24-hour with generator backup.",
+        "A hostel review committee meets every 15 days.",
+        "Men's Hostel office: +91 416 220 2527 / 2524. Grievances: director.mh@vit.ac.in, cw.mh@vit.ac.in.",
+        "Ladies' Hostel office: +91 416 220 2710. Grievances: director.lh@vit.ac.in, cw.lh@vit.ac.in.",
+        "Downloads on the hostels page include the Code of Conduct, Hostel Information Sheet, fee structures, the refund policy, freshers' hostel admission information and the hostel affidavit.",
+        "VTOP has hostel-related forms, such as the day boarder/day scholar application and hostel vacating consent forms."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/hostels",
+        "https://viteee.vit.ac.in/",
+        "https://vtop.vit.ac.in/vtop/open/page"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Staff names and phone numbers change over time, so re-check them before quoting."
+    },
+    "dining": {
+      "summary": "Hostel students have multi-cuisine mess options: vegetarian, non-vegetarian and international. A restaurant-style mess offers special dishes on prior registration. Dining areas open from 7:00 AM, and night canteens run from 10:30 PM to 12:30 AM. The campus also has a 600 sq m Food Court and fast-food outlets attached to both the Men's and Women's hostels.",
+      "facts": [
+        "Mess menus are prepared monthly by the Student Mess and Menu Committee with hostel administrators.",
+        "Dining opens as early as 7:00 AM, and night canteens run from 10:30 PM to 12:30 AM.",
+        "There is a 600 sq m Food Court serving vegetarian and non-vegetarian food.",
+        "Fast-food outlets are attached to both the Men's and Women's hostels.",
+        "Men's Hostel food matters are handled by the Warden – Food (warden.food@vit.ac.in)."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/hostels"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": ""
+    },
+    "sports": {
+      "summary": "The Department of Physical Education at VIT was set up in 1984 and is located in the VIT Shopping Complex, which has an air-conditioned gymnasium and a snooker hall. The campus has a swimming pool of international dimensions, many playgrounds, a stadium, indoor courts and separate fitness centres in the men's and women's hostels. The department runs intramural tournaments, selects university teams and hosts inter-university, state and national events.",
+      "facts": [
+        "The Department of Physical Education was established in 1984 and is located in the VIT Shopping Complex.",
+        "Facilities include an AC gymnasium, snooker hall, international-dimension swimming pool, playgrounds, stadium and indoor courts, and hostel fitness centres for men and women.",
+        "Intramural tournaments are held separately for men and women, and there are selection trials for inter-university teams.",
+        "The department hosts Smt. Rajeswari Viswanathan Memorial tournaments for schools and colleges.",
+        "Sports scholarships and monetary awards are given every year.",
+        "Yoga programmes run, and International Yoga Day is observed.",
+        "Contact: Director, Physical Education, director.sports@vit.ac.in, 0416-2202242."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/sports"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": "The detailed facility count table on the page is for the Chennai campus. The Vellore list is shown only as photos."
+    },
+    "health_centre": {
+      "summary": "VIT Vellore's primary health centre is run by Sri Narayani Hospital and Research Centre (SNHRC) in the Dr. A. L. Mudaliar (ALM) Block. It gives round-the-clock basic health care to students, staff, faculty and their dependents. It has outpatient rooms, an emergency room, 20 inpatient beds, a pharmacy, a lab, X-ray and physiotherapy. Specialist doctors are available in the evenings, and 24-hour ambulance service is provided.",
+      "facts": [
+        "Location: Dr. A. L. Mudaliar Block, VIT Vellore campus. Operated by Sri Narayani Hospital & Research Centre.",
+        "Services are available 24 hours with full-time and part-time doctors, nurses, lab/X-ray technicians and pharmacists.",
+        "Ground floor: reception, pharmacy, 2 OP rooms, an emergency room with 3 beds and a dressing room. First floor: 5 specialist rooms, wards with 20 inpatient beds (including isolation wards), physiotherapy, lab and X-ray.",
+        "The pharmacy is open round the clock. The laboratory is open 7:00 AM to 8:00 PM daily. Physiotherapy runs 11:00 AM to 7:00 PM, Monday to Saturday.",
+        "There are 3 ambulances available 24 hours (one at the health centre, one each at the men's and ladies' hostels). Ambulance intercom: 2000 / 2238 / 2217.",
+        "Round-the-clock first aid centres are in Ladies' Hostel E block (intercom 2744) and Men's Hostel G block (intercom 2571).",
+        "A visiting consultant psychiatrist is available at the health centre."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/healthservices",
+        "https://vit.ac.in/campuslife/otheramenities",
+        "https://vit.ac.in/counselling-division"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": ""
+    },
+    "transport": {
+      "summary": "University buses carry students, especially day scholars, across locations in and around Vellore. Shuttle cabs run around the campus during active hours. Two railway underpasses connect the academic side and the hostel side of the campus.",
+      "facts": [
+        "University buses serve locations in and around Vellore, mainly for day scholars.",
+        "Shuttle cabs run around the campus during the active hours of the day.",
+        "Two railway under-bridges connect the academic side and the hostel side.",
+        "Hostel security guards escort students to and from the nearest railway station and bus stops at late night or early morning hours."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/otheramenities",
+        "https://vit.ac.in/campuslife/hostels"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": "Bus routes, timings and fees are not published on the pages reviewed."
+    },
+    "clubs_and_activities": {
+      "summary": "Student clubs and chapters at VIT are run under the Office of Students' Welfare. Club categories include Arts and Culture, Technical, Social Outreach, Health & Wellness, Literature and Environmental Sustainability. Chapters include Indian societies, international societies and IEEE chapters. The two major annual fests are Riviera, an international sports and cultural fest, and graVITas, a technology and design fest.",
+      "facts": [
+        "Club categories: Arts and Culture, Technical, Social Outreach, Health & Wellness, Literature, Environmental Sustainability.",
+        "Chapter categories: Indian Societies, International Societies, IEEE Chapters.",
+        "Students can join the Student Council, or start a new club or chapter with approval from the Office of Students' Welfare.",
+        "Riviera is the annual International Sports and Cultural Fest, a four-day event with flagship events Aikya and Infusion and nightly Proshows. Official pages call it the first university cultural and sports event in India to be ISO 9001:2015 certified.",
+        "graVITas is VIT's annual three-day technological and design carnival with participants from across India.",
+        "The admissions FAQ mentions more than 200 student clubs and chapters, and the fests Riviera, Gravitas and TechnoVIT.",
+        "Office of Students' Welfare: #204, 2nd Floor, PRP Annexe, VIT Vellore – 632 014. Phone +91 416 220 4111. Email events.sw@vit.ac.in."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/fests",
+        "https://vit.ac.in/campus-category/clubs",
+        "https://vit.ac.in/campus-category/chapters",
+        "https://vit.ac.in/campuslife/studentswelfare",
+        "https://vit.ac.in/admissions/overview"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Individual club names are loaded dynamically and were not captured. Fest dates change every year."
+    },
+    "student_welfare_counselling": {
+      "summary": "The Office of Students' Welfare looks after student activities, clubs and chapters, international students' welfare, anti-ragging and faculty mentoring. Each faculty member mentors about 20 students. The Centre for VIT Happiness and Well-Being (Counselling Division) offers free, confidential counselling with psychologists, residential counsellors in the hostels, and psychiatric services at the health centre.",
+      "facts": [
+        "Faculty mentoring: each faculty member is assigned around 20 students (proctor system).",
+        "VIT has a zero-tolerance policy on ragging. The Anti-Ragging Committee is chaired by the Director, Students' Welfare.",
+        "The Centre for VIT Happiness and Well-Being is at C-block, Room PRP 206, Pearl Research Park. Email vhappy.vellore@vit.ac.in. Head of the Counselling Division: hod.counselling@vit.ac.in.",
+        "Services: one-to-one counselling (personal, academic, career, relationship, mental health), stress/anxiety support, workshops, and yoga/meditation.",
+        "Appointments are booked by emailing the counselling team. Residential counsellors are available in the hostels.",
+        "A visiting psychiatrist is available at the SNHRC health centre (ALM block) on Tuesdays and Fridays, 3:00-6:00 PM.",
+        "On-campus mental-health emergency lines: Men's Hostel 0416-2202521, Ladies' Hostel 0416-2202705. The national Tele MANAS helpline is 14416 (24x7).",
+        "A disability support service is available: Service and Support for Differently Abled Learners (SASDAL)."
+      ],
+      "sources": [
+        "https://vit.ac.in/campuslife/studentswelfare",
+        "https://vit.ac.in/counselling-division",
+        "https://vit.ac.in/anti-ragging-committee"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Counsellor names and schedules change over time."
+    },
+    "grievance_redressal": {
+      "summary": "VIT has a Student Grievance Redressal Committee (SGRC) with a professor as chairman, professors from several schools as members, and a student representative. An external Ombudsperson also handles student grievances. Separate bodies cover ragging (Anti-Ragging Committee), sexual harassment (Internal Complaints Committee) and SC/ST and equal-opportunity matters. Hostel grievances go to the hostel directors and chief wardens.",
+      "facts": [
+        "The SGRC has a Chairman (a professor from SAS), professor members from SELECT, SENSE, SCHEME and VITBS, and a student representative.",
+        "An external Ombudsperson for redressal of student grievances is listed on the SGRC page.",
+        "Related committees include the Internal Complaints Committee (ICC), Anti Ragging Committee, Equal Opportunity Cell, SC/ST Cell, and the Committee for Equity, Diversity and Inclusivity.",
+        "Hostel grievances: Men's Hostel director.mh@vit.ac.in / cw.mh@vit.ac.in. Ladies' Hostel director.lh@vit.ac.in / cw.lh@vit.ac.in.",
+        "Ragging complaints can be raised with the Anti-Ragging Committee chairperson or school coordinators."
+      ],
+      "sources": [
+        "https://vit.ac.in/student-grievance-redressal-committee",
+        "https://vit.ac.in/anti-ragging-committee",
+        "https://vit.ac.in/campuslife/hostels"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Committee membership changes over time, so re-check names before quoting."
+    },
+    "vtop": {
+      "summary": "VTOP ('VIT on TOP') is VIT's official digital platform for faculty, staff, students, parents and alumni to access academic, research and support services in one place. The Vellore campus VTOP is at https://vtop.vit.ac.in/. It has separate logins for students, employees, parents and alumni, and a student app and a parent app are available.",
+      "facts": [
+        "URL: https://vtop.vit.ac.in/ (open page: https://vtop.vit.ac.in/vtop/open/page).",
+        "Login types: Student, Employee, Parent, Alumni.",
+        "VTOP is developed by the Software Development Cell, VIT Vellore.",
+        "Public forms on VTOP include the Day Boarder & Day Scholar application, hostel vacating consent forms (for projects/internships and after course completion), the external participation form and the hostel admission request for day scholars.",
+        "A Student App and a Parent App are available.",
+        "Scholarship applications, such as the Smt. Rajeswari Viswanathan Memorial Scholarship, are released on VTOP."
+      ],
+      "sources": [
+        "https://vtop.vit.ac.in/vtop/open/page",
+        "https://vit.ac.in/scholarship"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": "Features behind the login (course registration, attendance, marks) could not be viewed."
+    },
+    "placements_cdc": {
+      "summary": "The Career Development Centre (CDC) supports students with placement, career guidance, training and industry certifications. VIT's placement process is centralised for all four campuses (Vellore, Chennai, AP, Bhopal). Online tests are held on each campus, and interviews are held on any VIT campus with students from other campuses connected virtually. Companies are grouped into categories such as Super Dream, Dream (IT/Core) and IT Services, each with its own offer rules.",
+      "facts": [
+        "The placement process is centralised across the Vellore, Chennai, AP and Bhopal campuses.",
+        "Activities include expert talks and training, career guidance and higher-education support (GRE, IELTS, GATE), a soft-skills curriculum, industry certifications, mock interviews, coding tests, group discussions and resume building.",
+        "Typical calendar: registration in January-February, training in February-March, PG internships/placements in March-June, the main placement season from July to May, and Super Dream / Dream recruitment in September-December.",
+        "Company categories are published with CTC bands, for example Super Dream at 10 LPA and above and Dream (IT) at 6 LPA and above. Rules limit further applications after an offer is accepted.",
+        "Company eligibility criteria (for example a 60% cut-off in 10th/12th/UG) are set by recruiters, with no relaxation.",
+        "Contact: Director, CDC, Dr. V. Samuel Rajkumar. Phone 0416-220-2740/2841/2842. Email placement@vit.ac.in.",
+        "A live placement tracker is published at https://vit.ac.in/cdc-tracker."
+      ],
+      "sources": [
+        "https://vit.ac.in/cdc-overview",
+        "https://vit.ac.in/placement-process",
+        "https://vit.ac.in/cdc-highlights",
+        "https://vit.ac.in/contactus"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "The admissions FAQ gives placement figures (14,000+ offers, 850+ recruiters, highest CTC Rs 1 crore) without a specific year, so they were left out of the facts. Category CTC bands and rules apply from 14 August 2025 and may change."
+    },
+    "internships": {
+      "summary": "Under the FFCS regulations, all students must do four weeks of industrial internship in their discipline any time after the first year, either as one four-week stretch or two two-week stretches, for credit. Curricula also include project and internship courses such as Summer Internship, Internship-I/II and Industrial Internship Project. The CDC coordinates PG internships and internship-linked placements.",
+      "facts": [
+        "The industrial internship is mandatory: four weeks, any time after the first year, in one stretch or two stretches of two weeks.",
+        "Each school has a faculty in-charge who helps identify industries and get approvals.",
+        "Students keep a digital log and upload a report and completion certificate to the academic software. Evaluation is by the school's Industrial Internship evaluation committee.",
+        "The 'Project and Internship' course basket includes Summer Internships, Industrial Internship Project, Internship-I/II, Dissertation and similar courses.",
+        "The CDC placement calendar lists M.Tech internships (March to June), and internship offers are classified as Super Dream or Dream Internship.",
+        "VTOP has a hostel vacating consent form for students going on projects or internships."
+      ],
+      "sources": [
+        "https://vit.ac.in/sites/default/files/academic/Academic-Regulations.pdf",
+        "https://vit.ac.in/cdc-overview",
+        "https://vit.ac.in/cdc-highlights",
+        "https://vtop.vit.ac.in/vtop/open/page"
+      ],
+      "time_sensitive": false,
+      "verified": true,
+      "notes": ""
+    },
+    "contact_info": {
+      "summary": "VIT Vellore's official address is Vellore Institute of Technology, Vellore – 632 014, Tamil Nadu, India. The main telephone numbers are 91-416-2243091 / 93. Admissions, CDC and International Relations have their own contacts. The Chennai campus is on Vandalur – Kelambakkam Road, Chennai – 600 127.",
+      "facts": [
+        "VIT Vellore: Vellore – 632 014, Tamil Nadu, India. Tel 91-416-2243091 / 93. Fax 91-416-2243092.",
+        "UG Admissions: 044-46277555, ugadmission@vit.ac.in.",
+        "PG Admissions: +91-416-220 2188, pgadmission@vit.ac.in.",
+        "CDC / Placements: placement@vit.ac.in.",
+        "International Relations: Director – IR, 91-416-224 3118, director.ir@vit.ac.in.",
+        "VIT Chennai: Vandalur – Kelambakkam Road, Chennai – 600 127. Ph 044 3993 1555. Email admin.chennai@vit.ac.in.",
+        "Office of Students' Welfare: +91 416 220 4111, events.sw@vit.ac.in.",
+        "Warning: only trust the official site www.vit.ac.in. VIT warns about fake admission websites and agents."
+      ],
+      "sources": [
+        "https://vit.ac.in/contactus",
+        "https://vit.ac.in/admissions/overview",
+        "https://vit.ac.in/campuslife/studentswelfare"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "Email addresses on the contact page are obfuscated with [at]/[dot] and were decoded here."
+    },
+    "international_relations": {
+      "summary": "VIT's International Relations Office runs student and faculty mobility, international partnerships and admissions for international and NRI students. The official page reports 500+ international MoUs. Programmes include the Semester Abroad Programme (SAP) for pre-final and final-year UG and PG students and the International Transfer Programme (ITP), where students complete part of their degree at a partner university abroad.",
+      "facts": [
+        "The official page reports 500+ international MoUs, with partners in the USA, Canada, UK, Europe, Australia and other countries.",
+        "Semester Abroad Programme (SAP): students do courses and a capstone project at a partner university in their pre-final or final year. It is open to UG and PG students.",
+        "International Transfer Programme (ITP): part of the degree at VIT and the rest at a partner university (USA, UK, Belgium, Sweden, New Zealand, Australia). The degree may come from VIT, the partner, or both.",
+        "Inbound exchange programmes are available for foreign students.",
+        "The Director of International Relations is Dr. R. Seenivasan (director.ir@vit.ac.in, 91-416-224 3118).",
+        "International/NRI admissions have separate portals for B.Tech, non-engineering UG, PG and research."
+      ],
+      "sources": [
+        "https://vit.ac.in/internationalrelations",
+        "https://vit.ac.in/contactus",
+        "https://vit.ac.in/admissions/overview"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": "The list of partner universities and MoUs changes often."
+    },
+    "research": {
+      "summary": "VIT's Office of Academic Research plans and supports research and doctoral programmes. It aims to offer research programmes of international standard and to build a research culture from undergraduate level. Doctoral admission is through VITREE, held in January and July sessions. Research centres are part of the schools.",
+      "facts": [
+        "Research programmes: Ph.D., Direct Ph.D., Ph.D. (Deep Tech.), Ph.D. (Industry) and Integrated Ph.D.",
+        "VITREE (the research entrance) is held for January and July sessions. VITREE-2027 (January session) applications were listed as open.",
+        "Dean, Academic Research: Dr. Amitava Mukherjee, dean.ar@vit.ac.in, 0416-220 2233.",
+        "Objectives include instilling a research culture at UG level and fostering research integrity.",
+        "The official ranking page says 90 VIT faculty were listed among the World's Top 2% Scientists (Stanford, 2025).",
+        "Related pages cover research centres (vit.ac.in/research/centers-list) and sponsored research (vit.ac.in/research/sponsored-research)."
+      ],
+      "sources": [
+        "https://vit.ac.in/research",
+        "https://vit.ac.in/admissions/programmes-offered",
+        "https://vit.ac.in/ranking-and-recognition"
+      ],
+      "time_sensitive": true,
+      "verified": true,
+      "notes": ""
+    }
+  }
+}

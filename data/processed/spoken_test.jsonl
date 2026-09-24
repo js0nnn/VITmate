@@ -1,0 +1,113 @@
+{"text": "hey hello how are you today", "intent": "greeting", "source": "authored_spoken_challenge"}
+{"text": "hi good morning to you", "intent": "greeting", "source": "authored_spoken_challenge"}
+{"text": "hello hello is this thing working", "intent": "greeting", "source": "authored_spoken_challenge"}
+{"text": "okay I think that's it for today bye", "intent": "goodbye", "source": "authored_spoken_challenge"}
+{"text": "alright thank you bye bye", "intent": "goodbye", "source": "authored_spoken_challenge"}
+{"text": "ok I'm going now see you later", "intent": "goodbye", "source": "authored_spoken_challenge"}
+{"text": "oh okay thank you very much that was useful", "intent": "thanks", "source": "authored_spoken_challenge"}
+{"text": "great that's exactly what I wanted thanks", "intent": "thanks", "source": "authored_spoken_challenge"}
+{"text": "okay thank you", "intent": "thanks", "source": "authored_spoken_challenge"}
+{"text": "so who exactly are you", "intent": "bot_identity", "source": "authored_spoken_challenge"}
+{"text": "wait are you a real person or a bot", "intent": "bot_identity", "source": "authored_spoken_challenge"}
+{"text": "who created this VITmate thing", "intent": "bot_identity", "source": "authored_spoken_challenge"}
+{"text": "so what kind of questions can I ask you", "intent": "capabilities", "source": "authored_spoken_challenge"}
+{"text": "what are the things you can help me with", "intent": "capabilities", "source": "authored_spoken_challenge"}
+{"text": "can you tell me what all you can do", "intent": "capabilities", "source": "authored_spoken_challenge"}
+{"text": "you are a stupid useless bot", "intent": "profanity", "source": "authored_spoken_challenge"}
+{"text": "shut up you are so dumb", "intent": "profanity", "source": "authored_spoken_challenge"}
+{"text": "what is the capital of France", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "write me a python program for bubble sort", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "who won the world cup in 2022", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "hey what's the weather going to be like tomorrow", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "can you tell me a funny joke", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "how many calories are there in a banana", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "what is the currency of Japan", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "uh who is the president of America", "intent": "out_of_scope", "source": "authored_spoken_challenge"}
+{"text": "can you tell me something about VIT university", "intent": "about_vit", "source": "authored_spoken_challenge"}
+{"text": "um when was VIT started and who started it", "intent": "about_vit", "source": "authored_spoken_challenge"}
+{"text": "how many campuses does VIT have in total", "intent": "about_vit", "source": "authored_spoken_challenge"}
+{"text": "where is the VIT campus located exactly", "intent": "campus_location", "source": "authored_spoken_challenge"}
+{"text": "how do I get to VIT from Katpadi railway station", "intent": "campus_location", "source": "authored_spoken_challenge"}
+{"text": "uh what's the address of VIT Vellore", "intent": "campus_location", "source": "authored_spoken_challenge"}
+{"text": "can you give me the contact number of VIT", "intent": "contact_info", "source": "authored_spoken_challenge"}
+{"text": "how do I contact VIT by email", "intent": "contact_info", "source": "authored_spoken_challenge"}
+{"text": "who can I call at VIT for help", "intent": "contact_info", "source": "authored_spoken_challenge"}
+{"text": "hey can you tell me what FFCS is", "intent": "ffcs", "source": "authored_spoken_challenge"}
+{"text": "um how does the FFCS thing work", "intent": "ffcs", "source": "authored_spoken_challenge"}
+{"text": "so can we choose our own faculty and timings in VIT", "intent": "ffcs", "source": "authored_spoken_challenge"}
+{"text": "what is this fully flexible credit system", "intent": "ffcs", "source": "authored_spoken_challenge"}
+{"text": "what programmes does VIT offer", "intent": "programmes", "source": "authored_spoken_challenge"}
+{"text": "does VIT have a BTech in computer science", "intent": "programmes", "source": "authored_spoken_challenge"}
+{"text": "uh what PG courses are there at VIT", "intent": "programmes", "source": "authored_spoken_challenge"}
+{"text": "which school in VIT offers the computer science course", "intent": "schools", "source": "authored_spoken_challenge"}
+{"text": "what are the different schools in VIT", "intent": "schools", "source": "authored_spoken_challenge"}
+{"text": "uh what is SCOPE in VIT", "intent": "schools", "source": "authored_spoken_challenge"}
+{"text": "how do I find out who the HOD of my department is", "intent": "faculty", "source": "authored_spoken_challenge"}
+{"text": "where can I look up details about VIT professors", "intent": "faculty", "source": "authored_spoken_challenge"}
+{"text": "who is my proctor and how do I find them", "intent": "faculty", "source": "authored_spoken_challenge"}
+{"text": "where can I get the syllabus for my course", "intent": "syllabus", "source": "authored_spoken_challenge"}
+{"text": "what subjects will I be studying in first year", "intent": "syllabus", "source": "authored_spoken_challenge"}
+{"text": "uh can you show me the curriculum", "intent": "syllabus", "source": "authored_spoken_challenge"}
+{"text": "how are the CAT and FAT exams conducted", "intent": "examinations", "source": "authored_spoken_challenge"}
+{"text": "um what is the grading system at VIT", "intent": "examinations", "source": "authored_spoken_challenge"}
+{"text": "when are the exams going to be held", "intent": "examinations", "source": "authored_spoken_challenge"}
+{"text": "when does the next semester start", "intent": "academic_calendar", "source": "authored_spoken_challenge"}
+{"text": "where can I see the academic calendar for this year", "intent": "academic_calendar", "source": "authored_spoken_challenge"}
+{"text": "uh when are the holidays", "intent": "academic_calendar", "source": "authored_spoken_challenge"}
+{"text": "how much attendance do we need to maintain at VIT", "intent": "attendance", "source": "authored_spoken_challenge"}
+{"text": "what happens if my attendance goes below seventy five percent", "intent": "attendance", "source": "authored_spoken_challenge"}
+{"text": "um is attendance mandatory", "intent": "attendance", "source": "authored_spoken_challenge"}
+{"text": "how can I find information about admissions", "intent": "admissions", "source": "authored_spoken_challenge"}
+{"text": "how do I apply to VIT for BTech", "intent": "admissions", "source": "authored_spoken_challenge"}
+{"text": "what is the admission procedure at VIT", "intent": "admissions", "source": "authored_spoken_challenge"}
+{"text": "uh when is the VITEEE exam conducted", "intent": "viteee", "source": "authored_spoken_challenge"}
+{"text": "what's the pattern of the VIT entrance exam", "intent": "viteee", "source": "authored_spoken_challenge"}
+{"text": "how do I register for VITEEE", "intent": "viteee", "source": "authored_spoken_challenge"}
+{"text": "how much is the fee for BTech at VIT", "intent": "fees", "source": "authored_spoken_challenge"}
+{"text": "uh what is the hostel fee per year", "intent": "fees", "source": "authored_spoken_challenge"}
+{"text": "where can I check the fee structure", "intent": "fees", "source": "authored_spoken_challenge"}
+{"text": "are there any scholarships for students at VIT", "intent": "scholarships", "source": "authored_spoken_challenge"}
+{"text": "how do I get a scholarship in VIT", "intent": "scholarships", "source": "authored_spoken_challenge"}
+{"text": "um is there a scholarship for toppers", "intent": "scholarships", "source": "authored_spoken_challenge"}
+{"text": "uh what are the hostel facilities at VIT", "intent": "hostel", "source": "authored_spoken_challenge"}
+{"text": "are there AC rooms in the VIT hostels", "intent": "hostel", "source": "authored_spoken_challenge"}
+{"text": "what are the rules in the hostel", "intent": "hostel", "source": "authored_spoken_challenge"}
+{"text": "how is the food in the VIT mess", "intent": "dining", "source": "authored_spoken_challenge"}
+{"text": "what are the different mess options available", "intent": "dining", "source": "authored_spoken_challenge"}
+{"text": "uh where can I eat on campus", "intent": "dining", "source": "authored_spoken_challenge"}
+{"text": "what facilities does the library provide", "intent": "library", "source": "authored_spoken_challenge"}
+{"text": "what are the timings of the VIT library", "intent": "library", "source": "authored_spoken_challenge"}
+{"text": "um how do I borrow books from the library", "intent": "library", "source": "authored_spoken_challenge"}
+{"text": "what are the sports facilities available in VIT", "intent": "sports", "source": "authored_spoken_challenge"}
+{"text": "uh is there a swimming pool in VIT", "intent": "sports", "source": "authored_spoken_challenge"}
+{"text": "how can I join a sports team", "intent": "sports", "source": "authored_spoken_challenge"}
+{"text": "is there any hospital or clinic inside the campus", "intent": "health_services", "source": "authored_spoken_challenge"}
+{"text": "what should I do if I get sick at VIT", "intent": "health_services", "source": "authored_spoken_challenge"}
+{"text": "uh is there a doctor available at night", "intent": "health_services", "source": "authored_spoken_challenge"}
+{"text": "is there any bus facility in VIT", "intent": "transport", "source": "authored_spoken_challenge"}
+{"text": "how do I travel around the VIT campus", "intent": "transport", "source": "authored_spoken_challenge"}
+{"text": "uh are there shuttle services", "intent": "transport", "source": "authored_spoken_challenge"}
+{"text": "what facilities are there on the VIT campus", "intent": "campus_facilities", "source": "authored_spoken_challenge"}
+{"text": "is there an ATM inside the campus", "intent": "campus_facilities", "source": "authored_spoken_challenge"}
+{"text": "um how is the infrastructure at VIT", "intent": "campus_facilities", "source": "authored_spoken_challenge"}
+{"text": "what clubs can I join at VIT", "intent": "clubs_events", "source": "authored_spoken_challenge"}
+{"text": "uh what is riviera and when does it happen", "intent": "clubs_events", "source": "authored_spoken_challenge"}
+{"text": "tell me about graVITas", "intent": "clubs_events", "source": "authored_spoken_challenge"}
+{"text": "what is VTOP and how do I use it", "intent": "vtop", "source": "authored_spoken_challenge"}
+{"text": "how do I log in to the VTOP portal", "intent": "vtop", "source": "authored_spoken_challenge"}
+{"text": "uh I forgot my vtop password", "intent": "vtop", "source": "authored_spoken_challenge"}
+{"text": "what student services are available", "intent": "student_welfare", "source": "authored_spoken_challenge"}
+{"text": "is there someone I can talk to if I'm stressed", "intent": "student_welfare", "source": "authored_spoken_challenge"}
+{"text": "uh is there a counsellor in VIT", "intent": "student_welfare", "source": "authored_spoken_challenge"}
+{"text": "is there any ragging in VIT", "intent": "anti_ragging", "source": "authored_spoken_challenge"}
+{"text": "how do I report ragging", "intent": "anti_ragging", "source": "authored_spoken_challenge"}
+{"text": "what does VIT do to prevent ragging", "intent": "anti_ragging", "source": "authored_spoken_challenge"}
+{"text": "how can I file a complaint at VIT", "intent": "grievances", "source": "authored_spoken_challenge"}
+{"text": "uh is there a grievance cell", "intent": "grievances", "source": "authored_spoken_challenge"}
+{"text": "who do I complain to if I have a problem", "intent": "grievances", "source": "authored_spoken_challenge"}
+{"text": "tell me about VIT placements", "intent": "placements", "source": "authored_spoken_challenge"}
+{"text": "uh which companies come for placements", "intent": "placements", "source": "authored_spoken_challenge"}
+{"text": "what does the career development centre do", "intent": "placements", "source": "authored_spoken_challenge"}
+{"text": "how can I get an internship through VIT", "intent": "internships", "source": "authored_spoken_challenge"}
+{"text": "uh is an internship compulsory", "intent": "internships", "source": "authored_spoken_challenge"}
+{"text": "do we get credits for doing internships", "intent": "internships", "source": "authored_spoken_challenge"}

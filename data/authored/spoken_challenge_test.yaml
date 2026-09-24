@@ -1,0 +1,154 @@
+# Held-out "spoken-style" challenge test set.
+# Written independently of the training utterances to imitate transcripts
+# produced by browser speech recognition (fillers, run-on phrasing, no
+# punctuation, casual grammar). NEVER used for training or model selection;
+# build_dataset.py removes any training utterance that collides with these.
+greeting:
+  - hey hello how are you today
+  - hi good morning to you
+  - hello hello is this thing working
+goodbye:
+  - okay I think that's it for today bye
+  - alright thank you bye bye
+  - ok I'm going now see you later
+thanks:
+  - oh okay thank you very much that was useful
+  - great that's exactly what I wanted thanks
+  - okay thank you
+bot_identity:
+  - so who exactly are you
+  - wait are you a real person or a bot
+  - who created this VITmate thing
+capabilities:
+  - so what kind of questions can I ask you
+  - what are the things you can help me with
+  - can you tell me what all you can do
+profanity:
+  - you are a stupid useless bot
+  - shut up you are so dumb
+out_of_scope:
+  - what is the capital of France
+  - write me a python program for bubble sort
+  - who won the world cup in 2022
+  - hey what's the weather going to be like tomorrow
+  - can you tell me a funny joke
+  - how many calories are there in a banana
+  - what is the currency of Japan
+  - uh who is the president of America
+about_vit:
+  - can you tell me something about VIT university
+  - um when was VIT started and who started it
+  - how many campuses does VIT have in total
+campus_location:
+  - where is the VIT campus located exactly
+  - how do I get to VIT from Katpadi railway station
+  - uh what's the address of VIT Vellore
+contact_info:
+  - can you give me the contact number of VIT
+  - how do I contact VIT by email
+  - who can I call at VIT for help
+ffcs:
+  - hey can you tell me what FFCS is
+  - um how does the FFCS thing work
+  - so can we choose our own faculty and timings in VIT
+  - what is this fully flexible credit system
+programmes:
+  - what programmes does VIT offer
+  - does VIT have a BTech in computer science
+  - uh what PG courses are there at VIT
+schools:
+  - which school in VIT offers the computer science course
+  - what are the different schools in VIT
+  - uh what is SCOPE in VIT
+faculty:
+  - how do I find out who the HOD of my department is
+  - where can I look up details about VIT professors
+  - who is my proctor and how do I find them
+syllabus:
+  - where can I get the syllabus for my course
+  - what subjects will I be studying in first year
+  - uh can you show me the curriculum
+examinations:
+  - how are the CAT and FAT exams conducted
+  - um what is the grading system at VIT
+  - when are the exams going to be held
+academic_calendar:
+  - when does the next semester start
+  - where can I see the academic calendar for this year
+  - uh when are the holidays
+attendance:
+  - how much attendance do we need to maintain at VIT
+  - what happens if my attendance goes below seventy five percent
+  - um is attendance mandatory
+admissions:
+  - how can I find information about admissions
+  - how do I apply to VIT for BTech
+  - what is the admission procedure at VIT
+viteee:
+  - uh when is the VITEEE exam conducted
+  - what's the pattern of the VIT entrance exam
+  - how do I register for VITEEE
+fees:
+  - how much is the fee for BTech at VIT
+  - uh what is the hostel fee per year
+  - where can I check the fee structure
+scholarships:
+  - are there any scholarships for students at VIT
+  - how do I get a scholarship in VIT
+  - um is there a scholarship for toppers
+hostel:
+  - uh what are the hostel facilities at VIT
+  - are there AC rooms in the VIT hostels
+  - what are the rules in the hostel
+dining:
+  - how is the food in the VIT mess
+  - what are the different mess options available
+  - uh where can I eat on campus
+library:
+  - what facilities does the library provide
+  - what are the timings of the VIT library
+  - um how do I borrow books from the library
+sports:
+  - what are the sports facilities available in VIT
+  - uh is there a swimming pool in VIT
+  - how can I join a sports team
+health_services:
+  - is there any hospital or clinic inside the campus
+  - what should I do if I get sick at VIT
+  - uh is there a doctor available at night
+transport:
+  - is there any bus facility in VIT
+  - how do I travel around the VIT campus
+  - uh are there shuttle services
+campus_facilities:
+  - what facilities are there on the VIT campus
+  - is there an ATM inside the campus
+  - um how is the infrastructure at VIT
+clubs_events:
+  - what clubs can I join at VIT
+  - uh what is riviera and when does it happen
+  - tell me about graVITas
+vtop:
+  - what is VTOP and how do I use it
+  - how do I log in to the VTOP portal
+  - uh I forgot my vtop password
+student_welfare:
+  - what student services are available
+  - is there someone I can talk to if I'm stressed
+  - uh is there a counsellor in VIT
+anti_ragging:
+  - is there any ragging in VIT
+  - how do I report ragging
+  - what does VIT do to prevent ragging
+grievances:
+  - how can I file a complaint at VIT
+  - uh is there a grievance cell
+  - who do I complain to if I have a problem
+placements:
+  - tell me about VIT placements
+  - uh which companies come for placements
+  - what does the career development centre do
+internships:
+  - how can I get an internship through VIT
+  - uh is an internship compulsory
+  - do we get credits for doing internships

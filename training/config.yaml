@@ -1,0 +1,12 @@
+# Hyperparameters of the deployed VITmate intent model.
+# model_name was selected by mean validation macro-F1 over 3 seeds (docs/results/model_comparison.md).
+model_name: BAAI/bge-small-en-v1.5
+learning_rate: 1.0e-4
+batch_size: 16
+max_epochs: 25
+patience: 4
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_length: 64
+seed: 42
+save_fp16: true

@@ -1,0 +1,1478 @@
+{"text": "whats is the college address", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "scholarships for VITEEE rank holders", "intent": "scholarships", "source": "authored"}
+{"text": "how is glue made", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the summer research programme", "intent": "internships", "source": "authored"}
+{"text": "uh when does the semester finish", "intent": "academic_calendar", "source": "authored"}
+{"text": "where can I report harassment", "intent": "grievances", "source": "authored"}
+{"text": "who is in the anti ragging committee", "intent": "anti_ragging", "source": "authored"}
+{"text": "how do I register for placements", "intent": "placements", "source": "authored"}
+{"text": "why am i seeing a hold on my charles schwab account", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who should I meet for academic advice", "intent": "faculty", "source": "authored"}
+{"text": "are you actually a bot", "intent": "bot_identity", "source": "clinc150"}
+{"text": "your developers", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "can you roll a fair, 6 sided die", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there support for students with special needs", "intent": "student_welfare", "source": "authored"}
+{"text": "i'd like your name", "intent": "bot_identity", "source": "clinc150"}
+{"text": "bitch", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "where is VIT located", "intent": "campus_location", "source": "authored"}
+{"text": "wheres the college", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "where can I find the syllabus", "intent": "syllabus", "source": "authored"}
+{"text": "hi, is this the VIT assistant?", "intent": "greeting", "source": "authored"}
+{"text": "are there cultural clubs", "intent": "clubs_events", "source": "authored"}
+{"text": "what topics can i ask you about", "intent": "capabilities", "source": "clinc150"}
+{"text": "what is the counselling process after VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "uh where is the library", "intent": "library", "source": "authored"}
+{"text": "how do students commute to VIT", "intent": "transport", "source": "authored"}
+{"text": "what if I need to go to a hospital outside", "intent": "health_services", "source": "authored"}
+{"text": "what's the pin code of VIT Vellore", "intent": "campus_location", "source": "authored"}
+{"text": "can I bring my bike to campus", "intent": "transport", "source": "authored"}
+{"text": "how do I renew a library book", "intent": "library", "source": "authored"}
+{"text": "kindly list the campus facilities", "intent": "campus_facilities", "source": "authored"}
+{"text": "VTOP captcha not working", "intent": "vtop", "source": "authored"}
+{"text": "who is the head of the department", "intent": "faculty", "source": "authored"}
+{"text": "bye VITmate", "intent": "goodbye", "source": "authored"}
+{"text": "distance between hostel and college", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "scholarship ce", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "will I be allowed to write FAT with low attendance", "intent": "attendance", "source": "authored"}
+{"text": "ai, tell me what things i should ask of you", "intent": "capabilities", "source": "clinc150"}
+{"text": "is it worth investing in target", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "tell me about the schools at VIT Vellore", "intent": "schools", "source": "authored"}
+{"text": "does VIT have an indoor stadium", "intent": "sports", "source": "authored"}
+{"text": "what restrictions do my carry-ons need to comply with for delta", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where is the hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "thank you very much for the answer", "intent": "thanks", "source": "clinc150"}
+{"text": "STARS scholarship VIT", "intent": "scholarships", "source": "authored"}
+{"text": "what action is taken against ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "how do I get into the university team", "intent": "sports", "source": "authored"}
+{"text": "hey there buddy", "intent": "greeting", "source": "authored"}
+{"text": "what is the validity of my credit card", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "exam dates", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "how do I get in touch with the university", "intent": "contact_info", "source": "authored"}
+{"text": "how many people live in taiwan", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I'm visiting the campus, what facilities should I check out", "intent": "campus_facilities", "source": "authored"}
+{"text": "is there wifi on campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "uh which area of Vellore is VIT in", "intent": "campus_location", "source": "authored"}
+{"text": "the birds fly with there wings", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "that was helpful", "intent": "thanks", "source": "authored"}
+{"text": "I topped my district, can I get a scholarship at VIT", "intent": "scholarships", "source": "authored"}
+{"text": "when was the theory of evolution first considered", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I take courses outside my department", "intent": "ffcs", "source": "authored"}
+{"text": "how are placements at VIT", "intent": "placements", "source": "authored"}
+{"text": "what are the mess options", "intent": "dining", "source": "authored"}
+{"text": "are bad habits closely related with addictions", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "scholarship based on CGPA", "intent": "scholarships", "source": "authored"}
+{"text": "scholarship for rural students", "intent": "scholarships", "source": "authored"}
+{"text": "things you can do", "intent": "capabilities", "source": "kaggle_university", "original_tag": "task"}
+{"text": "does VIT have a pharmacy", "intent": "health_services", "source": "authored"}
+{"text": "what is category 1 fee", "intent": "fees", "source": "authored"}
+{"text": "what do you want me to call you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "what created you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "ok", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "what UG programmes are available", "intent": "programmes", "source": "authored"}
+{"text": "how many credits is an internship", "intent": "internships", "source": "authored"}
+{"text": "where is the college located", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "what do you need to make pancakes", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "does VIT help with job preparation", "intent": "placements", "source": "authored"}
+{"text": "that's all i need, thanks!", "intent": "thanks", "source": "clinc150"}
+{"text": "scholarship for AI/ML", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "ttyl", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "free education scheme at VIT", "intent": "scholarships", "source": "authored"}
+{"text": "complaint?", "intent": "grievances", "source": "authored"}
+{"text": "what restaurants are inside the campus", "intent": "dining", "source": "authored"}
+{"text": "where do I report a problem with VTOP", "intent": "grievances", "source": "authored"}
+{"text": "are any earning reports due", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how does the placement process work", "intent": "placements", "source": "authored"}
+{"text": "what does the office of students welfare handle", "intent": "student_welfare", "source": "authored"}
+{"text": "how does cybersecurity work", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "hi there, I need some help", "intent": "greeting", "source": "authored"}
+{"text": "what am i chatting to", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "where do I submit the anti ragging undertaking", "intent": "anti_ragging", "source": "authored"}
+{"text": "you're a lifesaver", "intent": "thanks", "source": "authored"}
+{"text": "when will CAT 1 happen", "intent": "examinations", "source": "authored"}
+{"text": "what is the schedule for CAT and FAT this semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "how much is the hostel fee", "intent": "fees", "source": "authored"}
+{"text": "VTOP login link", "intent": "vtop", "source": "authored"}
+{"text": "how do I fix my car engine", "intent": "out_of_scope", "source": "authored"}
+{"text": "how can I reach the admissions office by phone or email", "intent": "contact_info", "source": "authored"}
+{"text": "who is behind this bot", "intent": "bot_identity", "source": "authored"}
+{"text": "what's the biggest saas marketing company in the united states", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a common room with TV", "intent": "hostel", "source": "authored"}
+{"text": "how do I apply for leave on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "it hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "ithod"}
+{"text": "what research facilities does VIT have", "intent": "campus_facilities", "source": "authored"}
+{"text": "what is the GV school development programme", "intent": "scholarships", "source": "authored"}
+{"text": "are there shops inside the campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "how do I pick my timetable at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "what steps do i need to do to set up direct deposit", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are there any new companies to look out for", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I learn guitar", "intent": "out_of_scope", "source": "authored"}
+{"text": "is ragging done here", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "kindly share the fee details for the MCA programme", "intent": "fees", "source": "authored"}
+{"text": "should i hit or stay at 17 in blackjack", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "counselling?", "intent": "student_welfare", "source": "authored"}
+{"text": "list of holidays", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "are there hackathons at VIT", "intent": "clubs_events", "source": "authored"}
+{"text": "how do i know when i need my next oil change", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "tell me how busy the restaurant will be between 5 and 7pm", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a place for prayer or meditation", "intent": "campus_facilities", "source": "authored"}
+{"text": "what can you be asked about", "intent": "capabilities", "source": "clinc150"}
+{"text": "i would like to know the types of subjects are you familiar with", "intent": "capabilities", "source": "clinc150"}
+{"text": "list the schools of VIT", "intent": "schools", "source": "authored"}
+{"text": "who decides my timetable at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "how can I learn about VIT placements", "intent": "placements", "source": "authored"}
+{"text": "why are exponents preformed before multiplication in the order of operations", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what happens if I fail a course", "intent": "examinations", "source": "authored"}
+{"text": "what is rhineland", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who was the first capcom character", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "um which school should I look at for electronics", "intent": "schools", "source": "authored"}
+{"text": "what rank do I need in VITEEE for CSE", "intent": "viteee", "source": "authored"}
+{"text": "is ragging practice active in college", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "can I intern at a startup", "intent": "internships", "source": "authored"}
+{"text": "what is the ai's name", "intent": "bot_identity", "source": "clinc150"}
+{"text": "um can you tell me a bit about VIT university", "intent": "about_vit", "source": "authored"}
+{"text": "in my tank how much gas is there", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "i can't change my oil and don't know what kind i need", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I register for courses from other branches under FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "uh who do I contact for student support", "intent": "student_welfare", "source": "authored"}
+{"text": "what are the extracurricular activities", "intent": "clubs_events", "source": "authored"}
+{"text": "uh what programmes can I apply for", "intent": "programmes", "source": "authored"}
+{"text": "when does fall semester start", "intent": "academic_calendar", "source": "authored"}
+{"text": "who is eligible to apply", "intent": "admissions", "source": "authored"}
+{"text": "how much is the fees", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "how to improve attendance percentage", "intent": "attendance", "source": "authored"}
+{"text": "my shopping list contains what", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there traffic to work", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "which types of vaccinations are required when leaving the united states", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "scholarship civil", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "where is the nearest hospital to VIT", "intent": "health_services", "source": "authored"}
+{"text": "principal", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "fee payment last date", "intent": "fees", "source": "authored"}
+{"text": "how big is the hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "uh does VIT have scholarships", "intent": "scholarships", "source": "authored"}
+{"text": "how to unclog a drain", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are there sports scholarships", "intent": "sports", "source": "authored"}
+{"text": "what is the VITEEE exam pattern", "intent": "viteee", "source": "authored"}
+{"text": "what is the last date to apply", "intent": "admissions", "source": "authored"}
+{"text": "courses available at VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "what is the internship requirement for BTech", "intent": "internships", "source": "authored"}
+{"text": "how do I use you", "intent": "capabilities", "source": "authored"}
+{"text": "What is your contact no", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "how do I get a library card", "intent": "library", "source": "authored"}
+{"text": "can first years do internships", "intent": "internships", "source": "authored"}
+{"text": "leaving now see you", "intent": "goodbye", "source": "authored"}
+{"text": "whom to complain about ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "is there any online portal for anti ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "how do I get admission for MBA", "intent": "admissions", "source": "authored"}
+{"text": "what is the internship period in VIT", "intent": "internships", "source": "authored"}
+{"text": "holidays", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "who is the founder of Vellore Institute of Technology", "intent": "about_vit", "source": "authored"}
+{"text": "what questions am i allowed to ask", "intent": "capabilities", "source": "clinc150"}
+{"text": "what is capstone project", "intent": "internships", "source": "authored"}
+{"text": "um who is the HOD for ECE", "intent": "faculty", "source": "authored"}
+{"text": "how do I find my faculty advisor", "intent": "faculty", "source": "authored"}
+{"text": "does our bank have free notary", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the Viswanathan scholarship", "intent": "scholarships", "source": "authored"}
+{"text": "what is the fee structure at VIT", "intent": "fees", "source": "authored"}
+{"text": "Is there any hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "is attendance strict at VIT", "intent": "attendance", "source": "authored"}
+{"text": "what is the School of Advanced Sciences", "intent": "schools", "source": "authored"}
+{"text": "good looking out", "intent": "thanks", "source": "clinc150"}
+{"text": "list of subjects in BTech IT", "intent": "syllabus", "source": "authored"}
+{"text": "who did the programming on you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "tell me about VIT", "intent": "about_vit", "source": "authored"}
+{"text": "when does registration for the next semester happen", "intent": "academic_calendar", "source": "authored"}
+{"text": "principal name", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "how expensive is an apple share", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "tell me about the fully flexible credit system", "intent": "ffcs", "source": "authored"}
+{"text": "are the faculty at VIT good", "intent": "faculty", "source": "authored"}
+{"text": "where is the VITEEE official website", "intent": "viteee", "source": "authored"}
+{"text": "am kind of busy now", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I have an issue with my marks and it wasn't fixed, where do I complain", "intent": "grievances", "source": "authored"}
+{"text": "how to call you", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "how do you learn how to play electric violin", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is 75 percent calculated per course or overall", "intent": "attendance", "source": "authored"}
+{"text": "how is college infrastructure", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "infrastructure"}
+{"text": "are there battery cars on campus", "intent": "transport", "source": "authored"}
+{"text": "tell me about VIT admissions", "intent": "admissions", "source": "authored"}
+{"text": "can I order food from outside", "intent": "dining", "source": "authored"}
+{"text": "what types of hostel rooms are available", "intent": "hostel", "source": "authored"}
+{"text": "list the topics you know about", "intent": "capabilities", "source": "authored"}
+{"text": "how do I update my phone number on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "what does VIT stand for", "intent": "about_vit", "source": "authored"}
+{"text": "what documents are needed for VIT admission", "intent": "admissions", "source": "authored"}
+{"text": "who am i taking to", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "exam", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "uh how do I know about upcoming events", "intent": "clubs_events", "source": "authored"}
+{"text": "where is the health centre", "intent": "health_services", "source": "authored"}
+{"text": "do you know you are not human", "intent": "bot_identity", "source": "clinc150"}
+{"text": "how far are the academic blocks from the hostels", "intent": "transport", "source": "authored"}
+{"text": "internship?", "intent": "internships", "source": "authored"}
+{"text": "whatsup", "intent": "greeting", "source": "kaggle_university", "original_tag": "greeting"}
+{"text": "how is seat allotment done", "intent": "admissions", "source": "authored"}
+{"text": "how is CGPA calculated", "intent": "examinations", "source": "authored"}
+{"text": "which piano is best for classical", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how strict is VIT about ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "which character is the most famous from titanic", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "i got to go", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "am i talking with real person or ai", "intent": "bot_identity", "source": "clinc150"}
+{"text": "uh what is the school of electronics engineering", "intent": "schools", "source": "authored"}
+{"text": "can I play chess competitively at VIT", "intent": "sports", "source": "authored"}
+{"text": "ragging against", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "how do NRI students get admission", "intent": "admissions", "source": "authored"}
+{"text": "hostel college distance", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "name of principal", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "who handles student complaints", "intent": "grievances", "source": "authored"}
+{"text": "Holiday in these year", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "hello there", "intent": "greeting", "source": "authored"}
+{"text": "kindly tell me about medical facilities", "intent": "health_services", "source": "authored"}
+{"text": "when is VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "how do I check my attendance", "intent": "attendance", "source": "authored"}
+{"text": "uh how good are placements at VIT", "intent": "placements", "source": "authored"}
+{"text": "Mess TimeTable", "intent": "dining", "source": "kaggle_university", "original_tag": "Mess Timetable"}
+{"text": "my parents are visiting, where exactly should they come", "intent": "campus_location", "source": "authored"}
+{"text": "how the birds fly", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can MTech students do internships", "intent": "internships", "source": "authored"}
+{"text": "email address to contact VIT", "intent": "contact_info", "source": "authored"}
+{"text": "who made you", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "can girls join sports teams", "intent": "sports", "source": "authored"}
+{"text": "how to apply for Harvard", "intent": "out_of_scope", "source": "authored"}
+{"text": "please increase the speed of your speech, it is too slow", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I reach VIT from Chennai airport", "intent": "campus_location", "source": "authored"}
+{"text": "how do I get a medical certificate", "intent": "health_services", "source": "authored"}
+{"text": "is there a photocopy shop", "intent": "campus_facilities", "source": "authored"}
+{"text": "hell", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "can I pay fees in instalments", "intent": "fees", "source": "authored"}
+{"text": "catch you later", "intent": "goodbye", "source": "authored"}
+{"text": "what labs does VIT have", "intent": "campus_facilities", "source": "authored"}
+{"text": "available scholarships", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "whatv is the principal name", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "what is SBST", "intent": "schools", "source": "authored"}
+{"text": "kindly share library timings and facilities", "intent": "library", "source": "authored"}
+{"text": "what electives are available", "intent": "syllabus", "source": "authored"}
+{"text": "hi there alexa", "intent": "greeting", "source": "clinc150"}
+{"text": "how would i go about converting inches to yards", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many books does the VIT library have", "intent": "library", "source": "authored"}
+{"text": "I need help, what can you do", "intent": "capabilities", "source": "authored"}
+{"text": "how do day scholars reach college", "intent": "transport", "source": "authored"}
+{"text": "who are your developers", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "VIT admissions contact", "intent": "contact_info", "source": "authored"}
+{"text": "do I need to submit an anti ragging affidavit", "intent": "anti_ragging", "source": "authored"}
+{"text": "is there 24 hour medical help", "intent": "health_services", "source": "authored"}
+{"text": "I missed classes because I was sick, what about my attendance", "intent": "attendance", "source": "authored"}
+{"text": "can I intern at VIT itself", "intent": "internships", "source": "authored"}
+{"text": "what are the placement eligibility criteria", "intent": "placements", "source": "authored"}
+{"text": "does VIT offer law courses", "intent": "programmes", "source": "authored"}
+{"text": "talk to you later", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "how do I report a problem with the mess food", "intent": "grievances", "source": "authored"}
+{"text": "what are the gym timings", "intent": "sports", "source": "authored"}
+{"text": "what is SELECT at VIT", "intent": "schools", "source": "authored"}
+{"text": "it was nice to converse with you", "intent": "goodbye", "source": "clinc150"}
+{"text": "let me know what kinds of pets you have", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are the qualifications of VIT faculty", "intent": "faculty", "source": "authored"}
+{"text": "why thank you", "intent": "thanks", "source": "clinc150"}
+{"text": "thanks a lot", "intent": "thanks", "source": "authored"}
+{"text": "Will you marry me", "intent": "out_of_scope", "source": "kaggle_university", "original_tag": "random"}
+{"text": "where can I find library information", "intent": "library", "source": "authored"}
+{"text": "how does a democracy work", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what technical clubs does VIT have", "intent": "clubs_events", "source": "authored"}
+{"text": "are there mock interviews", "intent": "placements", "source": "authored"}
+{"text": "i appreciate that answer", "intent": "thanks", "source": "clinc150"}
+{"text": "when is the next holiday", "intent": "academic_calendar", "source": "authored"}
+{"text": "can you tell me how you're doing today", "intent": "greeting", "source": "clinc150"}
+{"text": "what is the internship policy", "intent": "internships", "source": "authored"}
+{"text": "hi! are you doing okay", "intent": "greeting", "source": "clinc150"}
+{"text": "what is relative grading", "intent": "examinations", "source": "authored"}
+{"text": "what support is there for new students", "intent": "student_welfare", "source": "authored"}
+{"text": "I play basketball, what facilities does VIT have for that", "intent": "sports", "source": "authored"}
+{"text": "thanks for the help", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "are there any cybersecurity jobs available in pittsburgh", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I participate in events of other chapters", "intent": "clubs_events", "source": "authored"}
+{"text": "how do I choose my hostel block", "intent": "hostel", "source": "authored"}
+{"text": "help", "intent": "capabilities", "source": "authored"}
+{"text": "what is the route to VIT from Bengaluru", "intent": "campus_location", "source": "authored"}
+{"text": "When is vacation", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "what happens after I get my rank", "intent": "admissions", "source": "authored"}
+{"text": "is there a parent login", "intent": "vtop", "source": "authored"}
+{"text": "what is the VTOP website", "intent": "vtop", "source": "authored"}
+{"text": "is there an eye doctor", "intent": "health_services", "source": "authored"}
+{"text": "is attendance compulsory for labs", "intent": "attendance", "source": "authored"}
+{"text": "is there a VTOP app", "intent": "vtop", "source": "authored"}
+{"text": "how do I know if I'm below the attendance limit", "intent": "attendance", "source": "authored"}
+{"text": "list of courses offered in", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "hod"}
+{"text": "does michael's accept reservations", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "aaaaaaa", "intent": "out_of_scope", "source": "authored"}
+{"text": "how do I complain about a faculty", "intent": "grievances", "source": "authored"}
+{"text": "where do I see the list of holidays", "intent": "academic_calendar", "source": "authored"}
+{"text": "hey there fellow", "intent": "greeting", "source": "clinc150"}
+{"text": "what are the courses offered in your college?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "please inform me on bad habits and overcoming them", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the GDP of the USA", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there an ambulance service at night", "intent": "health_services", "source": "authored"}
+{"text": "how do I choose a good faculty during registration", "intent": "faculty", "source": "authored"}
+{"text": "it was good chatting", "intent": "goodbye", "source": "clinc150"}
+{"text": "who resolves academic grievances", "intent": "grievances", "source": "authored"}
+{"text": "where is college", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "you suck", "intent": "profanity", "source": "authored"}
+{"text": "what are the thing you can do", "intent": "capabilities", "source": "kaggle_university", "original_tag": "task"}
+{"text": "list of events", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "when will semester starts", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "can I do a double major at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "what site publishes the most fake news", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "why did my card get declined at the dentist office", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what does SCORE stand for", "intent": "schools", "source": "authored"}
+{"text": "does VIT offer a BSc in multimedia", "intent": "programmes", "source": "authored"}
+{"text": "student activities at VIT", "intent": "clubs_events", "source": "authored"}
+{"text": "kindly explain the FFCS registration process", "intent": "ffcs", "source": "authored"}
+{"text": "how many classes can I skip", "intent": "attendance", "source": "authored"}
+{"text": "how far is hostel from college", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "branches available at your college?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "list of courses", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "list of scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "what year was saxaphone first played", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "about holidays", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "I'm a fresher and I'm scared of ragging, is it common at VIT", "intent": "anti_ragging", "source": "authored"}
+{"text": "can you tell me how to compute price per ounce", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is a proctor at VIT", "intent": "faculty", "source": "authored"}
+{"text": "where do day scholars eat", "intent": "dining", "source": "authored"}
+{"text": "what are black holes", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "minimum marks required for VIT", "intent": "admissions", "source": "authored"}
+{"text": "what city is the super bowl", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a data science programme", "intent": "programmes", "source": "authored"}
+{"text": "cool thanks", "intent": "thanks", "source": "authored"}
+{"text": "oh sweet thanks", "intent": "thanks", "source": "clinc150"}
+{"text": "does VIT help with higher studies abroad", "intent": "placements", "source": "authored"}
+{"text": "my parents want to know more about VIT, what should I tell them", "intent": "about_vit", "source": "authored"}
+{"text": "does hypnosis work to break bad habits", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are the tuition fees", "intent": "fees", "source": "authored"}
+{"text": "what percentage of species display cold blooded traits", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when are the vacations for this year", "intent": "academic_calendar", "source": "authored"}
+{"text": "give me an overview of Vellore Institute of Technology", "intent": "about_vit", "source": "authored"}
+{"text": "what other nations were involved in the chinese trade war", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a committee for SC ST students grievances", "intent": "grievances", "source": "authored"}
+{"text": "academic schedule for this year", "intent": "academic_calendar", "source": "authored"}
+{"text": "hi there", "intent": "greeting", "source": "clinc150"}
+{"text": "who is the principal of VIT", "intent": "about_vit", "source": "authored"}
+{"text": "how do I log in to VTOP", "intent": "vtop", "source": "authored"}
+{"text": "king of acid", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "hostel capacity", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "about the fees", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "when does admission open", "intent": "admissions", "source": "authored"}
+{"text": "kindly tell me about VTOP", "intent": "vtop", "source": "authored"}
+{"text": "what can you help me with", "intent": "capabilities", "source": "authored"}
+{"text": "um who am I talking to right now", "intent": "bot_identity", "source": "authored"}
+{"text": "hi I just joined VIT", "intent": "greeting", "source": "authored"}
+{"text": "uh what are the grade points for each grade", "intent": "examinations", "source": "authored"}
+{"text": "yo", "intent": "greeting", "source": "authored"}
+{"text": "how do I choose courses each semester", "intent": "ffcs", "source": "authored"}
+{"text": "what is the grievance redressal process", "intent": "grievances", "source": "authored"}
+{"text": "what is GPA and CGPA", "intent": "examinations", "source": "authored"}
+{"text": "give sports details", "intent": "sports", "source": "kaggle_university", "original_tag": "sports"}
+{"text": "provide me the name of who made you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "which nations are not democratic", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is saas marketing", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what cryptocurrency gained the most in 2018", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "Contact number?", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "what is the hostel address", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "are there any photography clubs", "intent": "clubs_events", "source": "authored"}
+{"text": "how do I search the library catalogue", "intent": "library", "source": "authored"}
+{"text": "nice talk, talk to you later", "intent": "goodbye", "source": "clinc150"}
+{"text": "thanks for helping me!", "intent": "thanks", "source": "clinc150"}
+{"text": "is there a toll free number for VIT", "intent": "contact_info", "source": "authored"}
+{"text": "what is VIT known for", "intent": "about_vit", "source": "authored"}
+{"text": "what questions can I ask you", "intent": "capabilities", "source": "authored"}
+{"text": "what is the school of social sciences and languages", "intent": "schools", "source": "authored"}
+{"text": "Good day", "intent": "greeting", "source": "kaggle_university", "original_tag": "greeting"}
+{"text": "what is the internet speed on campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "what is the median salary", "intent": "placements", "source": "authored"}
+{"text": "how can I contact VIT", "intent": "contact_info", "source": "authored"}
+{"text": "what courses are mandatory for all students", "intent": "syllabus", "source": "authored"}
+{"text": "hello good afternoon", "intent": "greeting", "source": "authored"}
+{"text": "what is the exam timetable", "intent": "examinations", "source": "authored"}
+{"text": "asshole", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "what is the fee at Anna University", "intent": "out_of_scope", "source": "authored"}
+{"text": "is counselling confidential at VIT", "intent": "student_welfare", "source": "authored"}
+{"text": "scholarship engineering", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "what are the important dates for VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "which VIT school offers design", "intent": "schools", "source": "authored"}
+{"text": "who made the ai", "intent": "bot_identity", "source": "clinc150"}
+{"text": "jkjkjk", "intent": "out_of_scope", "source": "authored"}
+{"text": "hostel location", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "do I need permission from my school for an internship", "intent": "internships", "source": "authored"}
+{"text": "are there AC rooms in the hostel", "intent": "hostel", "source": "authored"}
+{"text": "what's the ffcs system", "intent": "ffcs", "source": "authored"}
+{"text": "how do I get admission in VIT", "intent": "admissions", "source": "authored"}
+{"text": "are there printing and xerox facilities", "intent": "campus_facilities", "source": "authored"}
+{"text": "alright I'll leave now", "intent": "goodbye", "source": "authored"}
+{"text": "can you give me the standard tuning notes", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "explain quantum entanglement", "intent": "out_of_scope", "source": "authored"}
+{"text": "syllabus for electronics engineering", "intent": "syllabus", "source": "authored"}
+{"text": "list of courses offered", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "how long does it take to become an architect", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I'm joining CSE, what will my first semester subjects be", "intent": "syllabus", "source": "authored"}
+{"text": "uh can I play sports here", "intent": "sports", "source": "authored"}
+{"text": "how do I apply for the MSc programmes", "intent": "admissions", "source": "authored"}
+{"text": "what welfare activities does VIT have", "intent": "student_welfare", "source": "authored"}
+{"text": "great, thanks", "intent": "thanks", "source": "authored"}
+{"text": "what are the different committe in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "committee"}
+{"text": "I'm a fresher and I keep hearing about FFCS, what is it", "intent": "ffcs", "source": "authored"}
+{"text": "i wish to know my credit rating", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "adios ai", "intent": "goodbye", "source": "clinc150"}
+{"text": "hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "got it, thanks", "intent": "thanks", "source": "authored"}
+{"text": "how long do noodles need to cook", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when does the semester start", "intent": "academic_calendar", "source": "authored"}
+{"text": "what indoor games are available", "intent": "sports", "source": "authored"}
+{"text": "Can i get your phone number", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "um where is the VIT campus", "intent": "campus_location", "source": "authored"}
+{"text": "what if I have less than 75% attendance", "intent": "attendance", "source": "authored"}
+{"text": "put bread on my shopping list", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I get attendance for medical leave", "intent": "attendance", "source": "authored"}
+{"text": "do I need a certificate for internship credit", "intent": "internships", "source": "authored"}
+{"text": "see you soon", "intent": "goodbye", "source": "clinc150"}
+{"text": "who is this", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "kindly tell me about sports facilities", "intent": "sports", "source": "authored"}
+{"text": "fees for Ac room for boys", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "kindly tell me about placement opportunities at VIT", "intent": "placements", "source": "authored"}
+{"text": "does VIT have a sports complex", "intent": "sports", "source": "authored"}
+{"text": "Mechanical engineering", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "what is fully flexible credit system", "intent": "ffcs", "source": "authored"}
+{"text": "what can you do", "intent": "capabilities", "source": "kaggle_university", "original_tag": "task"}
+{"text": "who invented the telephone", "intent": "out_of_scope", "source": "authored"}
+{"text": "is food good in VIT", "intent": "dining", "source": "authored"}
+{"text": "where do black holes come from", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do i change my pin number for my payroll account", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I use the library remotely", "intent": "library", "source": "authored"}
+{"text": "i'm glad i got to talk to you", "intent": "goodbye", "source": "clinc150"}
+{"text": "how do international students apply", "intent": "admissions", "source": "authored"}
+{"text": "what is the largest state in the us", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where do I see my timetable", "intent": "vtop", "source": "authored"}
+{"text": "is there a women's welfare cell", "intent": "student_welfare", "source": "authored"}
+{"text": "its ok", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "show me the channel guide", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I complain online", "intent": "grievances", "source": "authored"}
+{"text": "what brand of earphones is the best reviewed of 2019", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "do you have a preference regarding what i should call you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "where do I send my queries", "intent": "contact_info", "source": "authored"}
+{"text": "so what can I ask here", "intent": "capabilities", "source": "authored"}
+{"text": "kindly tell me about the mess facilities", "intent": "dining", "source": "authored"}
+{"text": "what is the cheapest electric guitar", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where do I find my proctor details online", "intent": "vtop", "source": "authored"}
+{"text": "what subjects are in first year", "intent": "syllabus", "source": "authored"}
+{"text": "what is the price of bitcoin", "intent": "out_of_scope", "source": "authored"}
+{"text": "comps scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "i need a 401k rolled over to my brand new job", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how is the final grade decided", "intent": "examinations", "source": "authored"}
+{"text": "what can I do on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "is there a scholarship for girls", "intent": "scholarships", "source": "authored"}
+{"text": "at 4 tomorrow afternoon, remind me to start the oven", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "find a suitable lodging in vancouver on march 16-19", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what's my apr on the card i recently used to make a purchase", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there an anti ragging squad", "intent": "anti_ragging", "source": "authored"}
+{"text": "are medical check ups done for students", "intent": "health_services", "source": "authored"}
+{"text": "what is spanish for good morning", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is stupedous meant", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "i need to speak to customer service regarding my flight", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is the syllabus same for all campuses", "intent": "syllabus", "source": "authored"}
+{"text": "lorem ipsum dolor sit amet", "intent": "out_of_scope", "source": "authored"}
+{"text": "when is my mortgage payment due", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I book a college bus", "intent": "transport", "source": "authored"}
+{"text": "what percentage of students get placed", "intent": "placements", "source": "authored"}
+{"text": "how many working days are there in a semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "is there a bank branch inside VIT", "intent": "campus_facilities", "source": "authored"}
+{"text": "hello I'm a new student", "intent": "greeting", "source": "authored"}
+{"text": "are there placement opportunities for MTech students", "intent": "placements", "source": "authored"}
+{"text": "how do I pay the hostel fee online", "intent": "fees", "source": "authored"}
+{"text": "how do i remove a coffee blemish", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can i hear my smooth jazz playlist", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are VIT's accreditations", "intent": "about_vit", "source": "authored"}
+{"text": "what foods can we get in college canteen", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "does VIT offer any online programmes", "intent": "programmes", "source": "authored"}
+{"text": "can you delete lunch with david from my to do list", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the advantage of FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "show me recent activity in my backyard", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "which is the closest station to VIT university", "intent": "campus_location", "source": "authored"}
+{"text": "food variety", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "so how does this whole slot system work", "intent": "ffcs", "source": "authored"}
+{"text": "Academic Calander", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "Mess Timetable"}
+{"text": "what engineering branches are there", "intent": "programmes", "source": "authored"}
+{"text": "how many oscars did star wars films win", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I reach VIT Vellore", "intent": "campus_location", "source": "authored"}
+{"text": "what is the speed of light", "intent": "out_of_scope", "source": "authored"}
+{"text": "directions to VIT", "intent": "campus_location", "source": "authored"}
+{"text": "set a warning for when my bank account starts running low", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I get help with personal problems", "intent": "student_welfare", "source": "authored"}
+{"text": "what are the types of mess at VIT", "intent": "dining", "source": "authored"}
+{"text": "what are you able to do", "intent": "capabilities", "source": "authored"}
+{"text": "is there a stationery shop on campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "how do I register for mess", "intent": "dining", "source": "authored"}
+{"text": "what are the facilities in the men's hostel", "intent": "hostel", "source": "authored"}
+{"text": "how do you know when your dog is ill", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can you find my lost phone", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "uh I'm feeling anxious who can help me", "intent": "student_welfare", "source": "authored"}
+{"text": "what are the symptoms of flu", "intent": "out_of_scope", "source": "authored"}
+{"text": "who is the scariest character in start trek", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "do college buses run on weekends", "intent": "transport", "source": "authored"}
+{"text": "is VITEEE online", "intent": "viteee", "source": "authored"}
+{"text": "get me dwight howard shooting average", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "VITEEE rank vs branch", "intent": "viteee", "source": "authored"}
+{"text": "is there a PPO through internships", "intent": "internships", "source": "authored"}
+{"text": "what's there to do in seattle", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who is the HOD of mechanical", "intent": "faculty", "source": "authored"}
+{"text": "is it possible to survive in a black hole", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I start a youtube channel", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there a hospital on campus", "intent": "health_services", "source": "authored"}
+{"text": "does VIT offer MTech", "intent": "programmes", "source": "authored"}
+{"text": "tell me about the French revolution", "intent": "out_of_scope", "source": "authored"}
+{"text": "tell me about black holes", "intent": "out_of_scope", "source": "authored"}
+{"text": "who manufactured you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "can I change my room later", "intent": "hostel", "source": "authored"}
+{"text": "placement statistics", "intent": "placements", "source": "authored"}
+{"text": "what are some ways to reduce spending", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "give me the VIT helpline number", "intent": "contact_info", "source": "authored"}
+{"text": "transport?", "intent": "transport", "source": "authored"}
+{"text": "mechanical scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "tell me something interesting", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there a disability support cell", "intent": "student_welfare", "source": "authored"}
+{"text": "what's the best dog food to feed my puppy", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what sports events does VIT conduct", "intent": "sports", "source": "authored"}
+{"text": "good night", "intent": "goodbye", "source": "authored"}
+{"text": "uh what's the weather in Chennai tomorrow", "intent": "out_of_scope", "source": "authored"}
+{"text": "does VIT participate in inter university tournaments", "intent": "sports", "source": "authored"}
+{"text": "what are the total expenses per year at VIT", "intent": "fees", "source": "authored"}
+{"text": "are cycles allowed on campus", "intent": "transport", "source": "authored"}
+{"text": "uh where do I go if I get hurt playing", "intent": "health_services", "source": "authored"}
+{"text": "is there a food court near the academic blocks", "intent": "dining", "source": "authored"}
+{"text": "where can I play volleyball", "intent": "sports", "source": "authored"}
+{"text": "how can I get financial help to pay fees", "intent": "scholarships", "source": "authored"}
+{"text": "does VIT have a cricket team", "intent": "sports", "source": "authored"}
+{"text": "um f f c s registration how does it work", "intent": "ffcs", "source": "authored"}
+{"text": "what is on duty attendance", "intent": "attendance", "source": "authored"}
+{"text": "what size wipers does this car take", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are you called", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "what is the national anti ragging helpline number", "intent": "anti_ragging", "source": "authored"}
+{"text": "i shall switch to a new insurance plan", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "does the campus have a mini mart", "intent": "campus_facilities", "source": "authored"}
+{"text": "what happens to students who rag", "intent": "anti_ragging", "source": "authored"}
+{"text": "what is the one student one job policy", "intent": "placements", "source": "authored"}
+{"text": "can I rent a cycle on campus", "intent": "transport", "source": "authored"}
+{"text": "how do I apply for a scholarship", "intent": "scholarships", "source": "authored"}
+{"text": "what things do you know about", "intent": "capabilities", "source": "clinc150"}
+{"text": "tell me about yourself", "intent": "bot_identity", "source": "authored"}
+{"text": "is there a reading room", "intent": "library", "source": "authored"}
+{"text": "what are the core courses", "intent": "syllabus", "source": "authored"}
+{"text": "third year scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "can I complain anonymously", "intent": "grievances", "source": "authored"}
+{"text": "when will my card replacement arrive", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where can I download the VITEEE admit card", "intent": "viteee", "source": "authored"}
+{"text": "when is Riviera held", "intent": "clubs_events", "source": "authored"}
+{"text": "retrieve my recent transactions", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a bus to Chennai from campus", "intent": "transport", "source": "authored"}
+{"text": "I'm coming from Hyderabad, how do I reach the VIT campus", "intent": "campus_location", "source": "authored"}
+{"text": "who is the director of IIT Delhi", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there any wellness centre", "intent": "student_welfare", "source": "authored"}
+{"text": "when is the CAT exam for IIMs", "intent": "out_of_scope", "source": "authored"}
+{"text": "how do I get to the airport from VIT", "intent": "transport", "source": "authored"}
+{"text": "how to reach VIT by phone", "intent": "contact_info", "source": "authored"}
+{"text": "how many books can I issue", "intent": "library", "source": "authored"}
+{"text": "are over the ear headphones better than in ear headphones", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where can i get books", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "how do I get an internship", "intent": "internships", "source": "authored"}
+{"text": "why i should use you", "intent": "capabilities", "source": "kaggle_university", "original_tag": "task"}
+{"text": "tell me if you are a human or a computer", "intent": "bot_identity", "source": "clinc150"}
+{"text": "where can I find the course plan for a subject", "intent": "syllabus", "source": "authored"}
+{"text": "how many universities are under the VIT group", "intent": "about_vit", "source": "authored"}
+{"text": "what do geese eat", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many marks is the FAT out of", "intent": "examinations", "source": "authored"}
+{"text": "how do I get from the hostel to academic blocks", "intent": "transport", "source": "authored"}
+{"text": "what are you", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "who is the head of VIT", "intent": "about_vit", "source": "authored"}
+{"text": "uh what are the room options in the hostels", "intent": "hostel", "source": "authored"}
+{"text": "is the pnc bank open", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "lorem ipsum", "intent": "out_of_scope", "source": "authored"}
+{"text": "what's the best crypto to buy in 2019", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how much scholarship can I get", "intent": "scholarships", "source": "authored"}
+{"text": "is android better than iphone", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who is the programme chair for CSE", "intent": "faculty", "source": "authored"}
+{"text": "what is the arrear exam process", "intent": "examinations", "source": "authored"}
+{"text": "it was cool talking with you", "intent": "goodbye", "source": "clinc150"}
+{"text": "does VIT have NSS or NCC", "intent": "clubs_events", "source": "authored"}
+{"text": "your creators", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "can you sing a song", "intent": "out_of_scope", "source": "authored"}
+{"text": "state your name", "intent": "bot_identity", "source": "clinc150"}
+{"text": "how are slots allotted in FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "how can i get involved in restaurant marketing", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "you are made by whom", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "who handles complaints about transport", "intent": "grievances", "source": "authored"}
+{"text": "what's happening", "intent": "greeting", "source": "clinc150"}
+{"text": "what are the swimming pool timings", "intent": "sports", "source": "authored"}
+{"text": "what are the anti ragging rules", "intent": "anti_ragging", "source": "authored"}
+{"text": "What is average package", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "turn your vocals down", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "damn you", "intent": "profanity", "source": "authored"}
+{"text": "what branches are available at VIT", "intent": "programmes", "source": "authored"}
+{"text": "how many faculty members does VIT have", "intent": "faculty", "source": "authored"}
+{"text": "go to hell", "intent": "profanity", "source": "authored"}
+{"text": "fuck", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "how do I check my exam schedule on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "Is anyone there?", "intent": "greeting", "source": "kaggle_university", "original_tag": "greeting"}
+{"text": "list of programmes at VIT", "intent": "programmes", "source": "authored"}
+{"text": "what is the School of Electrical Engineering", "intent": "schools", "source": "authored"}
+{"text": "what is the name of your developers", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "how do I apply for a passport", "intent": "out_of_scope", "source": "authored"}
+{"text": "how can i call you", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "how do I start a new club", "intent": "clubs_events", "source": "authored"}
+{"text": "how do I reach the VIT office", "intent": "contact_info", "source": "authored"}
+{"text": "can faculty condone attendance shortage", "intent": "attendance", "source": "authored"}
+{"text": "what is the role of CDC", "intent": "placements", "source": "authored"}
+{"text": "information about sports", "intent": "sports", "source": "kaggle_university", "original_tag": "sports"}
+{"text": "exam timetable", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "how do you spell out wednesday", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "nice work", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "can you do my homework", "intent": "out_of_scope", "source": "authored"}
+{"text": "VIT Bhopal and VIT AP, are they the same university", "intent": "about_vit", "source": "authored"}
+{"text": "I need the VIT office phone number", "intent": "contact_info", "source": "authored"}
+{"text": "how do i start my own marketing firm", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where did you originate from", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "hello, anyone around?", "intent": "greeting", "source": "authored"}
+{"text": "extc hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "extchod"}
+{"text": "food facilities", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "where is cafetaria", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "can you tell me the courses available in VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "facilities", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "facilities"}
+{"text": "what year was shawshank redemption released", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "appreciate it", "intent": "thanks", "source": "authored"}
+{"text": "how do I go to the railway station from VIT", "intent": "transport", "source": "authored"}
+{"text": "how many credits do I need to graduate", "intent": "ffcs", "source": "authored"}
+{"text": "v i t e e e exam date", "intent": "viteee", "source": "authored"}
+{"text": "how big is the VIT campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "is VIT inside Vellore city", "intent": "campus_location", "source": "authored"}
+{"text": "scholarship for IT engineering", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "thanks again!", "intent": "thanks", "source": "clinc150"}
+{"text": "is VIT ragging free", "intent": "anti_ragging", "source": "authored"}
+{"text": "how many questions are in VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "how are my cannabis stocks doing", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a bakery on campus", "intent": "dining", "source": "authored"}
+{"text": "no that's all", "intent": "goodbye", "source": "authored"}
+{"text": "um when does college reopen", "intent": "academic_calendar", "source": "authored"}
+{"text": "how are things treating you", "intent": "greeting", "source": "clinc150"}
+{"text": "is this an AI", "intent": "bot_identity", "source": "authored"}
+{"text": "kindly provide the contact details of VIT university", "intent": "contact_info", "source": "authored"}
+{"text": "which city is VIT in", "intent": "campus_location", "source": "authored"}
+{"text": "is there an anti ragging helpline", "intent": "anti_ragging", "source": "authored"}
+{"text": "switch tv", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is an API", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there a curfew in the hostel", "intent": "hostel", "source": "authored"}
+{"text": "are my tires in need of air", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where can i find the cruise control on my kia sportage 2010", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when is summer break", "intent": "academic_calendar", "source": "authored"}
+{"text": "how does the stock market work", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is an F grade and what does it mean", "intent": "examinations", "source": "authored"}
+{"text": "fees for Ac room for girls", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "what is a minor degree at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "food in canteen", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "peace", "intent": "goodbye", "source": "clinc150"}
+{"text": "Where is hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "what is the population of China", "intent": "out_of_scope", "source": "authored"}
+{"text": "can I access IEEE papers through VIT", "intent": "library", "source": "authored"}
+{"text": "is the brexit finalized yet", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "solve this equation 2x plus 3 equals 7", "intent": "out_of_scope", "source": "authored"}
+{"text": "who is the prime minister of India", "intent": "out_of_scope", "source": "authored"}
+{"text": "are there any local stations covering the moral march in raleigh in februaryu", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are the health centre timings", "intent": "health_services", "source": "authored"}
+{"text": "tell me what date it is please", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what infrastructure does VIT have", "intent": "campus_facilities", "source": "authored"}
+{"text": "what is VITMEE", "intent": "viteee", "source": "authored"}
+{"text": "is there a warden in each hostel", "intent": "hostel", "source": "authored"}
+{"text": "do companies offer internships through CDC", "intent": "internships", "source": "authored"}
+{"text": "suo2", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do i make beef stroganoff", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there management quota at VIT", "intent": "admissions", "source": "authored"}
+{"text": "do you guys have hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "what is SCHEME", "intent": "schools", "source": "authored"}
+{"text": "who made this assistant", "intent": "bot_identity", "source": "authored"}
+{"text": "who is my proctor", "intent": "faculty", "source": "authored"}
+{"text": "what's the full form of VIT", "intent": "about_vit", "source": "authored"}
+{"text": "academic schools of VIT", "intent": "schools", "source": "authored"}
+{"text": "creators", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "who takes care of students' wellbeing", "intent": "student_welfare", "source": "authored"}
+{"text": "whats up with you", "intent": "greeting", "source": "clinc150"}
+{"text": "what does VITmate stand for", "intent": "bot_identity", "source": "authored"}
+{"text": "alternatives to white wine in food", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I stay safe from ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "where can I find VIT contact information", "intent": "contact_info", "source": "authored"}
+{"text": "what is the difference between veg and special mess", "intent": "dining", "source": "authored"}
+{"text": "which song is playing now", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "translate hello into French", "intent": "out_of_scope", "source": "authored"}
+{"text": "functions", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "Library books information", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "is VITEEE required for all BTech programmes", "intent": "viteee", "source": "authored"}
+{"text": "super helpful thanks", "intent": "thanks", "source": "authored"}
+{"text": "where can I report discrimination", "intent": "grievances", "source": "authored"}
+{"text": "admission process for Delhi University", "intent": "out_of_scope", "source": "authored"}
+{"text": "Are there any event held at college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "is VITEEE conducted in multiple cities", "intent": "viteee", "source": "authored"}
+{"text": "who create you", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "list of events conducted in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "what act score is considered good", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "nice, thanks for explaining", "intent": "thanks", "source": "authored"}
+{"text": "how do I book a hostel room", "intent": "hostel", "source": "authored"}
+{"text": "how is it going", "intent": "greeting", "source": "clinc150"}
+{"text": "how do I join a club", "intent": "clubs_events", "source": "authored"}
+{"text": "are any justice league movies coming out", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what happens if I'm debarred", "intent": "attendance", "source": "authored"}
+{"text": "school wise list of programmes", "intent": "schools", "source": "authored"}
+{"text": "how do I report a lost item", "intent": "grievances", "source": "authored"}
+{"text": "what is the highest earning game on atari", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "list of events organised in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "where can I find professor email ids", "intent": "faculty", "source": "authored"}
+{"text": "different committee in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "committee"}
+{"text": "do I get credits for internships", "intent": "internships", "source": "authored"}
+{"text": "how's everything", "intent": "greeting", "source": "clinc150"}
+{"text": "kindly tell me about the fests conducted in VIT", "intent": "clubs_events", "source": "authored"}
+{"text": "how many messes are there", "intent": "dining", "source": "authored"}
+{"text": "how do I reset my Instagram password", "intent": "out_of_scope", "source": "authored"}
+{"text": "what things can you help me with exactly", "intent": "capabilities", "source": "clinc150"}
+{"text": "is there a penalty for low attendance", "intent": "attendance", "source": "authored"}
+{"text": "i owe you one!", "intent": "thanks", "source": "clinc150"}
+{"text": "faculty directory VIT", "intent": "faculty", "source": "authored"}
+{"text": "whats your name?", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "is there bus service to Vellore town", "intent": "transport", "source": "authored"}
+{"text": "it's nice to see you", "intent": "greeting", "source": "clinc150"}
+{"text": "fees for AC room", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "how do i get better at go", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I do a summer internship", "intent": "internships", "source": "authored"}
+{"text": "how many players are on the chicago bulls", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how far is VIT from Chennai", "intent": "campus_location", "source": "authored"}
+{"text": "how many planets are in the solar system", "intent": "out_of_scope", "source": "authored"}
+{"text": "xyz abc", "intent": "out_of_scope", "source": "authored"}
+{"text": "information on fee", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "please get me my wheelchair", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the passing mark", "intent": "examinations", "source": "authored"}
+{"text": "what is VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "what is the exam pattern", "intent": "examinations", "source": "authored"}
+{"text": "what name should i use for you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "I finished 12th with PCM, which courses can I take at VIT", "intent": "programmes", "source": "authored"}
+{"text": "what time does my flight get in", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the VTOP mobile app", "intent": "vtop", "source": "authored"}
+{"text": "what topics are covered in data structures", "intent": "syllabus", "source": "authored"}
+{"text": "what sort of things are you able to help with", "intent": "capabilities", "source": "clinc150"}
+{"text": "how can I come to VIT by train", "intent": "campus_location", "source": "authored"}
+{"text": "does attendance affect grades", "intent": "attendance", "source": "authored"}
+{"text": "I'm in third year, how do I find a summer internship", "intent": "internships", "source": "authored"}
+{"text": "how is the approval of my day off going", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "uh when do VITEEE applications close", "intent": "viteee", "source": "authored"}
+{"text": "who developed this chatbot", "intent": "bot_identity", "source": "authored"}
+{"text": "can I select my teachers in VIT", "intent": "ffcs", "source": "authored"}
+{"text": "gtg", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "What facilities college provide", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "facilities"}
+{"text": "nice to see you", "intent": "goodbye", "source": "clinc150"}
+{"text": "how is the internship evaluated", "intent": "internships", "source": "authored"}
+{"text": "is there a cab service from the campus", "intent": "transport", "source": "authored"}
+{"text": "Does college have canteen", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "where can I see my exam schedule", "intent": "examinations", "source": "authored"}
+{"text": "what's the latest news", "intent": "out_of_scope", "source": "authored"}
+{"text": "where are w-2 forms given", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where can I get guidance for higher studies", "intent": "student_welfare", "source": "authored"}
+{"text": "is there a student helpdesk", "intent": "student_welfare", "source": "authored"}
+{"text": "hey there, you there?", "intent": "greeting", "source": "authored"}
+{"text": "Civil engineering", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "how many countries in the world are democracies", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "good bye my friend", "intent": "goodbye", "source": "clinc150"}
+{"text": "who won the football world cup", "intent": "out_of_scope", "source": "authored"}
+{"text": "how do I apply for MTech at VIT", "intent": "admissions", "source": "authored"}
+{"text": "how old is VIT university", "intent": "about_vit", "source": "authored"}
+{"text": "does VIT offer mechanical engineering", "intent": "programmes", "source": "authored"}
+{"text": "what is the mode of VITEEE exam", "intent": "viteee", "source": "authored"}
+{"text": "how does branch change work", "intent": "ffcs", "source": "authored"}
+{"text": "nothing else thanks", "intent": "goodbye", "source": "authored"}
+{"text": "i have to go ai goodbye", "intent": "goodbye", "source": "clinc150"}
+{"text": "who is the head of the electrical department", "intent": "faculty", "source": "authored"}
+{"text": "what is the grading scale at VIT", "intent": "examinations", "source": "authored"}
+{"text": "what is VITmate", "intent": "bot_identity", "source": "authored"}
+{"text": "What is the process for admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "admission"}
+{"text": "attendance?", "intent": "attendance", "source": "authored"}
+{"text": "document to bring", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "how to get to VIT campus from Katpadi", "intent": "campus_location", "source": "authored"}
+{"text": "how do I install Linux", "intent": "out_of_scope", "source": "authored"}
+{"text": "kindly list the undergraduate and postgraduate programmes of VIT", "intent": "programmes", "source": "authored"}
+{"text": "Who is extc HOD", "intent": "faculty", "source": "kaggle_university", "original_tag": "extchod"}
+{"text": "what is the techno management fest", "intent": "clubs_events", "source": "authored"}
+{"text": "is VIT accredited", "intent": "about_vit", "source": "authored"}
+{"text": "how do I keep my scholarship", "intent": "scholarships", "source": "authored"}
+{"text": "how do I download my grade sheet from VTOP", "intent": "vtop", "source": "authored"}
+{"text": "contact info", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "what is Riviera", "intent": "clubs_events", "source": "authored"}
+{"text": "testing 123", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there BSc at VIT", "intent": "programmes", "source": "authored"}
+{"text": "Is scholarship available", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "where is the dipstick", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "tell me your birthday", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what blocks are there in the hostel", "intent": "hostel", "source": "authored"}
+{"text": "this bot is stupid", "intent": "profanity", "source": "authored"}
+{"text": "uh what's the rule for attendance shortage", "intent": "attendance", "source": "authored"}
+{"text": "any headlines from my area", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "fourth year scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "can I get admission without VITEEE", "intent": "admissions", "source": "authored"}
+{"text": "hostel address", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "where is college located", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "please look up the this cars mpg", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is VTOP", "intent": "vtop", "source": "authored"}
+{"text": "hi, nice to meet you", "intent": "greeting", "source": "authored"}
+{"text": "library facilities", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "how to apply to VIT", "intent": "admissions", "source": "authored"}
+{"text": "what do i have left to do on my to-do list", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a counselling centre at VIT", "intent": "student_welfare", "source": "authored"}
+{"text": "See you later", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "is there a counsellor at the health centre", "intent": "health_services", "source": "authored"}
+{"text": "who were you made by", "intent": "bot_identity", "source": "clinc150"}
+{"text": "when is the FAT", "intent": "examinations", "source": "authored"}
+{"text": "Cafetaria", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "i've got to run now", "intent": "goodbye", "source": "clinc150"}
+{"text": "college number", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "College facility", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "facilities"}
+{"text": "where can I see the fee details", "intent": "fees", "source": "authored"}
+{"text": "recruitment", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "how do vaccines work", "intent": "out_of_scope", "source": "authored"}
+{"text": "kindly share the location of VIT Vellore campus", "intent": "campus_location", "source": "authored"}
+{"text": "are autos available near VIT", "intent": "transport", "source": "authored"}
+{"text": "I'm new here, can you give me some background on VIT", "intent": "about_vit", "source": "authored"}
+{"text": "what student chapters are there", "intent": "clubs_events", "source": "authored"}
+{"text": "does the library have study cubicles", "intent": "library", "source": "authored"}
+{"text": "can you buy something from walmartcom for me", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are the bus routes", "intent": "transport", "source": "authored"}
+{"text": "does VIT have a basketball court", "intent": "sports", "source": "authored"}
+{"text": "is there wifi in the library", "intent": "library", "source": "authored"}
+{"text": "hey VITmate", "intent": "greeting", "source": "authored"}
+{"text": "telephone number of VIT university", "intent": "contact_info", "source": "authored"}
+{"text": "uh how do I join VIT", "intent": "admissions", "source": "authored"}
+{"text": "size of campus", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "floors"}
+{"text": "what does SAS mean at VIT", "intent": "schools", "source": "authored"}
+{"text": "documents required during admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "where do I download my timetable", "intent": "vtop", "source": "authored"}
+{"text": "what rank is needed for ECE in VIT", "intent": "viteee", "source": "authored"}
+{"text": "how do I get a no objection certificate for internship", "intent": "internships", "source": "authored"}
+{"text": "fee per semester", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "what is the cut off for CSE", "intent": "viteee", "source": "authored"}
+{"text": "what is the final year project and internship option", "intent": "internships", "source": "authored"}
+{"text": "does VIT have commerce or arts courses", "intent": "programmes", "source": "authored"}
+{"text": "what kind of plug do i need for my razor in ireland", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "kindly tell me the attendance rules at VIT", "intent": "attendance", "source": "authored"}
+{"text": "when can I do an internship", "intent": "internships", "source": "authored"}
+{"text": "courses you offer", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "kindly share details about bus facilities", "intent": "transport", "source": "authored"}
+{"text": "hmm hmm hmm", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the credit system at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "uh is there a clinic in college", "intent": "health_services", "source": "authored"}
+{"text": "Whats there on menu", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "when was kobe bryant born", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "let's change your accent", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "book me a flight to Delhi", "intent": "out_of_scope", "source": "authored"}
+{"text": "fucker", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "who made you up", "intent": "bot_identity", "source": "clinc150"}
+{"text": "what is the STARS scheme", "intent": "scholarships", "source": "authored"}
+{"text": "documents needed during admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "what are the mess timings", "intent": "dining", "source": "authored"}
+{"text": "please change your language setting to spanish", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "accommodation options for students", "intent": "hostel", "source": "authored"}
+{"text": "can I take VITEEE twice", "intent": "viteee", "source": "authored"}
+{"text": "what is the dream offer policy", "intent": "placements", "source": "authored"}
+{"text": "what is the minimum attendance", "intent": "attendance", "source": "authored"}
+{"text": "how're you doing", "intent": "greeting", "source": "clinc150"}
+{"text": "who was your inventor", "intent": "bot_identity", "source": "clinc150"}
+{"text": "sports facilities", "intent": "sports", "source": "kaggle_university", "original_tag": "sports"}
+{"text": "is there an IEEE chapter at VIT", "intent": "clubs_events", "source": "authored"}
+{"text": "what does it mean if i dream of falling off a building", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a limit to how long you can store bread in the freezer", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "debug my javascript code", "intent": "out_of_scope", "source": "authored"}
+{"text": "health centre?", "intent": "health_services", "source": "authored"}
+{"text": "i'm outta here!", "intent": "goodbye", "source": "clinc150"}
+{"text": "awesome, that helps", "intent": "thanks", "source": "authored"}
+{"text": "what sports facilities are there at VIT", "intent": "sports", "source": "authored"}
+{"text": "asdf", "intent": "out_of_scope", "source": "authored"}
+{"text": "what's a good trivia fact about china", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when is the summer semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "can I study chemical engineering at VIT", "intent": "programmes", "source": "authored"}
+{"text": "fee for international students", "intent": "fees", "source": "authored"}
+{"text": "goodbye and take care", "intent": "goodbye", "source": "authored"}
+{"text": "Chemical engineering", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "what is the full form of NASA", "intent": "out_of_scope", "source": "authored"}
+{"text": "do you go by any nicknames", "intent": "bot_identity", "source": "clinc150"}
+{"text": "does VIT have smart classrooms", "intent": "campus_facilities", "source": "authored"}
+{"text": "when is the last instructional day", "intent": "academic_calendar", "source": "authored"}
+{"text": "what happens during FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "admission process", "intent": "admissions", "source": "kaggle_university", "original_tag": "admission"}
+{"text": "i need to know how much i should pay in tax", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is VITEEE held online or offline", "intent": "viteee", "source": "authored"}
+{"text": "committee", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "committee"}
+{"text": "where can i see art", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I raise a grievance", "intent": "grievances", "source": "authored"}
+{"text": "do you like pizza", "intent": "out_of_scope", "source": "authored"}
+{"text": "play some music", "intent": "out_of_scope", "source": "authored"}
+{"text": "uh is there a late fee penalty", "intent": "fees", "source": "authored"}
+{"text": "kindly explain the admission procedure for undergraduate courses", "intent": "admissions", "source": "authored"}
+{"text": "are you a human or AI", "intent": "bot_identity", "source": "authored"}
+{"text": "is hostel compulsory at VIT", "intent": "hostel", "source": "authored"}
+{"text": "how do I get a driving licence", "intent": "out_of_scope", "source": "authored"}
+{"text": "who is the dean of students welfare", "intent": "student_welfare", "source": "authored"}
+{"text": "is there a mid semester break", "intent": "academic_calendar", "source": "authored"}
+{"text": "what is the fee for international students at VIT", "intent": "fees", "source": "authored"}
+{"text": "i had a pleasure talking to you, see you later", "intent": "goodbye", "source": "clinc150"}
+{"text": "can I get a scholarship after joining", "intent": "scholarships", "source": "authored"}
+{"text": "are there cafes on campus", "intent": "dining", "source": "authored"}
+{"text": "what is DSW at VIT", "intent": "student_welfare", "source": "authored"}
+{"text": "what is the process of admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "admission"}
+{"text": "does VIT offer computer science", "intent": "programmes", "source": "authored"}
+{"text": "order pizza for me", "intent": "out_of_scope", "source": "authored"}
+{"text": "VITEEE syllabus", "intent": "viteee", "source": "authored"}
+{"text": "how many planets have we discovered", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is medical care free for students", "intent": "health_services", "source": "authored"}
+{"text": "uh what are the steps to get into VIT", "intent": "admissions", "source": "authored"}
+{"text": "where do I get the list of electives for my programme", "intent": "syllabus", "source": "authored"}
+{"text": "who formulated the theory of relativity", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "do hostels have attached bathrooms", "intent": "hostel", "source": "authored"}
+{"text": "i want to know what sort of things you can assist me with", "intent": "capabilities", "source": "clinc150"}
+{"text": "courses?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "how is hostel room allotment done", "intent": "hostel", "source": "authored"}
+{"text": "kindly share details about VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "see ya", "intent": "goodbye", "source": "authored"}
+{"text": "does VIT have MBA", "intent": "programmes", "source": "authored"}
+{"text": "what is digital assignment", "intent": "examinations", "source": "authored"}
+{"text": "what is the boiling point of water", "intent": "out_of_scope", "source": "authored"}
+{"text": "teach me SQL joins", "intent": "out_of_scope", "source": "authored"}
+{"text": "What is there to eat?", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "add mia to my spanish playlist", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "which school runs the MBA programme", "intent": "schools", "source": "authored"}
+{"text": "phone no", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "how are placements at SRM", "intent": "out_of_scope", "source": "authored"}
+{"text": "google maps location of VIT", "intent": "campus_location", "source": "authored"}
+{"text": "what is course allocation at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "hey can you hear me", "intent": "greeting", "source": "authored"}
+{"text": "are you a computer, or are you a real person", "intent": "bot_identity", "source": "clinc150"}
+{"text": "uh what's the campus like", "intent": "campus_facilities", "source": "authored"}
+{"text": "what is the attendance requirement at VIT", "intent": "attendance", "source": "authored"}
+{"text": "is there a peer mentoring programme", "intent": "student_welfare", "source": "authored"}
+{"text": "what percentage do I need in 12th for VIT", "intent": "admissions", "source": "authored"}
+{"text": "summarize this article for me", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the anti ragging committee", "intent": "anti_ragging", "source": "authored"}
+{"text": "what is the syllabus for CSE", "intent": "syllabus", "source": "authored"}
+{"text": "how many attempts are allowed for VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "when did camus die", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "exam rules at VIT", "intent": "examinations", "source": "authored"}
+{"text": "who do I approach for financial difficulty", "intent": "student_welfare", "source": "authored"}
+{"text": "can I keep a car on campus", "intent": "transport", "source": "authored"}
+{"text": "what's the definition of nuclear engineering", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I want to know the total cost of BTech at VIT including hostel", "intent": "fees", "source": "authored"}
+{"text": "what is the student portal of VIT", "intent": "vtop", "source": "authored"}
+{"text": "uh does VIT have good placements for mechanical", "intent": "placements", "source": "authored"}
+{"text": "um how do I make my timetable", "intent": "ffcs", "source": "authored"}
+{"text": "thanks for that!", "intent": "thanks", "source": "clinc150"}
+{"text": "what is the duration of the industrial internship", "intent": "internships", "source": "authored"}
+{"text": "can I choose my own faculty at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "VIT history", "intent": "about_vit", "source": "authored"}
+{"text": "Who is college principal", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "how are exams conducted at VIT", "intent": "examinations", "source": "authored"}
+{"text": "which school do I contact for electrical engineering", "intent": "schools", "source": "authored"}
+{"text": "explain slots like A1 B1 and L1 L2", "intent": "ffcs", "source": "authored"}
+{"text": "which school offers computer science", "intent": "schools", "source": "authored"}
+{"text": "is VIT a private university", "intent": "about_vit", "source": "authored"}
+{"text": "fees for non-Ac room for boys", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "what is naval engineering", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the fee of each semester", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "call the card company and ask them to replace my card", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are van gogh's best pieces", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how long is winter", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I see a doctor at night", "intent": "health_services", "source": "authored"}
+{"text": "what is the average package at VIT", "intent": "placements", "source": "authored"}
+{"text": "hi hi", "intent": "greeting", "source": "authored"}
+{"text": "I need the dates for this semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "is there a north indian mess", "intent": "dining", "source": "authored"}
+{"text": "my vtop account is locked", "intent": "vtop", "source": "authored"}
+{"text": "what is the hostel fee", "intent": "fees", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "your answer is appreciated", "intent": "thanks", "source": "clinc150"}
+{"text": "what is VIT", "intent": "about_vit", "source": "authored"}
+{"text": "is biometric attendance used", "intent": "attendance", "source": "authored"}
+{"text": "can I bring my own air cooler", "intent": "hostel", "source": "authored"}
+{"text": "documents", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "What are college facilities", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "facilities"}
+{"text": "is there an internal complaints committee", "intent": "grievances", "source": "authored"}
+{"text": "how do I lose weight fast", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the debar rule", "intent": "attendance", "source": "authored"}
+{"text": "how do I book a slot for VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "is there any educational loan support", "intent": "scholarships", "source": "authored"}
+{"text": "do you have library", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "about vacations", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "what vaccinations are needed for joining", "intent": "health_services", "source": "authored"}
+{"text": "what are the specialisations in computer science", "intent": "programmes", "source": "authored"}
+{"text": "how do I prepare for VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "how many courses are there per semester", "intent": "syllabus", "source": "authored"}
+{"text": "who is eligible for the founder's scholarship", "intent": "scholarships", "source": "authored"}
+{"text": "how much is 1 share of aapl", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when do classes reopen after vacation", "intent": "academic_calendar", "source": "authored"}
+{"text": "how do I register for courses at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "when does the winter semester begin", "intent": "academic_calendar", "source": "authored"}
+{"text": "what is the meaning of life", "intent": "out_of_scope", "source": "authored"}
+{"text": "perfect, thank you", "intent": "thanks", "source": "authored"}
+{"text": "syllabus", "intent": "syllabus", "source": "kaggle_university", "original_tag": "syllabus"}
+{"text": "thanks for the info", "intent": "thanks", "source": "clinc150"}
+{"text": "what is the friendliest breed", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "could i rent a car in seattle from next monday to thursday please", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how were you built", "intent": "bot_identity", "source": "authored"}
+{"text": "fees for first year", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "I'm done, goodbye", "intent": "goodbye", "source": "authored"}
+{"text": "how do I get internship approval", "intent": "internships", "source": "authored"}
+{"text": "what the hell is wrong with you", "intent": "profanity", "source": "authored"}
+{"text": "VIT email id", "intent": "contact_info", "source": "authored"}
+{"text": "I'm joining VIT, what kind of accommodation will I get", "intent": "hostel", "source": "authored"}
+{"text": "What events are conducted in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "which courses are offered in VIT Vellore", "intent": "programmes", "source": "authored"}
+{"text": "a show on broadway", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who has the best record in the nfl", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I drop a course after registering", "intent": "ffcs", "source": "authored"}
+{"text": "does VIT have a medical centre", "intent": "health_services", "source": "authored"}
+{"text": "can you list me tiger wood's stats", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the fees", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "what is the bus fee", "intent": "transport", "source": "authored"}
+{"text": "where can I see faculty profiles", "intent": "faculty", "source": "authored"}
+{"text": "what is the physical education department", "intent": "sports", "source": "authored"}
+{"text": "uh what food options are there in college", "intent": "dining", "source": "authored"}
+{"text": "what sort of things can you help me with", "intent": "capabilities", "source": "clinc150"}
+{"text": "what is the School of Computer Science and Engineering", "intent": "schools", "source": "authored"}
+{"text": "thanks VITmate", "intent": "thanks", "source": "authored"}
+{"text": "uh what games can we play in the evening", "intent": "sports", "source": "authored"}
+{"text": "show me the academic calendar", "intent": "academic_calendar", "source": "authored"}
+{"text": "tell me the subject areas you are familiar with", "intent": "capabilities", "source": "clinc150"}
+{"text": "name of extc hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "extchod"}
+{"text": "admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "admission"}
+{"text": "please find the capital of pakistan and its population", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "hey VITmate, what's up", "intent": "greeting", "source": "authored"}
+{"text": "how do I make money online", "intent": "out_of_scope", "source": "authored"}
+{"text": "text sal and tell them hi", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "uh who do I talk to about unfair treatment", "intent": "grievances", "source": "authored"}
+{"text": "i want to know the nutrition facts for pizza", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what kind of assistant are you", "intent": "bot_identity", "source": "authored"}
+{"text": "is it true that nicotine is harder to kick than heroin", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when do the utah jazz play next", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how tall is Mount Everest", "intent": "out_of_scope", "source": "authored"}
+{"text": "sports infrastructure", "intent": "sports", "source": "kaggle_university", "original_tag": "sports"}
+{"text": "is there a table tennis room", "intent": "sports", "source": "authored"}
+{"text": "scholarship mechanical", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "can parents visit the hostel", "intent": "hostel", "source": "authored"}
+{"text": "what were the top stories this week", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is the library open during exams", "intent": "library", "source": "authored"}
+{"text": "I am Leaving", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "uh where do I submit a complaint", "intent": "grievances", "source": "authored"}
+{"text": "thanks so much!", "intent": "thanks", "source": "clinc150"}
+{"text": "please put a block on my wells fargo account", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is continuous assessment test", "intent": "examinations", "source": "authored"}
+{"text": "i wish you were here earlier", "intent": "thanks", "source": "clinc150"}
+{"text": "switch to quiet mode", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "your help is appreciated", "intent": "thanks", "source": "clinc150"}
+{"text": "what is on the mess menu today", "intent": "dining", "source": "authored"}
+{"text": "can I apply for revaluation", "intent": "examinations", "source": "authored"}
+{"text": "so what's special about VIT", "intent": "about_vit", "source": "authored"}
+{"text": "how've you been feeling", "intent": "greeting", "source": "clinc150"}
+{"text": "is there an ambulance at VIT", "intent": "health_services", "source": "authored"}
+{"text": "sem", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "thank you for the information", "intent": "thanks", "source": "authored"}
+{"text": "dumb ass", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "canteen facility", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "what scholarships are available at VIT", "intent": "scholarships", "source": "authored"}
+{"text": "how do I apply online for VIT admission", "intent": "admissions", "source": "authored"}
+{"text": "can alumni use the library", "intent": "library", "source": "authored"}
+{"text": "how do I prepare for FFCS registration", "intent": "ffcs", "source": "authored"}
+{"text": "how do I view my attendance online", "intent": "vtop", "source": "authored"}
+{"text": "I'm preparing for the VIT entrance, when is it and how do I apply", "intent": "viteee", "source": "authored"}
+{"text": "are you ai or a real person please", "intent": "bot_identity", "source": "clinc150"}
+{"text": "is internship mandatory at VIT", "intent": "internships", "source": "authored"}
+{"text": "when's the next movie starring thor set to come out", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "many thanks", "intent": "thanks", "source": "authored"}
+{"text": "understood, thanks", "intent": "thanks", "source": "authored"}
+{"text": "can I write the exam if I miss CAT", "intent": "examinations", "source": "authored"}
+{"text": "what is slot registration in FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "what is fee", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "is there a book bank facility", "intent": "library", "source": "authored"}
+{"text": "what support is available for students' mental health", "intent": "student_welfare", "source": "authored"}
+{"text": "I'm bored", "intent": "out_of_scope", "source": "authored"}
+{"text": "how do I reset VTOP password", "intent": "vtop", "source": "authored"}
+{"text": "what is the full form of VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "what is the eligibility for the merit scholarship", "intent": "scholarships", "source": "authored"}
+{"text": "what postgraduate programmes does VIT have", "intent": "programmes", "source": "authored"}
+{"text": "what are the subject areas you are knowledgable in", "intent": "capabilities", "source": "clinc150"}
+{"text": "can I sit for placements with a backlog", "intent": "placements", "source": "authored"}
+{"text": "I want to email my professor, where can I find their id", "intent": "faculty", "source": "authored"}
+{"text": "fee structure for category 1 and category 2", "intent": "fees", "source": "authored"}
+{"text": "when is the next nintendo direct", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "package", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "is there a VIT enquiry number", "intent": "contact_info", "source": "authored"}
+{"text": "how do I borrow books", "intent": "library", "source": "authored"}
+{"text": "hello VITmate, how are you doing", "intent": "greeting", "source": "authored"}
+{"text": "what sorts of things can i ask you about", "intent": "capabilities", "source": "clinc150"}
+{"text": "why is there fake news", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "it seems that there's fraudulent activity on my card i'd like to file a report", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a student grievance redressal committee", "intent": "grievances", "source": "authored"}
+{"text": "what is the current market trend", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "library rules at VIT", "intent": "library", "source": "authored"}
+{"text": "scholarship for economically weak students", "intent": "scholarships", "source": "authored"}
+{"text": "what is the admission process", "intent": "admissions", "source": "kaggle_university", "original_tag": "admission"}
+{"text": "please set up an alarm to go off tomorrow at daybreak", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "dial sarah", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can I see the course content of a subject", "intent": "syllabus", "source": "authored"}
+{"text": "how safe are freshers from ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "catch you around", "intent": "goodbye", "source": "clinc150"}
+{"text": "greetings", "intent": "greeting", "source": "authored"}
+{"text": "i'm so glad you helped me!", "intent": "thanks", "source": "clinc150"}
+{"text": "what does SITE stand for", "intent": "schools", "source": "authored"}
+{"text": "what's two plus two", "intent": "out_of_scope", "source": "authored"}
+{"text": "what sorts of subjects do you know about", "intent": "capabilities", "source": "clinc150"}
+{"text": "are there yoga classes on campus", "intent": "sports", "source": "authored"}
+{"text": "college fee", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "who is the ombudsman", "intent": "grievances", "source": "authored"}
+{"text": "kindly tell me about the grievance redressal mechanism", "intent": "grievances", "source": "authored"}
+{"text": "idiot", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "where is the curriculum published", "intent": "syllabus", "source": "authored"}
+{"text": "what is my money market account balance", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what subjects are you versed in", "intent": "capabilities", "source": "clinc150"}
+{"text": "ragging juniors", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "how does grading work at VIT", "intent": "examinations", "source": "authored"}
+{"text": "is there any placement training for soft skills", "intent": "placements", "source": "authored"}
+{"text": "who are the deans at VIT", "intent": "faculty", "source": "authored"}
+{"text": "how fast does an airplane travel", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when did the mls start", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the admission process for international students", "intent": "admissions", "source": "authored"}
+{"text": "what are the fees for hostel rooms", "intent": "fees", "source": "authored"}
+{"text": "documents required for admision", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "what services does VIT provide to students", "intent": "student_welfare", "source": "authored"}
+{"text": "what documents should I bring on the reporting day", "intent": "admissions", "source": "authored"}
+{"text": "developers", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "how much attendance is compulsory", "intent": "attendance", "source": "authored"}
+{"text": "uh when are mid semester exams", "intent": "examinations", "source": "authored"}
+{"text": "is the fee refundable", "intent": "fees", "source": "authored"}
+{"text": "is VIT a deemed university", "intent": "about_vit", "source": "authored"}
+{"text": "what is machine learning", "intent": "out_of_scope", "source": "authored"}
+{"text": "what are the important dates this semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "how are the classrooms at VIT", "intent": "campus_facilities", "source": "authored"}
+{"text": "mess?", "intent": "dining", "source": "authored"}
+{"text": "end the chat", "intent": "goodbye", "source": "authored"}
+{"text": "events organised", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "event"}
+{"text": "can I stay outside campus instead", "intent": "hostel", "source": "authored"}
+{"text": "what does DNA stand for", "intent": "out_of_scope", "source": "authored"}
+{"text": "which school handles biotechnology", "intent": "schools", "source": "authored"}
+{"text": "where are the faculty cabins", "intent": "faculty", "source": "authored"}
+{"text": "library facility", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "is cnn really fake news", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what were some of ben franklin's notable accomplishments", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "which top recruiters hire from VIT", "intent": "placements", "source": "authored"}
+{"text": "what's the most dominant scale in bluegrass", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where can I download the syllabus pdf", "intent": "syllabus", "source": "authored"}
+{"text": "when do classes begin", "intent": "academic_calendar", "source": "authored"}
+{"text": "kindly share some details about Vellore Institute of Technology", "intent": "about_vit", "source": "authored"}
+{"text": "Who is computer HOD", "intent": "faculty", "source": "kaggle_university", "original_tag": "computerhod"}
+{"text": "VIT campus address please", "intent": "campus_location", "source": "authored"}
+{"text": "how do i change my billing address", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "qwertyuiop", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is SMEC", "intent": "schools", "source": "authored"}
+{"text": "who do I call for admission queries", "intent": "contact_info", "source": "authored"}
+{"text": "are there sports quotas", "intent": "sports", "source": "authored"}
+{"text": "what is the hostel visiting policy", "intent": "hostel", "source": "authored"}
+{"text": "VIT Vellore location", "intent": "campus_location", "source": "authored"}
+{"text": "placement", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "who's responsible for your existence", "intent": "bot_identity", "source": "clinc150"}
+{"text": "uh how many floors is the library", "intent": "library", "source": "authored"}
+{"text": "Where is library", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "how can i cash in rewards on my chase card", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many libraries", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "does the library have previous question papers", "intent": "library", "source": "authored"}
+{"text": "what's the weather like today", "intent": "out_of_scope", "source": "authored"}
+{"text": "nearest railway station to VIT", "intent": "campus_location", "source": "authored"}
+{"text": "whom should I contact for general enquiries at VIT", "intent": "contact_info", "source": "authored"}
+{"text": "what has my income been like", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "sayonara", "intent": "goodbye", "source": "clinc150"}
+{"text": "uh how do I use vtop", "intent": "vtop", "source": "authored"}
+{"text": "where does cannabis originate from", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "will on duty count towards attendance", "intent": "attendance", "source": "authored"}
+{"text": "how do I file an anonymous ragging complaint", "intent": "anti_ragging", "source": "authored"}
+{"text": "what is CDC at VIT", "intent": "placements", "source": "authored"}
+{"text": "ragging history", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "is there a gym in the hostel", "intent": "hostel", "source": "authored"}
+{"text": "which marvel character has appeared in the most movies", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "Which document to bring for admission", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "what does debarred mean at VIT", "intent": "attendance", "source": "authored"}
+{"text": "how do I check marks on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "when are the CAT exams", "intent": "examinations", "source": "authored"}
+{"text": "what is VIT's ranking", "intent": "about_vit", "source": "authored"}
+{"text": "f f c s kya hai", "intent": "ffcs", "source": "authored"}
+{"text": "explain the theory of relativity", "intent": "out_of_scope", "source": "authored"}
+{"text": "how long is the semester", "intent": "academic_calendar", "source": "authored"}
+{"text": "hey hi", "intent": "greeting", "source": "authored"}
+{"text": "do ducks eat meat, vegetables, or both", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "shut up you idiot", "intent": "profanity", "source": "authored"}
+{"text": "can parents report ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "what are the courses in VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "how many onions do i have on hand", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is autism a genetic disease", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "i'm looking for a roundtrip flight from afw to dgb for tomorrow until next week", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where is the main gate of VIT", "intent": "campus_location", "source": "authored"}
+{"text": "we have a table at the taco bell under bowie we need to release", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are seniors allowed to rag juniors", "intent": "anti_ragging", "source": "authored"}
+{"text": "hostel facilities at Manipal University", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the purpose or benefit of a cash advance", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "which model are you", "intent": "bot_identity", "source": "authored"}
+{"text": "are there shuttle buses on campus", "intent": "transport", "source": "authored"}
+{"text": "first year scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "what is the weightage of CAT", "intent": "examinations", "source": "authored"}
+{"text": "what facilities are available at VIT", "intent": "campus_facilities", "source": "authored"}
+{"text": "give me stock market tips", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the name of the 13th president", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what does the student welfare office do", "intent": "student_welfare", "source": "authored"}
+{"text": "what is the cultural fest of VIT", "intent": "clubs_events", "source": "authored"}
+{"text": "what services do you offer", "intent": "capabilities", "source": "authored"}
+{"text": "Which companies visit in college", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "can I choose my exam centre for VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "is there a veg and non veg mess", "intent": "dining", "source": "authored"}
+{"text": "how do i compute the median of a set of numbers", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many offers can a student get", "intent": "placements", "source": "authored"}
+{"text": "is there any ragging cases", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "uh does the campus have 24 hour power", "intent": "campus_facilities", "source": "authored"}
+{"text": "what are courses in VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "uh how much attendance do I need", "intent": "attendance", "source": "authored"}
+{"text": "does CDC post internship opportunities", "intent": "internships", "source": "authored"}
+{"text": "test test", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there a squash court", "intent": "sports", "source": "authored"}
+{"text": "what subjects are in VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "who designed you", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "creator"}
+{"text": "civil scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "what is the mess fee", "intent": "fees", "source": "authored"}
+{"text": "is there a supplementary exam", "intent": "examinations", "source": "authored"}
+{"text": "I'm in second year, when should I start preparing for placements", "intent": "placements", "source": "authored"}
+{"text": "what are the rules of chess", "intent": "out_of_scope", "source": "authored"}
+{"text": "what is the placement record of CSE", "intent": "placements", "source": "authored"}
+{"text": "how many points per game is lebron james averaging this season", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "Library information", "intent": "library", "source": "kaggle_university", "original_tag": "library"}
+{"text": "are schools the same as departments", "intent": "schools", "source": "authored"}
+{"text": "who is radiohead", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what sorts of things am i able to ask of you ai", "intent": "capabilities", "source": "clinc150"}
+{"text": "is there biology in VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "how to reach college", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "how are lab exams conducted", "intent": "examinations", "source": "authored"}
+{"text": "name of it hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "ithod"}
+{"text": "are there international internship programmes", "intent": "internships", "source": "authored"}
+{"text": "is there a helpline for students", "intent": "student_welfare", "source": "authored"}
+{"text": "is there a laundry service on campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "is everything ok with you", "intent": "greeting", "source": "clinc150"}
+{"text": "which phone should I buy", "intent": "out_of_scope", "source": "authored"}
+{"text": "is there any student mentoring", "intent": "student_welfare", "source": "authored"}
+{"text": "Give me committee details", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "committee"}
+{"text": "yo, hows it going", "intent": "greeting", "source": "clinc150"}
+{"text": "what's the time zone in miami", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a convention centre", "intent": "campus_facilities", "source": "authored"}
+{"text": "VITEEE?", "intent": "viteee", "source": "authored"}
+{"text": "VIT fees per year", "intent": "fees", "source": "authored"}
+{"text": "are there research internships at VIT", "intent": "internships", "source": "authored"}
+{"text": "can students choose their own classes", "intent": "ffcs", "source": "authored"}
+{"text": "what are the different VIT campuses", "intent": "about_vit", "source": "authored"}
+{"text": "does VIT have biotechnology", "intent": "programmes", "source": "authored"}
+{"text": "uh does VIT have biomedical engineering", "intent": "programmes", "source": "authored"}
+{"text": "bonjour", "intent": "greeting", "source": "clinc150"}
+{"text": "I'm feeling unwell where should I go", "intent": "health_services", "source": "authored"}
+{"text": "how does VIT's credit system let us plan our timetable", "intent": "ffcs", "source": "authored"}
+{"text": "what stage of evolution am i", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the caution deposit", "intent": "fees", "source": "authored"}
+{"text": "can I access e-journals from the library", "intent": "library", "source": "authored"}
+{"text": "what are the different course categories under FFCS", "intent": "ffcs", "source": "authored"}
+{"text": "what is the name of principal", "intent": "about_vit", "source": "kaggle_university", "original_tag": "principal"}
+{"text": "uh how expensive is VIT", "intent": "fees", "source": "authored"}
+{"text": "I have a problem with my hostel who do I complain to", "intent": "grievances", "source": "authored"}
+{"text": "okk", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "how u can help me", "intent": "capabilities", "source": "kaggle_university", "original_tag": "task"}
+{"text": "where can I get snacks late at night", "intent": "dining", "source": "authored"}
+{"text": "what should I call you", "intent": "bot_identity", "source": "kaggle_university", "original_tag": "name"}
+{"text": "i'm going to need a meeting room on 9am on tuesday", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are you a real life person", "intent": "bot_identity", "source": "clinc150"}
+{"text": "what should I do if I fall sick", "intent": "health_services", "source": "authored"}
+{"text": "what is the best programming language", "intent": "out_of_scope", "source": "authored"}
+{"text": "convert 10 miles to kilometers", "intent": "out_of_scope", "source": "authored"}
+{"text": "can you tell me the latest georgia news", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many schools does VIT have", "intent": "schools", "source": "authored"}
+{"text": "uh do you have VIT's phone number", "intent": "contact_info", "source": "authored"}
+{"text": "can I change my mess", "intent": "dining", "source": "authored"}
+{"text": "can I do MCA at VIT", "intent": "programmes", "source": "authored"}
+{"text": "Hi", "intent": "greeting", "source": "kaggle_university", "original_tag": "greeting"}
+{"text": "where is the nearest pharmacy", "intent": "health_services", "source": "authored"}
+{"text": "who founded VIT", "intent": "about_vit", "source": "authored"}
+{"text": "how do I know what topics will come in the exam", "intent": "syllabus", "source": "authored"}
+{"text": "what does FFCS stand for", "intent": "ffcs", "source": "authored"}
+{"text": "what day will my paycheck come", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many committee are there in college", "intent": "clubs_events", "source": "kaggle_university", "original_tag": "committee"}
+{"text": "is there a nurse in the hostel", "intent": "health_services", "source": "authored"}
+{"text": "is there an auditorium", "intent": "campus_facilities", "source": "authored"}
+{"text": "can I cook in my hostel room", "intent": "dining", "source": "authored"}
+{"text": "Have a Good day", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "how much money does radiohead earn a year", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what team does eli mannign play for", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how can I reach college", "intent": "campus_location", "source": "kaggle_university", "original_tag": "location"}
+{"text": "tell me five dollars in yen and rubles", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where do I upload digital assignments", "intent": "vtop", "source": "authored"}
+{"text": "is there a college bus at VIT", "intent": "transport", "source": "authored"}
+{"text": "how do I get a counselling appointment", "intent": "student_welfare", "source": "authored"}
+{"text": "i need to know the interest rate on my bank of america cd account", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "cya", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "who do I call in a medical emergency", "intent": "health_services", "source": "authored"}
+{"text": "tell me about the campus infrastructure", "intent": "campus_facilities", "source": "authored"}
+{"text": "which school is the CSE department in", "intent": "schools", "source": "authored"}
+{"text": "does VIT have architecture", "intent": "programmes", "source": "authored"}
+{"text": "does VIT provide transport for day scholars", "intent": "transport", "source": "authored"}
+{"text": "what is the NAAC grade of VIT", "intent": "about_vit", "source": "authored"}
+{"text": "what are the lab courses in first year", "intent": "syllabus", "source": "authored"}
+{"text": "see ya later", "intent": "goodbye", "source": "clinc150"}
+{"text": "are there juice shops on campus", "intent": "dining", "source": "authored"}
+{"text": "can i mix antifreeze with water", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "can i increase the credit limit for my chase card", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how does counselling work at VIT", "intent": "admissions", "source": "authored"}
+{"text": "what is the official email of VIT", "intent": "contact_info", "source": "authored"}
+{"text": "what is the NEET syllabus", "intent": "out_of_scope", "source": "authored"}
+{"text": "can I email VIT", "intent": "contact_info", "source": "authored"}
+{"text": "admission requirements for VIT", "intent": "admissions", "source": "authored"}
+{"text": "i am going out of country and my bank needs to be notified", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "who is the dean of SCOPE", "intent": "faculty", "source": "authored"}
+{"text": "can you tell me the branches available in VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "what are university core and programme core courses", "intent": "syllabus", "source": "authored"}
+{"text": "what is the name i should use to refer to you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "does college have any antiragging facility", "intent": "anti_ragging", "source": "kaggle_university", "original_tag": "ragging"}
+{"text": "what will I study in computer science", "intent": "syllabus", "source": "authored"}
+{"text": "I have to go now", "intent": "goodbye", "source": "authored"}
+{"text": "how are complaints resolved", "intent": "grievances", "source": "authored"}
+{"text": "i'll talk to you later ai", "intent": "goodbye", "source": "clinc150"}
+{"text": "what is available in college canteen", "intent": "dining", "source": "kaggle_university", "original_tag": "menu"}
+{"text": "what is the programme structure", "intent": "syllabus", "source": "authored"}
+{"text": "what's the weekend forecast", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when was nintendo created", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what is the course structure at VIT", "intent": "syllabus", "source": "authored"}
+{"text": "how can i get a new credit card", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are there any social service clubs", "intent": "clubs_events", "source": "authored"}
+{"text": "how do I register with CDC", "intent": "placements", "source": "authored"}
+{"text": "when was VIT founded", "intent": "about_vit", "source": "authored"}
+{"text": "Good work", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "okie", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "are white and brown eggs any different", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a physiotherapy centre", "intent": "health_services", "source": "authored"}
+{"text": "tell me a joke", "intent": "out_of_scope", "source": "authored"}
+{"text": "i want to know who made you", "intent": "bot_identity", "source": "clinc150"}
+{"text": "will I be protected if I report ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "name of computer hod", "intent": "faculty", "source": "kaggle_university", "original_tag": "computerhod"}
+{"text": "I'm feeling stressed who can I talk to", "intent": "student_welfare", "source": "authored"}
+{"text": "who are the professors at VIT", "intent": "faculty", "source": "authored"}
+{"text": "do people prefer summer over fall", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how do I apply for PhD at VIT", "intent": "admissions", "source": "authored"}
+{"text": "how do I register courses on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "how much does it cost to study at VIT", "intent": "fees", "source": "authored"}
+{"text": "scholarship for chemical engineering", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "Sports activities", "intent": "sports", "source": "kaggle_university", "original_tag": "sports"}
+{"text": "where can I print documents on campus", "intent": "campus_facilities", "source": "authored"}
+{"text": "are there certain types of questions i can ask you", "intent": "capabilities", "source": "clinc150"}
+{"text": "how does FFCS work at VIT", "intent": "ffcs", "source": "authored"}
+{"text": "are there integrated programmes at VIT", "intent": "programmes", "source": "authored"}
+{"text": "can I switch branches after first year", "intent": "ffcs", "source": "authored"}
+{"text": "About placement", "intent": "placements", "source": "kaggle_university", "original_tag": "placement"}
+{"text": "canteen facilities", "intent": "dining", "source": "kaggle_university", "original_tag": "canteen"}
+{"text": "how many CATs are there", "intent": "examinations", "source": "authored"}
+{"text": "what's a good name for my dog", "intent": "out_of_scope", "source": "authored"}
+{"text": "what are theory and lab slots", "intent": "ffcs", "source": "authored"}
+{"text": "uh where is my course syllabus on VTOP", "intent": "syllabus", "source": "authored"}
+{"text": "what type of vacation schedule do i have left", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "Does college provide hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "is 75 percent attendance mandatory", "intent": "attendance", "source": "authored"}
+{"text": "is there a bus pass", "intent": "transport", "source": "authored"}
+{"text": "what documents do i need", "intent": "admissions", "source": "kaggle_university", "original_tag": "document"}
+{"text": "thanks, that's everything, bye", "intent": "goodbye", "source": "authored"}
+{"text": "what topics do you cover", "intent": "capabilities", "source": "authored"}
+{"text": "how to get in hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "what should I eat for dinner", "intent": "out_of_scope", "source": "authored"}
+{"text": "can I sit in the library at night", "intent": "library", "source": "authored"}
+{"text": "what are dream and super dream companies", "intent": "placements", "source": "authored"}
+{"text": "okay", "intent": "thanks", "source": "kaggle_university", "original_tag": "salutaion"}
+{"text": "branches available in VIT?", "intent": "programmes", "source": "kaggle_university", "original_tag": "course"}
+{"text": "are there computer labs open for students", "intent": "campus_facilities", "source": "authored"}
+{"text": "see you", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "Goodbye", "intent": "goodbye", "source": "kaggle_university", "original_tag": "goodbye"}
+{"text": "shut up", "intent": "profanity", "source": "kaggle_university", "original_tag": "swear"}
+{"text": "how many students share a room", "intent": "hostel", "source": "authored"}
+{"text": "what dog breed sold the most in 2018", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I want to escalate my complaint", "intent": "grievances", "source": "authored"}
+{"text": "how can i become an aerospace engineer", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "how many marks is the VITEEE exam", "intent": "viteee", "source": "authored"}
+{"text": "no more questions", "intent": "goodbye", "source": "authored"}
+{"text": "Hello", "intent": "greeting", "source": "kaggle_university", "original_tag": "greeting"}
+{"text": "uh how do I find my class teacher", "intent": "faculty", "source": "authored"}
+{"text": "um hello", "intent": "greeting", "source": "authored"}
+{"text": "bloody useless assistant", "intent": "profanity", "source": "authored"}
+{"text": "peace out", "intent": "goodbye", "source": "authored"}
+{"text": "fees", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "is south indian food served in the mess", "intent": "dining", "source": "authored"}
+{"text": "is flu contagious", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "is there a school of law at VIT", "intent": "schools", "source": "authored"}
+{"text": "how do I get an honours degree", "intent": "ffcs", "source": "authored"}
+{"text": "does VIT have an international students office", "intent": "student_welfare", "source": "authored"}
+{"text": "VTOP?", "intent": "vtop", "source": "authored"}
+{"text": "awesome, thanks", "intent": "thanks", "source": "clinc150"}
+{"text": "distance between college and hostel", "intent": "hostel", "source": "kaggle_university", "original_tag": "hostel"}
+{"text": "do core companies come to VIT", "intent": "placements", "source": "authored"}
+{"text": "how are hostel rooms cleaned", "intent": "hostel", "source": "authored"}
+{"text": "which is the best laptop under 50000", "intent": "out_of_scope", "source": "authored"}
+{"text": "what's the score of the cricket match", "intent": "out_of_scope", "source": "authored"}
+{"text": "how can i contact you", "intent": "contact_info", "source": "kaggle_university", "original_tag": "number"}
+{"text": "what is the VITEEE application fee", "intent": "viteee", "source": "authored"}
+{"text": "does the library subscribe to Springer and Elsevier", "intent": "library", "source": "authored"}
+{"text": "what is the square root of 144", "intent": "out_of_scope", "source": "authored"}
+{"text": "is it bad to not remember your dreams", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "i'm grateful", "intent": "thanks", "source": "clinc150"}
+{"text": "where do I complain about hostel maintenance", "intent": "grievances", "source": "authored"}
+{"text": "screw you", "intent": "profanity", "source": "authored"}
+{"text": "exam schedule", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "tell me my reminders", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what are your features", "intent": "capabilities", "source": "authored"}
+{"text": "I'm being ragged what do I do", "intent": "anti_ragging", "source": "authored"}
+{"text": "how do I get admission in Amrita", "intent": "out_of_scope", "source": "authored"}
+{"text": "which school offers the BTech in civil", "intent": "schools", "source": "authored"}
+{"text": "what trees change color in autumn", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what amount of pto have i taken", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "Semester exam timetable", "intent": "examinations", "source": "kaggle_university", "original_tag": "sem"}
+{"text": "are there taxis near the main gate", "intent": "transport", "source": "authored"}
+{"text": "can you tell me some fake news", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "what do you have answers for", "intent": "capabilities", "source": "clinc150"}
+{"text": "is marijuana addictive", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "are you doing okay", "intent": "greeting", "source": "clinc150"}
+{"text": "what is my pnc account routing number", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "when does the semester end", "intent": "academic_calendar", "source": "authored"}
+{"text": "what caterers run the mess", "intent": "dining", "source": "authored"}
+{"text": "college infrastructure", "intent": "campus_facilities", "source": "kaggle_university", "original_tag": "infrastructure"}
+{"text": "is there an English section in VITEEE", "intent": "viteee", "source": "authored"}
+{"text": "do they have civil engineering at VIT", "intent": "programmes", "source": "authored"}
+{"text": "when will semester end", "intent": "academic_calendar", "source": "kaggle_university", "original_tag": "vacation"}
+{"text": "tell me the fee", "intent": "fees", "source": "kaggle_university", "original_tag": "fees"}
+{"text": "are there electric vehicles on campus", "intent": "transport", "source": "authored"}
+{"text": "show me what you can do", "intent": "capabilities", "source": "authored"}
+{"text": "does the library have digital resources", "intent": "library", "source": "authored"}
+{"text": "does VIT have a gym", "intent": "sports", "source": "authored"}
+{"text": "how do I raise a request on VTOP", "intent": "vtop", "source": "authored"}
+{"text": "you want to know about current time now", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "I want to send a letter to VIT, what's the postal address", "intent": "contact_info", "source": "authored"}
+{"text": "how can i send money from one account to another", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "where do I pay fees online", "intent": "vtop", "source": "authored"}
+{"text": "what is the punishment for ragging", "intent": "anti_ragging", "source": "authored"}
+{"text": "how do I find faculty research areas", "intent": "faculty", "source": "authored"}
+{"text": "what courses does VIT offer", "intent": "programmes", "source": "authored"}
+{"text": "what research programmes are there", "intent": "programmes", "source": "authored"}
+{"text": "does the curriculum include a project", "intent": "syllabus", "source": "authored"}
+{"text": "does FFCS let me decide how many credits I take", "intent": "ffcs", "source": "authored"}
+{"text": "who's toledo's starting point guard for the next game", "intent": "out_of_scope", "source": "clinc150"}
+{"text": "tuition fee waiver for rank holders", "intent": "scholarships", "source": "authored"}
+{"text": "where can I find the academic calendar", "intent": "academic_calendar", "source": "authored"}
+{"text": "is there an athletics track", "intent": "sports", "source": "authored"}
+{"text": "what transport is there during Riviera", "intent": "transport", "source": "authored"}
+{"text": "why, hello bandit", "intent": "greeting", "source": "clinc150"}
+{"text": "second year scholarship", "intent": "scholarships", "source": "kaggle_university", "original_tag": "scholarship"}
+{"text": "when is the JEE Main exam", "intent": "out_of_scope", "source": "authored"}
+{"text": "does VIT have an incubation centre", "intent": "campus_facilities", "source": "authored"}
+{"text": "i am thankful for your help!", "intent": "thanks", "source": "clinc150"}
+{"text": "where can I get first aid", "intent": "health_services", "source": "authored"}

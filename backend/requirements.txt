@@ -1,0 +1,11 @@
+# Runtime dependencies of the VITmate API (what a deployment needs).
+# The CPU-only PyTorch index keeps the install small; no GPU is required.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+transformers==4.57.6
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+PyYAML==6.0.3
+numpy==2.5.3

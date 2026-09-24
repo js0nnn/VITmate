@@ -1,0 +1,280 @@
+# Authored utterances for academic intents and general VIT information.
+about_vit:
+  - tell me about VIT
+  - what is VIT
+  - what does VIT stand for
+  - when was VIT founded
+  - who founded VIT
+  - who is the chancellor of VIT
+  - who is the vice chancellor of VIT
+  - how old is VIT university
+  - is VIT a deemed university
+  - give me an overview of Vellore Institute of Technology
+  - how many campuses does VIT have
+  - what are the different VIT campuses
+  - is there a VIT campus in Chennai
+  - VIT Bhopal and VIT AP, are they the same university
+  - what is VIT known for
+  - brief history of VIT
+  - what is the NAAC grade of VIT
+  - what is VIT's ranking
+  - who runs VIT
+  - who is the founder of Vellore Institute of Technology
+  - um can you tell me a bit about VIT university
+  - I want to know about VIT in general
+  - is VIT a private university
+  - what's the full form of VIT
+  - who is the head of VIT
+  - who is the principal of VIT
+  - how big is VIT
+  - how many students study at VIT
+  - is VIT accredited
+  - what is the vision and mission of VIT
+
+campus_location:
+  - where is VIT located
+  - what is the address of VIT Vellore
+  - how do I reach VIT Vellore
+  - how far is VIT from Chennai
+  - which city is VIT in
+  - nearest railway station to VIT
+  - nearest airport to VIT Vellore
+  - how to get to VIT campus from Katpadi
+  - VIT Vellore location
+  - where exactly is the VIT campus
+  - directions to VIT
+  - what state is VIT in
+  - is VIT close to Katpadi station
+  - how do I travel to VIT from Bangalore
+  - VIT campus address please
+  - um where is the VIT campus
+  - google maps location of VIT
+  - which district is VIT Vellore in
+  - how can I come to VIT by train
+  - what's the pin code of VIT Vellore
+
+contact_info:
+  - what is VIT's phone number
+  - how can I contact VIT
+  - VIT contact details
+  - give me the VIT helpline number
+  - what is the official email of VIT
+  - who do I call for admission queries
+  - how do I reach the VIT office
+  - VIT customer care number
+  - I want to talk to someone at VIT
+  - contact number for VIT Vellore
+  - email address to contact VIT
+  - how do I get in touch with the university
+  - is there a VIT enquiry number
+  - where can I find VIT contact information
+  - telephone number of VIT university
+  - uh how do I contact the college
+  - can I email VIT
+  - VIT admissions contact
+  - how to reach VIT by phone
+  - who should I contact for more information
+
+ffcs:
+  - what is FFCS
+  - explain FFCS
+  - what does FFCS stand for
+  - how does FFCS work at VIT
+  - tell me about the fully flexible credit system
+  - I don't understand how FFCS works
+  - can I choose my own faculty at VIT
+  - how do I register for courses at VIT
+  - how does course registration work
+  - what is slot registration in FFCS
+  - how do I pick my timetable at VIT
+  - can students choose their own classes
+  - what is the credit system at VIT
+  - how are slots allotted in FFCS
+  - can I select my teachers in VIT
+  - what are theory and lab slots
+  - how many credits do I need to graduate
+  - what is fully flexible credit system
+  - FFCS registration process
+  - hey can you tell me what FFCS is
+  - um how do I make my timetable
+  - is FFCS first come first serve
+  - f f c s kya hai
+  - what's the ffcs system
+  - how do I choose courses each semester
+  - what happens during FFCS
+  - explain the flexible credit system at VIT
+  - can I change my faculty after registration
+  - how does the credit based system work here
+  - what is course allocation at VIT
+
+programmes:
+  - what courses does VIT offer
+  - list of programmes at VIT
+  - what branches are available at VIT
+  - does VIT offer computer science
+  - what UG programmes are available
+  - what postgraduate programmes does VIT have
+  - does VIT have MBA
+  - is there a BTech in AI and ML at VIT
+  - does VIT offer PhD programmes
+  - what are the BTech specializations
+  - what degrees can I study at VIT
+  - does VIT offer MTech
+  - are there integrated programmes at VIT
+  - does VIT offer law courses
+  - is there BSc at VIT
+  - does VIT have a design course
+  - what engineering branches are there
+  - can I do MCA at VIT
+  - which courses are offered in VIT Vellore
+  - does VIT offer mechanical engineering
+  - is electronics and communication available at VIT
+  - does VIT have biotechnology
+  - what are the undergraduate courses
+  - uh what programmes can I apply for
+  - do they have civil engineering at VIT
+  - what research programmes are there
+  - does VIT offer BCom or BBA
+  - is there a data science programme
+  - what are the courses for after 12th at VIT
+  - does VIT have architecture
+
+schools:
+  - what schools are there in VIT
+  - list the schools of VIT
+  - which school offers computer science
+  - what is SCOPE at VIT
+  - what is SENSE
+  - which school does mechanical come under
+  - what is the School of Electrical Engineering
+  - how are departments organized at VIT
+  - what does SITE stand for
+  - which school handles biotechnology
+  - tell me about the schools at VIT Vellore
+  - how many schools does VIT have
+  - what is SMEC
+  - what is VIT Business School
+  - what is the school of social sciences and languages
+  - which school is the CSE department in
+  - is there a school of law at VIT
+  - what does SAS mean at VIT
+  - um which school should I look at for electronics
+  - academic schools of VIT
+
+faculty:
+  - who is the HOD of computer science
+  - how can I find faculty details
+  - who are the professors at VIT
+  - where can I see faculty profiles
+  - who is the dean of SCOPE
+  - how do I contact a faculty member
+  - who teaches in the CSE department
+  - how many faculty members does VIT have
+  - who is the head of the department
+  - where can I find professor email ids
+  - who is the dean of my school
+  - how do I find my faculty advisor
+  - who is the HOD of mechanical
+  - are the faculty at VIT good
+  - how to look up a professor at VIT
+  - who is my proctor
+  - what is a proctor at VIT
+  - faculty directory VIT
+  - um who is the HOD for ECE
+  - how can I meet my professor
+
+syllabus:
+  - where can I find the syllabus
+  - what is the syllabus for CSE
+  - show me the curriculum for BTech
+  - how do I get the course syllabus
+  - what subjects are in first year
+  - what is the course structure at VIT
+  - where is the curriculum published
+  - what will I study in computer science
+  - syllabus for electronics engineering
+  - what are the core courses
+  - what electives are available
+  - can I see the course content of a subject
+  - what is the programme structure
+  - where can I download the syllabus pdf
+  - what topics are covered in data structures
+  - curriculum details for my branch
+  - uh where do I find what subjects I have
+  - how many courses are there per semester
+  - what are university core and programme core courses
+  - list of subjects in BTech IT
+
+examinations:
+  - how are exams conducted at VIT
+  - what is CAT and FAT
+  - when are the CAT exams
+  - what is the exam pattern
+  - how does grading work at VIT
+  - what is the grading system
+  - how is CGPA calculated
+  - what is continuous assessment test
+  - what is final assessment test
+  - when is the FAT
+  - how many CATs are there
+  - what is the passing mark
+  - what is relative grading
+  - how are internal marks calculated
+  - what happens if I fail a course
+  - can I apply for revaluation
+  - what is a re-FAT
+  - where can I see my exam schedule
+  - how do I check my exam results
+  - what is the weightage of CAT
+  - uh when are mid semester exams
+  - what is digital assignment
+  - how is the final grade decided
+  - what is the exam timetable
+  - how do I get my hall ticket
+  - what is an S grade
+  - exam rules at VIT
+  - how are lab exams conducted
+
+academic_calendar:
+  - where can I find the academic calendar
+  - when does the semester start
+  - when does the semester end
+  - what are the holidays this semester
+  - when are the winter vacations
+  - when is summer break
+  - show me the academic calendar
+  - when do classes begin
+  - when is the last instructional day
+  - what are the important dates this semester
+  - is there a holiday list
+  - when is the next holiday
+  - when does fall semester start
+  - when does the winter semester start
+  - when is Riviera holiday
+  - how long is the semester
+  - when do classes reopen after vacation
+  - academic schedule for this year
+  - um when does college reopen
+  - what are fall and winter semesters
+
+attendance:
+  - what is the attendance requirement at VIT
+  - how much attendance is compulsory
+  - is 75 percent attendance mandatory
+  - what happens if my attendance is low
+  - what if I have less than 75% attendance
+  - can I be debarred for low attendance
+  - how do I check my attendance
+  - is attendance compulsory for labs
+  - what is the minimum attendance
+  - how is attendance calculated
+  - can I get attendance for medical leave
+  - what is on duty attendance
+  - will I be allowed to write FAT with low attendance
+  - attendance rules
+  - uh how much attendance do I need
+  - is there any attendance relaxation
+  - does attendance affect grades
+  - what is the debar rule
+  - how do I apply for OD
+  - is attendance strict at VIT

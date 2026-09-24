@@ -1,0 +1,201 @@
+{
+  "seed": 42,
+  "num_intents": 36,
+  "total_examples": 2119,
+  "split_sizes": {
+    "train": 1478,
+    "val": 322,
+    "test": 319
+  },
+  "spoken_test_size": 113,
+  "oos_eval_size": 983,
+  "examples_by_source": {
+    "kaggle_university": 344,
+    "authored": 1326,
+    "clinc150": 449
+  },
+  "removed_overlapping_held_out": 40,
+  "dropped_label_conflicts": [],
+  "per_intent": {
+    "greeting": {
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "goodbye": {
+      "train": 43,
+      "val": 9,
+      "test": 10
+    },
+    "thanks": {
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "bot_identity": {
+      "train": 54,
+      "val": 11,
+      "test": 11
+    },
+    "capabilities": {
+      "train": 35,
+      "val": 8,
+      "test": 8
+    },
+    "profanity": {
+      "train": 16,
+      "val": 4,
+      "test": 4
+    },
+    "out_of_scope": {
+      "train": 301,
+      "val": 64,
+      "test": 64
+    },
+    "about_vit": {
+      "train": 33,
+      "val": 7,
+      "test": 7
+    },
+    "campus_location": {
+      "train": 29,
+      "val": 9,
+      "test": 7
+    },
+    "contact_info": {
+      "train": 31,
+      "val": 6,
+      "test": 6
+    },
+    "ffcs": {
+      "train": 39,
+      "val": 8,
+      "test": 8
+    },
+    "programmes": {
+      "train": 45,
+      "val": 10,
+      "test": 10
+    },
+    "schools": {
+      "train": 27,
+      "val": 6,
+      "test": 6
+    },
+    "faculty": {
+      "train": 31,
+      "val": 7,
+      "test": 7
+    },
+    "syllabus": {
+      "train": 26,
+      "val": 6,
+      "test": 6
+    },
+    "examinations": {
+      "train": 35,
+      "val": 8,
+      "test": 8
+    },
+    "academic_calendar": {
+      "train": 33,
+      "val": 7,
+      "test": 7
+    },
+    "attendance": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "admissions": {
+      "train": 39,
+      "val": 8,
+      "test": 8
+    },
+    "viteee": {
+      "train": 35,
+      "val": 7,
+      "test": 7
+    },
+    "fees": {
+      "train": 38,
+      "val": 8,
+      "test": 9
+    },
+    "scholarships": {
+      "train": 39,
+      "val": 9,
+      "test": 9
+    },
+    "hostel": {
+      "train": 39,
+      "val": 9,
+      "test": 9
+    },
+    "dining": {
+      "train": 38,
+      "val": 8,
+      "test": 8
+    },
+    "library": {
+      "train": 32,
+      "val": 7,
+      "test": 7
+    },
+    "sports": {
+      "train": 31,
+      "val": 6,
+      "test": 6
+    },
+    "health_services": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "transport": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "campus_facilities": {
+      "train": 34,
+      "val": 7,
+      "test": 7
+    },
+    "clubs_events": {
+      "train": 31,
+      "val": 11,
+      "test": 8
+    },
+    "vtop": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "student_welfare": {
+      "train": 28,
+      "val": 6,
+      "test": 6
+    },
+    "anti_ragging": {
+      "train": 30,
+      "val": 6,
+      "test": 6
+    },
+    "grievances": {
+      "train": 26,
+      "val": 5,
+      "test": 5
+    },
+    "placements": {
+      "train": 35,
+      "val": 7,
+      "test": 7
+    },
+    "internships": {
+      "train": 29,
+      "val": 6,
+      "test": 6
+    }
+  }
+}

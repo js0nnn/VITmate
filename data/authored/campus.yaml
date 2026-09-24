@@ -1,0 +1,167 @@
+# Authored utterances for campus-life intents.
+hostel:
+  - what are the hostel facilities at VIT
+  - tell me about VIT hostels
+  - is hostel compulsory at VIT
+  - what types of hostel rooms are available
+  - are there AC rooms in the hostel
+  - how many students share a room
+  - is there wifi in the hostel
+  - what are the hostel timings
+  - is there a curfew in the hostel
+  - how do I book a hostel room
+  - what is the men's hostel like
+  - tell me about the ladies hostel
+  - is laundry available in hostels
+  - can first years get single rooms
+  - what are the hostel rules
+  - how is hostel room allotment done
+  - do hostels have attached bathrooms
+  - is there a gym in the hostel
+  - what blocks are there in the hostel
+  - uh what are the hostel facilities
+  - can I stay outside campus instead
+  - how safe are the hostels
+  - is there hot water in hostel
+  - what is the hostel visiting policy
+  - can parents visit the hostel
+  - how many hostel blocks does VIT have
+  - accommodation options for students
+  - where do students stay at VIT
+
+dining:
+  - what food is available on campus
+  - how is the mess food at VIT
+  - what are the mess options
+  - is there a veg and non veg mess
+  - what are the mess timings
+  - where can I eat on campus
+  - are there canteens at VIT
+  - what is the food court at VIT
+  - is there a special mess
+  - can I change my mess
+  - what are the types of mess at VIT
+  - is there a night canteen
+  - are there cafes on campus
+  - what is on the mess menu today
+  - is food good in VIT
+  - can I order food from outside
+  - how do I register for mess
+  - is south indian food served in the mess
+  - uh what food options are there in college
+  - is there a north indian mess
+  - where can I get snacks late at night
+  - what restaurants are inside the campus
+
+library:
+  - what facilities does the library provide
+  - where can I find library information
+  - what are the library timings
+  - how many books does the VIT library have
+  - how do I borrow books
+  - can I access e-journals from the library
+  - is the library open on Sundays
+  - how many books can I issue
+  - what is the name of the VIT library
+  - is there a reading room
+  - does the library have digital resources
+  - how do I renew a library book
+  - what is the fine for late return
+  - can I access IEEE papers through VIT
+  - is there a discussion room in the library
+  - does the library have previous question papers
+  - uh where is the library
+  - how do I get a library card
+  - can I use the library remotely
+  - is there wifi in the library
+  - library rules at VIT
+
+sports:
+  - what sports facilities are there at VIT
+  - is there a swimming pool at VIT
+  - does VIT have a gym
+  - can I play cricket on campus
+  - is there a football ground
+  - what indoor games are available
+  - how do I join the sports team
+  - are there sports quotas
+  - does VIT have a basketball court
+  - is there a stadium
+  - what sports events does VIT conduct
+  - can I play tennis at VIT
+  - are there fitness centres on campus
+  - how do I get into the university team
+  - is there badminton at VIT
+  - what is the physical education department
+  - uh can I play sports here
+  - are there yoga classes on campus
+  - does VIT participate in inter university tournaments
+  - what are the gym timings
+
+health_services:
+  - is there a hospital on campus
+  - what medical facilities are available at VIT
+  - where is the health centre
+  - what should I do if I fall sick
+  - is there a doctor on campus
+  - is there an ambulance at VIT
+  - does VIT have a pharmacy
+  - is medical care free for students
+  - what are the health centre timings
+  - is there 24 hour medical help
+  - do students get health insurance
+  - where can I get first aid
+  - is there a dentist on campus
+  - I'm feeling unwell where should I go
+  - uh is there a clinic in college
+  - emergency medical help at VIT
+  - does VIT have a medical centre
+  - can I see a doctor at night
+  - is there a nurse in the hostel
+  - where is the nearest hospital to VIT
+
+transport:
+  - is there a college bus at VIT
+  - how do I travel within the campus
+  - are there shuttle buses on campus
+  - what is the bus timetable
+  - does VIT provide transport for day scholars
+  - how do I get from campus to Katpadi station
+  - are there battery cars on campus
+  - is there bus service to Vellore town
+  - can I bring my bike to campus
+  - how do students commute to VIT
+  - are autos available near VIT
+  - what are the bus routes
+  - is there transport to the railway station
+  - how do day scholars reach college
+  - uh is there any bus facility
+  - can I keep a car on campus
+  - transport facilities at VIT
+  - are cycles allowed on campus
+  - how do I book a college bus
+  - is there transport during vacations
+
+campus_facilities:
+  - what facilities are available at VIT
+  - tell me about the campus infrastructure
+  - what are the amenities on campus
+  - is there wifi on campus
+  - are there banks or ATMs on campus
+  - is there a stationery shop on campus
+  - what labs does VIT have
+  - is there an auditorium
+  - how big is the VIT campus
+  - does VIT have a post office
+  - are there shops inside the campus
+  - is the campus green
+  - what research facilities does VIT have
+  - how are the classrooms at VIT
+  - what buildings are on campus
+  - is there a convention centre
+  - is there a laundry service on campus
+  - uh what's the campus like
+  - does VIT have smart classrooms
+  - is there a supermarket on campus
+  - what infrastructure does VIT have
+  - are there printing and xerox facilities

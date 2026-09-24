@@ -1,0 +1,218 @@
+/* Design tokens and base styles. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  --sidebar-width: 272px;
+  --content-width: 760px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 220ms;
+}
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --bg-elevated: #ffffff;
+  --surface: #f6f7fb;
+  --surface-hover: #eceff5;
+  --sidebar-bg: #f3f5f9;
+  --border: #e3e7ef;
+  --border-strong: #cfd6e3;
+  --text: #0f172a;
+  --text-muted: #5b6678;
+  --text-subtle: #8792a5;
+  --primary: #1d4ed8;
+  --primary-hover: #1e40af;
+  --primary-soft: #eaf0ff;
+  --primary-contrast: #ffffff;
+  --accent: #d97706;
+  --user-bubble: #eaf0ff;
+  --user-bubble-text: #0f172a;
+  --danger: #dc2626;
+  --danger-soft: #fef2f2;
+  --success: #16a34a;
+  --focus-ring: 0 0 0 3px rgba(37, 99, 235, 0.35);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 24px 60px rgba(15, 23, 42, 0.18);
+  --overlay: rgba(15, 23, 42, 0.45);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b1120;
+  --bg-elevated: #121a2c;
+  --surface: #141c2f;
+  --surface-hover: #1c2640;
+  --sidebar-bg: #0e1526;
+  --border: #1f2a40;
+  --border-strong: #2c3a57;
+  --text: #e6eaf2;
+  --text-muted: #9aa6bb;
+  --text-subtle: #6f7c93;
+  --primary: #60a5fa;
+  --primary-hover: #93c5fd;
+  --primary-soft: #16233f;
+  --primary-contrast: #0b1120;
+  --accent: #fbbf24;
+  --user-bubble: #1a2a4a;
+  --user-bubble-text: #e6eaf2;
+  --danger: #f87171;
+  --danger-soft: #2a1618;
+  --success: #4ade80;
+  --focus-ring: 0 0 0 3px rgba(96, 165, 250, 0.45);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --overlay: rgba(2, 6, 17, 0.65);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--duration) var(--ease), color var(--duration) var(--ease);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: var(--primary);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  transition: background-color var(--duration) var(--ease), color var(--duration) var(--ease);
+}
+
+.icon-button:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.icon-button.danger:hover {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.pill-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color var(--duration) var(--ease), border-color var(--duration) var(--ease);
+}
+
+.pill-button:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-strong);
+}
+
+.link-button {
+  border: none;
+  background: none;
+  padding: 2px 4px;
+  color: var(--text-muted);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link-button:hover {
+  color: var(--text);
+}
+
+.logo-mark {
+  flex-shrink: 0;
+  border-radius: 28%;
+}
+
+.wordmark {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+
+.wordmark-accent {
+  color: var(--primary);
+}
+
+.spin {
+  animation: spin 900ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

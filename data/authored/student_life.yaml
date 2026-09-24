@@ -1,0 +1,157 @@
+# Authored utterances for student-life, student-service and career intents.
+clubs_events:
+  - what clubs are there at VIT
+  - how do I join a club
+  - what is Riviera
+  - what is graVITas
+  - when is Riviera held
+  - what events happen at VIT
+  - what technical clubs does VIT have
+  - are there cultural clubs
+  - what student chapters are there
+  - is there a coding club
+  - how many clubs does VIT have
+  - what fests does VIT organise
+  - is there an IEEE chapter at VIT
+  - what are the extracurricular activities
+  - is there a music club
+  - how do I start a new club
+  - is there a dance club
+  - what is the techno management fest
+  - what is the cultural fest of VIT
+  - uh what clubs can I join
+  - are there hackathons at VIT
+  - what committees are there for students
+  - does VIT have NSS or NCC
+  - when is gravitas this year
+  - student activities at VIT
+
+vtop:
+  - what is VTOP
+  - how do I log in to VTOP
+  - what is the VTOP website
+  - I forgot my VTOP password
+  - what can I do on VTOP
+  - how do I check marks on VTOP
+  - where do I see my timetable
+  - VTOP login link
+  - is there a VTOP app
+  - how do I download my grade sheet from VTOP
+  - VTOP not working
+  - how do I apply for leave on VTOP
+  - what is the student portal of VIT
+  - how do I view my attendance online
+  - where do I upload digital assignments
+  - can parents access VTOP
+  - uh how do I use vtop
+  - v top portal
+  - how do I reset VTOP password
+  - how do I check course materials online
+  - where do I pay fees online
+  - how do I raise a request on VTOP
+
+student_welfare:
+  - what student services are available
+  - is there a counselling centre at VIT
+  - I'm feeling stressed who can I talk to
+  - what does the student welfare office do
+  - who is the dean of students welfare
+  - is there mental health support
+  - is there a student counsellor
+  - how do I get help with personal problems
+  - what support is there for new students
+  - is there a disability support cell
+  - what is DSW at VIT
+  - does VIT have an international students office
+  - who helps students with issues
+  - is there a peer mentoring programme
+  - I'm homesick what can I do
+  - uh who do I contact for student support
+  - student support services at VIT
+  - is there any wellness centre
+  - where can I get career counselling
+  - what services does VIT provide to students
+
+anti_ragging:
+  - is there ragging at VIT
+  - what are the anti ragging rules
+  - how do I report ragging
+  - is VIT ragging free
+  - what is the anti ragging committee
+  - what happens to students who rag
+  - is there an anti ragging helpline
+  - what is the punishment for ragging
+  - I'm being ragged what do I do
+  - is there an anti ragging squad
+  - do I need to submit an anti ragging affidavit
+  - are seniors allowed to rag juniors
+  - uh is ragging a problem here
+  - how safe are freshers from ragging
+  - anti ragging measures at VIT
+  - whom to complain about ragging
+
+grievances:
+  - how do I file a complaint
+  - is there a grievance cell
+  - how do I raise a grievance
+  - who handles student complaints
+  - I have a problem with my hostel who do I complain to
+  - where can I report harassment
+  - is there an internal complaints committee
+  - how do I complain about a faculty
+  - what is the grievance redressal process
+  - I want to report an issue
+  - can I complain online
+  - who is the ombudsman
+  - how are complaints resolved
+  - uh where do I submit a complaint
+  - is there a women's grievance cell
+  - my issue was not resolved what now
+
+placements:
+  - tell me about VIT placements
+  - how are placements at VIT
+  - how can I learn about VIT placements
+  - which companies come to VIT for placements
+  - what is the average package at VIT
+  - what is the highest package
+  - what is the Career Development Centre
+  - how do I register for placements
+  - what is CDC at VIT
+  - what is the placement percentage
+  - do all branches get placements
+  - how does the placement process work
+  - is there placement training
+  - what are dream and super dream companies
+  - how many companies visit VIT
+  - does VIT help with job preparation
+  - what is the placement record of CSE
+  - can I sit for placements with a backlog
+  - uh how good are placements at VIT
+  - what is the eligibility for placements
+  - when do placements start
+  - are there off campus placement drives
+  - placement statistics
+  - what is the median salary
+
+internships:
+  - how do I get an internship
+  - does VIT help with internships
+  - is internship mandatory at VIT
+  - when can I do an internship
+  - what is industrial internship
+  - how many credits is an internship
+  - can I do a summer internship
+  - are there research internships at VIT
+  - do companies offer internships through CDC
+  - can I do an internship abroad
+  - what is a semester long internship
+  - how do I get internship approval
+  - uh where do I find internships
+  - do I get credits for internships
+  - can first years do internships
+  - what is the internship policy
+  - is there a PPO through internships
+  - how do I submit my internship report
+  - can I intern at a startup
+  - what is capstone project

@@ -1,0 +1,184 @@
+# VITmate intent taxonomy.
+#
+# `sources` maps tags of the original Kaggle "University Chatbot Dataset"
+# (data/raw/university_chatbot_intents.json) onto the final VITmate intents.
+# Original tags not listed anywhere below are dropped (see `dropped_tags`).
+# `clinc` lists CLINC150 intents whose utterances are reused as extra
+# paraphrases for a VITmate intent.
+
+intents:
+  # ---------------------------------------------------------------- general
+  greeting:
+    description: The user says hello or opens the conversation.
+    sources: [greeting]
+    clinc: [greeting]
+  goodbye:
+    description: The user ends the conversation.
+    sources: [goodbye]
+    clinc: [goodbye]
+  thanks:
+    description: The user thanks VITmate or acknowledges an answer.
+    sources: [salutaion]
+    clinc: [thank_you]
+  bot_identity:
+    description: Questions about who/what VITmate is and who built it.
+    sources: [name, creator]
+    clinc: [what_is_your_name, who_made_you, are_you_a_bot]
+  capabilities:
+    description: What VITmate can help with.
+    sources: [task]
+    clinc: [what_can_i_ask_you]
+  profanity:
+    description: Abusive or offensive messages.
+    sources: [swear]
+  out_of_scope:
+    description: Anything unrelated to VIT (general knowledge, coding, chit-chat, other domains).
+    sources: [random]
+
+  # ------------------------------------------------------------ about VIT
+  about_vit:
+    description: General information about VIT, its history, campuses and leadership.
+    sources: [principal]
+  campus_location:
+    description: Where VIT Vellore is and how to reach it.
+    sources: [location]
+  contact_info:
+    description: Official contact details of VIT.
+    sources: [number]
+
+  # ------------------------------------------------------------ academics
+  ffcs:
+    description: The Fully Flexible Credit System and course/slot registration.
+    sources: []
+  programmes:
+    description: Degree programmes and branches offered.
+    sources: [course]
+  schools:
+    description: The academic schools of VIT.
+    sources: []
+  faculty:
+    description: Faculty members, HODs and deans.
+    sources: [hod, ithod, computerhod, extchod]
+  syllabus:
+    description: Curriculum, syllabus and course structure.
+    sources: [syllabus]
+  examinations:
+    description: CAT/FAT examinations, exam schedules and grading.
+    sources: [sem]
+  academic_calendar:
+    description: Semester dates, holidays and the academic calendar.
+    sources: [vacation]
+  attendance:
+    description: Attendance requirements.
+    sources: []
+
+  # ----------------------------------------------------------- admissions
+  admissions:
+    description: How to apply, admission process and documents.
+    sources: [admission, document]
+  viteee:
+    description: The VIT Engineering Entrance Examination.
+    sources: []
+  fees:
+    description: Tuition and hostel fee structure.
+    sources: [fees]
+  scholarships:
+    description: Scholarships and financial assistance.
+    sources: [scholarship]
+
+  # --------------------------------------------------------------- campus
+  hostel:
+    description: Hostel accommodation and facilities.
+    sources: [hostel]
+  dining:
+    description: Mess, canteens and food courts.
+    sources: [canteen, menu]
+  library:
+    description: The central library and its resources.
+    sources: [library]
+  sports:
+    description: Sports facilities and activities.
+    sources: [sports]
+  health_services:
+    description: Health centre and medical facilities.
+    sources: []
+  transport:
+    description: Buses and transport to and around campus.
+    sources: []
+  campus_facilities:
+    description: Overall campus infrastructure and amenities.
+    sources: [facilities, infrastructure, floors]
+
+  # --------------------------------------------------------- student life
+  clubs_events:
+    description: Clubs, chapters, fests (Riviera, graVITas) and events.
+    sources: [event, committee]
+  vtop:
+    description: The VTOP student portal.
+    sources: []
+  student_welfare:
+    description: Student welfare, counselling and support services.
+    sources: []
+  anti_ragging:
+    description: Ragging prevention and anti-ragging measures.
+    sources: [ragging]
+  grievances:
+    description: Raising complaints and grievance redressal.
+    sources: []
+
+  # --------------------------------------------------------------- career
+  placements:
+    description: Placements and the Career Development Centre.
+    sources: [placement]
+  internships:
+    description: Internships and industrial training.
+    sources: []
+
+# Original tags dropped entirely, with the reason.
+dropped_tags:
+  hours: No verifiable official VIT college-timing information; answering would require inventing timings.
+  uniform: No verifiable official VIT dress-code information in the collected sources.
+  college intake: Seat counts per branch are not published in the collected official sources.
+  Mess Timetable: Mixes bus, mess and academic timetables; its patterns are reassigned via pattern_overrides.
+
+# Pattern-level reassignment (original pattern text -> final intent, or null to drop).
+pattern_overrides:
+  # "Mess Timetable" tag
+  "Mess TimeTable": dining
+  "what is the Mess Table": dining
+  "Bus Timetable": transport
+  "what is the bus timetable": transport
+  "Academic Calander": academic_calendar
+  "timetable": null
+  "what is the timetable": null
+  # hostel fee questions belong to fees, not hostel
+  "hostel fees": fees
+  "what is the hostel fee": fees
+  # sem tag: semester start/end are calendar questions
+  "when will semester starts": academic_calendar
+  "when will semester end": academic_calendar
+  "when is semester": academic_calendar
+  # syllabus tag
+  "What is next lecture": null
+  # course tag: bare keywords are ambiguous
+  "it": null
+  "IT": null
+  "computer": null
+  # principal-style questions: "where is office" is not answerable
+  "Where is principal's office": null
+  "Where is HOD": null
+  "Where is computer HOD": null
+  "Where is  extc HOD": null
+  # greeting tag: corrupted text
+  "??? ??? ??": null
+  # thanks tag: single letters carry no signal
+  "k": null
+  # number tag
+  "call": null
+  "more info": null
+  # floors tag: specific to the original college
+  "How many floors does college have": null
+  "floors in college": null
+  "floors": null
+  "how tall is UNI's College of Engineering college building": null
+  "building size": null

@@ -1,0 +1,73 @@
+/* App shell: sidebar + main column. */
+.app {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  background: var(--bg);
+  transition: background-color var(--duration) var(--ease);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  height: 60px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.header-title {
+  margin: 0 0 0 6px;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-toggle svg {
+  transition: transform 400ms var(--ease);
+}
+
+.theme-toggle:hover svg {
+  transform: rotate(20deg);
+}
+
+@media (max-width: 520px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .header-actions .pill-button span {
+    display: none;
+  }
+
+  .header-actions .pill-button {
+    padding: 8px;
+  }
+}

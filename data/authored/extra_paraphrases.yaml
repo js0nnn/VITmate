@@ -1,0 +1,518 @@
+# Second batch of authored utterances that broadens stylistic variety for the
+# smaller intents: longer context-rich questions, Indian-English phrasing,
+# terse queries and speech-like transcripts.
+about_vit:
+  - I'm new here, can you give me some background on VIT
+  - kindly share some details about Vellore Institute of Technology
+  - what kind of university is VIT
+  - VIT history
+  - when did VIT become a university
+  - my parents want to know more about VIT, what should I tell them
+  - is VIT Vellore the main campus
+  - what are VIT's accreditations
+  - who is the president of VIT
+  - how many universities are under the VIT group
+  - so what's special about VIT
+
+campus_location:
+  - I'm coming from Hyderabad, how do I reach the VIT campus
+  - which is the closest station to VIT university
+  - how many kilometres is VIT from Katpadi junction
+  - kindly share the location of VIT Vellore campus
+  - VIT address
+  - is VIT inside Vellore city
+  - how do I reach VIT from Chennai airport
+  - where is the main gate of VIT
+  - what is the route to VIT from Bengaluru
+  - uh which area of Vellore is VIT in
+  - my parents are visiting, where exactly should they come
+
+contact_info:
+  - kindly provide the contact details of VIT university
+  - I need the VIT office phone number
+  - what number should parents call
+  - how can I reach the admissions office by phone or email
+  - VIT email id
+  - is there a toll free number for VIT
+  - I want to send a letter to VIT, what's the postal address
+  - whom should I contact for general enquiries at VIT
+  - uh do you have VIT's phone number
+  - where do I send my queries
+
+ffcs:
+  - I'm a fresher and I keep hearing about FFCS, what is it
+  - how do I prepare for FFCS registration
+  - what if I don't get my preferred slot in FFCS
+  - kindly explain the FFCS registration process
+  - FFCS?
+  - does FFCS let me decide how many credits I take
+  - how are courses and faculties allotted in the flexible credit system
+  - what is the advantage of FFCS
+  - can I register for courses from other branches under FFCS
+  - is there any priority in FFCS registration
+  - so how does this whole slot system work
+  - how does VIT's credit system let us plan our timetable
+  - what is the minimum and maximum credits per semester
+  - what are the different course categories under FFCS
+  - explain slots like A1 B1 and L1 L2
+  - who decides my timetable at VIT
+  - um f f c s registration how does it work
+  - is the timetable fixed or flexible at VIT
+  - can I drop a course after registering
+  - what is the add drop period
+  - what is the curriculum credit requirement for BTech
+
+programmes:
+  - I finished 12th with PCM, which courses can I take at VIT
+  - kindly list the undergraduate and postgraduate programmes of VIT
+  - does VIT have commerce or arts courses
+  - is there a BTech in electrical and electronics
+  - what are the specialisations in computer science
+  - does VIT offer any online programmes
+  - which BTech branches are available in VIT Vellore
+  - does VIT have a BDes programme
+  - is there a five year integrated MTech
+  - uh does VIT have biomedical engineering
+  - can I study chemical engineering at VIT
+  - does VIT offer a BSc in multimedia
+
+schools:
+  - I want to know which school my branch belongs to
+  - kindly give details of the schools in VIT
+  - what is the School of Computer Science and Engineering
+  - what is SELECT at VIT
+  - what is SCHEME
+  - which school offers the BTech in civil
+  - what is the School of Advanced Sciences
+  - is there a school for bio sciences
+  - which school runs the MBA programme
+  - what is SBST
+  - what does SCORE stand for
+  - which school do I contact for electrical engineering
+  - schools and departments in VIT
+  - uh what is the school of electronics engineering
+  - which school handles law programmes
+  - which VIT school offers design
+  - which schools are in VIT Vellore campus
+  - how many engineering schools are in VIT
+  - school wise list of programmes
+  - are schools the same as departments
+
+faculty:
+  - I want to email my professor, where can I find their id
+  - kindly tell me how to reach the HOD
+  - where are the faculty cabins
+  - how do I find faculty research areas
+  - who is the programme chair for CSE
+  - what are the qualifications of VIT faculty
+  - is there a list of all professors
+  - how do I choose a good faculty during registration
+  - what is the faculty to student ratio
+  - who is the head of the electrical department
+  - uh how do I find my class teacher
+  - who should I meet for academic advice
+  - who are the deans at VIT
+
+syllabus:
+  - I'm joining CSE, what will my first semester subjects be
+  - kindly share the BTech curriculum
+  - syllabus?
+  - how many credits does each course carry
+  - where can I find the course plan for a subject
+  - is the syllabus same for all campuses
+  - where do I get the list of electives for my programme
+  - what is the difference between programme elective and university elective
+  - how do I know what topics will come in the exam
+  - what are the prerequisites for a course
+  - is there a curriculum document for MTech
+  - what courses are mandatory for all students
+  - uh where is my course syllabus on VTOP
+  - what are the lab courses in first year
+  - does the curriculum include a project
+
+examinations:
+  - kindly explain the evaluation pattern at VIT
+  - I'm confused about how CAT and FAT marks are combined
+  - what is the grading scale at VIT
+  - how many marks is the FAT out of
+  - when will CAT 1 happen
+  - exams?
+  - what is the minimum grade to pass
+  - what is an F grade and what does it mean
+  - can I write the exam if I miss CAT
+  - is there a supplementary exam
+  - what is the arrear exam process
+  - uh what are the grade points for each grade
+  - what is GPA and CGPA
+  - how are quizzes and assignments counted
+  - what is the exam format for lab courses
+
+academic_calendar:
+  - I need the dates for this semester
+  - kindly share the academic calendar for fall semester
+  - when does the winter semester begin
+  - what is the schedule for CAT and FAT this semester
+  - when is Pongal holiday
+  - how many working days are there in a semester
+  - when is the summer semester
+  - when does registration for the next semester happen
+  - academic calendar?
+  - uh when does the semester finish
+  - when do freshers join
+  - where do I see the list of holidays
+  - is there a mid semester break
+  - when are the vacations for this year
+  - when do results come out after FAT
+
+attendance:
+  - kindly tell me the attendance rules at VIT
+  - I missed classes because I was sick, what about my attendance
+  - how many classes can I skip
+  - attendance?
+  - is 75 percent calculated per course or overall
+  - what happens if I'm debarred
+  - will on duty count towards attendance
+  - do they take attendance in every class
+  - can I get attendance for participating in events
+  - uh what's the rule for attendance shortage
+  - how do I know if I'm below the attendance limit
+  - does medical leave count for attendance
+  - what if I miss classes during an internship
+  - how much attendance is needed to write exams
+  - is there a penalty for low attendance
+  - what does debarred mean at VIT
+  - is biometric attendance used
+  - what is the attendance policy for lab courses
+  - how to improve attendance percentage
+  - can faculty condone attendance shortage
+
+admissions:
+  - I want to join VIT for BTech, what should I do
+  - kindly explain the admission procedure for undergraduate courses
+  - admission?
+  - what is the admission process for international students
+  - what documents should I bring on the reporting day
+  - how do I apply for the MSc programmes
+  - is admission based on 12th marks or entrance
+  - how do I apply online for VIT admission
+  - uh what are the steps to get into VIT
+
+viteee:
+  - I'm preparing for the VIT entrance, when is it and how do I apply
+  - kindly share details about VITEEE
+  - VITEEE?
+  - is VITEEE held online or offline
+  - how is the VITEEE rank calculated
+  - what is the counselling process after VITEEE
+  - how many attempts are allowed for VITEEE
+  - can I choose my exam centre for VITEEE
+  - what are the important dates for VITEEE
+  - where do I check the VITEEE result
+  - uh what topics come in VITEEE maths
+  - is there an English section in VITEEE
+  - how many marks is the VITEEE exam
+  - what is VITMEE
+  - is VITEEE required for all BTech programmes
+  - what is the mode of VITEEE exam
+  - how do I book a slot for VITEEE
+  - can students from other boards take VITEEE
+  - what happens after the VITEEE exam
+  - uh when do VITEEE applications close
+
+fees:
+  - I want to know the total cost of BTech at VIT including hostel
+  - kindly share the fee details for the MCA programme
+  - fees?
+  - what is category 1 fee
+  - is there any difference in fees between branches
+  - how do I pay the hostel fee online
+  - what is the fee for international students at VIT
+  - uh is there a late fee penalty
+
+scholarships:
+  - I topped my district, can I get a scholarship at VIT
+  - kindly share details of scholarships offered by VIT
+  - scholarships?
+  - is there any scholarship for first rank holders in VITEEE
+  - what is the eligibility for the merit scholarship
+  - how can I get financial help to pay fees
+  - is there any educational loan support
+  - what is the STARS scheme
+
+hostel:
+  - I'm joining VIT, what kind of accommodation will I get
+  - kindly tell me about the hostel accommodation for girls
+  - hostel?
+  - what's the difference between bunk bed and normal rooms
+  - how do I choose my hostel block
+  - can I change my room later
+  - are hostels on campus
+  - is there a warden in each hostel
+  - uh what are the room options in the hostels
+  - what is the in time for ladies hostel
+  - is there a common room with TV
+  - can I bring my own air cooler
+  - what are the facilities in the men's hostel
+  - how are hostel rooms cleaned
+
+dining:
+  - I'm a vegetarian, what are my food options at VIT
+  - kindly tell me about the mess facilities
+  - mess?
+  - what is the difference between veg and special mess
+  - are there juice shops on campus
+  - food?
+  - what time is breakfast served in the mess
+  - is there a food court near the academic blocks
+  - uh how is the food quality in the mess
+  - can I cook in my hostel room
+  - where do day scholars eat
+  - what caterers run the mess
+  - is there a bakery on campus
+  - is the mess open on holidays
+  - how many messes are there
+
+library:
+  - I need a quiet place to study, what does the library offer
+  - kindly share library timings and facilities
+  - library?
+  - does the library subscribe to Springer and Elsevier
+  - how do I search the library catalogue
+  - can I get reference books for my course
+  - is there a print and scan facility in the library
+  - uh how many floors is the library
+  - is the library open during exams
+  - can I sit in the library at night
+  - how do I access the digital library from home
+  - can alumni use the library
+  - is there a book bank facility
+  - does the library have study cubicles
+
+sports:
+  - I play basketball, what facilities does VIT have for that
+  - kindly tell me about sports facilities
+  - sports?
+  - is there an athletics track
+  - does VIT have a sports complex
+  - can girls join sports teams
+  - is there a table tennis room
+  - what are the swimming pool timings
+  - uh what games can we play in the evening
+  - are there sports scholarships
+  - does VIT have a cricket team
+  - where can I play volleyball
+  - is there a squash court
+  - what is the annual sports meet
+  - are there coaches for sports
+  - does VIT have an indoor stadium
+  - can I play chess competitively at VIT
+  - how do I book the sports ground
+
+health_services:
+  - I have a fever, where can I get treated on campus
+  - kindly tell me about medical facilities
+  - health centre?
+  - is the health centre open on weekends
+  - can I get medicines on campus
+  - who do I call in a medical emergency
+  - does VIT have tie ups with hospitals
+  - is there a physiotherapy centre
+  - are medical check ups done for students
+  - how do I get a medical certificate
+  - uh where do I go if I get hurt playing
+  - is there a counsellor at the health centre
+  - is treatment charged at the health centre
+  - does the health centre have beds
+  - is there an eye doctor
+  - where is the nearest pharmacy
+  - what if I need to go to a hospital outside
+  - is there an ambulance service at night
+  - what vaccinations are needed for joining
+  - does VIT have a health insurance scheme
+
+transport:
+  - I'm a day scholar, how do I come to college every day
+  - kindly share details about bus facilities
+  - transport?
+  - how do I go to the railway station from VIT
+  - are there electric vehicles on campus
+  - how do I get from the hostel to academic blocks
+  - is there a bus to Chennai from campus
+  - what is the bus fee
+  - uh can I use an e rickshaw inside campus
+  - is parking available for students
+  - are there taxis near the main gate
+  - how far are the academic blocks from the hostels
+  - can I rent a cycle on campus
+  - is there a bus pass
+  - how do students go to the city for shopping
+  - what transport is there during Riviera
+  - how do I get to the airport from VIT
+  - is there a cab service from the campus
+  - do college buses run on weekends
+  - is there a bus stand near VIT
+
+campus_facilities:
+  - I'm visiting the campus, what facilities should I check out
+  - kindly list the campus facilities
+  - facilities?
+  - are there bookshops on campus
+  - is there a salon on campus
+  - is there a bank branch inside VIT
+  - does the campus have a mini mart
+  - what is the internet speed on campus
+  - uh does the campus have 24 hour power
+  - are there computer labs open for students
+  - is there a place for prayer or meditation
+  - is there a courier service on campus
+  - what is Anna Auditorium
+  - does VIT have an incubation centre
+  - what workshops and labs are open to students
+
+clubs_events:
+  - I'm interested in robotics, is there a club for that
+  - kindly tell me about the fests conducted in VIT
+  - clubs?
+  - events?
+  - how do I become a coordinator for Riviera
+  - what is the difference between Riviera and graVITas
+  - are there any photography clubs
+  - does VIT have a drama club
+  - uh how do I know about upcoming events
+  - can I participate in events of other chapters
+  - are there any social service clubs
+
+vtop:
+  - I'm a new student, how do I get my VTOP credentials
+  - kindly tell me about VTOP
+  - VTOP?
+  - what is my VTOP username
+  - VTOP captcha not working
+  - how do I see my grades online
+  - how do I register courses on VTOP
+  - can I see my fee receipts online
+  - uh what's the link for vtop
+  - where do I find my proctor details online
+  - how do I check my exam schedule on VTOP
+  - how do I apply for hostel leave online
+  - what is the VTOP mobile app
+  - where do I see announcements from the university
+  - how do I update my phone number on VTOP
+  - my vtop account is locked
+  - where do I download my timetable
+  - where can parents see student progress
+  - is there a parent login
+
+student_welfare:
+  - I'm new and I'm finding it hard to adjust, is there any support
+  - kindly tell me about student welfare services
+  - counselling?
+  - is counselling confidential at VIT
+  - what does the office of students welfare handle
+  - is there a helpline for students
+  - who takes care of students' wellbeing
+  - how do I get a counselling appointment
+  - is there support for students with special needs
+  - uh I'm feeling anxious who can help me
+  - what welfare activities does VIT have
+  - is there a women's welfare cell
+  - how do I get a bonafide certificate
+  - where can international students get help
+  - who do I approach for financial difficulty
+  - is there a student helpdesk
+  - what support is available for students' mental health
+  - who looks after students' welfare in hostels
+  - is there any student mentoring
+  - where can I get guidance for higher studies
+  - what help do freshers get
+
+anti_ragging:
+  - I'm a fresher and I'm scared of ragging, is it common at VIT
+  - kindly tell me about anti ragging measures
+  - ragging?
+  - what is the national anti ragging helpline number
+  - what counts as ragging
+  - how do I file an anonymous ragging complaint
+  - will I be protected if I report ragging
+  - is there an anti ragging squad in hostels
+  - uh what should I do if seniors harass me
+  - where do I submit the anti ragging undertaking
+  - is ragging a criminal offence
+  - how strict is VIT about ragging
+  - anti ragging committee contact
+  - what action is taken against ragging
+  - are there CCTV cameras in hostels for safety
+  - who is in the anti ragging committee
+  - does VIT have an anti ragging policy
+  - can parents report ragging
+  - how do I stay safe from ragging
+  - is there any online portal for anti ragging
+
+grievances:
+  - I have an issue with my marks and it wasn't fixed, where do I complain
+  - kindly tell me about the grievance redressal mechanism
+  - complaint?
+  - how do I report a problem with the mess food
+  - is there an online grievance portal
+  - where do I complain about hostel maintenance
+  - who resolves academic grievances
+  - how long does it take to resolve a complaint
+  - can I complain anonymously
+  - uh who do I talk to about unfair treatment
+  - is there a student grievance redressal committee
+  - I want to escalate my complaint
+  - how do I report sexual harassment
+  - where do parents send complaints
+  - how do I report a lost item
+  - is there a committee for SC ST students grievances
+  - where can I report discrimination
+  - I want to give feedback about a faculty
+  - where do I report a problem with VTOP
+  - what is the process to appeal a decision
+  - who handles complaints about transport
+  - how do I raise an issue about wifi on campus
+
+placements:
+  - I'm in second year, when should I start preparing for placements
+  - kindly tell me about placement opportunities at VIT
+  - placements?
+  - what is the role of CDC
+  - which top recruiters hire from VIT
+  - what are the placement eligibility criteria
+  - is there any placement training for soft skills
+  - how many offers can a student get
+  - uh does VIT have good placements for mechanical
+  - what is the dream offer policy
+  - how do I contact the career development centre
+  - are there mock interviews
+  - do core companies come to VIT
+  - is placement guaranteed at VIT
+  - what is the one student one job policy
+  - what percentage of students get placed
+  - how do I register with CDC
+  - are there placement opportunities for MTech students
+  - what are the placement rules at VIT
+  - does VIT help with higher studies abroad
+
+internships:
+  - I'm in third year, how do I find a summer internship
+  - kindly share details about internships
+  - internship?
+  - does CDC post internship opportunities
+  - what is the duration of the industrial internship
+  - can I do an internship during the semester
+  - do I need a certificate for internship credit
+  - what is the internship requirement for BTech
+  - uh can I do an online internship
+  - how is the internship evaluated
+  - do I need permission from my school for an internship
+  - are paid internships available
+  - can I do my internship at a research lab
+  - what is the final year project and internship option
+  - can I intern at VIT itself
+  - are there international internship programmes
+  - how do I get a no objection certificate for internship
+  - what is the summer research programme
+  - how do I get an internship in a big company
+  - can MTech students do internships
+  - what is the internship period in VIT

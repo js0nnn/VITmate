@@ -1,0 +1,331 @@
+/* Input area: Type/Speak toggle, text box and microphone. */
+.composer {
+  padding: 8px 16px calc(12px + env(safe-area-inset-bottom));
+  background: linear-gradient(to top, var(--bg) 70%, transparent);
+}
+
+.composer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.composer-panel {
+  width: 100%;
+  animation: panel-in 240ms var(--ease) both;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.99);
+  }
+}
+
+.composer-note {
+  margin: 0;
+  color: var(--text-subtle);
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Segmented control */
+.mode-toggle {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+}
+
+.mode-toggle-thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-sm), 0 0 0 1px var(--border);
+  transition: transform 320ms var(--ease);
+}
+
+.mode-toggle[data-mode="voice"] .mode-toggle-thumb {
+  transform: translateX(100%);
+}
+
+.mode-toggle-option {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 104px;
+  padding: 6px 18px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color var(--duration) var(--ease);
+}
+
+.mode-toggle-option.is-active {
+  color: var(--text);
+}
+
+.mode-toggle-option.is-active svg {
+  color: var(--primary);
+}
+
+/* Text input */
+.text-input {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 8px 8px 8px 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: 24px;
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-md);
+  transition: border-color var(--duration) var(--ease), box-shadow var(--duration) var(--ease);
+}
+
+.text-input:focus-within {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md), var(--focus-ring);
+}
+
+/* The container shows focus, so the textarea itself needs no ring. */
+.text-input textarea:focus-visible {
+  box-shadow: none;
+}
+
+.text-input textarea {
+  flex: 1;
+  min-height: 24px;
+  max-height: 180px;
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  line-height: 1.5;
+}
+
+.text-input textarea::placeholder {
+  color: var(--text-subtle);
+}
+
+.send-button {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--primary-contrast);
+  transition: background-color var(--duration) var(--ease), opacity var(--duration) var(--ease),
+    transform 120ms var(--ease);
+}
+
+.send-button:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.send-button:active:not(:disabled) {
+  transform: scale(0.94);
+}
+
+.send-button:disabled {
+  opacity: 0.35;
+}
+
+/* Voice input */
+.voice-input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 96px;
+  padding: 16px 22px;
+  border: 1px solid var(--border-strong);
+  border-radius: 24px;
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-md);
+}
+
+.voice-input.is-listening {
+  border-color: var(--primary);
+}
+
+.mic-stage {
+  position: relative;
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+}
+
+.mic-button {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--primary-contrast);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--primary) 40%, transparent);
+  transition: background-color var(--duration) var(--ease), transform 160ms var(--ease);
+}
+
+.mic-button:hover:not(:disabled) {
+  transform: scale(1.05);
+}
+
+.mic-button:disabled {
+  opacity: 0.6;
+}
+
+.is-listening .mic-button {
+  background: var(--danger);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--danger) 40%, transparent);
+}
+
+.is-success .mic-button {
+  background: var(--success);
+}
+
+.mic-ring {
+  position: absolute;
+  inset: 2px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--danger) 30%, transparent);
+  animation: pulse-ring 1.6s var(--ease) infinite;
+}
+
+.mic-ring-delayed {
+  animation-delay: 0.8s;
+}
+
+@keyframes pulse-ring {
+  from {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+}
+
+.voice-status {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.voice-status p {
+  margin: 0;
+}
+
+.voice-status-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.voice-transcript {
+  color: var(--text-muted);
+  font-style: italic;
+  overflow-wrap: anywhere;
+}
+
+.voice-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--danger);
+  font-size: 14px;
+}
+
+.voice-error svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.waveform {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  height: 20px;
+}
+
+.waveform span {
+  width: 3px;
+  height: 100%;
+  border-radius: 2px;
+  background: var(--danger);
+  animation: wave 1s ease-in-out infinite;
+}
+
+.waveform span:nth-child(2) { animation-delay: 0.1s; }
+.waveform span:nth-child(3) { animation-delay: 0.2s; }
+.waveform span:nth-child(4) { animation-delay: 0.3s; }
+.waveform span:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.voice-unsupported {
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--text-muted);
+}
+
+.voice-unsupported p {
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 520px) {
+  .composer {
+    padding: 6px 10px calc(10px + env(safe-area-inset-bottom));
+  }
+
+  .voice-input {
+    gap: 14px;
+    padding: 14px 16px;
+  }
+
+  .mode-toggle-option {
+    min-width: 92px;
+  }
+}

@@ -1,0 +1,983 @@
+{"text": "how much has the dow changed today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many prime numbers are there between 0 and 100", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me how to solve simple algebraic equations with one variable", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you dim the brightness of my screen", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the account number to the internet service i have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you see a hdmi cord", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what veggies can i pair with mushrooms", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you put the car in fuel efficient mode", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "at what age can someone get a card", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please find today's most read stories from the new york times todayi", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get red wine out of a couch cushion", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me who sells dixie paper plates", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who invented the internet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what big news happened over the weekend", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is happening in politicsu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how is my driving", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the earth flat", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the best way to clean ceiling fans", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please tell me the status of the government shutdown", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what oil is best for chicken", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is today's big article in the washington post", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "has there been anything breaking this afternoon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are yahoo's top stories right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's at movies", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the amount of blood needed to stay alive", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you add a bag to my reservation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you auto-pilot the car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "wash windshield", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me what credit cards i have open", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "did the stock market finish up for the day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the population of south africa", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "watch the fbi", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you find the answer to number 26 in this algebra two textbook", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to remove a stripped bolt", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which stocks have lost the least today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some things i can do on the way to work", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many steps have i taken today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you fill in my credit card number on the screen", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who won the patriots game last nightu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is anything being newscasted about the threat of famine in chadu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the different types of tvs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do laundry", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what did trump do todayu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many miles does my car currently have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "close all internet tabs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you sell stocks for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you treat an iron skillet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much has microsoft's stock changed over the last year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the best product for removing soap scum", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "read text", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "park the car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me a list of top rated airlines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "may i finish washing then i give you please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do i have overdraft protection", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you delete my saved credit card", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you give me the most current market news", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "did the supreme court nominee get approvedu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which company has gone up the most today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who were the superbowl 23 champions", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me how to clean a fish tank", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "open cnn websiteo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i make my android phone more secure", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to update my address", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is that crunchy stuff on creme bruleo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which airports do southwest service around the greater new york city area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you retrieve client d's file please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you list all channels of a certain category", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where does jelly come from", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me the s&p average", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how would you rate the airport i am traveling to", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "am i too old to be a sugar babyo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what was the closing number of the nasdaq today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "has ko gone up or down", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many cars average are on the road daily", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what does the plus sign mean on my dashboard", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how is ford's stock doing", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is my checking account number", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when should i remove my snow tires", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which stocks gained the most today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about the earthquake in california that happened this morning", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "change color contrast", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the golden ratio's number", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the bank open on mlk day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can i deposit a check", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "from the second of the left ,the pink one", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "go and check the fridge", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me the score of the heat game", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you mark this note as important", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me how to multiply two fractions", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i want to find a new car under $25000", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when is the next full moon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i change the windshield wipers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why is the sky blue", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "should i do a complete stop at red lights", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are all televisions high definition", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me today's headlines pleasei", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who invented custardo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to be millionare", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when does the stock market update", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me how to get gum out of my rug", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i get a better rate on my card", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "open up internet browser", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "it is white colour", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what makes pi so mathematically important", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why can you have the square root of a negative number", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much time do i have left on my 0% apr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the highest-rated android phones", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time do i need to arrive to make it on time", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find articles about the protests in parisi", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me how fast the average airplane enroute to california goes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many hurricanes are in an average hurricane season", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how does my current htc phone compare to other android phones", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movies are available", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many items are in a bakers dozen", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what articles are written at the cnn site about the women's march", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when does napa close", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the current price of tsla", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will world war 3 begin", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's going on in the world today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what battery percentage is my phone at", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you sign out of my bank login", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is one standard deviation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "has the market been up or down since the beginning of this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many moons does mars have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the cashback rate for my credit card", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who has the best record in the nba", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long is the bank open until", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some good games for my android phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can my grace period be extended any possible way", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much over will overdraft protection cover", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how fast am i going", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who was the first person to discover cells", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people died in yesterday's storm", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much memory do i have left on this phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can i set up mobile deposits", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "sell three calls of of nvda", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what bills is congress talking about passing or blocking today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much data does my phone have left this month", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i add someone to my account", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much money would my house sell for", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i install new cabinets", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "delete the contact uncle john from my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search my contacts for the auto repair place", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does my carrier have coverage in europe", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there a cheaper rate with another carrier for my mobile", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the limits in my phone plan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there a way to change your houses address", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does dhl deliver to my address", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how frequently is the bus running today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there a better bus route i should be taking", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what stores are at my local mall", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to get kalee added to my phone plan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the price of other company's similar phone plans", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long do i have to wait to get my refund", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long does it take the irs to issue a tax refund", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do you know if it is possible to close my savings account", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how hard is it to close a bank account at wells fargo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "add my wife as an authorized user to checking account 20905432", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i would like to upgrade to full coverage for my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who has the cheapest insurance for my model car in the area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me the value on my current car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i list my vehicle for sell", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the price to buy more data on my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to add a person to my bank account", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who is the best local real estate agent", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i want to install new tiles in my kitchen", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the way for delta to cancel a flight", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "read the phone number for mom in my phone contacts", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a contact labeled mom", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do other providers have better coverage than my cell carrier", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does centurytel offer any better plans than the one i'm on", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's going on in the world today, anything major", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the extra digits that are sometimes included on my zip code", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the extended zipcode for my address", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there an alternate bus stop close to my home i can use", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what stores are in the local mall", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "add mary to my phone plan, please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much is it to get more data on my phone plan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can i use direct deposit for my tax refund", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much of a refund will i get this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please take all my money out of my checking account and close the account", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are cars like mine selling for online", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the blue book value of my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the last 4 digits of my credit card number", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "switch over to low power mode to preserve battery life", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me the most popular nonfiction book currently on the market", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you recommend some fiction books", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i repair a broken watch", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's out at the theaters right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the most popular movie currently in theaters", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the cheapest new car for this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me new cars with the highest safety rating", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i am looking for a suit for work", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to find a black suit under $100", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a good laptop for gaming", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me laptops for sale that are under $2,000", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which element on the periodic table is k", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of bonds do molecules have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much is my car worth used", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up prices for parking at the airport over the weekend", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the best way for dealing with the airport", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are my hours this week at work", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you check my voicemail", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many voicemails are currently in my inbox", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i would like to know how long a charge is suppose to last on my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check battery health on this device", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a well reviewed book for a teenage girl to read", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i want to find new cyberpunk fiction books", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what channel is cw on", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the most rented movie this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a good movie to go see in theaters for a family with young kids", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i would like to find a stylish suit for a party", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you give me suggestions for a professional suit under $200", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when is it cheapest to travel to hawaii", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need a laptop with 16gb of ram", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the best reviewed laptop available on the market", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me information about the element carbon and its reactions with hydrogen", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a good chemistry experiment to learn from", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much is this years model of my car cost", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i best deal with the airport", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "remind me of the address for my workplace please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time do i have to go to work today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many voicemail messages do i have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "erase all voicemails in my inbox please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you look up grocery coupons for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is money used for", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some natural remedies to help ease stress", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some good methods of relieving stress", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you make sure a bridge doesn't fall down", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the median salary for someone with an engineering degree", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what size pipes are used for sinks", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why would the water be turned off", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a good sink filter for water", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what does water taste like", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there any sales on groceries today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when was my lawn last mowed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what store has the best deals going on right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me the best time to visit downtown when driving", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "am i currently connected to wifi", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there an internet outage in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about personal finance", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does amazon collect my personal information", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check the status of my amazon orders for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the official language of romania", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me the best times to book flights for traveling to another country", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "disconnect from wifi immediately please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "am i connected to wifi", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "list the contents of my safety deposit box at the bank", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the more secure bank vault", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what coupons do i have for restaurants", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i make money", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you give me some stress management tips", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how unhealthy is stress", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best way to build a skyscraper", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find engineering programs to apply to", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of glue is used for gluing pipes together", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check to see how many miles are on my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i change my windshield wipers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many ppm of particulate is in my local water", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what color is water", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is anything on my grocery list on sale today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long does it take for grass seed to grow on my lawn", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please activate a wireless hotspot so i can use the internet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up a good broker for mutual funds", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the best personal finance practices", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "will amazon ship an order even if there was a pricing mistake", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where did mandarin originate from", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some of the most visited countries for people looking to travel abroad", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me which wifi network you are connected to right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is my current signal strength", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "if i'm locked in a bank vault what's the best way to get out", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i upgrade my operating system", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much ram does my computer have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is it ok to feed dogs people food", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you fix a leaking sink", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you unclog a toilet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me local crime in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the power consumption of my fridge", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the warranty on my microwave", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i use my microwaves defrost", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you get red wine out of the carpet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get stains out of the carpet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the highest quality carpet available", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time did my daughter get home from her date", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is my computer free from viruses", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are you allowed to call someone a dirty name as part of free speech", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you really get arrested for yelling fire in a crowded theater", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what amendment guarantees the freedom of speech to americans", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do employers have to honor freedom of speech", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the average score on a round of golf", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where is the closest driving range", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when does tiger woods play next", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i improve my golf swing", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are your step-parent's parents considered your grandparents", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's a good gift to get for your grandparents", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what year did my grandparents get married", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "fun gift ideas to give to grandparents", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which came first; greek mythology or roman mythology", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many greek mythology characters are there", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who created the world in greek mythology", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what was hercules the god of", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many harry potter books are there", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is harry's real name", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who played ronald weasly", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you repel a bear when you're out on a hike", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where's the best place to hike in the rockies", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should i wear to hike", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the main cause of becoming homeless", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people are jobless in america", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many homeless people are there", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where are most homeless people", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are indians nowadays reminiscent of a decade ago", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what were indians like 100 years ago", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how old is jennifer aniston", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need tips on how to overcome insomnia", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people have insomnia", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what causes dyslexia", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is insomnia curable", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are sigmund freud's most famous books", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what year was jane austen born", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where is te lawrence", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who is jane goodall", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long does it take to get your yellow belt in karate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the most practiced form of mma in the world", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the highest belt in karate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where does jiu jitsu originate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the proper subject verb order in japanese", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i learn more about linguistics", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of paint do makeup artists use", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "the bus moves with tyre", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how the bus moves", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are some good resources to learn about mental illness", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are people with a mental illness eligible for disability", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people suffer from mental illness", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i get help for my mental health", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's trending now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the first romantic movie ever made", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when was the term \"zombie\" first used", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of traits do vampires have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do mummies eat", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "send information on flood clean up to my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the cost of buying a sump pump", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "recommend a flood clean up service", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the safest model of airplane to fly in", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what year was the first airplane built in", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best reviewed local roof repair place", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best type of plan to upgrade to", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a suggestion for roofers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i buy new shingles", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the safest pet to be around toddlers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why is my dog vomiting after eating", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tiger", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the average rent of apartments in my city", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there any apartments for rent nearby", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are apartment prices now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the highest building in the world", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i submit my architecture plans", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who is the best architecture", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please give me a listing of all the bottled water brands in the area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the lowest prices of bottled water at costco", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do they filter pollutants out of bottled water", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the cost of bottled water", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the cost to have a business card printed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when can i get a business card printed locally", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what to use to design my business cards", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "download all the photos off my phone into the cloud", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about that kind of cameras", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much is the new nikon camera", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of camera should i buy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much candy have i consumed this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many flavors of mnm's are there", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who makes milky way bars", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how safe is it to consume the substance h2o", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many elements are on the periodic table", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the chemical composition of a fart", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is phosphorus on the periodic table", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up some christmas songs for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is espn covering the golden state warriors game", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many calories does doing 20 situps burn", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a normal resting heart rate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "should i run every day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many months do i left in my hbo subscription", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when does game of thrones return on hbo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "cancel my subscription to scientific american", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i'd like to renew my subscription to playboy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are popular lifestyle magazines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are popular sports magazines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i use make up to cover a cut on my cheek", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best make-up to cover a black eye", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "send me videos of how to do a smoky eye", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "whats the best rated lipstick", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will the government file another antitrust suit against microsoft", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will microsoft drop support for windows 7", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i make a sentence have stylized strike out in microsoft word", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i control where microsoft word inserts a page break", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the current prices for mushrooms", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what bands are touring in my city this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need for you to look up some of the major gods in mythology", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what was the original name of jesus in egyptian myth", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "was the god osiris a titan or an old god", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me who aphrodite is", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what activities can i to do outside today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will the daffodils bloom this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what zelda games are available on the switch", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i want to buy some nintendo switch game", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much does a nintendo switch cost", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me a cool nintendo switch game", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you check how many miles i walked today when i was out get the info from my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you check how many steps i have walked in the last week from my phone app", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should i do if it hurts when i pee", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the symptoms of cancer", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many pokemon have i caught in my pokemon go app", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what pokemon is", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why did a bunch of christians go off murdering muslims in the middle ages", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what was the point of the crusades", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what other countries speak the english language", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why doesn't english have consistent forms", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do they speak english in australia", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who teaches english near me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you see what the budget for the united states military was in 2018", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you look at what the oldest age is someone can enlist in the army", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where are most the servicemen right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movies are playing at my local cinemax", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time is a star is born showing", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movies are playing", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you get me the scores from the games that were played last night", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "has there been any times when lebron james was arrested", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the new player rankings for the nhl", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who won in the gsw vs suns game last night", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me the news on the newspaper today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me a list of my local papers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the newspaper today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "would you let me know who won the gold metal in gymnastics at the olympics", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "at the olympics, what country won the gold medal in basketball", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where will the next olympics be hosted", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when are the winter olympic games", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what films are in the running for best song at this year's oscars", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who are the nominees for best picture this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me information on the oscars", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about the oscars", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why did we elect this woman who made amazon leave and take its jobs with it", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people live in vermillion", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's a good way to organize my tools in my garage", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the cost of a good pegboard", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the stop sign around the corner still knocked over", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there a fork in the road sign at main & 1st avenue", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there cameras hidden in stop lights", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what does a flashing yellow light mean", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what universities are nearby to me and highly rated", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the top rated universities within my state", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "will the anti-vaxxers die off if no one gives them vaccines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how safe is the herpes vaccine they give women", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i get the flu shot", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when do i have to get the mmr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much are the clorox detergents", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will nightwish be touring through my city", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does iron maiden have any new releases", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me something about linkin park", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need you to check the resistance of a coil wrapped 6 times with an id of 25mm", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me whether the knicks will play the lakers this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do you do if your 4 year old just ate playdoh", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please check up on my son's homework", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of the top three landscaping companies nearby", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when should you mow your grass after it's rained", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much sugar was in my urine this morning", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's a good blouse to wear with pink shoes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the best jeans in my size", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much does it cost to spay a puppy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best style shoe to wear to the prom", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me about that tornado that just tore up alabama", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what the hot topics are that are trending on google", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what happened with the summit between trump and jong", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check and see what the local news in broadcasting", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please uninstall this intrusive social media app", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "upload the pictures to the correct album", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i have a super runny nose and want to find a doctor", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which medicine to relieve my cough", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get rid of blocked nose at home", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get rid of sore throat at home", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i make my living room appear to be bigger than it is", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i'd like to find some curtains that look good in this room", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to paint walls", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to fix walls", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me the purpose of a safe deposit box", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you store a gun in a safe deposit box", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you get a safe deposit box", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up how to apply cream to smooth itchiness", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i deal with angry, painful red bumps", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where should i go if i hammered a nail through my foot", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long does it take to call an ambulance", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to get the right medicine", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to take care of the sick", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do vegans really want to blame cows for climate change", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a recommendation for a local landscaper", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to hire a grass treatment specialist", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when is the best time of year for pruning", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find someone local who mows lawns", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a speech on historical events surrounding albert einstein", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a pamphlet on albert einsteins childhood", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is albert einstein famous for", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when was albert einstein born", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will cameron release the sequel to avatar", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you please start the avatar movie for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the movie avatar culturally insensitive", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "could you create a new avatar for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does bill gates still have any material participation in the running of microsoft", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me more about bill gates", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me the weather forecast for today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is bitcoin trading for currently", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i have a black and white photo blown up to poster size", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "adjust the contrast of the black and white photos", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you colorize a black and white photo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "add color to the black and white photos", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people were killed in the boston marathon by bombers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "compile a list of historical events from the boston marathon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "time my next run at the boston marathon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will the next boston marathon be", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up which animal is represented in this year's chinese new year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the animal for this chinese new year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "would it be legal to have battles to the death in a homemade colosseum", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do the romans still use the colosseum for anything today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where is the colosseum", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you really time your compressions to queen's \"another one bites the dust\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do i have to put my mouth on theirs when doing cpr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the breath to compression ratio for cpr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how to perform cpr", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a for-while loop that continues 10 times", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where are classes taught near me for c++", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "declare a variable named \"golf\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i write c++", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the depiction of gold mining in the movie the ballad of buster scruggs realistic", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do you own the mineral rights to gold nuggets you find in your back yard", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where is the best place to mine for gold", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when was the gold rush", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of facts about green book", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out when green book was created", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who wrote green book", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the main export by the peoples of greenland", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people still live on greenland", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "scan my photos and tell me which hair style is most suiting for my face", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create several photos of me with different hair styles", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "latest hair styles for long natural hair", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show video of hair styling tips", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "did a man really die trying to be loved by a horse", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many acres do you need to buy a horse", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a picture of a horse", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does eating poop really help your gut fauna", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there a vaccine for ebola", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of side hustles i could start today to make a little extra cash", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of stocks that would be good to invest in to start making money", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how can i add my signature to the proposed bill legalizing prostitution", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the roi doing arbitrage with ebay", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do women still bare their chests for beads at mardi gras", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when's the next mardi gras going to be", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the best way to kill microbes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "start a speech on microbes for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "inform me of what microbes are", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the top 10 best modems", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the time signature for the castlevania song bloody tears", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me what key frank zappa's keep it greasy is in", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please go to wikipedia and search for articles related to nsa", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can the nsa crack the encryption on my iphone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does the nsa listen to me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "could you pull up the nsa website", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you see if the octopus eggs have hatched yet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do you do if your cat eats an octopus", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out which museum houses the most post modern art in new york state", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the top 3 selling post modern artists in the united states", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a portrait for me using post modern art", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find me examples of post modern art", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find the names of all the rain forests located in south america", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does cutting down the rain forest really add to global warming", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the current demand for wood from rain forests", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the current prevailing interest rate for mortgages in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how's the real estate market doing this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please list my real estate for sale", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make an ad to sell my real estate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the status of robotic servants from japan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "finish the final touches on my newest robotic creation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can a robot really travel back in time", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "program my new robot to bring me snacks", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long would it take you to die of thirst in the sahara desert", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can a samurai sword deflect a bullet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much for a samurai sword", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of what materials have been used for spacesuits", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what size space suit should you get based on your girth", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "see if you can purchase a spacesuit online", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "compile a folder of paintings of sparta", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "display history of sparta", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "compile a list of articles pertaining to venture capital funding for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "start a portfolio on venture capital funding for me to look over", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get venture capital for my app", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the latest vc funded company", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i'd like to hire a wedding planner and need help finding one", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how to plan for weddings", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out how many whales are currently in monterey bay", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a chart of the different types of whales", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what did my best friend do in the kitchen while we were gone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's my boss' home address", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's it like to have parents who actually love you", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there any news if my parents survived the crash", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me who gives the best motivational speeches on the web", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find an article on celebrities who made it out of poverty", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "send me a motivational quote everyday for the next week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who is the hardest working man in hollywood", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me where i can get more information on getting a job at the post office", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "pull up the classifieds and read the career section to me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "help me find a new position as a programmer", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best career search website", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "write the next chapter of my biography and let me know when you have finished it", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of the biographies written by nyu professors after 2001", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i would like for you to start a biography on me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me all biographies on teddy kennedy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out what supplies i am missing and will need on my upcoming camping trip", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the camping restrictions at bear island", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find articles that can help me advance my position in my work field", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me what one should do to get ahead in a tech corporation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a copy of a book on negotiation in the workplace", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up ways for me to advance my job placement", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "see if there is a recipe to make a casserole without any dairy", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me in how many different colors i can get dinner plates from pier one imports", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me amazon's choice for a set of 4 dinner plates", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out where i can by melamine dinner plates", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out what the maximum memory size is that i can buy in a dvd", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me who makes the best dvd's for movie storage", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many dvds do i currently have on file", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a listing of all my dvd's", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the conversion rate for the euro to dollar exchange", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i put a lens that's fallen out back in my glasses", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need you to order a new pair of eyeglasses for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what my current eyeglasses prescription is", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me examples of cute eyeglass frames", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of all sites in the us where spirits have been seen at night", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how to get rid of a spirit that's haunting me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me how to contact a paranormal spirit", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me a scary story", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me the goals of my local police department in terms of reducing crime", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of goals i need to meet in order to write a book", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the distance between the goal posts in football", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "remind me what my weight loss goals are", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of tax attorneys that practice in my city", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how i can file a pleading in circuit court", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me the number of a traffic attorney near here", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the top rated local lawyers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out how many miles the mississippi waterway runs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what the longest tributary is in venezuela", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please book another boat for this weekends trip", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a list of universities that provide full scholarships in arizona", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me where to go to get my son enrolled in public kindergarten", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do a job search on monstercom for jobs in the tech field in arlington, va", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to find work, help me connect to a local business through linkedin", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look for a position similar to mine that is open around my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out where one can get involved in discussing local election issues", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of the top 5 issues people have in this country", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the government department that regulates emissions", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the highest rated social services non-profit", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "explain to me the process of evaporation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i write an iep for a high schooler", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how to refinish a wooden desk", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how to make a lesson plan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me where i can get the cheapest tennis balls on the internet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "play the current tennis match on the tv in the living room", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of the top 10 tennis players in the world", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a chart of all the tennis scores from this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find the best prices for toothpaste at any store within a 5 mile radius of my location", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what the best shampoo is for someone with dry scalp", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best price on a gray xl ll bean men's parka", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me who has the cheapest watch bands on ebay", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i set the time on my tag heuer", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me the steps as to how to begin a career as a journalist", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me prices on a copy of the mla grammar handbook", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "put words on the paper about what you want", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "put into words what you want", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kind of foods are border collies allergic to", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out how i can best clip my dog's nails", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the lifespan of a border collie", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up daily dog kennels in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me a list of grocery stores that sell japanese sweet potatoes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me the price of bananas at whole foods this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "call the grocery store and get their operational hours", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "call an uber to take me to the closest grocery store", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me how many community centers are located within 5 miles of my location", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which houses do not have automatic spot lights in front of their garage", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are all the street lamps working on my street", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of all community gardens near me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me where to send my resume in order to get a job at delta airlines", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "review my resume for spelling errors", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please print out copies of my resume", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please spell check my resume", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i get 100% merino wool t-shirts on the internet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me all listings on amazon for leather belts for men", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how many blue ties i own", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who is the start of the movie almost famous", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search up someone who plays in a movie", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search up the cast in the walking dead", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about the amusement park", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the amusement park like", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "take a ride on the ferris wheel", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "go on the ferris wheel", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the cost of four double a batteries", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "instruct a list of all the brands of cereal manufactured by kelloggs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "compare prices of malt-o-meal to kelloggs", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kinds of cereal are gluten free", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what kinds of cereal are low sugar", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the last time the living room was vacuumed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search all movies created by disney in the 1980's", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does disney world close when it storms", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "mickey mouse is a huge part of disney", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the hours for disney world", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time did i get the last text message i received", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please read me the last text message i received", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "read my friend's text message", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "watch the stories on instagram", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "update my status on instagram", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you check on what it would cost me to upgrade my iphone with t-mobile", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please alert me when my iphone battery falls below 30%", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you look at when the next iphone is due out", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what type of industries do innovation managers work in", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the requirements of a lab technician", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "generate a list of 20 songs that include the word love in the title", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create a 500 word letter expressing love", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find a couple's therapist who can help me and my wife", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what does the average cost of an engagement ring", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is popular in fashion right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "does denim go with anything", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "accept incoming phone call", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "deny incoming phone call", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do i wear on my feet when it rains", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do i put on my feet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the words to the chorus for this song", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "display the song lyrics for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "google \"odell beckham free agency\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "clear my search history", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "compare the new life growth in trees when the seasons change", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "plant all your flowers just after easter in early april", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find a good toy to give a 5 year old boy that costs less than $40", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out where i can buy a barbie doll for my niece", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look on amazon for the price of a nitendo switch", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what brand was the last advertisement for", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i skip all of the advertisements", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of decor i would need to have a titanic themed birthday party", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "aquire the soundtracks from the movie if i stay and add them to my ipod", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i watched \"were the millers\" on netflix last night", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you find \"were the millers\" on hulu", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people have held the role of county attorney bearing the family name \"dixon\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me about the candidates running for local office in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out who is the representative of my district", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "generate a list of the past 10 judge executives", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the email address of the local police", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many hits have i done today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "change out the older photos with the newer ones", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "organize photos by year they were taken", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you group my photos by location", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "organize my photos by date please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me what my local park's policy is on letting dogs off of leashes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the operating hours of my local park on weekends", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many parks are within 20 miles of me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check to see if i still have allergy medication", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find articles on essay writing for beginners", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long should an essay be", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you start an essay", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should you do if your laundry machine is making a high pitched whine", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out who the best appliance repairman is for the downtown area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up local repair shops that work on vacuum cleaners", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can i get a sear's appliance repairman", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find directions to the sunshine car wash from my house", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you book me an appointment at a car wash", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what brush can i use to wash my car that won't scratch it", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please clean the car windows", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "vacuum out the car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "schedule an appointment with the credit counselor for tuesday", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find a credit mentoring service number for me please", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much does it cost to get two jackets dry cleaned", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up articles on the green dry cleaning industry", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find a cleaner that specializes in suede", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when should you use a dry cleaner", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "create emergency phone numbers list", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do sets of 25 set-ups each morning til you have completed your goal", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "keep a note of how many miles you walk a day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much weight should i lift to get buff", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's a good stretch to do to limber up", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the most requested famous person for quotes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the most famous quote on the internet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make a list of the top 100 famous quotes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me the top 10 quotes by mark twain", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do you do if you can't stop vomiting", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should i take for a cold", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i have too many credit cards, is there any way you can help me organize them", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find a credit counseling service for me on the web", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "explain how to reduce my debt burden", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the current auto loan rate at chase bank", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check current prime mortgage rate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should you do if you can't be bothered to get out of bed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "send me a quote from a motivational speaker twice a day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find me a book on motivational speaking from amazon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check to see if i need a pass to use the parking garages downtown", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you check to see which parking garages are open downtown", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much does it cost to use the parking garage downtown", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's a good way of backing out of a parking spot", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search the web for monthly parking near my house", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out where parking is close to the stadium", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get perfect alignment with the curb", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "describe to me how i can learn to make small talk", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "explain how small talk helps bind groups together", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what do you do all day while i'm at work", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "so, hang out around this house often", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me the best way to freshen the smell in my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where's the closest car wash my car smells", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much is auto febreeze on amazon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out how to deodorize a car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "see if you can find a good vegetable wash for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up website on container gardening", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are we allowed to wash our cars during the drought", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "request a refund on the car wax i bought yesterday", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i'd like to hire someone to wash my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out what gentlemen are wearing to weddings these days", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find me articles on appropriate wedding attire", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "zip the back of the brides maid dress", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "rent the tuxedo the day before", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find me a graphic tutorial on writing longhand", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "order me a book of stamps and envelopes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "start listening to me dictate a letter", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "email my boss, tell him i wont be in today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are the schools closed", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "let me know what time the patriots game starts", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how long until the nascar race begins", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there any sales on liquor", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what shows are on tonight", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there any new job postings in my area in the last hour for jobs on craigslist", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "see if there are any employment agencies hiring managers right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me what the best places are to look for a job online", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "sign me up for the slack employment forum", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please replay the last five minutes", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you enable subtitles", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "consult the gq website to find what men wear to weddings", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "order me a blue pin stripe suit from saville row", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's in fashion this month", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is it too late to wear white", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many calories does jumping up and down burn", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many push-ups do i need to do to get ripped", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "fill up my water bottle for the gym", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "pick out an excerise outfit for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out how long a cold should last before i call a doctor", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should i take for nausea", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do you relieve a hangover", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is a good home remedy for a rash", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i have a rash, what can i use for it", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you order some ointment for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i get rid of an itchy rash", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "forward the text i just got from henry to giselle", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please read the text message i just received", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "save my text on my laptop hard drive", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time does my ex-boss leave the office", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much does gun ammunition cost", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "restart my newspaper delivery for monday", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are there any messages", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's that smell", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a list of the best savings account rates right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is beer legal in this state", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me articles and pics of different types of household bugs for this area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what should i do if i saw a cockroach in my house", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up articles on squealing brakes for ford f-150's", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please answer the phone and put it on speaker on the tv", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me who's calling me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "answer the phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "ignore call", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find out what type of wax is needed for a late model ford sedan", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the first thing you should do to wash your car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what supplies do i need to clean my car", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up articles on car washing at home", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how old is the oldest person that is in the guiness book of world records", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how could i get into the guiness book of world records", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what person is the heaviest ever recorded", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who has the longest hair ever", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you look at what average reviews say about the new windows phone on amazon for me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me a summary of reviews that oakley frogskins get on amazon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make me a list of the top ten reviewed hiking boots on jetcom", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me a tabulation of reviews for lcd tv's on amazon", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you tell me what happened to han solo in episode 4", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many movies are in the star wars series", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many star wars movies are there", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "who plays han solo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which movie is it that someone says perfectly balanced as all things should be", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movie is the line today is our independence day from", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movie is it that says today is a good day to die", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what movie does it's just a flesh wound come from", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is michonne wrong for not working with the kingdom to put on the fair", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "which actors have played more than 1 comic book character", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what marvel movie did mark ruffalo first appear in", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "why did negan return to his jail cell", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is there more than one occult that a person can join", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can i summon a demon using just an ouija board", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best way to drown a witch", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what does it mean to join the occult", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "did madison really bathe in the potomac naked", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you explain a good risk strategy to me", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the rules for chess", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "fill out the paperwork for tonys new daycare center", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "i need to find a new babysitter", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a list of divorce attorneys in the new york area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how long does it take to get a divorce finalized", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i find the best divorce lawyer", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "make me a map of all earthquake hotspots in the continental us", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much damage did the last earthquake here do", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what was the latest tremor on the richter scale", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me articles on earthquake preparedness", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is appropriate to spend on a bouquet of flowers for mother's day", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "get me a list of personal conservation tips that i can use around the house", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up the average temperature changes over the last 30 years for my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is the polar vortex of 2019 apart of global warming", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is global warming", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you book me a tee time at cantigny at 2 pm on saturday", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best golf club to use on the lower nine", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i stop my child from setting small animals on fire for amusement", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "review chapter 6 with my son and verify his math homework answers", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you look up how i shoot a time lapse video on my iphone camera or is it even possible", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how do i turn up the resolution that i am taking pictures in on my camera phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "print out the photos i took today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you find me sheet music for the beatles white album online", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find me a good band instructor or two to compare in my area", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many keys does a xylophone have", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many polar bears are still alive in the arctic", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "are polar bears on the endangered species list", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the life expectancy of a polar bear", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can a polar bear live in alabama", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "when will george rr martin publish the next game of thrones book", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "show me the new york times most popular book list for this week", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many books are in piers anthony virtual mode series", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "order the new book titled \"ghost work\"", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please check if god is really living in a small apartment in brussels", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what did the mesopotamians call the creator of the universe", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "put on an educational program about buddhism", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what happens if you're skydiving and your parachute doesn't open", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "research how many deaths has resulted from skydiving", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many people die each year while skydiving", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "google the price of skydiving in florida", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "in what movie did mrs congeniality feature a contestant championing for world peace", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "has there ever been total world peace, where no nations in the world are at war", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "name the leader from tibet that stands firm for world peace", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what will it take to achieve world peace", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "was einstein right to be scared of spooky action at a distance", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what is the nature of the big bang theory", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how does the etheric body operate", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do we actually have a soul", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where can i find cheap rental skis nearby", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "check the nanny cam and send the feed to my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much should i tip on this bill", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "send me live feed of the pre-game prediction show on my phone", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what are the scores of other teams in this division", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "look up pitcher stats on jake rooney", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what teams are playing right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "according to my fitness tracker, how many push ups have i done today", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "renew gym membership", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's my budget for today's shopping trip", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you find my car in the parking lot", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's the best hand to have in texas hold em", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "is gambling legal in my state", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "fold my hand", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what time did i put in my first load of laundry", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how much time is left on my laundry", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "report outage to my electric provider", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "power up my generator", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "call up instructables website and find article on bike assembly", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find schematics for ikea desk assembly", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "search information on how to apply foundation", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find instructions on how to play taboo", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what casino game has the best odds", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "tell me how much energy i have consumed so far this year", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me an energy usage breakdown for march", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "how many kilowatts have i used this month", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "what's my current electric bill", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you locate the television remote", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where did i last place my remote", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "do you know where the remote is", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "have you seen the remote", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "please ping the rfid in my wallet and tell me where it's at right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you detect where i placed my wallet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "give me my wallet location", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "find my wallet", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "can you give me the gps location of harvey", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "where's my buddy steve right this second", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "locate jenny at her present position", "intent": "out_of_scope", "source": "clinc150_oos_test"}
+{"text": "let me know where jim is right now", "intent": "out_of_scope", "source": "clinc150_oos_test"}

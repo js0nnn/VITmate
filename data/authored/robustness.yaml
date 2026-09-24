@@ -1,0 +1,67 @@
+# Third batch, added after probing the first trained models with edge cases:
+# nonsense/keyboard input, bare filler words, questions about *other*
+# universities, and topics that were routed to the wrong intent.
+out_of_scope:
+  # keyboard mashing, placeholder text and noise
+  - asdf
+  - asdfghjkl
+  - qwertyuiop
+  - jkjkjk
+  - zxcvbnm
+  - lorem ipsum
+  - lorem ipsum dolor sit amet
+  - blah blah
+  - hmm hmm hmm
+  - test test
+  - testing 123
+  - "123"
+  - "..."
+  - "???"
+  - aaaaaaa
+  - la la la
+  - the the
+  - banana keyboard purple
+  - random words here
+  - xyz abc
+  - ok ok ok ok ok
+  - um uh er
+  # other universities (VITmate only knows VIT)
+  - tell me about IIT Bombay
+  - what is the fee at Anna University
+  - how are placements at SRM
+  - when is the JEE Main exam
+  - what is the cutoff for NIT Trichy
+  - tell me about BITS Pilani
+  - hostel facilities at Manipal University
+  - what courses does IIT Madras offer
+  - how do I get admission in Amrita
+  - what is the NEET syllabus
+  - who is the director of IIT Delhi
+  - admission process for Delhi University
+  - how to apply for Harvard
+  - when is the CAT exam for IIMs
+
+goodbye:
+  - no that's all
+  - nothing else thanks
+  - no more questions
+
+ffcs:
+  - how do I change my branch
+  - can I switch branches after first year
+  - what is a minor degree at VIT
+  - how do I get an honours degree
+  - can I do a double major at VIT
+  - how does branch change work
+  - can I take courses outside my department
+
+viteee:
+  - what is the cut off for CSE
+  - VITEEE cutoff rank for computer science
+  - what rank is needed for ECE in VIT
+  - VITEEE rank vs branch
+
+campus_facilities:
+  - where can I print documents on campus
+  - is there a photocopy shop
+  - where can I get a xerox
