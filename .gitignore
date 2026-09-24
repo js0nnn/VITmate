@@ -29,3 +29,5 @@ frontend/*.tsbuildinfo
 
 # Vercel CLI (local builds / linking)
 .vercel/
+.vercel
+.env*
