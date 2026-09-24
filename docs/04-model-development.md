@@ -1,4 +1,4 @@
-# 04 · Model Development
+# 04 - Model Development
 
 This document records **how the deployed model was actually arrived at**: what was tried, in what order, what was discarded and why. Numbers come from the files in [`results/`](results/) and [`results/v1/`](results/v1/).
 
@@ -14,10 +14,10 @@ This document records **how the deployed model was actually arrived at**: what w
 ```mermaid
 %% file: ml-inference-pipeline
 flowchart LR
-    Q["User text<br/>(typed or recognised)"] --> TOK["WordPiece tokenizer<br/>uncased · max 64 tokens"]
-    TOK --> ENC["DistilBERT encoder<br/>6 layers · hidden 768 · 12 heads<br/>(fp16 shards on disk → fp32 in memory)"]
+    Q["User text<br/>(typed or recognised)"] --> TOK["WordPiece tokenizer<br/>uncased, max 64 tokens"]
+    TOK --> ENC["DistilBERT encoder<br/>6 layers, hidden 768, 12 heads<br/>(fp16 shards on disk → fp32 in memory)"]
     ENC --> CLS["first-token vector (768-d)"]
-    CLS --> LIN["Linear 768→768 + ReLU<br/>dropout 0.2 · Linear 768→38"]
+    CLS --> LIN["Linear 768→768 + ReLU<br/>dropout 0.2, Linear 768→38"]
     LIN --> SM["Softmax"]
     SM --> TOP["Top-1 intent + confidence<br/>+ 3 alternatives"]
     TOP --> TH{"≥ 0.35?"}
@@ -114,7 +114,7 @@ Full details are in [05-model-comparison.md](05-model-comparison.md) and [07-eva
 
 ## Where the results live
 
-- Model comparison: [`results/model_comparison.md`](results/model_comparison.md) (v2) · [`results/v1/model_comparison.md`](results/v1/model_comparison.md)
-- Final evaluation: [`results/evaluation.md`](results/evaluation.md) (v2) · [`results/v1/evaluation.md`](results/v1/evaluation.md)
-- Training history: `backend/trained_model/training_summary.json` · [`results/v1/training_summary.json`](results/v1/training_summary.json)
+- Model comparison: [`results/model_comparison.md`](results/model_comparison.md) (v2) | [`results/v1/model_comparison.md`](results/v1/model_comparison.md)
+- Final evaluation: [`results/evaluation.md`](results/evaluation.md) (v2) | [`results/v1/evaluation.md`](results/v1/evaluation.md)
+- Training history: `backend/trained_model/training_summary.json` | [`results/v1/training_summary.json`](results/v1/training_summary.json)
 - Graphs: [`graphs/`](graphs/) (see [05](05-model-comparison.md) and [07](07-evaluation.md))

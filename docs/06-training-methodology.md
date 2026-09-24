@@ -1,4 +1,4 @@
-# 06 · Training Methodology
+# 06 - Training Methodology
 
 Code: `training/train.py` (fine-tuning), `training/config.yaml` (deployed hyperparameters), `training/compare_models.py` (candidates), `training/common.py` (data loading and metrics).
 
@@ -11,7 +11,7 @@ flowchart TD
     A2["Authored VITmate utterances<br/>data/authored/*.yaml"] --> B
     A3["CLINC150<br/>(CC BY 3.0)"] --> B
     T["data/taxonomy.yaml<br/>tag mapping + overrides"] --> B
-    B["build_dataset.py<br/>clean · de-duplicate · drop conflicts<br/>near-duplicate grouping · per-intent seeded split"]
+    B["build_dataset.py<br/>clean, de-duplicate, drop conflicts<br/>near-duplicate grouping, per-intent seeded split"]
     B --> S1["train.jsonl"]
     B --> S2["val.jsonl"]
     B --> S3["test.jsonl"]
@@ -29,7 +29,7 @@ flowchart TD
     S3 --> EV
     S4 --> EV
     S5 --> EV
-    EV --> R["docs/results/*.json · *.md"]
+    EV --> R["docs/results/*.json, *.md"]
     R --> G["make_graphs.py → docs/graphs/*.png"]
 ```
 

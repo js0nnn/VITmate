@@ -1,4 +1,4 @@
-# 01 · Project Overview
+# 01 - Project Overview
 
 **Title:** VITmate: A Voice-Enabled Deep Learning-Based Campus Assistant for VIT
 **Product name:** VITmate — Your VIT Campus Companion

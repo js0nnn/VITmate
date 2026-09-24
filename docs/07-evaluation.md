@@ -1,6 +1,6 @@
-# 07 · Evaluation
+# 07 - Evaluation
 
-Deployed model: **DistilBERT** (`distilbert-base-uncased`, 67.0M parameters, 38 intents), dataset v2, seed 42. It was produced by `python -m training.train` and evaluated with `python -m training.evaluate`. Full output, including every misclassified test example: [`results/evaluation.md`](results/evaluation.md) · [`results/evaluation.json`](results/evaluation.json) · [`results/per_intent_metrics.csv`](results/per_intent_metrics.csv).
+Deployed model: **DistilBERT** (`distilbert-base-uncased`, 67.0M parameters, 38 intents), dataset v2, seed 42. It was produced by `python -m training.train` and evaluated with `python -m training.evaluate`. Full output, including every misclassified test example: [`results/evaluation.md`](results/evaluation.md) | [`results/evaluation.json`](results/evaluation.json) | [`results/per_intent_metrics.csv`](results/per_intent_metrics.csv).
 
 ## Metrics used
 
@@ -26,7 +26,7 @@ Deployed model: **DistilBERT** (`distilbert-base-uncased`, 67.0M parameters, 38 
 
 ## Results of the deployed model
 
-| Set | Accuracy | Macro P | Macro R | **Macro F1** | Weighted F1 |
+| Set | Accuracy | Macro P | Macro R | **Macro-F1** | Weighted-F1 |
 |---|---|---|---|---|---|
 | Test, arg-max (n = 339) | 0.8496 | 0.8578 | 0.8576 | **0.8496** | 0.8499 |
 | Test, threshold 0.35 | 0.8407 | 0.8746 | 0.8437 | 0.8521 | 0.8407 |
@@ -84,7 +84,7 @@ The model and the test split also changed, so this is **indicative, not a contro
 
 ![v1 vs v2](graphs/v1_vs_v2_final_model.png)
 
-| | v1: bge-small, 36 intents | v2: DistilBERT, 38 intents |
+| Measure | v1: bge-small, 36 intents | v2: DistilBERT, 38 intents |
 |---|---|---|
 | Test (n) | 319 | 339 |
 | Test accuracy / macro-F1 / weighted-F1 | 0.8589 / 0.8490 / 0.8573 | 0.8496 / 0.8496 / 0.8499 |

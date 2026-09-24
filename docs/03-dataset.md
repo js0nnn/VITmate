@@ -1,4 +1,4 @@
-# 03 · Dataset
+# 03 - Dataset
 
 The VITmate dataset is **not** an untouched public dataset. An existing university chatbot dataset was used as the **foundation** and then **adapted and extended** for a VIT-specific assistant. Out-of-domain data comes from a public intent benchmark.
 
@@ -7,10 +7,10 @@ Build it with `python -m training.build_dataset`. The output goes to `data/proce
 ```mermaid
 %% file: dataset-build-pipeline
 flowchart LR
-    K["Kaggle University Chatbot Dataset<br/>39 tags · 412 patterns"] -->|"taxonomy.yaml:<br/>keep · merge · split · drop<br/>'UNI' → 'VIT'"| P
+    K["Kaggle University Chatbot Dataset<br/>39 tags, 412 patterns"] -->|"taxonomy.yaml:<br/>keep, merge, split, drop<br/>'UNI' → 'VIT'"| P
     A["Authored utterances<br/>data/authored/*.yaml"] --> P
     C["CLINC150<br/>chit-chat paraphrases +<br/>out-of-domain queries"] -->|"drop queries with<br/>campus words"| P
-    P["Pool"] --> D["NFKC clean · exact de-dup ·<br/>drop label conflicts"]
+    P["Pool"] --> D["NFKC clean, exact de-dup,<br/>drop label conflicts"]
     D --> H["remove anything overlapping<br/>held-out sets"]
     H --> G["group near-duplicates<br/>(content-word signature)"]
     G --> S["70 / 15 / 15 split per intent<br/>(seeded per intent)"]
@@ -25,9 +25,9 @@ flowchart LR
 
 | Source | Licence | Use | Examples (v2 pool) |
 |---|---|---|---|
-| **University Chatbot Dataset**, Tushar Paul (Kaggle `tusharpaul2001/university-chatbot-dataset`; also distributed by GTS at gts.ai) · `data/raw/university_chatbot_intents.json` | Apache 2.0 | Foundation: 39 intents / 412 patterns, remapped to the VITmate taxonomy | 344 |
-| **Authored VITmate utterances** · `data/authored/*.yaml` | Project data | New VIT intents and diverse phrasing: short and long, formal and casual, Indian-English, and speech-like transcripts ("uh", "um", no punctuation) | 1,455 |
-| **CLINC150** (Larson et al., 2019) · `data/raw/clinc150_data_full.json` | CC BY 3.0 | Up to 30 paraphrases each for greeting / goodbye / thanks / bot identity / capabilities; out-of-domain queries for `out_of_scope`; a **held-out OOS test split** | 447 |
+| **University Chatbot Dataset**, Tushar Paul (Kaggle `tusharpaul2001/university-chatbot-dataset`; also distributed by GTS at gts.ai), `data/raw/university_chatbot_intents.json` | Apache 2.0 | Foundation: 39 intents / 412 patterns, remapped to the VITmate taxonomy | 344 |
+| **Authored VITmate utterances**, `data/authored/*.yaml` | Project data | New VIT intents and diverse phrasing: short and long, formal and casual, Indian-English, and speech-like transcripts ("uh", "um", no punctuation) | 1,455 |
+| **CLINC150** (Larson et al., 2019), `data/raw/clinc150_data_full.json` | CC BY 3.0 | Up to 30 paraphrases each for greeting / goodbye / thanks / bot identity / capabilities; out-of-domain queries for `out_of_scope`; a **held-out OOS test split** | 447 |
 
 The authored utterances were written with AI assistance during development and then reviewed. **VITmate uses no external LLM at runtime.**
 
@@ -50,8 +50,8 @@ Defined in [`data/taxonomy.yaml`](../data/taxonomy.yaml).
 | Action | Original tags → VITmate intent |
 |---|---|
 | **Kept** | greeting, goodbye, hostel, library, sports, placement → placements, scholarship → scholarships, syllabus |
-| **Adapted** | salutaion → thanks · task → capabilities · swear → profanity · location → campus_location · number → contact_info · course → programmes · sem → examinations · vacation → academic_calendar · event + committee → clubs_events · ragging → anti_ragging · fees (hostel-fee patterns moved here) |
-| **Merged** | name + creator → bot_identity · admission + document → admissions · canteen + menu → dining · facilities + infrastructure + floors → campus_facilities · the four HOD tags → faculty · principal → about_vit · random → out_of_scope |
+| **Adapted** | salutaion → thanks, task → capabilities, swear → profanity, location → campus_location, number → contact_info, course → programmes, sem → examinations, vacation → academic_calendar, event + committee → clubs_events, ragging → anti_ragging, fees (hostel-fee patterns moved here) |
+| **Merged** | name + creator → bot_identity, admission + document → admissions, canteen + menu → dining, facilities + infrastructure + floors → campus_facilities, the four HOD tags → faculty, principal → about_vit, random → out_of_scope |
 | **Split** | `Mess Timetable` → dining / transport / academic_calendar |
 | **Removed** | `hours`, `uniform` and `college intake` (no verifiable official information) |
 | **New in v1** | ffcs, schools, attendance, viteee, health_services, transport, vtop, student_welfare, grievances, internships |
@@ -69,7 +69,7 @@ Defined in [`data/taxonomy.yaml`](../data/taxonomy.yaml).
 
 ## Dataset versions
 
-| | v1 (initial application) | v2 (this iteration) |
+| Property | v1 (initial application) | v2 (this iteration) |
 |---|---|---|
 | Intents | 36 | **38** (+ rankings, research_patents) |
 | Labelled pool | 2,119 | **2,246** |

@@ -1,4 +1,4 @@
-# 08 · Speech Recognition
+# 08 - Speech Recognition
 
 VITmate uses **browser-native speech recognition** through the **Web Speech API** (`SpeechRecognition`, or `webkitSpeechRecognition` in some Chromium builds). Users don't need to install anything. They open the site, switch to **Speak**, allow the microphone and talk.
 
@@ -19,7 +19,7 @@ sequenceDiagram
     U->>V: taps microphone
     V->>SR: start() — continuous, interim results, lang en-IN
     SR-->>U: permission prompt (first time)
-    V-->>U: pulsing rings · waveform · "Listening…"
+    V-->>U: pulsing rings, waveform, "Listening…"
     U->>SR: "I want to know about…"
     SR-->>V: result (final) → restart 1.2 s silence window
     Note over U,SR: short natural pause (< 1.2 s)
@@ -74,7 +74,7 @@ stateDiagram-v2
     listening --> processing: silence window elapsed / stop button
     processing --> success: transcript not empty
     processing --> error: nothing recognised (no-speech)
-    listening --> error: not-allowed · audio-capture · network · …
+    listening --> error: not-allowed, audio-capture, network, …
     listening --> idle: Cancel
     success --> thinking: request pending
     thinking --> idle: answer shown

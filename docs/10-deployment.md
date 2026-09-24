@@ -1,4 +1,4 @@
-# 10 · Running and Deployment
+# 10 - Running and Deployment
 
 ## Running locally
 

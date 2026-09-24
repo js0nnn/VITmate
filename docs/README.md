@@ -32,16 +32,16 @@ Technical and research documentation for **VITmate: A Voice-Enabled Deep Learnin
 
 | Report section | Where to find it |
 |---|---|
-| 1 Introduction · 2 Problem statement · 3 Objectives | [01](01-project-overview.md) |
-| 4 Dataset · 5 Data preprocessing | [03](03-dataset.md) |
+| 1 Introduction, 2 Problem statement, 3 Objectives | [01](01-project-overview.md) |
+| 4 Dataset, 5 Data preprocessing | [03](03-dataset.md) |
 | 6 Model architecture | [04](04-model-development.md) (inference pipeline), [06](06-training-methodology.md) |
 | 7 Training methodology | [06](06-training-methodology.md) |
 | 8 Speech recognition method | [08](08-speech-recognition.md) |
 | 9 Knowledge base | [09](09-knowledge-base.md) |
-| 10 System architecture · 11 Frontend design · 12 Backend design | [02](02-system-architecture.md) |
+| 10 System architecture, 11 Frontend design, 12 Backend design | [02](02-system-architecture.md) |
 | 13 Results | [12](12-results-summary.md), [05](05-model-comparison.md), [07](07-evaluation.md) |
 | 14 Evaluation metrics | [07](07-evaluation.md) |
-| 15 Limitations · 16 Future enhancements | [11](11-limitations.md) |
+| 15 Limitations, 16 Future enhancements | [11](11-limitations.md) |
 | 17 Conclusion | [12](12-results-summary.md) |
 
 ## Reading guide

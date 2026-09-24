@@ -60,27 +60,27 @@ Voice uses the speech recognition **built into your browser**. Use a recent **Go
 
 ## Results at a glance
 
-| | Result |
+| Metric | Result |
 |---|---|
-| Test set (339 questions, 38 intents) | accuracy **0.850** · macro-F1 **0.850** |
-| Spoken-style questions (120, held out) | accuracy **0.950** · macro-F1 **0.953** |
+| Test set (339 questions, 38 intents) | accuracy **0.850**, macro-F1 **0.850** |
+| Spoken-style questions (120, held out) | accuracy **0.950**, macro-F1 **0.953** |
 | Out-of-scope questions correctly declined | **90.6%** of 977 unseen |
 | Speed | ~13 ms per question on a laptop CPU |
 
 <p align="center"><img src="docs/graphs/final_comparison.png" width="780" alt="Model comparison graph" /></p>
 
-Details: [Evaluation](docs/07-evaluation.md) · [Model comparison](docs/05-model-comparison.md) · [Results summary](docs/12-results-summary.md)
+Details: [Evaluation](docs/07-evaluation.md) | [Model comparison](docs/05-model-comparison.md) | [Results summary](docs/12-results-summary.md)
 
 ## Tech stack
 
 | Part | Technology |
 |---|---|
-| Frontend | React 18 · TypeScript · Vite |
+| Frontend | React 18, TypeScript, Vite |
 | Speech | Browser Web Speech API |
-| Backend | Python · FastAPI |
-| Model | PyTorch · Hugging Face Transformers (fine-tuned DistilBERT, CPU) |
+| Backend | Python, FastAPI |
+| Model | PyTorch, Hugging Face Transformers (fine-tuned DistilBERT, CPU) |
 | Knowledge | Curated YAML with sources (official VIT, NIRF, THE, NAAC) |
-| Tests | pytest · Vitest · Testing Library |
+| Tests | pytest, Vitest, Testing Library |
 
 ## Documentation
 
@@ -95,7 +95,7 @@ cd frontend && npm test   # UI, speech, persistence
 
 ## Project
 
-- **Developer:** B. Jaison Edward · Reg. No. 23BAI0094
+- **Developer:** B. Jaison Edward | Reg. No. 23BAI0094
 - **Repository:** https://github.com/js0nnn/VITmate.git
 - **Live demo:** not deployed yet (see [docs/10-deployment.md](docs/10-deployment.md))
 

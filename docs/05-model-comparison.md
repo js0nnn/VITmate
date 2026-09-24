@@ -1,4 +1,4 @@
-# 05 · Model Comparison
+# 05 - Model Comparison
 
 Every candidate was trained and evaluated on **the same splits with the same code** (`training/train.py`, `training/compare_models.py`). **Model selection uses validation data only.** The test, spoken-style and OOS sets are reported for transparency and never drive a decision.
 

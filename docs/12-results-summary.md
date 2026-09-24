@@ -1,4 +1,4 @@
-# 12 · Results Summary
+# 12 - Results Summary
 
 All values are copied from [`results/`](results/). Details are in [05](05-model-comparison.md) (comparison) and [07](07-evaluation.md) (evaluation).
 
@@ -20,7 +20,7 @@ All values are copied from [`results/`](results/). Details are in [05](05-model-
 
 ## Model selection
 
-| | DistilBERT | bge-small |
+| Metric | DistilBERT | bge-small |
 |---|---|---|
 | Validation macro-F1 @0.35, 3 seeds (**primary**) | 0.8941 ± 0.0086 | 0.8899 ± 0.0092 |
 | Validation OOS recall @0.35 (**guardrail**) | 0.9271 ± 0.0451 | 0.9010 ± 0.0548 |
@@ -59,12 +59,12 @@ The v1 and v2 test sets differ, so these rows describe the deployed systems, not
 | Graph | Shows |
 |---|---|
 | [final_comparison.png](graphs/final_comparison.png) | Finalists at the deployed threshold, with resources |
-| [model_comparison_macro_f1.png](graphs/model_comparison_macro_f1.png) · [model_comparison_accuracy.png](graphs/model_comparison_accuracy.png) | All candidates on validation / test / spoken-style |
-| [accuracy_vs_latency.png](graphs/accuracy_vs_latency.png) · [model_efficiency.png](graphs/model_efficiency.png) | Speed, size and parameter trade-offs |
+| [model_comparison_macro_f1.png](graphs/model_comparison_macro_f1.png), [model_comparison_accuracy.png](graphs/model_comparison_accuracy.png) | All candidates on validation / test / spoken-style |
+| [accuracy_vs_latency.png](graphs/accuracy_vs_latency.png), [model_efficiency.png](graphs/model_efficiency.png) | Speed, size and parameter trade-offs |
 | [training_curve.png](graphs/training_curve.png) | Loss and validation metrics per epoch (deployed model) |
-| [per_intent_f1.png](graphs/per_intent_f1.png) · [confusion_matrix.png](graphs/confusion_matrix.png) | Per-intent quality |
+| [per_intent_f1.png](graphs/per_intent_f1.png), [confusion_matrix.png](graphs/confusion_matrix.png) | Per-intent quality |
 | [out_of_scope_and_threshold.png](graphs/out_of_scope_and_threshold.png) | OOS recall and threshold sweep |
-| [dataset_distribution.png](graphs/dataset_distribution.png) · [dataset_sources.png](graphs/dataset_sources.png) | Dataset v2 composition |
+| [dataset_distribution.png](graphs/dataset_distribution.png), [dataset_sources.png](graphs/dataset_sources.png) | Dataset v2 composition |
 | [v1_vs_v2_final_model.png](graphs/v1_vs_v2_final_model.png) | Deployed model, v1 vs v2 |
 
 ## Conclusion

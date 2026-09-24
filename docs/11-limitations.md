@@ -1,4 +1,4 @@
-# 11 · Limitations and Future Work
+# 11 - Limitations and Future Work
 
 These are the known limitations of the current system, stated plainly.
 

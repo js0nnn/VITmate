@@ -1,6 +1,6 @@
-# 09 · Knowledge Base
+# 09 - Knowledge Base
 
-File: [`data/knowledge/vit_knowledge.yaml`](../data/knowledge/vit_knowledge.yaml) · Loader: `backend/app/knowledge/knowledge_base.py`
+File: [`data/knowledge/vit_knowledge.yaml`](../data/knowledge/vit_knowledge.yaml) | Loader: `backend/app/knowledge/knowledge_base.py`
 
 The intent classifier decides **what** the user is asking about. The knowledge base decides **what VITmate answers**. The neural network never memorises facts, so answers are corrected or updated by editing one YAML file, with **no retraining**.
 
@@ -9,7 +9,7 @@ The intent classifier decides **what** the user is asking about. The knowledge b
 | Tier | Sources | Used for |
 |---|---|---|
 | **Primary (official VIT)** | vit.ac.in, viteee.vit.ac.in, vtop.vit.ac.in, blogs.vit.ac.in, the FFCS Academic Regulations PDF, **VIT's NIRF data submissions** (vit.ac.in/files/nirf/) | Everything about programmes, rules, services, contacts; research, patent and placement figures |
-| **Authoritative external** | **NIRF** (nirfindia.org, Ministry of Education) · **Times Higher Education** · **NAAC** (naac.gov.in) · **ABET** public database · **PIB** (Government press releases) | Rankings, accreditation and verification of VIT's claims |
+| **Authoritative external** | **NIRF** (nirfindia.org, Ministry of Education), **Times Higher Education**, **NAAC** (naac.gov.in), **ABET** public database, **PIB** (Government press releases) | Rankings, accreditation and verification of VIT's claims |
 | **Attempted, not accessible** | QS (topuniversities.com returned HTTP 403) | QS ranks are attributed to VIT's own announcements |
 | **Never used** | Reddit, blogs, news/SEO "top colleges" sites, social media | — |
 

@@ -1,4 +1,4 @@
-# 02 · System Architecture
+# 02 - System Architecture
 
 VITmate has three parts:
 
@@ -16,21 +16,21 @@ flowchart TD
     User(["👤 Student"])
 
     subgraph Browser["Browser — React + TypeScript (Vite build)"]
-        UI["Chat UI<br/>Sidebar · Header · ChatView · Composer"]
+        UI["Chat UI<br/>Sidebar, Header, ChatView, Composer"]
         Speak["Speak mode<br/>useSpeechRecognition"]
         Type["Type mode<br/>TextInput"]
         Send["handleSend()<br/>single pipeline for both modes"]
         Store[("IndexedDB<br/>conversations")]
-        Prefs[("localStorage<br/>theme · input mode")]
+        Prefs[("localStorage<br/>theme, input mode")]
     end
 
     SR["Web Speech API<br/>(browser speech service)"]
 
     subgraph Server["FastAPI backend (stateless)"]
-        API["/api/chat · /api/health · /api/suggestions<br/>validation · error mapping · CORS"]
-        Engine["ChatEngine<br/>threshold · context · suggestions"]
+        API["/api/chat, /api/health, /api/suggestions<br/>validation, error mapping, CORS"]
+        Engine["ChatEngine<br/>threshold, context, suggestions"]
         Model["IntentClassifier<br/>fine-tuned DistilBERT (67M)<br/>loaded once at startup"]
-        KB[("vit_knowledge.yaml<br/>38 intents · sources · as_of")]
+        KB[("vit_knowledge.yaml<br/>38 intents, sources, as_of")]
     end
 
     User -->|types| Type
@@ -43,7 +43,7 @@ flowchart TD
     Engine -->|text| Model
     Model -->|intent + confidence + top-3| Engine
     KB --> Engine
-    Engine -->|"reply · intent · confidence · sources · suggestions · context"| API
+    Engine -->|"reply, intent, confidence, sources, suggestions, context"| API
     API --> UI
     UI <--> Store
     UI <--> Prefs
@@ -56,13 +56,13 @@ flowchart TD
 flowchart LR
     subgraph FE["frontend/src"]
         direction TB
-        App["App.tsx<br/>orchestrates send · retry · thinking state"]
+        App["App.tsx<br/>orchestrates send, retry, thinking state"]
         subgraph Components["components/"]
             direction TB
-            C1["Sidebar · Header · AboutModal · Modal"]
-            C2["ChatView · MessageBubble<br/>(classifier readout · sources · did-you-mean)"]
-            C3["Composer · ModeToggle · TextInput · VoiceInput"]
-            C4["SpeechSupportBanner · SpeechSupportModal"]
+            C1["Sidebar, Header, AboutModal, Modal"]
+            C2["ChatView, MessageBubble<br/>(classifier readout, sources, did-you-mean)"]
+            C3["Composer, ModeToggle, TextInput, VoiceInput"]
+            C4["SpeechSupportBanner, SpeechSupportModal"]
         end
         subgraph Hooks["hooks/"]
             H1["useConversations<br/>(IndexedDB persistence, cross-tab sync)"]
@@ -82,7 +82,7 @@ flowchart LR
 
     subgraph BE["backend/app"]
         direction TB
-        Main["main.py<br/>app factory · lifespan model load · static frontend"]
+        Main["main.py<br/>app factory, lifespan model load, static frontend"]
         Routes["api/routes.py + schemas.py"]
         Eng["chatbot/engine.py"]
         Ctx["chatbot/context.py"]
@@ -166,12 +166,12 @@ The server keeps **no session state**. Each reply returns `context = {previous_i
 %% file: knowledge-data-flow
 flowchart LR
     subgraph Sources["Authoritative sources (read 2026-09-24)"]
-        V["vit.ac.in · viteee · vtop<br/>(primary)"]
+        V["vit.ac.in, viteee, vtop<br/>(primary)"]
         N["NIRF / Ministry of Education"]
-        Q["QS · Times Higher Education"]
+        Q["QS, Times Higher Education"]
     end
     V --> R1["data/raw/vit_research_notes.json"]
-    N --> R2["data/raw/external_sources_notes.json<br/>(values · years · URLs · discrepancies)"]
+    N --> R2["data/raw/external_sources_notes.json<br/>(values, years, URLs, discrepancies)"]
     Q --> R2
     R1 --> KB["data/knowledge/vit_knowledge.yaml<br/>curated by hand"]
     R2 --> KB
