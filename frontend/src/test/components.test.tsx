@@ -1,6 +1,7 @@
 import { act, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { AboutModal } from "../components/AboutModal";
+import { MODAL_EXIT_MS } from "../components/Modal";
 import { ModeToggle } from "../components/ModeToggle";
 import { VoiceInput } from "../components/VoiceInput";
 
@@ -24,6 +25,18 @@ describe("AboutModal", () => {
     expect(dialog).toHaveTextContent("Reg. No: 23BAI0094");
     await userEvent.keyboard("{Escape}");
     expect(onClose).toHaveBeenCalled();
+  });
+
+  it("plays a short exit animation, then unmounts", () => {
+    vi.useFakeTimers();
+    const { rerender } = render(<AboutModal open onClose={() => undefined} />);
+    rerender(<AboutModal open={false} onClose={() => undefined} />);
+    const overlay = document.querySelector(".modal-overlay");
+    expect(overlay).toHaveClass("is-closing"); // still mounted while animating out…
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument(); // …but hidden from assistive tech
+    act(() => vi.advanceTimersByTime(MODAL_EXIT_MS));
+    expect(document.querySelector(".modal-overlay")).toBeNull();
+    vi.useRealTimers();
   });
 
   it("renders nothing when closed", () => {

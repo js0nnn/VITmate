@@ -1,4 +1,4 @@
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 
@@ -15,9 +15,23 @@ interface ModalProps {
  * Rendered into document.body so no ancestor (e.g. an animated panel with a CSS
  * transform) can become the containing block of the fixed-position overlay.
  */
+/** Matches the CSS exit animation (`.modal-overlay.is-closing`). */
+export const MODAL_EXIT_MS = 150;
+
 export function Modal({ open, onClose, labelledBy, className = "", children }: ModalProps) {
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  // Stay mounted for a moment after closing so the exit animation can play.
+  const [mounted, setMounted] = useState(open);
+
+  useEffect(() => {
+    if (open) {
+      setMounted(true);
+      return;
+    }
+    const timer = window.setTimeout(() => setMounted(false), MODAL_EXIT_MS);
+    return () => window.clearTimeout(timer);
+  }, [open]);
 
   useEffect(() => {
     if (!open) return;
@@ -45,11 +59,21 @@ export function Modal({ open, onClose, labelledBy, className = "", children }: M
     };
   }, [open, onClose]);
 
-  if (!open) return null;
+  if (!open && !mounted) return null;
 
   return createPortal(
-    <div className="modal-overlay" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
-      <div className={`modal ${className}`} role="dialog" aria-modal="true" aria-labelledby={labelledBy} ref={dialogRef}>
+    <div
+      className={`modal-overlay ${open ? "" : "is-closing"}`}
+      onMouseDown={(e) => open && e.target === e.currentTarget && onClose()}
+    >
+      <div
+        className={`modal ${className}`}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={labelledBy}
+        aria-hidden={!open || undefined}
+        ref={dialogRef}
+      >
         <button className="icon-button modal-close" onClick={onClose} aria-label="Close" ref={closeRef}>
           <X size={18} />
         </button>

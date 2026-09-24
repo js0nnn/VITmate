@@ -2,7 +2,7 @@
 .chat-scroll {
   flex: 1;
   overflow-y: auto;
-  scroll-behavior: smooth;
+  overscroll-behavior: contain;
 }
 
 .chat-thread {
